@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "Sesi Metne Dönüştür. Automatically record and transcribe your meetings, interviews, and other conversations with Transkriptor.",
+      "message": "Sesi Metne Dönüştür. Transkriptor ile toplantılarınızı, ve diğer konuşmalarınızı otomatik olarak kaydedin ve deşifre edin."
+   },
+   "appName": {
+      "description": "Transkriptor: Sesi Metne Dönüştür",
+      "message": "Transkriptor: Sesi Metne Dönüştür"
+   }
+}

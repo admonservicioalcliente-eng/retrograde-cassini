@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Προγραμματίστε συναντήσεις με λογισμικό κρατήσεων. Μοιραστείτε τη διαθεσιμότητά σας, επιτρέψτε στους πελάτες να κλείσουν ραντεβού και συγχρονίστε με το ημερολόγιό σας."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Δωρεάν Προγραμματισμός Ραντεβού"
+   }
+}

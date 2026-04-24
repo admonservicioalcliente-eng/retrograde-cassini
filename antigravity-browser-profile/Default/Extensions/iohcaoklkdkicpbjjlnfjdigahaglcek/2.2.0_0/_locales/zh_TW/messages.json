@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "使用預訂軟體安排會議。分享您的可用時間，讓客戶預約，並與您的行事曆同步。"
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: 免費預約排程"
+   }
+}

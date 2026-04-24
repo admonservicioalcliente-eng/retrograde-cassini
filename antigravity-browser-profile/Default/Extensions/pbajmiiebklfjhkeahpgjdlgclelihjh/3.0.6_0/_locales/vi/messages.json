@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "Convert audio to text. Automatically record and transcribe your meetings, interviews, and other conversations with Transkriptor.",
+      "message": "Chuyển đổi âm thanh thành văn bản. Tự động ghi và chép lại các cuộc họp của bạn cũng như các cuộc trò chuyện khác với Transkriptor."
+   },
+   "appName": {
+      "description": "Transkriptor: Transcribe Audio to Text",
+      "message": "Transkriptor: Chuyển đổi âm thanh thành văn bản"
+   }
+}

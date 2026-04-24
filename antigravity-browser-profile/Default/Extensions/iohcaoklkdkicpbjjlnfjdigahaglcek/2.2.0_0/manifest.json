@@ -1,0 +1,33 @@
+{
+   "action": {
+      "browser_style": false,
+      "default_icon": {
+         "128": "images/koalendar-meeting-booking-128.png",
+         "16": "images/koalendar-meeting-booking-16.png",
+         "196": "images/koalendar-meeting-booking-196.png",
+         "32": "images/koalendar-meeting-booking-32.png",
+         "96": "images/koalendar-meeting-booking-96.png"
+      },
+      "default_popup": "index.html",
+      "default_title": "Koalendar"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_application_description__",
+   "homepage_url": "https://koalendar.com/",
+   "icons": {
+      "128": "images/koalendar-meeting-booking-128.png",
+      "16": "images/koalendar-meeting-booking-16.png",
+      "196": "images/koalendar-meeting-booking-196.png",
+      "32": "images/koalendar-meeting-booking-32.png",
+      "96": "images/koalendar-meeting-booking-96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvMmUwPUt0BF13bC3WF3RpCwuwHdZYXpqaS1hy83OSeFeqlVmYd8ykEc7g+U6Cmoq+QA/7D2Z9DtdQCNrccqj648joXLfzQxB+rS/7JV5baX5GvCIISEp9ipaWPFy1fWBMc24wKT+7OIwfTOdvqjzh1vsBUr3aV7sI1N7byeXx0rx2iLpkri/TUYpZAg+1yo4TaPnwLNYdxt0WVdB2fXkoBYo+lbQ3+oL5tVVnQN4/aVjt05+q/7AeexcJeWV7dUPrhiHf6jEeXZ92HmFmYfU91dL42vsDYczj/oFl1ndtl7G6bgQphQ2pAlw8ftgAPXHEfyYS8/qFundK6m0D4cVYQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_application_title__",
+   "short_name": "meeting-scheduling-koalendar",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2.0"
+}

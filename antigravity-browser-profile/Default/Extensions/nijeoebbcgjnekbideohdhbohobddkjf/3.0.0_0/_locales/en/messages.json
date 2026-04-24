@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "View ePUB files right in your browser."
+   },
+   "app_name": {
+      "message": "ePub Reader"
+   },
+   "menu_dark_mode": {
+      "message": "Dark Mode"
+   },
+   "menu_open_support": {
+      "message": "Open Support Page"
+   },
+   "menu_rate_us": {
+      "message": "Please Rate Us!"
+   },
+   "menu_reload_ui": {
+      "message": "Reload Application"
+   },
+   "menu_upload_from_device": {
+      "message": "Upload From Your Device"
+   },
+   "menu_use_gdrive": {
+      "message": "Use Your Gdrive"
+   },
+   "message_enter_url": {
+      "message": "Please enter a URL or drag & drop an ePub file in the above field"
+   },
+   "message_error": {
+      "message": "An error has occurred! please try again."
+   },
+   "message_fetching_0": {
+      "message": "Fetching document 0% please wait..."
+   },
+   "message_fetching_1": {
+      "message": "Fetching document "
+   },
+   "message_fetching_2": {
+      "message": "% please wait..."
+   },
+   "message_loading": {
+      "message": "Loading document, please wait..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader is ready"
+   },
+   "message_wrong_content": {
+      "message": "Invalid file! please try again."
+   },
+   "methods_archived": {
+      "message": "Archived"
+   },
+   "methods_highlights": {
+      "message": "Highlights"
+   },
+   "methods_hypothes": {
+      "message": "Hypothes"
+   },
+   "methods_scrolled": {
+      "message": "Scrolled"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Scrolled Continuous"
+   },
+   "methods_spreads": {
+      "message": "Spreads"
+   },
+   "methods_spreads_continuous": {
+      "message": "Spreads Continuous"
+   },
+   "methods_swipe": {
+      "message": "Swipe"
+   },
+   "title_font_size": {
+      "message": "Font size (%)"
+   }
+}

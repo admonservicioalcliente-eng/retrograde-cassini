@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Agende reuniões: compartilhe disponibilidade, clientes fazem agendamento online e sincroniza na sua agenda."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: agenda e agendamento online"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Načrtujte sestanke s programsko opremo za rezervacije. Delite svojo razpoložljivost, omogočite strankam, da rezervirajo sestanke, in sinhronizirajte s svojm koledarjem."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Brezplačno Načrtovanje Sestankov"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "예약 소프트웨어로 회의를 예약하세요. 가용성을 공유하고, 고객이 약속을 예약하도록 하며, 캘린더와 동기화하세요."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: 무료 약속 스케줄링"
+   }
+}

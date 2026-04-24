@@ -1,0 +1,10 @@
+{
+    "appName": {
+      "message": "Transkriptor: Fuaime a thiontú go téacs",
+      "description": "Transkriptor: Transcribe Audio to Text"
+    },
+    "appDesc": {
+      "message": "Fuaime a thiontú go téacs. Déan do chruinnithe agus do chomhráite eile le Transkriptor a thaifeadadh agus a thrascríobh go huathoibríoch.",
+      "description": "Convert audio to text. Automatically record and transcribe your meetings, interviews, and other conversations with Transkriptor."
+    }
+  }

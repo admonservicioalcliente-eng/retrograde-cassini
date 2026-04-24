@@ -1,0 +1,73 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icon128.plasmo.3c1ed2d2.png",
+         "16": "icon16.plasmo.6c567d50.png",
+         "32": "icon32.plasmo.76b92899.png",
+         "48": "icon48.plasmo.aced7582.png",
+         "64": "icon64.plasmo.8bb5e6e0.png"
+      }
+   },
+   "author": "Transkriptor",
+   "background": {
+      "service_worker": "static/background/index.js"
+   },
+   "commands": {
+      "start-tab-capture": {
+         "description": "Start Google Meet Recording",
+         "suggested_key": {
+            "default": "Ctrl+Shift+S",
+            "mac": "Command+Shift+S",
+            "windows": "Ctrl+Shift+S"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "css": [  ],
+      "js": [ "youtube.ce6629fd.js" ],
+      "matches": [ "https://www.youtube.com/watch*" ]
+   }, {
+      "css": [  ],
+      "js": [ "meeting.ac29643f.js" ],
+      "matches": [ "https://meet.google.com/*" ]
+   }, {
+      "css": [  ],
+      "js": [ "content.7f229555.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "externally_connectable": {
+      "matches": [ "https://app.transkriptor.com/*", "https://transkriptor.com/app/*" ]
+   },
+   "host_permissions": [ "https://*/*" ],
+   "icons": {
+      "128": "icon128.plasmo.3c1ed2d2.png",
+      "16": "icon16.plasmo.6c567d50.png",
+      "32": "icon32.plasmo.76b92899.png",
+      "48": "icon48.plasmo.aced7582.png",
+      "64": "icon64.plasmo.8bb5e6e0.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsHJvr8k4SujA29HYa6a8Kj60HCpKOL60gA2By3p359Wv8UJGwFou/xFQI3TV51pfprsNDo3DIv9QDeCDDJmQEUyeFxUetRr2hnj1Njfejm55P1uDYWKuBmVv5Rnl7kbvJ0Bg0MfAK0joa4fnj+FS8TZmxtsdIjSS8PBPW6gk8q00n0nBHaIoHvtITMO735boFHS+W3c3WVQQbkTq1S8OtJ4emzKjfN112F+5zA+GLlha/YrAUURRy1moLuf34shi96lkCu4FCY/UCA35BDlqWmtnHjF0Poo6UlBoE1TMi2ktnsUfir8nh8RjdMHr4I5+L8DSdTOZDCN0BZvBjcNurQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "permissions": [ "sidePanel", "scripting", "activeTab", "tabs", "storage", "tabCapture", "webNavigation" ],
+   "side_panel": {
+      "default_path": "sidepanel.html"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.6",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "recorder.html", "uploader.html", "/tabs/permission.html", "/tabs/permission.ts", "/tabs/cameraTrack.html", "/tabs/cameraTrack.ts" ]
+   }, {
+      "matches": [ "https://www.youtube.com/*" ],
+      "resources": [ "youtube.4aa3939e.svg", "youtube.5b83a17a.css" ]
+   }, {
+      "matches": [ "https://meet.google.com/*" ],
+      "resources": [ "meeting.89f7e61f.png", "youtube.4aa3939e.svg", "meeting.b461766f.svg", "meeting.13fb60fa.png", "youtube.5b83a17a.css", "meeting.c3a50357.png" ]
+   }, {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "youtube.5b83a17a.css", "content.edc1dafb.png", "meeting.c3a50357.png" ]
+   } ]
+}

@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Planifiez des rendez-vous via une réservation en ligne : partagez vos dispos et synchronisez avec votre calendrier."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar : planification de rendez-vous en ligne et réservation"
+   }
+}

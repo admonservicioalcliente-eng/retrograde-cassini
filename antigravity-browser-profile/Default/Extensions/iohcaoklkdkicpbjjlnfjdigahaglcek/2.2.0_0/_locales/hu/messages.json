@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Ütemezzen találkozókat foglalási szoftverrel. Ossza meg elérhetőségét, engedje meg az ügyfeleknek, hogy időpontot foglaljanak, és szinkronizáljon a naptárával."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Ingyenes Időpontfoglalás"
+   }
+}

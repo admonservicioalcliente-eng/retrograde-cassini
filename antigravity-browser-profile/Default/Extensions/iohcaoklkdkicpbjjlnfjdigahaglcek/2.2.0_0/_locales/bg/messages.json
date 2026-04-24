@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Планирайте срещи със софтуер за резервации. Споделете наличността си, позволете на клиентите да резервират срещи и синхронизирайте с вашия календар."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Безплатно Планиране на Срещи"
+   }
+}

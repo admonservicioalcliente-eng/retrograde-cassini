@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Xem tập tin ePUB ngay trong trình duyệt của bạn."
+   },
+   "app_name": {
+      "message": "Trình đọc sách điện tử"
+   },
+   "menu_dark_mode": {
+      "message": "Chế độ tối"
+   },
+   "menu_open_support": {
+      "message": "Mở trang hỗ trợ"
+   },
+   "menu_rate_us": {
+      "message": "Hãy đánh giá chúng tôi!"
+   },
+   "menu_reload_ui": {
+      "message": "Tải lại ứng dụng"
+   },
+   "menu_upload_from_device": {
+      "message": "Tải lên từ thiết bị của bạn"
+   },
+   "menu_use_gdrive": {
+      "message": "Sử dụng Gdrive của bạn"
+   },
+   "message_enter_url": {
+      "message": "Vui lòng nhập URL hoặc kéo và thả tệp ePub vào trường trên"
+   },
+   "message_error": {
+      "message": "Một lỗi đã xảy ra! vui lòng thử lại."
+   },
+   "message_fetching_0": {
+      "message": "Đang tải tài liệu 0%, vui lòng đợi ..."
+   },
+   "message_fetching_1": {
+      "message": "Lấy tài liệu"
+   },
+   "message_fetching_2": {
+      "message": "% vui lòng đợi ..."
+   },
+   "message_loading": {
+      "message": "Đang tải tài liệu, vui lòng đợi ..."
+   },
+   "message_ready": {
+      "message": "Trình đọc ePUB đã sẵn sàng"
+   },
+   "message_wrong_content": {
+      "message": "Tập tin không hợp lệ! vui lòng thử lại."
+   },
+   "methods_archived": {
+      "message": "Lưu trữ"
+   },
+   "methods_highlights": {
+      "message": "Điểm nổi bật"
+   },
+   "methods_hypothes": {
+      "message": "Giả thuyết"
+   },
+   "methods_scrolled": {
+      "message": "Cuộn"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Cuộn liên tục"
+   },
+   "methods_spreads": {
+      "message": "Lây lan"
+   },
+   "methods_spreads_continuous": {
+      "message": "Lây lan liên tục"
+   },
+   "methods_swipe": {
+      "message": "Vuốt"
+   },
+   "title_font_size": {
+      "message": "Cỡ chữ (%)"
+   }
+}

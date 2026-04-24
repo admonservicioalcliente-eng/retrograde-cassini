@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Zakažite sastanke pomoću softvera za rezervacije. Podijelite svoju dostupnost, omogućite klijentima da rezerviraju sastanke i sinkronizirajte s vašim kalendarom."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Besplatno Zakazivanje Sastanaka"
+   }
+}

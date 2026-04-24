@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "বুকিং সফ্টওয়্যার দিয়ে মিটিং শিডিউল করুন। আপনার প্রাপ্যতা শেয়ার করুন, ক্লায়েন্টদের অ্যাপয়েন্টমেন্ট বুক করতে দিন এবং আপনার ক্যালেন্ডারের সাথে সিঙ্ক করুন।"
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: বিনামূল্যে অ্যাপয়েন্টমেন্ট শিডিউলিং"
+   }
+}

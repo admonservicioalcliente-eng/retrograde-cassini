@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "اپنے براؤزر میں ePUB فائلیں دیکھیں۔"
+   },
+   "app_name": {
+      "message": "ای پیب ریڈر"
+   },
+   "menu_dark_mode": {
+      "message": "گہرا موڈ"
+   },
+   "menu_open_support": {
+      "message": "سپورٹ پیج کھولیں۔"
+   },
+   "menu_rate_us": {
+      "message": "براہ کرم ہمیں شرح دیں!"
+   },
+   "menu_reload_ui": {
+      "message": "ایپلیکیشن کو دوبارہ لوڈ کریں"
+   },
+   "menu_upload_from_device": {
+      "message": "اپنے آلے سے اپ لوڈ کریں۔"
+   },
+   "menu_use_gdrive": {
+      "message": "اپنا Gdrive استعمال کریں۔"
+   },
+   "message_enter_url": {
+      "message": "براہ کرم مذکورہ فیلڈ میں کوئی URL درج کریں یا ای پیب فائل کو گھسیٹیں اور گرا دیں۔"
+   },
+   "message_error": {
+      "message": "ایک خرابی آگئی ہے! دوبارہ کوشش کریں."
+   },
+   "message_fetching_0": {
+      "message": "دستاویز کی بازیافت 0٪ براہ کرم انتظار کریں ..."
+   },
+   "message_fetching_1": {
+      "message": "دستاویز کی بازیافت"
+   },
+   "message_fetching_2": {
+      "message": "٪ برائے مہربانی انتظار کریں..."
+   },
+   "message_loading": {
+      "message": "دستاویز لوڈ ہو رہا ہے ، براہ کرم انتظار کریں ..."
+   },
+   "message_ready": {
+      "message": "ای پیب ریڈر تیار ہے۔"
+   },
+   "message_wrong_content": {
+      "message": "غلط فائل! دوبارہ کوشش کریں."
+   },
+   "methods_archived": {
+      "message": "محفوظ شدہ دستاویزات"
+   },
+   "methods_highlights": {
+      "message": "جھلکیاں۔"
+   },
+   "methods_hypothes": {
+      "message": "فرضی تصورات۔"
+   },
+   "methods_scrolled": {
+      "message": "سکرولڈ۔"
+   },
+   "methods_scrolled_continuous": {
+      "message": "مسلسل طومار کر رہا ہے۔"
+   },
+   "methods_spreads": {
+      "message": "پھیلتا ہے۔"
+   },
+   "methods_spreads_continuous": {
+      "message": "مسلسل پھیلتا ہے۔"
+   },
+   "methods_swipe": {
+      "message": "سوائپ کریں۔"
+   },
+   "title_font_size": {
+      "message": "حرف کا سائز (٪)"
+   }
+}

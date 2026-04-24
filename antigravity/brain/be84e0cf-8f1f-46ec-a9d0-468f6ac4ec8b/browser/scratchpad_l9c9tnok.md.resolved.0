@@ -1,0 +1,12 @@
+# Test Plan for Financial Analysis App
+
+- [ ] Login with ID 'DEMO' and password '1234'
+- [ ] Go to "Ingreso de Datos" via the sidebar
+- [ ] Enter data for "Enero" and submit
+- [ ] Enter higher data for "Febrero" and submit
+- [ ] Verify Dashboard KPIs and charts
+- [ ] Verify "Estado Anual" table for Enero and Febrero values
+
+## Status
+- Blocked: Cannot access `file:///` URLs (Access is blocked by the tool).
+- Blocked: Cannot view files outside the allowlist.

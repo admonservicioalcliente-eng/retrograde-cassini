@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Programați întâlniri cu software de rezervare. Distribuiți disponibilitatea dvs., permiteți clienților să rezerve întâlniri și sincronizați cu calendarul dvs."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Programare Gratuită de Întâlniri"
+   }
+}

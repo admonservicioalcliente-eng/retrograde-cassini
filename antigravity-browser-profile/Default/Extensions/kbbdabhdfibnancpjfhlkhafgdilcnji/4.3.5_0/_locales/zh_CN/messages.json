@@ -1,0 +1,1572 @@
+{
+   "accountSettingsOption": {
+      "description": "Label for the account settings option in the popup",
+      "message": "账户设置"
+   },
+   "addAudioButtonDescription": {
+      "description": "Add audio label",
+      "message": "上传您自己的音频以添加到视频"
+   },
+   "addAudioButtonTitle": {
+      "description": "Add audio label button",
+      "message": "添加音频"
+   },
+   "addImageToastTitle": {
+      "description": "Toast that shows when adding a new image",
+      "message": "单击放置图像"
+   },
+   "addedToMultiToast": {
+      "description": "Toast message shown when a scene is added to multi-recording",
+      "message": "片段已添加至 Multi 录制"
+   },
+   "addingToLabel": {
+      "description": "Label shown when a scene is being recorded to a project",
+      "message": "正在添加至："
+   },
+   "alarmLabel": {
+      "description": "Alarm label",
+      "message": "设置时间限制"
+   },
+   "allVideosHeading": {
+      "description": "Heading for the all videos section in the popup",
+      "message": "所有视频"
+   },
+   "allowCameraAccessButton": {
+      "description": "Allow camera access button",
+      "message": "允许摄像头访问"
+   },
+   "allowMicrophoneAccessButton": {
+      "description": "Allow microphone access button",
+      "message": "允许麦克风访问"
+   },
+   "arrowToolTooltip": {
+      "description": "Arrow tool tooltip",
+      "message": "箭头"
+   },
+   "audioTrackEndedToast": {
+      "description": "Toast shown when the audio track ends mid-recording (e.g. mic unplugged, permission revoked)",
+      "message": "音频已断开，正在保存录制内容。已录制的视频是安全的。"
+   },
+   "audioWarningDescription": {
+      "description": "音频警告说明",
+      "message": "要录制此页面的音频，请使用'$tab$'选项。",
+      "placeholders": {
+         "tab": {
+            "content": "$1",
+            "example": "选项卡区域"
+         }
+      }
+   },
+   "audioWarningTitle": {
+      "description": "音频警告标题",
+      "message": "录制页面音频"
+   },
+   "backgroundEffectsLabel": {
+      "description": "Background effects switch label",
+      "message": "背景效果"
+   },
+   "backupPermissionFailDescription": {
+      "description": "备份权限失败说明",
+      "message": "您未选择要创建您的录制的本地副本的文件夹。根据浏览器或操作系统的版本，每次开始录制时可能会要求您选择文件夹。您可以再次尝试或完全禁用备份，如果您不想重复授予权限。"
+   },
+   "backupPermissionFailTitle": {
+      "description": "备份权限失败标题",
+      "message": "未授予备份录制的权限"
+   },
+   "backupsClose": {
+      "description": "仍然关闭选项卡按钮",
+      "message": "仍然关闭选项卡"
+   },
+   "backupsConfirmAllow": {
+      "description": "备份确认中的允许按钮",
+      "message": "允许Screenity继续备份录制"
+   },
+   "backupsConfirmDescription": {
+      "description": "备份确认说明",
+      "message": "很抱歉，我们需要再次获得您的许可，以继续创建您的录制的本地副本。不幸的是，每次关闭此选项卡时，我们都需要询问，这可能会在您关闭浏览器或重新启动计算机时发生。"
+   },
+   "backupsConfirmTitle": {
+      "description": "备份确认标题",
+      "message": "请重新确认对Screenity本地备份文件夹的访问权限"
+   },
+   "backupsDescription1": {
+      "description": "备份说明",
+      "message": "保留您进行的所有录制的备份。如果您不设置备份，只有在决定下载它们时才会保存您的录制。"
+   },
+   "backupsDescription2": {
+      "description": "备份说明",
+      "message": "如果您尝试保存到下载或其他系统文件夹，则可能需要首先创建一个新文件夹。"
+   },
+   "backupsNotNow": {
+      "description": "现在不按钮",
+      "message": "现在不"
+   },
+   "backupsOnDescription": {
+      "description": "已启用的备份说明",
+      "message": "为了避免每次录制时都请求权限，我们建议保持此选项卡打开。"
+   },
+   "backupsOnTitle": {
+      "description": "已启用的备份标题",
+      "message": "您的录制已本地同步"
+   },
+   "backupsSelectFolder": {
+      "description": "选择文件夹按钮",
+      "message": "选择文件夹"
+   },
+   "backupsStop": {
+      "description": "停止备份按钮",
+      "message": "停止所有录制的备份"
+   },
+   "backupsTitle": {
+      "description": "备份标题",
+      "message": "为Screenity录制设置本地备份"
+   },
+   "backupsToggle": {
+      "description": "备份切换标签",
+      "message": "备份录制"
+   },
+   "blurModeToast": {
+      "description": "Blur mode toast",
+      "message": "模糊模式"
+   },
+   "blurTypeLabel": {
+      "description": "Blur background label",
+      "message": "模糊背景"
+   },
+   "cameraType": {
+      "description": "Camera recording type label on popup",
+      "message": "摄像头"
+   },
+   "cancelButton": {
+      "description": "Generic cancel button label",
+      "message": "取消"
+   },
+   "cancelRecordingTooltip": {
+      "description": "Cancel recording tooltip",
+      "message": "取消录制"
+   },
+   "chromePermissionsModalAction": {
+      "description": "Permission modal action",
+      "message": "启用屏幕录制"
+   },
+   "chromePermissionsModalCancel": {
+      "description": "Permission modal cancel",
+      "message": "取消"
+   },
+   "chromePermissionsModalDescription": {
+      "description": "Permission modal description",
+      "message": "为启用屏幕录制，您必须在提示时授予 Screenity 捕获屏幕的权限。"
+   },
+   "chromePermissionsModalTitle": {
+      "description": "Permission modal title",
+      "message": "Screenity 没有权限录制您的屏幕"
+   },
+   "clearBlurredElementsTooltip": {
+      "description": "Clear all blurred elements tooltip",
+      "message": "清除所有模糊元素"
+   },
+   "clearCanvasTooltip": {
+      "description": "Clear canvas tooltip",
+      "message": "清空画布"
+   },
+   "clearSpaceButton": {
+      "description": "清除之前的录制按钮",
+      "message": "清除之前的录制"
+   },
+   "clickHereDrawOnboarding": {
+      "description": "Click here onboarding",
+      "message": "单击此处进行绘制"
+   },
+   "closeModalLabel": {
+      "description": "Agnostic close modal button label",
+      "message": "关闭"
+   },
+   "continueWithoutLogin": {
+      "description": "Button to continue using the extension without logging in",
+      "message": "继续使用（无需登录）"
+   },
+   "copiedToClipboardToast": {
+      "description": "Toast message shown when link has been copied to clipboard",
+      "message": "链接已复制到剪贴板"
+   },
+   "copyDebugInfoButton": {
+      "description": "Button to copy technical debug info to clipboard for support",
+      "message": "复制调试信息"
+   },
+   "countdownLabel": {
+      "description": "Countdown label",
+      "message": "倒计时"
+   },
+   "countdownMessage": {
+      "description": "Countdown message",
+      "message": "放松。单击任何地方停止倒计时。"
+   },
+   "cropButtonDescription": {
+      "description": "Crop label",
+      "message": "裁剪和调整视频大小"
+   },
+   "cropButtonTitle": {
+      "description": "Crop label button",
+      "message": "裁剪"
+   },
+   "croppingInfoDescription": {
+      "description": "Cropping info description",
+      "message": "升级以获得更快的处理速度"
+   },
+   "croppingInfoTitle": {
+      "description": "Cropping info title",
+      "message": "裁剪可能需要一些时间"
+   },
+   "customAreaLabel": {
+      "description": "Custom area switch label",
+      "message": "设置要录制的区域"
+   },
+   "customAreaRecordingDisabledAction": {
+      "description": "Custom area recording disabled warning action on popup for Chrome version older than 104",
+      "message": "更新"
+   },
+   "customAreaRecordingDisabledDescription": {
+      "description": "Custom area recording disabled warning description on popup for Chrome version older than 104",
+      "message": "请更新Chrome版本至110+"
+   },
+   "customAreaRecordingDisabledTitle": {
+      "description": "Custom area recording disabled warning on popup for Chrome version older than 104",
+      "message": "自定义区域录制已禁用"
+   },
+   "debugInfoCopiedToast": {
+      "description": "Toast shown after debug info is copied",
+      "message": "调试信息已复制"
+   },
+   "disableCameraTooltip": {
+      "description": "Disable camera tooltip",
+      "message": "禁用摄像头"
+   },
+   "disableMicrophoneTooltip": {
+      "description": "Disable microphone tooltip",
+      "message": "禁用麦克风"
+   },
+   "discardModalDescription": {
+      "description": "Discard recording modal description",
+      "message": "您当前的视频进度将丢失。"
+   },
+   "discardModalDiscard": {
+      "description": "Discard recording modal discard button",
+      "message": "放弃录制"
+   },
+   "discardModalResume": {
+      "description": "Discard recording modal resume button",
+      "message": "继续录制"
+   },
+   "discardModalTitle": {
+      "description": "Discard recording modal title",
+      "message": "确定要放弃录制吗？"
+   },
+   "downgradeToFreeButton": {
+      "description": "Button to log out and downgrade to the free version",
+      "message": "退出并切换为免费版"
+   },
+   "downloadAnywayButton": {
+      "description": "Button to download the recording file despite validation failure",
+      "message": "仍然下载"
+   },
+   "downloadForTroubleshootingOption": {
+      "description": "故障排除选项",
+      "message": "下载故障排除数据"
+   },
+   "downloadGIFButtonDescription": {
+      "description": "Download GIF label",
+      "message": "导出为 GIF（最长30秒）"
+   },
+   "downloadGIFButtonTitle": {
+      "description": "Download GIF button",
+      "message": "下载为 .gif"
+   },
+   "downloadMP4ButtonDescription": {
+      "description": "Download MP4 label",
+      "message": "导出为 .mp4 视频（推荐）"
+   },
+   "downloadMP4ButtonTitle": {
+      "description": "Download MP4 button",
+      "message": "下载为 .mp4"
+   },
+   "downloadWEBMButtonDescription": {
+      "description": "Download WEBM label",
+      "message": "导出为 .webm 视频"
+   },
+   "downloadWEBMButtonTitle": {
+      "description": "Download WEBM button",
+      "message": "下载为 .webm"
+   },
+   "downloadingLabel": {
+      "description": "Downloading label",
+      "message": "下载中..."
+   },
+   "drawingModeToast": {
+      "description": "Drawing mode toast",
+      "message": "绘图模式"
+   },
+   "editButtonDescription": {
+      "description": "Trim label",
+      "message": "剪辑、裁剪或静音视频"
+   },
+   "editButtonTitle": {
+      "description": "Trim label button",
+      "message": "编辑视频"
+   },
+   "editFailedDescription": {
+      "description": "Alert body for edit failure; explicitly confirms the original recording is untouched",
+      "message": "处理过程中出现问题。原始录制内容是安全的。您可以重试或直接下载。"
+   },
+   "editFailedTitle": {
+      "description": "Alert title when an edit operation fails due to an encoding or processing error",
+      "message": "无法应用编辑"
+   },
+   "editProcessingSafeDescription": {
+      "description": "Shown in the editor processing alert when a user-initiated edit is running, to reassure the original is safe",
+      "message": "正在处理编辑。原始录制内容未受影响。"
+   },
+   "editTimeoutDescription": {
+      "description": "Alert body for the timeout case, prompting retry or shorter clip",
+      "message": "编辑未能及时完成。原始录制内容未被修改。请重试，或先裁剪片段。"
+   },
+   "editTimeoutTitle": {
+      "description": "Alert title when an edit operation does not complete within the 5-minute watchdog period",
+      "message": "编辑超时"
+   },
+   "editTooLongDescription": {
+      "description": "Alert body explaining the 15-minute limit and suggesting trimming first",
+      "message": "此音频编辑不支持超过15分钟的片段。原始文件未被修改。请先尝试裁剪片段。"
+   },
+   "editTooLongTitle": {
+      "description": "Alert title when an audio mute/mix edit is rejected because the clip exceeds 15 minutes",
+      "message": "音频编辑内容过长"
+   },
+   "editorRecoveryToast": {
+      "description": "Toast shown on the active tab when the post-recording editor tab fails to open",
+      "message": "录制内容已保存。编辑器未打开，请点击 Screenity 图标重试。"
+   },
+   "enableCameraTooltip": {
+      "description": "Enable camera tooltip",
+      "message": "启用摄像头"
+   },
+   "enableMicrophoneTooltip": {
+      "description": "Enable microphone tooltip",
+      "message": "启用麦克风"
+   },
+   "eraserToolTooltip": {
+      "description": "Eraser tool tooltip",
+      "message": "橡皮擦"
+   },
+   "extDesc": {
+      "description": "Extension description",
+      "message": "最佳免费无限制屏幕录制工具。捕捉、标注、缩放、模糊、编辑视频等功能 - 无需登录，保护隐私。"
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Screenity - 屏幕录像和标注工具"
+   },
+   "extensionNotSupportedDescription": {
+      "description": "选项卡上不支持扩展的说明",
+      "message": "Screenity在您之前的选项卡上不受支持。尽管如此，您可以在此开始录制，然后切换到选项卡，但您的摄像头和工具栏将不可见。"
+   },
+   "extensionNotSupportedTitle": {
+      "description": "选项卡上不支持的扩展标题",
+      "message": "页面不支持扩展"
+   },
+   "failedToCopyToClipboardToast": {
+      "description": "Toast message shown when failed to copy link to clipboard",
+      "message": "复制链接失败"
+   },
+   "fastRecorderFailedDescription": {
+      "description": "Body text for the fast recorder failure modal",
+      "message": "快速录制器的输出无法在此设备上验证。\n您仍可以下载该文件。"
+   },
+   "fastRecorderFailedTitle": {
+      "description": "Title for the modal shown when the fast MP4 recorder output could not be validated",
+      "message": "快速录制器失败"
+   },
+   "finishLabelMulti": {
+      "description": "Label for the finish multi-recording button",
+      "message": "完成"
+   },
+   "finishRecordingTooltip": {
+      "description": "Finish recording tooltip",
+      "message": "结束录制"
+   },
+   "flipCameraLabel": {
+      "description": "Flip camera switch label",
+      "message": "翻转摄像头"
+   },
+   "followForUpdates": {
+      "description": "Follow for updates button",
+      "message": "关注获取更新"
+   },
+   "getHelpButton": {
+      "description": "Side button on error modals that opens a prefilled support form",
+      "message": "获取帮助"
+   },
+   "getHelpNav": {
+      "description": "帮助导航元素",
+      "message": "帮助中心"
+   },
+   "goToDashboardButtonLabel": {
+      "description": "Button label to go to the dashboard in the popup",
+      "message": "前往控制面板"
+   },
+   "havingIssuesButton": {
+      "description": "编辑器中的问题按钮",
+      "message": "遇到问题了吗？"
+   },
+   "havingIssuesModalButton": {
+      "description": "编辑器中的问题模态框按钮",
+      "message": "下载原始视频数据"
+   },
+   "havingIssuesModalButton2": {
+      "description": "编辑器中的问题模态框第二个按钮",
+      "message": "报告问题"
+   },
+   "havingIssuesModalDescription": {
+      "description": "编辑器中的问题模态框描述",
+      "message": "如果您已经完成录制并发现自己在此页面上看不到您的视频，您可以尝试下载原始视频数据（如果可用）。您还可以联系我们并提交错误报告。"
+   },
+   "havingIssuesModalTitle": {
+      "description": "编辑器中的问题模态框标题",
+      "message": "无法查看您的录像？"
+   },
+   "heightLabel": {
+      "description": "Height label for properties",
+      "message": "高度"
+   },
+   "helpPopup": {
+      "description": "Help popup button",
+      "message": "帮助"
+   },
+   "hideToolbarLabel": {
+      "description": "Hide toolbar label",
+      "message": "隐藏工具栏"
+   },
+   "hideUIAlerts": {
+      "description": "Hide UI alerts button",
+      "message": "隐藏UI通知"
+   },
+   "highestQuality": {
+      "description": "弹出窗口中的最高质量标签",
+      "message": "最高质量"
+   },
+   "highlightClicksTooltip": {
+      "description": "Highlight clicks tooltip",
+      "message": "突出显示点击"
+   },
+   "highlightCursorTooltip": {
+      "description": "Highlight cursor tooltip",
+      "message": "突出显示光标"
+   },
+   "highlighterToolTooltip": {
+      "description": "Highlighter tool tooltip",
+      "message": "荧光笔"
+   },
+   "hostBannerDescription": {
+      "description": "在编辑器中自托管横幅描述",
+      "message": "Screenity 是由一位独立女性开发者打造和维护的。自托管是免费的，但如果你觉得它对你有帮助，欢迎通过 Pro 版支持她的开发工作 ❤️"
+   },
+   "hostBannerTitle": {
+      "description": "在编辑器中自托管横幅标题",
+      "message": "本地使用 Screenity？欢迎支持后续开发！"
+   },
+   "imageToolTooltip": {
+      "description": "Image tool tooltip",
+      "message": "图像"
+   },
+   "inactiveSubscriptionDeletionWarning": {
+      "description": "Warning message about the deletion of videos and data",
+      "message": "你的所有视频和数据将于以下日期被永久删除："
+   },
+   "inactiveSubscriptionDescription": {
+      "description": "Description shown when the user's subscription is inactive",
+      "message": "你的 Screenity Pro 订阅已失效。"
+   },
+   "inactiveSubscriptionFreeVersion": {
+      "description": "Message prompting the user to continue using the free version",
+      "message": "想继续使用免费版？"
+   },
+   "inactiveSubscriptionReactivation": {
+      "description": "Message prompting the user to reactivate their subscription",
+      "message": "请重新激活以恢复访问权限。"
+   },
+   "inactiveSubscriptionTitle": {
+      "description": "Title shown when the user's subscription is inactive",
+      "message": "你的 Pro 订阅已失效"
+   },
+   "instantRecordingModeAction": {
+      "description": "Action button for the instant recording mode",
+      "message": "知道了"
+   },
+   "instantRecordingModeDescription": {
+      "description": "Description for the instant recording mode",
+      "message": "会将所有内容录制成一个视频以便即时下载和分享。你将无法在之后更改摄像头布局，但仍可进行其他编辑。"
+   },
+   "instantRecordingModeLabel": {
+      "description": "Label for the instant recording mode",
+      "message": "即时录制模式"
+   },
+   "instantRecordingModeTitle": {
+      "description": "Title for the instant recording mode",
+      "message": "即时录制模式"
+   },
+   "instantRecordingModeTooltip": {
+      "description": "Tooltip for the instant recording mode",
+      "message": "可即时下载，但摄像头和布局之后无法编辑。"
+   },
+   "learnMoreDot": {
+      "description": "Learn more with a dot",
+      "message": "了解更多。"
+   },
+   "learnMoreLabel": {
+      "description": "Learn more button",
+      "message": "了解更多"
+   },
+   "leaveReview": {
+      "description": "Leave a review button",
+      "message": "发表评论"
+   },
+   "leftLabel": {
+      "description": "Left label for properties",
+      "message": "左"
+   },
+   "loadingVideosLabel": {
+      "description": "Label shown when videos are loading in the popup",
+      "message": "正在加载视频…"
+   },
+   "logBackInButton": {
+      "description": "Button to log back in after being logged out",
+      "message": "重新登录"
+   },
+   "loggedOutDescription": {
+      "description": "Description shown when the user is logged out",
+      "message": "要将录制内容同步到你的账户并访问高级功能，请重新登录。"
+   },
+   "loggedOutFreeVersion": {
+      "description": "Message shown when the user is logged out and using the free version",
+      "message": "你可以在未登录状态下继续使用扩展程序，但录制将不会保存，也无法恢复。"
+   },
+   "loggedOutTitle": {
+      "description": "Title shown when the user is logged out",
+      "message": "你已退出登录"
+   },
+   "loggedOutToastTitle": {
+      "description": "Toast message shown when the user logs out",
+      "message": "你已退出登录"
+   },
+   "loginButtonLabel": {
+      "description": "Login button label in popup settings menu",
+      "message": "登录或注册"
+   },
+   "logoutButtonLabel": {
+      "description": "Logout button label in popup settings menu",
+      "message": "退出登录"
+   },
+   "longRecordingDescription": {
+      "description": "Banner description for long recordings that can be downloaded but not edited locally",
+      "message": "您的录制已完成且安全。请在下方下载 WebM 文件。"
+   },
+   "longRecordingTitle": {
+      "description": "Banner title shown when a recording exceeds the local processing limit but is otherwise successful",
+      "message": "长录制"
+   },
+   "manageStorageButtonLabel": {
+      "description": "Button label to manage storage in the popup settings menu",
+      "message": "管理存储空间"
+   },
+   "manageSubscriptionButton": {
+      "description": "Button to manage the user's subscription",
+      "message": "管理订阅"
+   },
+   "maxFPSLabel": {
+      "description": "设置菜单中的最高帧率标签",
+      "message": "最高帧率"
+   },
+   "maxResolutionLabel": {
+      "description": "设置菜单中的最高分辨率标签",
+      "message": "最高分辨率"
+   },
+   "maxResolutionTooltip": {
+      "description": "设置菜单中的最大分辨率提示",
+      "message": "您的设备无法以此分辨率录制"
+   },
+   "mediumStrokeTooltip": {
+      "description": "Medium stroke tooltip",
+      "message": "中画笔"
+   },
+   "memoryLimitDescription": {
+      "description": "内存限制达到描述",
+      "message": "您的设备已经用尽了可用内存进行录制，导致录制自动停止。如果您想要录制更长时间，可以尝试降低视频质量或清理设备上的一些空间。"
+   },
+   "memoryLimitTitle": {
+      "description": "内存限制达到标题",
+      "message": "内存限制达到"
+   },
+   "micMutedModalAction": {
+      "description": "Microphone muted modal continue",
+      "message": "是的，继续"
+   },
+   "micMutedModalCancel": {
+      "description": "Microphone muted modal cancel",
+      "message": "取消"
+   },
+   "micMutedModalDescription": {
+      "description": "Microphone muted modal description",
+      "message": "要在录制中包含音频，您需要解除麦克风的静音。是否继续不使用音频？"
+   },
+   "micMutedModalTitle": {
+      "description": "Microphone muted modal title",
+      "message": "您的麦克风已静音"
+   },
+   "micOffToast": {
+      "description": "Microphone disabled toast title",
+      "message": "麦克风已禁用"
+   },
+   "micOnToast": {
+      "description": "Microphone enabled toast title",
+      "message": "麦克风已启用"
+   },
+   "micReminderPopup": {
+      "description": "Mic reminder popup",
+      "message": "麦克风已关闭警告"
+   },
+   "mockupType": {
+      "description": "Mockup recording type label on popup",
+      "message": "模拟"
+   },
+   "moreColorsTooltip": {
+      "description": "More colors tooltip",
+      "message": "更多颜色"
+   },
+   "multiLabel": {
+      "description": "Label for the multi-recording mode",
+      "message": "Multi"
+   },
+   "multiRecordingModeDescription": {
+      "description": "Description for the multi-recording mode modal",
+      "message": "连续录制多个场景，例如你的屏幕、摄像头或两者兼有。非常适合多次拍摄、切换视角或将录制内容分段。完成后，点击“完成”以打开编辑器，所有场景将合并为一个视频。"
+   },
+   "multiRecordingModeTitle": {
+      "description": "Title for the multi-recording mode modal",
+      "message": "Multi 模式"
+   },
+   "newestSortLabel": {
+      "description": "Label for the newest sort option",
+      "message": "最新"
+   },
+   "noCameraDropdownLabel": {
+      "description": "No camera selected",
+      "message": "无摄像头"
+   },
+   "noCameraPermissionsTooltip": {
+      "description": "No camera permissions tooltip",
+      "message": "无摄像头权限"
+   },
+   "noConnectionLabel": {
+      "description": "No connection label",
+      "message": "无连接"
+   },
+   "noMicrophoneDropdownLabel": {
+      "description": "No microphone selected",
+      "message": "无麦克风"
+   },
+   "noMicrophonePermissionsTooltip": {
+      "description": "No microphone permissions tooltip",
+      "message": "无麦克风权限"
+   },
+   "noRecordingFound": {
+      "description": "编辑器中的未找到录制警告",
+      "message": "未找到录制，抱歉 :("
+   },
+   "noShowAgain": {
+      "description": "Don't show again button",
+      "message": "不再显示"
+   },
+   "noSubscriptionYetDescription": {
+      "description": "Message prompting the user to subscribe to reactivate their Pro features",
+      "message": "请订阅以访问 Pro 功能。"
+   },
+   "noSubscriptionYetTitle": {
+      "description": "Title shown when the user has no active subscription",
+      "message": "启用 Pro 开始使用"
+   },
+   "noVideosFound": {
+      "description": "Message shown when no videos are found in the popup",
+      "message": "未找到任何视频"
+   },
+   "noneDropdownLabel": {
+      "description": "No device selected",
+      "message": "无"
+   },
+   "notAvailableLabel": {
+      "description": "Not available label",
+      "message": "不可用"
+   },
+   "notAvailableLongRecording": {
+      "description": "Disabled button label for features not available due to recording length",
+      "message": "长录制不可用"
+   },
+   "notAvailableRecoveryMode": {
+      "description": "Disabled button label for features not available in recovery/fallback mode",
+      "message": "恢复模式下不可用"
+   },
+   "notEnoughRAM": {
+      "description": "设置菜单中的内存不足标签",
+      "message": "内存不足"
+   },
+   "notEnoughSpaceDescription": {
+      "description": "空间不足描述",
+      "message": "Screenity需要至少1GB的空闲空间进行录制。请释放设备上的空间并重试。"
+   },
+   "notEnoughSpaceTitle": {
+      "description": "空间不足标题",
+      "message": "空间不足"
+   },
+   "offLabel": {
+      "description": "Off label on dropdown",
+      "message": "关闭"
+   },
+   "offlineLabelDescription": {
+      "description": "Offline label description",
+      "message": "某些功能在重新连接之前不可用"
+   },
+   "offlineLabelTitle": {
+      "description": "Offline label",
+      "message": "您当前处于离线状态"
+   },
+   "offlineLabelTryAgain": {
+      "description": "Offline label try again button",
+      "message": "重试"
+   },
+   "oldestSortLabel": {
+      "description": "Label for the oldest sort option",
+      "message": "最早"
+   },
+   "overLimitLabelDescription": {
+      "description": "编辑器中超过5分钟的限制描述",
+      "message": "编辑和MP4格式导出不可用"
+   },
+   "overLimitLabelTitle": {
+      "description": "编辑器中超过5分钟的限制标签",
+      "message": "视频过长，无法在本地处理"
+   },
+   "overLimitModalButton": {
+      "description": "超过5分钟限制的模态框按钮",
+      "message": "我理解风险，仍然尝试"
+   },
+   "overLimitModalDescription": {
+      "description": "超过5分钟限制的模态框描述",
+      "message": "由于Screenity完全私密且在本地运行，它受到您设备硬件的限制。处理这样长度的视频需要很长时间，而且资源消耗很大。但您仍然可以下载WEBM文件或原始录制文件，但无法进行编辑和MP4导出。尽管如此，如果您了解风险，仍然可以尝试处理该视频。"
+   },
+   "overLimitModalLearnMore": {
+      "description": "超过5分钟限制的模态框了解更多链接（带有句号）",
+      "message": "了解有关处理长视频的更多信息。"
+   },
+   "overLimitModalTitle": {
+      "description": "超过5分钟限制的模态框标题",
+      "message": "视频过长，无法在您的设备上处理"
+   },
+   "pauseRecordingTooltip": {
+      "description": "Pause recording tooltip",
+      "message": "暂停录制"
+   },
+   "pausedRecordingToast": {
+      "description": "Paused recording modal title",
+      "message": "录制已暂停。按播放按钮继续。"
+   },
+   "penToolTooltip": {
+      "description": "Pen tool tooltip",
+      "message": "钢笔"
+   },
+   "permissionsModalDescription": {
+      "description": "Camera / microphone permissions warning modal description",
+      "message": "看起来Screenity无法访问您的摄像头或麦克风。请确保通过单击地址栏中的摄像机图标允许访问。"
+   },
+   "permissionsModalDismiss": {
+      "description": "Camera / microphone permissions warning modal dismiss button",
+      "message": "忽略"
+   },
+   "permissionsModalNoShowAgain": {
+      "description": "Permissions modal dismiss button",
+      "message": "不再显示"
+   },
+   "permissionsModalReview": {
+      "description": "审查权限按钮",
+      "message": "审查权限"
+   },
+   "permissionsModalTitle": {
+      "description": "Camera / microphone permissions warning modal title",
+      "message": "请检查您的权限"
+   },
+   "preparingLabel": {
+      "description": "Preparing label",
+      "message": "正在准备..."
+   },
+   "proBannerAltButton": {
+      "description": "Pro banner don't show again button in the editor",
+      "message": "不再显示"
+   },
+   "proBannerButton": {
+      "description": "Pro banner button in the editor",
+      "message": "试试看"
+   },
+   "proBannerDescription": {
+      "description": "Pro banner description in the editor",
+      "message": "Screenity 永远免费、开源且无广告。Pro 帮助我们承担云服务和基础设施成本，并支持独立开发者的持续开发！❤️"
+   },
+   "proBannerTitle": {
+      "description": "Pro banner title in the editor",
+      "message": "解锁云端分享、多片段编辑、自动缩放、字幕等功能"
+   },
+   "proOnboardingBack": {
+      "description": "Pro onboarding back button text",
+      "message": "返回"
+   },
+   "proOnboardingCameraDescription": {
+      "description": "Pro onboarding camera step description",
+      "message": "录制时摄像头可能会\u003Cstrong>隐藏或切换到 PiP\u003C/strong>，这是正常现象。\u003Cbr/>\u003Cbr/>它会被单独采集，方便你之后调整位置。"
+   },
+   "proOnboardingCameraTitle": {
+      "description": "Pro onboarding camera step title",
+      "message": "摄像头会单独采集"
+   },
+   "proOnboardingDone": {
+      "description": "Pro onboarding done button text",
+      "message": "知道了"
+   },
+   "proOnboardingInstantDescription": {
+      "description": "Pro onboarding instant mode step description",
+      "message": "适合快速分享，支持\u003Cstrong>不限次数下载\u003C/strong>。\u003Cbr/>\u003Cbr/>该模式下无法使用高级布局和编辑选项。"
+   },
+   "proOnboardingInstantTitle": {
+      "description": "Pro onboarding instant mode step title",
+      "message": "即时模式"
+   },
+   "proOnboardingNext": {
+      "description": "Pro onboarding next button text",
+      "message": "下一步"
+   },
+   "proOnboardingToolbarDescription": {
+      "description": "Pro onboarding toolbar step description",
+      "message": "可用此工具栏进行绘制、光标效果、模糊和录制控制。\u003Cbr/>\u003Cbr/>\u003Cstrong>若不隐藏，该工具栏会出现在视频中\u003C/strong>。"
+   },
+   "proOnboardingToolbarLearnMore": {
+      "description": "Pro onboarding toolbar learn more link label",
+      "message": "了解更多"
+   },
+   "proOnboardingToolbarTitle": {
+      "description": "Pro onboarding toolbar step title",
+      "message": "录制工具栏与效果"
+   },
+   "proOnboardingWelcomeDescription": {
+      "description": "Pro onboarding welcome step description",
+      "message": "开始录制前，先看几个快速提示。\u003Cbr/>自动缩放仅对 \u003Cstrong>Chrome 标签页\u003C/strong> 内的点击生效。你之后仍可手动添加缩放。"
+   },
+   "proOnboardingWelcomeTitle": {
+      "description": "Pro onboarding welcome step title",
+      "message": "欢迎使用 Screenity Pro 扩展"
+   },
+   "processingBannerEditor": {
+      "description": "Processing banner in the editor",
+      "message": "视频正在处理，播放可能不准确或中断。"
+   },
+   "projectRecordingCancelledToast": {
+      "description": "Toast message shown when the user cancels project recording",
+      "message": "视频录制已取消"
+   },
+   "pushToTalkLabel": {
+      "description": "Push to talk switch label",
+      "message": "按住说话"
+   },
+   "rawRecordingButtonDescription": {
+      "description": "下载原始录制标签",
+      "message": "导出原始录制数据"
+   },
+   "rawRecordingButtonTitle": {
+      "description": "下载原始录制按钮",
+      "message": "下载原始视频文件"
+   },
+   "rawRecordingModalButton": {
+      "description": "原始录制模态框按钮",
+      "message": "下载"
+   },
+   "rawRecordingModalDescription": {
+      "description": "原始录制模态框描述",
+      "message": "原始视频文件是由Screenity录制的原始视频文件。此视频未经处理或编辑，因此可能非常大且可能无法在所有设备上播放。如果您在处理后的视频方面遇到问题，可以使用此文件恢复您的视频。"
+   },
+   "rawRecordingModalTitle": {
+      "description": "原始录制模态框标题",
+      "message": "下载原始视频文件"
+   },
+   "reachingRecordingLimitToast": {
+      "description": "Toast message shown when the recording is reaching the 90 minute limit",
+      "message": "录制即将达到 90 分钟上限，将很快停止"
+   },
+   "readyRecordSceneToast": {
+      "description": "Toast message shown when the user is in an existing project and ready to record a new scene",
+      "message": "准备好录制视频中的新片段"
+   },
+   "recordAudioWarningMacDescription": {
+      "description": "macOS音频警告说明",
+      "message": "在macOS上，您只能录制选项卡的音频。请选择'Chrome选项卡'选项，并确保启用'同时共享选项卡音频'选项。"
+   },
+   "recordAudioWarningMacTitle": {
+      "description": "macOS音频警告标题",
+      "message": "录制计算机音频"
+   },
+   "recordAudioWarningOtherDescription": {
+      "description": "其他系统音频警告说明",
+      "message": "如果您想录制计算机音频，请确保启用'共享系统音频'选项。如果您看不到此选项，请尝试更新Chrome或切换到选项卡录制选项。"
+   },
+   "recordAudioWarningOtherTitle": {
+      "description": "其他系统音频警告标题",
+      "message": "录制计算机音频"
+   },
+   "recordButtonInProgressLabel": {
+      "description": "Record button in progress label",
+      "message": "正在开始录制..."
+   },
+   "recordButtonLabel": {
+      "description": "Record button label",
+      "message": "开始录制"
+   },
+   "recordButtonMultiLabel": {
+      "description": "Record button label (multi mode)",
+      "message": "添加另一段录制"
+   },
+   "recordButtonNoCameraLabel": {
+      "description": "Record button label when in camera mode and no camera is selected",
+      "message": "设置摄像头以开始录制"
+   },
+   "recordTab": {
+      "description": "Record tab label on popup",
+      "message": "录制"
+   },
+   "recorderSelectDescription": {
+      "description": "Description in recording page",
+      "message": "保持此选项卡打开。一旦保存录制，它将关闭。"
+   },
+   "recorderSelectProgressTitle": {
+      "description": "Title in recording page while recording",
+      "message": "录制中..."
+   },
+   "recorderSelectTitle": {
+      "description": "Title in recording page",
+      "message": "选择要录制的内容"
+   },
+   "recorderSetupDescription": {
+      "description": "Description in recording page before countdown starts",
+      "message": "请稍等，正在准备录制。"
+   },
+   "recorderSetupTitle": {
+      "description": "Title in recording page while setting up project before countdown starts",
+      "message": "准备中…"
+   },
+   "recordingLimitReachedToast": {
+      "description": "Toast message shown when the recording limit is reached",
+      "message": "录制已因超过 90 分钟限制而停止"
+   },
+   "recordingTooShortToast": {
+      "description": "Toast shown when a region recording is stopped by navigation but no chunks were saved",
+      "message": "录制时间太短，无法保存"
+   },
+   "recoverLastRecordingOption": {
+      "description": "Settings menu item to manually trigger cloud recording recovery",
+      "message": "Recover last recording"
+   },
+   "recoveryModeDescription": {
+      "description": "Recovery mode banner description — reassures user their recording is accessible despite the processing failure",
+      "message": "处理时出现问题，但您的录制内容是安全的。您可以在下方下载。"
+   },
+   "recoveryModeTitle": {
+      "description": "恢复模式标题",
+      "message": "恢复模式"
+   },
+   "redoLabel": {
+      "description": "Redo label",
+      "message": "恢复"
+   },
+   "redoTooltip": {
+      "description": "Redo tooltip",
+      "message": "恢复"
+   },
+   "regionHeightLabel": {
+      "description": "Region height label",
+      "message": "高度"
+   },
+   "regionWidthLabel": {
+      "description": "Region width label",
+      "message": "宽度"
+   },
+   "reopenToolbarToast": {
+      "description": "Toast message explaining to reopen the toolbar in the popup options",
+      "message": "工具栏已隐藏。可在弹出窗口中重新启用。"
+   },
+   "replaceAudioEditor": {
+      "description": "Replace audio button in editor",
+      "message": "替换现有音频"
+   },
+   "resetOnboardingOption": {
+      "description": "Reset pro onboarding option label in popup settings menu",
+      "message": "重置引导"
+   },
+   "resizeWindowLabel": {
+      "description": "设置菜单中的调整窗口大小标签",
+      "message": "调整窗口大小"
+   },
+   "restartModalDescription": {
+      "description": "Restart recording modal description",
+      "message": "您当前的视频进度将丢失。"
+   },
+   "restartModalRestart": {
+      "description": "Restart recording modal restart button",
+      "message": "重新开始录制"
+   },
+   "restartModalResume": {
+      "description": "Restart recording modal resume button",
+      "message": "继续录制"
+   },
+   "restartModalTitle": {
+      "description": "Restart recording modal title",
+      "message": "确定要重新开始录制吗？"
+   },
+   "restartRecordingTooltip": {
+      "description": "Restart recording tooltip",
+      "message": "重新开始录制"
+   },
+   "restoreRecording": {
+      "description": "弹出窗口中恢复最近的录音按钮",
+      "message": "恢复最近的录音"
+   },
+   "resumeRecordingTooltip": {
+      "description": "Resume recording tooltip",
+      "message": "恢复录制"
+   },
+   "retryButtonLabel": {
+      "description": "Agnostic button label to try again",
+      "message": "重试"
+   },
+   "sandboxAdvancedTitle": {
+      "description": "沙盒编辑器页面的高级部分",
+      "message": "高级"
+   },
+   "sandboxAudioDragAndDrop": {
+      "description": "Drag and drop audio file in sandbox editor page",
+      "message": "拖放音频文件"
+   },
+   "sandboxAudioOrBrowse": {
+      "description": "Or click to browse audio file in sandbox editor page",
+      "message": "或点击浏览"
+   },
+   "sandboxAudioSettingsTitle": {
+      "description": "Audio settings title in sandbox editor page",
+      "message": "设置"
+   },
+   "sandboxAudioUpdateButton": {
+      "description": "Update audio button in sandbox editor page",
+      "message": "更新"
+   },
+   "sandboxAudioVolumeLabel": {
+      "description": "Audio volume label in sandbox editor page",
+      "message": "音量"
+   },
+   "sandboxCropTitle": {
+      "description": "Crop title in sandbox editor page",
+      "message": "裁剪"
+   },
+   "sandboxEditTitle": {
+      "description": "Edit title in sandbox editor page",
+      "message": "编辑"
+   },
+   "sandboxEditorCancelButton": {
+      "description": "Cancel button in sandbox editor page",
+      "message": "取消"
+   },
+   "sandboxEditorCutButton": {
+      "description": "Cut button in sandbox editor",
+      "message": "剪切部分"
+   },
+   "sandboxEditorCutProgressButton": {
+      "description": "Cut button in sandbox editor while cutting",
+      "message": "正在剪切..."
+   },
+   "sandboxEditorMainTitle": {
+      "description": "Title in navigation of the sandbox editor page",
+      "message": "编辑器"
+   },
+   "sandboxEditorMuteButton": {
+      "description": "Mute button in sandbox editor",
+      "message": "静音音频"
+   },
+   "sandboxEditorMuteProgressButton": {
+      "description": "Mute button in sandbox editor while muting",
+      "message": "正在静音..."
+   },
+   "sandboxEditorResetButton": {
+      "description": "Reset button in sandbox editor page",
+      "message": "重置"
+   },
+   "sandboxEditorRevertButton": {
+      "description": "Revert button in sandbox editor page",
+      "message": "恢复原始状态"
+   },
+   "sandboxEditorSaveButton": {
+      "description": "Save button in sandbox editor page",
+      "message": "保存更改"
+   },
+   "sandboxEditorSaveProgressButton": {
+      "description": "Save button in sandbox editor page while saving",
+      "message": "保存中..."
+   },
+   "sandboxEditorTooSmallInfo": {
+      "description": "Info about the editor being too small",
+      "message": "由于帧之间的间隔，对于短时间范围，编辑可能不准确。"
+   },
+   "sandboxEditorTrimButton": {
+      "description": "Trim button in sandbox editor",
+      "message": "修剪视频"
+   },
+   "sandboxEditorTrimInfo": {
+      "description": "Info about trimming in sandbox editor",
+      "message": "拖动手柄并使用左侧的按钮编辑所选部分。"
+   },
+   "sandboxEditorTrimProgressButton": {
+      "description": "Trim button in sandbox editor while trimming",
+      "message": "正在修剪..."
+   },
+   "sandboxExportTitle": {
+      "description": "Export title in sandbox editor page",
+      "message": "导出"
+   },
+   "sandboxProgressDescription": {
+      "description": "Description in sandbox page while recording / saving",
+      "message": "保持此选项卡打开。录制/保存完成后，它将更新。"
+   },
+   "sandboxProgressTitle": {
+      "description": "Title in sandbox page while recording / saving",
+      "message": "准备录制中..."
+   },
+   "sandboxSaveTitle": {
+      "description": "Save title in sandbox editor page",
+      "message": "保存"
+   },
+   "saveDriveButtonDescription": {
+      "description": "Save to Google Drive label",
+      "message": "将当前版本保存到 Google Drive"
+   },
+   "saveDriveButtonTitle": {
+      "description": "Save to Google Drive button",
+      "message": "保存到 Drive"
+   },
+   "savingDriveLabel": {
+      "description": "Saving to Google Drive label",
+      "message": "保存中..."
+   },
+   "screenTooSmallTooltip": {
+      "description": "设置菜单中的屏幕尺寸不足提示",
+      "message": "屏幕尺寸不足以支持此分辨率"
+   },
+   "screenType": {
+      "description": "Screen recording type label on popup",
+      "message": "屏幕"
+   },
+   "selectSourceDropdownPlaceholder": {
+      "description": "Select source placeholder",
+      "message": "选择源"
+   },
+   "selectToolTooltip": {
+      "description": "Select tool tooltip",
+      "message": "选择"
+   },
+   "setupCompleteDescription": {
+      "description": "Set up complete description",
+      "message": "您现在可以在这里开始录制，或在任何其他标签中。"
+   },
+   "setupCompleteTitle": {
+      "description": "Set up complete title",
+      "message": "太棒了！您已经准备好了"
+   },
+   "setupStep1After": {
+      "description": "Set up step 1, after the icon. It needs a space at the beginning.",
+      "message": " 扩展图标"
+   },
+   "setupStep1Before": {
+      "description": "Set up step 1, before the icon. It needs a space at the end.",
+      "message": "1- 点击 "
+   },
+   "setupStep2After": {
+      "description": "Set up step 2, after the icon. It needs a space at the beginning.",
+      "message": " 固定图标"
+   },
+   "setupStep2Before": {
+      "description": "Set up step 2, before the icon. It needs a space at the end.",
+      "message": "2- 按下 "
+   },
+   "setupStep3After": {
+      "description": "Set up step 3, after the icon. It needs a space at the beginning.",
+      "message": " Screenity图标以启动"
+   },
+   "setupStep3Before": {
+      "description": "Set up step 3, before the icon. It needs a space at the end.",
+      "message": "3- 点击 "
+   },
+   "setupTitle": {
+      "description": "Set up steps title",
+      "message": "在三个简单步骤中开始使用Screenity："
+   },
+   "shapeToolTooltip": {
+      "description": "Shape tool tooltip",
+      "message": "形状工具"
+   },
+   "shareModalSandboxButton": {
+      "description": "Share modal email placeholder in sandbox editor page",
+      "message": "了解 Pro 版"
+   },
+   "shareModalSandboxDescription": {
+      "description": "Share modal description in sandbox editor page",
+      "message": "云端分享、缩放、模板功能… 支持一位注重隐私的独立女性开发者 ❤️"
+   },
+   "shareModalSandboxLogin": {
+      "description": "Share modal login link in sandbox editor page",
+      "message": "已有账号？登录"
+   },
+   "shareModalSandboxTitle": {
+      "description": "Share modal title in sandbox editor page",
+      "message": "准备好提升你的录屏了吗？"
+   },
+   "shareSandboxButton": {
+      "description": "Share button in sandbox editor page",
+      "message": "分享视频"
+   },
+   "shareUnlockButton": {
+      "description": "Button to sign in to share in the editor",
+      "message": "登录后分享（Pro）"
+   },
+   "showMoreOptionsLabel": {
+      "description": "Show more options label",
+      "message": "显示更多选项"
+   },
+   "signInDriveLabel": {
+      "description": "Sign in to Google Drive label",
+      "message": "登录并保存到 Drive"
+   },
+   "signOutDriveLabel": {
+      "description": "Sign out of Google Drive label",
+      "message": "从 Drive 注销"
+   },
+   "spotlightCursorTooltip": {
+      "description": "Spotlight cursor tooltip",
+      "message": "聚焦光标"
+   },
+   "stayInPagePopup": {
+      "description": "Stay in page popup",
+      "message": "录制时保持在页面中"
+   },
+   "stopAckTimeoutToast": {
+      "description": "Toast shown when the recorder does not acknowledge the stop request within a few seconds",
+      "message": "保存时间比预期长。您的数据是安全的，编辑器即将打开。"
+   },
+   "storageCheckFailAuthDescription": {
+      "description": "Description shown when the storage check fails due to authentication",
+      "message": "检查存储空间时出现问题。请重新登录并尝试录制。"
+   },
+   "storageCheckFailDescription": {
+      "description": "Description shown when the storage check fails",
+      "message": "我们无法验证你的存储额度。请稍后再试或刷新页面。"
+   },
+   "storageCheckFailTitle": {
+      "description": "Title shown when the storage check fails",
+      "message": "无法检查存储空间"
+   },
+   "storageLimitReachedDescription": {
+      "description": "Modal description shown when the storage limit is reached",
+      "message": "你已使用完全部 100 GB 存储空间。请删除旧的视频或片段以继续录制。"
+   },
+   "storageLimitReachedTitle": {
+      "description": "Modal message shown when the storage limit is reached",
+      "message": "已达存储上限"
+   },
+   "streamEndedWarningToast": {
+      "description": "Toast shown when screen share track ends mid-recording. Recording continues; removes false urgency about data loss.",
+      "message": "屏幕共享已停止。您的录制内容已保存，准备好后即可停止。"
+   },
+   "streamErrorModalDescription": {
+      "description": "流错误模态框描述",
+      "message": "看起来启动录制时出现了错误。请重新启动您的浏览器并重试。如果问题仍然存在，请通过 support@screenity.io 与我们联系。"
+   },
+   "streamErrorModalTitle": {
+      "description": "流错误模态框标题",
+      "message": "启动录制时出错"
+   },
+   "supportSettingsOption": {
+      "description": "Label for the support option in the popup",
+      "message": "支持"
+   },
+   "systemAudioLabel": {
+      "description": "选项卡/系统音频标签",
+      "message": "包括系统音频"
+   },
+   "tabRecordingDisabledToast": {
+      "description": "Toast message shown when tab recording is disabled on a page",
+      "message": "此页面已禁用标签页录制，已默认切换为屏幕录制。"
+   },
+   "tabRecordingDisabledTooltip": {
+      "description": "Tooltip shown when tab recording is disabled on a page",
+      "message": "此页面禁用了标签页录制"
+   },
+   "tabType": {
+      "description": "Tab area recording type label on popup",
+      "message": "标签区域"
+   },
+   "textToolTooltip": {
+      "description": "Text tool tooltip",
+      "message": "文本"
+   },
+   "thickStrokeTooltip": {
+      "description": "Thick stroke tooltip",
+      "message": "粗画笔"
+   },
+   "thinStrokeTooltip": {
+      "description": "Thin stroke tooltip",
+      "message": "细画笔"
+   },
+   "toastAudioCaptureDegraded": {
+      "description": "Toast shown when the audio recorder is stopped early because the audio buffer limit was reached",
+      "message": "Transcription capture paused due to memory pressure. Video upload continues."
+   },
+   "toastNetworkOffline": {
+      "description": "Toast shown when the browser goes offline during a cloud recording upload",
+      "message": "Network offline. Upload paused. Screen chunks are saved locally."
+   },
+   "toastRecoveredSession": {
+      "description": "Toast shown when a crashed recording session is auto-recovered on startup",
+      "message": "Recovered unsaved recording from the previous session."
+   },
+   "toastStorageCritical": {
+      "description": "Toast shown when available storage drops below the critical threshold during recording; reassures that captured data is preserved",
+      "message": "磁盘空间不足，正在保存录制内容。已录制的内容是安全的。"
+   },
+   "toastStorageLow": {
+      "description": "Toast shown when available storage drops below the warning threshold during recording",
+      "message": "Storage is running low. Upload reliability may degrade for long recordings."
+   },
+   "toggleBlurToolTooltip": {
+      "description": "Toggle blur tools tooltip",
+      "message": "切换模糊工具"
+   },
+   "toggleCursorOptionsTooltip": {
+      "description": "Toggle cursor options tooltip",
+      "message": "切换光标选项"
+   },
+   "toggleDrawingToolsTooltip": {
+      "description": "Toggle drawing tools tooltip",
+      "message": "切换绘图工具"
+   },
+   "toggleFillTooltip": {
+      "description": "Toggle fill tooltip",
+      "message": "切换填充"
+   },
+   "togglePictureinPictureModeTooltip": {
+      "description": "Toggle picture-in-picture mode tooltip",
+      "message": "切换画中画模式"
+   },
+   "toolbarHoverOnly": {
+      "description": "Only show toolbar on hover button",
+      "message": "在不使用时隐藏工具栏"
+   },
+   "topLabel": {
+      "description": "Top label for properties",
+      "message": "顶部"
+   },
+   "troubleShootButtonDescription": {
+      "description": "故障排除标签",
+      "message": "恢复您的视频并解决其他问题"
+   },
+   "troubleshootButtonTitle": {
+      "description": "故障排除按钮",
+      "message": "获取有关您的录制的帮助"
+   },
+   "troubleshootModalButton": {
+      "description": "故障排除模态框按钮",
+      "message": "下载"
+   },
+   "troubleshootModalDescription": {
+      "description": "故障排除模态框描述",
+      "message": "下载后，请将文件发送至support@screenity.io，附上任何相关信息。我们将使用此数据帮助您解决扩展程序的任何问题，并在可能的情况下恢复您的视频。"
+   },
+   "troubleshootModalTitle": {
+      "description": "故障排除模态框标题",
+      "message": "下载系统信息和视频数据并发送进行故障排除"
+   },
+   "understoodButton": {
+      "description": "知道了按钮",
+      "message": "知道了"
+   },
+   "undoLabel": {
+      "description": "Undo label",
+      "message": "撤销"
+   },
+   "undoTooltip": {
+      "description": "Undo tooltip",
+      "message": "撤销"
+   },
+   "unlockMoreFeatures": {
+      "description": "Button to unlock more features in the editor",
+      "message": "解锁更多功能"
+   },
+   "updateAnnouncementButton": {
+      "description": "现有用户的更新公告按钮",
+      "message": "开始使用"
+   },
+   "updateAnnouncementDescription": {
+      "description": "现有用户的更新公告描述",
+      "message": "我们进行了设计更新并增加了许多新功能，但请放心，它仍然是您熟悉和喜爱的免费、私密且开源的扩展。"
+   },
+   "updateAnnouncementLearnMore": {
+      "description": "现有用户的更新公告了解更多链接",
+      "message": "了解有关更新的更多信息。"
+   },
+   "updateAnnouncementTitle": {
+      "description": "现有用户的更新公告标题",
+      "message": "欢迎使用新版 Screenity！"
+   },
+   "updateChromeLabelDescription": {
+      "description": "Update Chrome label description",
+      "message": "更新以访问更多功能"
+   },
+   "updateChromeLabelTitle": {
+      "description": "Update Chrome label",
+      "message": "Chrome 需要更新"
+   },
+   "upgradeToProButton": {
+      "description": "Button to upgrade to Pro",
+      "message": "订阅 Pro"
+   },
+   "videoProcessingLabelDescription": {
+      "description": "Video processing description in editor",
+      "message": "升级以加快编辑速度"
+   },
+   "videoProcessingLabelTitle": {
+      "description": "Video processing label in editor",
+      "message": "视频正在处理中..."
+   },
+   "videoTrackEndedToast": {
+      "description": "Toast shown when the video track ends mid-recording (e.g. monitor disconnected, screen share revoked)",
+      "message": "屏幕共享已停止，正在保存录制内容。已录制的内容是安全的。"
+   },
+   "videosTab": {
+      "description": "Videos tab label on popup",
+      "message": "您的视频"
+   },
+   "webcodecsFailedOffToast": {
+      "description": "WebCodecs failure auto-disable toast",
+      "message": "极速 MP4 失败 — 关闭"
+   },
+   "webcodecsToggleLabel": {
+      "description": "WebCodecs recorder toggle label",
+      "message": "极速 MP4（beta）"
+   },
+   "welcomeBackPopupTitle": {
+      "description": "返回用户欢迎弹窗的标题",
+      "message": "欢迎回到 Screenity"
+   },
+   "welcomeBackProCTA": {
+      "description": "欢迎弹窗中云存储功能的号召性按钮",
+      "message": "了解 Screenity Pro"
+   },
+   "welcomeBackProDescription": {
+      "description": "欢迎弹窗中云存储功能的描述",
+      "message": "Screenity Pro 是一个可选的新平台，用于将视频保存到云端、通过链接分享，并在需要时解锁高级编辑工具。"
+   },
+   "welcomeBackProTitle": {
+      "description": "欢迎弹窗中云存储功能的标题",
+      "message": "✨ 新功能：让录制更进一步"
+   },
+   "welcomePopupCTA": {
+      "description": "Call to action button for the welcome popup shown to new users",
+      "message": "免费使用 — 无需注册！"
+   },
+   "welcomePopupCloudCTA": {
+      "description": "Call to action button for the cloud storage feature in the welcome popup",
+      "message": "🔓 解锁更多功能"
+   },
+   "welcomePopupCloudFeature1": {
+      "description": "Feature 1 for the cloud storage in the welcome popup",
+      "message": "云端存储，一键分享链接"
+   },
+   "welcomePopupCloudFeature2": {
+      "description": "Feature 2 for the cloud storage in the welcome popup",
+      "message": "将多个片段合成一个故事"
+   },
+   "welcomePopupCloudFeature3": {
+      "description": "Feature 3 for the cloud storage in the welcome popup",
+      "message": "点击智能缩放（或自定义缩放）"
+   },
+   "welcomePopupCloudFeature4": {
+      "description": "Feature 4 for the cloud storage in the welcome popup",
+      "message": "添加模板、字幕、布局……"
+   },
+   "welcomePopupCloudFeature5": {
+      "description": "Feature 5 for the cloud storage in the welcome popup",
+      "message": "自定义背景和样机"
+   },
+   "welcomePopupCloudTitle": {
+      "description": "Title for the cloud storage feature in the welcome popup",
+      "message": "想让你的视频更强大？"
+   },
+   "welcomePopupDescriptionBottom": {
+      "description": "Description for the welcome popup shown to new users",
+      "message": "只需点击录制。"
+   },
+   "welcomePopupDescriptionTop": {
+      "description": "Description for the welcome popup shown to new users",
+      "message": "无广告，无追踪，无限制。"
+   },
+   "welcomePopupSupport": {
+      "description": "Message for supporting the indie maker in the welcome popup",
+      "message": "+ 支持独立开发者的持续开发！"
+   },
+   "welcomePopupTitle": {
+      "description": "Title for the welcome popup shown to new users",
+      "message": "欢迎使用 Screenity"
+   },
+   "welcomeProButton": {
+      "description": "Button to sign in to Screenity Pro",
+      "message": "登录以解锁付费功能"
+   },
+   "welcomeProDescription": {
+      "description": "Description for the welcome Pro popup",
+      "message": "登录即可将视频保存到云端、生成分享链接并使用高级编辑功能。"
+   },
+   "welcomeProSupport": {
+      "description": "Message for supporting the indie maker in the welcome Pro popup",
+      "message": "支持独立开发者的持续开发"
+   },
+   "welcomeProTitle": {
+      "description": "Title for the welcome Pro popup",
+      "message": "想充分利用你的录制内容？"
+   },
+   "welcomeToProActionModal": {
+      "description": "Pro 欢迎弹窗确认按钮",
+      "message": "知道了"
+   },
+   "welcomeToProDescriptionModal": {
+      "description": "Pro 欢迎弹窗描述",
+      "message": "你已准备好开始录制！以下是一些注意事项：\n\n- 录制时相机气泡可能会消失，这是正常现象。它会在后台单独捕捉，因此你可以稍后自由调整其位置。\n- 缩放功能仅在点击 Chrome 标签页时自动创建，这是浏览器的限制。你可以在录制后手动添加更多缩放。\n- 想要快速录制并立即下载？可以尝试即时模式。但请注意，编辑功能有限：无法使用背景、布局或高级调整。"
+   },
+   "welcomeToProTitleModal": {
+      "description": "Pro 欢迎弹窗标题",
+      "message": "欢迎使用 Screenity Pro"
+   },
+   "widthLabel": {
+      "description": "Width label for properties",
+      "message": "宽度"
+   },
+   "zoomToPointPopup": {
+      "description": "Zoom to point popup",
+      "message": "缩放到光标位置"
+   }
+}

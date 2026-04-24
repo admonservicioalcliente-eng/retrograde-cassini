@@ -1,0 +1,33 @@
+{
+   "action": {
+      "default_title": "Zapier"
+   },
+   "background": {
+      "service_worker": "service_worker.js",
+      "type": "module"
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "description": "Save time by automating your work.",
+   "host_permissions": [ "https://*.zapier.com/*" ],
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "incognito": "split",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCOjnfGDBkUJ9VTHychi7xB/Ob7fHgEa0X6mZzvDjXFXe7y3I7c5bvK+s0SjrbknJmoPT5lhw5E8M5M8NKpTVZzpLwVF5UEfLaPL6oi0iqG8pSTjpWjX8fkuiaEfwLpHUzitaGteGv0kavBQu9ORDer9GFoxETbRvAE+dfV5pK8lQIDAQAB",
+   "manifest_version": 3,
+   "name": "Zapier",
+   "options_ui": {
+      "page": "options.html"
+   },
+   "permissions": [ "activeTab", "storage", "contextMenus", "notifications", "tabs", "scripting" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.7.0",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*/*" ],
+      "resources": [ "popup.html" ]
+   } ]
+}

@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "Convert audio to text. Automatically record and transcribe your meetings, interviews, and other conversations with Transkriptor.",
+      "message": "Pretvorite zvok v besedilo. Samodejno posnemite in prepišite svoja srečanja in druge pogovore s Transkriptorjem."
+   },
+   "appName": {
+      "description": "Transkriptor: Transcribe Audio to Text",
+      "message": "Transkriptor: Pretvorite zvok v besedilo"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Rezervasyon yazılımı ile toplantılar planlayın. Müsaitliğinizi paylaşın, müşterilerin randevu almasına izin verin ve takviminizle senkronize edin."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Ücretsiz Randevu Planlama"
+   }
+}

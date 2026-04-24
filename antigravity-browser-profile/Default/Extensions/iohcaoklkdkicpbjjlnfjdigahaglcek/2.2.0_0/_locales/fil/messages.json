@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Mag-iskedyul ng mga pulong gamit ang booking software. Ibahagi ang iyong availability, hayaan ang mga kliyente na mag-book ng mga appointment, at i-sync sa iyong kalendaryo."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Libreng Pag-iskedyul ng Appointment"
+   }
+}

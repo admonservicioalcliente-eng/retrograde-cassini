@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Przeglądaj pliki ePUB bezpośrednio w przeglądarce."
+   },
+   "app_name": {
+      "message": "ePub Reader"
+   },
+   "menu_dark_mode": {
+      "message": "Tryb ciemny"
+   },
+   "menu_open_support": {
+      "message": "Otwórz stronę pomocy technicznej"
+   },
+   "menu_rate_us": {
+      "message": "Oceń nas!"
+   },
+   "menu_reload_ui": {
+      "message": "Załaduj ponownie aplikację"
+   },
+   "menu_upload_from_device": {
+      "message": "Prześlij z urządzenia"
+   },
+   "menu_use_gdrive": {
+      "message": "Użyj swojego Gdrive"
+   },
+   "message_enter_url": {
+      "message": "Wprowadź adres URL lub przeciągnij i upuść plik ePub w powyższym polu"
+   },
+   "message_error": {
+      "message": "Wystąpił błąd! proszę spróbuj ponownie."
+   },
+   "message_fetching_0": {
+      "message": "Pobieranie dokumentu 0% proszę czekać ..."
+   },
+   "message_fetching_1": {
+      "message": "Pobieranie dokumentu"
+   },
+   "message_fetching_2": {
+      "message": "% proszę czekać..."
+   },
+   "message_loading": {
+      "message": "Ładowanie dokumentu, proszę czekać ..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader jest gotowy"
+   },
+   "message_wrong_content": {
+      "message": "Niepoprawny plik! proszę spróbuj ponownie."
+   },
+   "methods_archived": {
+      "message": "Zarchiwizowane"
+   },
+   "methods_highlights": {
+      "message": "Najważniejsze"
+   },
+   "methods_hypothes": {
+      "message": "Hipotezy"
+   },
+   "methods_scrolled": {
+      "message": "Przewijany"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Przewijane ciągłe"
+   },
+   "methods_spreads": {
+      "message": "Spready"
+   },
+   "methods_spreads_continuous": {
+      "message": "Rozprzestrzenia się w sposób ciągły"
+   },
+   "methods_swipe": {
+      "message": "Trzepnąć"
+   },
+   "title_font_size": {
+      "message": "Rozmiar czcionki (%)"
+   }
+}

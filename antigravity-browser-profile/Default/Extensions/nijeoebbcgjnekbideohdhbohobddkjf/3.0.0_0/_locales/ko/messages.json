@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "브라우저에서 바로 ePUB 파일을 볼 수 있습니다."
+   },
+   "app_name": {
+      "message": "ePub 리더"
+   },
+   "menu_dark_mode": {
+      "message": "다크 모드"
+   },
+   "menu_open_support": {
+      "message": "지원 페이지 열기"
+   },
+   "menu_rate_us": {
+      "message": "우리를 평가하십시오!"
+   },
+   "menu_reload_ui": {
+      "message": "응용 프로그램 새로 고침"
+   },
+   "menu_upload_from_device": {
+      "message": "기기에서 업로드"
+   },
+   "menu_use_gdrive": {
+      "message": "Gdrive 사용"
+   },
+   "message_enter_url": {
+      "message": "위 입력란에 URL을 입력하거나 ePub 파일을 드래그 앤 드롭하십시오"
+   },
+   "message_error": {
+      "message": "오류가 발생했습니다! 다시 시도하십시오."
+   },
+   "message_fetching_0": {
+      "message": "문서를 가져 오는 중 0 % 기다려주십시오 ..."
+   },
+   "message_fetching_1": {
+      "message": "문서를 가져 오는 중"
+   },
+   "message_fetching_2": {
+      "message": "% 기다려주십시오 ..."
+   },
+   "message_loading": {
+      "message": "문서를로드하는 중입니다. 잠시만 기다려주십시오."
+   },
+   "message_ready": {
+      "message": "ePUB 리더가 준비되었습니다"
+   },
+   "message_wrong_content": {
+      "message": "유효하지 않은 파일! 다시 시도하십시오."
+   },
+   "methods_archived": {
+      "message": "보관"
+   },
+   "methods_highlights": {
+      "message": "하이라이트"
+   },
+   "methods_hypothes": {
+      "message": "가설"
+   },
+   "methods_scrolled": {
+      "message": "스크롤 됨"
+   },
+   "methods_scrolled_continuous": {
+      "message": "연속 스크롤"
+   },
+   "methods_spreads": {
+      "message": "스프레드"
+   },
+   "methods_spreads_continuous": {
+      "message": "연속 확산"
+   },
+   "methods_swipe": {
+      "message": "강타"
+   },
+   "title_font_size": {
+      "message": "글꼴 크기 (%)"
+   }
+}

@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Se ePUB-filer direkte i din browser."
+   },
+   "app_name": {
+      "message": "ePub Reader"
+   },
+   "menu_dark_mode": {
+      "message": "Mørk tilstand"
+   },
+   "menu_open_support": {
+      "message": "Åben support side"
+   },
+   "menu_rate_us": {
+      "message": "Bedøm os!"
+   },
+   "menu_reload_ui": {
+      "message": "Genindlæs ansøgning"
+   },
+   "menu_upload_from_device": {
+      "message": "Upload fra din enhed"
+   },
+   "menu_use_gdrive": {
+      "message": "Brug din Gdrive"
+   },
+   "message_enter_url": {
+      "message": "Indtast en URL eller træk og slip en ePub-fil i ovenstående felt"
+   },
+   "message_error": {
+      "message": "Der opstod en fejl! Prøv igen."
+   },
+   "message_fetching_0": {
+      "message": "Henter dokument 0% vent venligst ..."
+   },
+   "message_fetching_1": {
+      "message": "Henter dokument"
+   },
+   "message_fetching_2": {
+      "message": "% vent venligst..."
+   },
+   "message_loading": {
+      "message": "Indlæser dokument, vent venligst ..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader er klar"
+   },
+   "message_wrong_content": {
+      "message": "Ugyldig fil! Prøv igen."
+   },
+   "methods_archived": {
+      "message": "arkiverede"
+   },
+   "methods_highlights": {
+      "message": "Højdepunkter"
+   },
+   "methods_hypothes": {
+      "message": "Hypothes"
+   },
+   "methods_scrolled": {
+      "message": "rullet"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Rullet kontinuerligt"
+   },
+   "methods_spreads": {
+      "message": "Spreder sig"
+   },
+   "methods_spreads_continuous": {
+      "message": "Opslag Kontinuerligt"
+   },
+   "methods_swipe": {
+      "message": "Swipe"
+   },
+   "title_font_size": {
+      "message": "Skriftstørrelse (%)"
+   }
+}

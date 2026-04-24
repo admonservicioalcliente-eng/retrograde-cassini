@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Ajoita kokouksia varausohjelmistolla. Jaa saatavuutesi, anna asiakkaiden varata tapaamisia ja synkronoi kalenterisi kanssa."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Ilmainen Tapaamisten Ajoitus"
+   }
+}

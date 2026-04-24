@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Visualisez les fichiers ePUB directement dans votre navigateur."
+   },
+   "app_name": {
+      "message": "ePub Reader"
+   },
+   "menu_dark_mode": {
+      "message": "Mode sombre"
+   },
+   "menu_open_support": {
+      "message": "Ouvrir la page de support"
+   },
+   "menu_rate_us": {
+      "message": "Veuillez nous évaluer!"
+   },
+   "menu_reload_ui": {
+      "message": "Recharger l&#39;application"
+   },
+   "menu_upload_from_device": {
+      "message": "Télécharger depuis votre appareil"
+   },
+   "menu_use_gdrive": {
+      "message": "Utilisez votre disque"
+   },
+   "message_enter_url": {
+      "message": "Veuillez entrer une URL ou faire glisser un fichier ePub dans le champ ci-dessus."
+   },
+   "message_error": {
+      "message": "Une erreur est survenue! Veuillez réessayer."
+   },
+   "message_fetching_0": {
+      "message": "Récupération du document 0%, veuillez patienter ..."
+   },
+   "message_fetching_1": {
+      "message": "Récupérer un document"
+   },
+   "message_fetching_2": {
+      "message": "% S'il vous plaît, attendez..."
+   },
+   "message_loading": {
+      "message": "Chargement du document, veuillez patienter ..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader est prêt"
+   },
+   "message_wrong_content": {
+      "message": "Fichier non valide! Veuillez réessayer."
+   },
+   "methods_archived": {
+      "message": "Archivé"
+   },
+   "methods_highlights": {
+      "message": "Points forts"
+   },
+   "methods_hypothes": {
+      "message": "Des hypothèses"
+   },
+   "methods_scrolled": {
+      "message": "Fait défiler"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Défilement continu"
+   },
+   "methods_spreads": {
+      "message": "Se répand"
+   },
+   "methods_spreads_continuous": {
+      "message": "Spreads Continu"
+   },
+   "methods_swipe": {
+      "message": "Glisser"
+   },
+   "title_font_size": {
+      "message": "Taille de police (%)"
+   }
+}

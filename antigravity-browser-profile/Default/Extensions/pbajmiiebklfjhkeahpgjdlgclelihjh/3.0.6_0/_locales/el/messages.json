@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "Convert audio to text. Automatically record and transcribe your meetings, interviews, and other conversations with Transkriptor.",
+      "message": "Μετατροπή ήχου σε κείμενο. Αυτόματη εγγραφή και μεταγραφή των συναντήσεών σας και άλλων συνομιλιών με το Transkriptor."
+   },
+   "appName": {
+      "description": "Transkriptor: Transcribe Audio to Text",
+      "message": "Transkriptor: Μετατροπή ήχου σε κείμενο"
+   }
+}

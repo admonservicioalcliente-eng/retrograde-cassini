@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Преглеждайте ePUB файлове направо във вашия браузър."
+   },
+   "app_name": {
+      "message": "ePub Reader"
+   },
+   "menu_dark_mode": {
+      "message": "Dark Mode"
+   },
+   "menu_open_support": {
+      "message": "Отворете страницата за поддръжка"
+   },
+   "menu_rate_us": {
+      "message": "Моля, оценете ни!"
+   },
+   "menu_reload_ui": {
+      "message": "Презареждане на приложение"
+   },
+   "menu_upload_from_device": {
+      "message": "Качване от вашето устройство"
+   },
+   "menu_use_gdrive": {
+      "message": "Използвайте вашия Gdrive"
+   },
+   "message_enter_url": {
+      "message": "Моля, въведете URL адрес или плъзнете и пуснете ePub файл в горното поле"
+   },
+   "message_error": {
+      "message": "Възникна грешка! Моля, опитайте отново."
+   },
+   "message_fetching_0": {
+      "message": "Извличане на документ 0%, моля изчакайте ..."
+   },
+   "message_fetching_1": {
+      "message": "Извличане на документ"
+   },
+   "message_fetching_2": {
+      "message": "% Моля Изчакай..."
+   },
+   "message_loading": {
+      "message": "Документът се зарежда, моля изчакайте ..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader е готов"
+   },
+   "message_wrong_content": {
+      "message": "Невалиден файл! Моля, опитайте отново."
+   },
+   "methods_archived": {
+      "message": "Архив"
+   },
+   "methods_highlights": {
+      "message": "Акценти"
+   },
+   "methods_hypothes": {
+      "message": "Hypothes"
+   },
+   "methods_scrolled": {
+      "message": "превъртели"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Превъртане непрекъснато"
+   },
+   "methods_spreads": {
+      "message": "Спредовете"
+   },
+   "methods_spreads_continuous": {
+      "message": "Разпространява се непрекъснато"
+   },
+   "methods_swipe": {
+      "message": "неточен удар"
+   },
+   "title_font_size": {
+      "message": "Размер на шрифта (%)"
+   }
+}

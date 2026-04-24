@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "ブラウザでePUBファイルを表示します。"
+   },
+   "app_name": {
+      "message": "ePubリーダー"
+   },
+   "menu_dark_mode": {
+      "message": "ダークモード"
+   },
+   "menu_open_support": {
+      "message": "サポートページを開く"
+   },
+   "menu_rate_us": {
+      "message": "評価してください！"
+   },
+   "menu_reload_ui": {
+      "message": "アプリケーションをリロードする"
+   },
+   "menu_upload_from_device": {
+      "message": "デバイスからアップロードする"
+   },
+   "menu_use_gdrive": {
+      "message": "Gdriveを使用する"
+   },
+   "message_enter_url": {
+      "message": "上記のフィールドにURLを入力するか、ePubファイルをドラッグアンドドロップしてください"
+   },
+   "message_error": {
+      "message": "エラーが発生しました！もう一度試してください。"
+   },
+   "message_fetching_0": {
+      "message": "ドキュメントを取得しています0％お待ちください..."
+   },
+   "message_fetching_1": {
+      "message": "ドキュメントを取得しています"
+   },
+   "message_fetching_2": {
+      "message": "％ お待ちください..."
+   },
+   "message_loading": {
+      "message": "ドキュメントを読み込んでいます。しばらくお待ちください..."
+   },
+   "message_ready": {
+      "message": "ePUBリーダーの準備ができました"
+   },
+   "message_wrong_content": {
+      "message": "無効なファイル！もう一度試してください。"
+   },
+   "methods_archived": {
+      "message": "アーカイブ済み"
+   },
+   "methods_highlights": {
+      "message": "ハイライト"
+   },
+   "methods_hypothes": {
+      "message": "仮説"
+   },
+   "methods_scrolled": {
+      "message": "スクロール"
+   },
+   "methods_scrolled_continuous": {
+      "message": "連続スクロール"
+   },
+   "methods_spreads": {
+      "message": "スプレッド"
+   },
+   "methods_spreads_continuous": {
+      "message": "連続的な広がり"
+   },
+   "methods_swipe": {
+      "message": "スワイプ"
+   },
+   "title_font_size": {
+      "message": "フォントサイズ （％）"
+   }
+}

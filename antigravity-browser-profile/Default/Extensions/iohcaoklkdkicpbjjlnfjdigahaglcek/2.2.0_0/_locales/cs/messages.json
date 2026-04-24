@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Plánujte schůzky pomocí rezervačního softwaru. Sdílejte svou dostupnost, umožněte klientům rezervovat schůzky a synchronizujte s vaším kalendářem."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Bezplatné Plánování Schůzek"
+   }
+}

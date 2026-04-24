@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "EPUB dosyalarını doğrudan tarayıcınızda görüntüleyin."
+   },
+   "app_name": {
+      "message": "ePub Okuyucu"
+   },
+   "menu_dark_mode": {
+      "message": "Karanlık modu"
+   },
+   "menu_open_support": {
+      "message": "Destek Sayfasını Aç"
+   },
+   "menu_rate_us": {
+      "message": "Lütfen Bizi Takip Edin!"
+   },
+   "menu_reload_ui": {
+      "message": "Uygulamayı Yeniden Yükle"
+   },
+   "menu_upload_from_device": {
+      "message": "Cihazınızdan Yükleyin"
+   },
+   "menu_use_gdrive": {
+      "message": "Gdrive'ınızı kullanın"
+   },
+   "message_enter_url": {
+      "message": "Lütfen bir URL girin veya yukarıdaki alana bir ePub dosyasını sürükleyip bırakın"
+   },
+   "message_error": {
+      "message": "Bir hata oluştu! lütfen tekrar deneyin."
+   },
+   "message_fetching_0": {
+      "message": "% 0 belge alındı, lütfen bekleyin ..."
+   },
+   "message_fetching_1": {
+      "message": "Belge alınıyor"
+   },
+   "message_fetching_2": {
+      "message": "% lütfen bekle..."
+   },
+   "message_loading": {
+      "message": "Döküman yükleniyor, lütfen bekleyiniz ..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader hazır"
+   },
+   "message_wrong_content": {
+      "message": "Geçersiz dosya! lütfen tekrar deneyin."
+   },
+   "methods_archived": {
+      "message": "Arşivlenen"
+   },
+   "methods_highlights": {
+      "message": "Önemli"
+   },
+   "methods_hypothes": {
+      "message": "Hypothes"
+   },
+   "methods_scrolled": {
+      "message": "kaydırılan"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Kaydırılmış Sürekli"
+   },
+   "methods_spreads": {
+      "message": "Spreadler"
+   },
+   "methods_spreads_continuous": {
+      "message": "Sürekli Yayılır"
+   },
+   "methods_swipe": {
+      "message": "Tokatlamak"
+   },
+   "title_font_size": {
+      "message": "Yazı Boyutu (%)"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Planeerige kohtumisi broneerimistarkvaraga. Jagage oma kättesaadavust, lubage klientidel kohtumisi broneerida ja sünkroonige oma kalendriga."
+   },
+   "application_title": {
+      "description": "The ttle of the application, displayed in the web store.",
+      "message": "Koalendar: Tasuta Kohtumiste Planeerimine"
+   }
+}

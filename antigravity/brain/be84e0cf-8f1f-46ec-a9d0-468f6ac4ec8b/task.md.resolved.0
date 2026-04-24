@@ -1,0 +1,13 @@
+# Financial Analysis App - Tasks
+
+- [ ] Initialize Next.js project
+- [ ] Install dependencies (`better-sqlite3`, `recharts`, `lucide-react`)
+- [ ] Create Database schema and initialization script (`lib/db.js`)
+- [ ] Implement global styles and tokens (`app/globals.css`)
+- [ ] Implement Authentication API and Context (`app/api/auth/route.js`, `lib/auth.js`)
+- [ ] Build Login Page (`app/page.js`)
+- [ ] Implement Dashboard Layout and Navigation
+- [ ] Build Data Entry Form (`app/dashboard/entry/page.js`)
+- [ ] Build Main Dashboard with Charts and Metrics (`app/dashboard/page.js`)
+- [ ] Implement Annual Income Statement Table
+- [ ] Test the application and verify data consistency

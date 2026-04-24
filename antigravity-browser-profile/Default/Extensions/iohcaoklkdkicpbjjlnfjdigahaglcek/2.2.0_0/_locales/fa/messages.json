@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "جلسات را با نرم‌افزار رزرو برنامه‌ریزی کنید. در دسترس بودن خود را به اشتراک بگذارید، به مشتریان اجازه دهید قرار ملاقات رزرو کنند و با تقویم خود همگام‌سازی کنید."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: زمان‌بندی رایگان قرار ملاقات"
+   }
+}

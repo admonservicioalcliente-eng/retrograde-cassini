@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "अपने ब्राउज़र में ePUB फ़ाइलें देखें।"
+   },
+   "app_name": {
+      "message": "ईपब रीडर"
+   },
+   "menu_dark_mode": {
+      "message": "डार्क मोड"
+   },
+   "menu_open_support": {
+      "message": "समर्थन पृष्ठ खोलें"
+   },
+   "menu_rate_us": {
+      "message": "कृपया हमें दर!"
+   },
+   "menu_reload_ui": {
+      "message": "आवेदन पुनः लोड करें"
+   },
+   "menu_upload_from_device": {
+      "message": "अपने डिवाइस से अपलोड करें"
+   },
+   "menu_use_gdrive": {
+      "message": "अपने Gdrive का उपयोग करें"
+   },
+   "message_enter_url": {
+      "message": "कृपया एक URL दर्ज करें या उपरोक्त फ़ील्ड में एक ePub फ़ाइल खींचें और छोड़ें"
+   },
+   "message_error": {
+      "message": "एक गलती हुई है! कृपया पुन: प्रयास करें।"
+   },
+   "message_fetching_0": {
+      "message": "दस्तावेज़ ला रहा है 0% कृपया प्रतीक्षा करें ..."
+   },
+   "message_fetching_1": {
+      "message": "दस्तावेज़ ला रहा है"
+   },
+   "message_fetching_2": {
+      "message": "% कृपया प्रतीक्षा करें..."
+   },
+   "message_loading": {
+      "message": "दस्तावेज़ लोड हो रहा है, कृपया प्रतीक्षा करें ..."
+   },
+   "message_ready": {
+      "message": "ePUB रीडर तैयार है"
+   },
+   "message_wrong_content": {
+      "message": "अवैध फाइल! कृपया पुन: प्रयास करें।"
+   },
+   "methods_archived": {
+      "message": "संग्रहीत"
+   },
+   "methods_highlights": {
+      "message": "हाइलाइट"
+   },
+   "methods_hypothes": {
+      "message": "Hypothes"
+   },
+   "methods_scrolled": {
+      "message": "स्क्रॉल"
+   },
+   "methods_scrolled_continuous": {
+      "message": "स्क्रॉल किया हुआ कंटिन्यू"
+   },
+   "methods_spreads": {
+      "message": "स्प्रेड्स"
+   },
+   "methods_spreads_continuous": {
+      "message": "निरंतर फैलता है"
+   },
+   "methods_swipe": {
+      "message": "कड़ी चोट"
+   },
+   "title_font_size": {
+      "message": "फ़ॉन्ट आकार (%)"
+   }
+}

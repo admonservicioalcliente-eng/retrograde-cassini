@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Prohlížejte soubory ePUB přímo v prohlížeči."
+   },
+   "app_name": {
+      "message": "Čtečka ePub"
+   },
+   "menu_dark_mode": {
+      "message": "Tmavý režim"
+   },
+   "menu_open_support": {
+      "message": "Otevřete stránku podpory"
+   },
+   "menu_rate_us": {
+      "message": "Ohodnoťte nás!"
+   },
+   "menu_reload_ui": {
+      "message": "Znovu načíst aplikaci"
+   },
+   "menu_upload_from_device": {
+      "message": "Nahrajte z vašeho zařízení"
+   },
+   "menu_use_gdrive": {
+      "message": "Použijte svůj Gdrive"
+   },
+   "message_enter_url": {
+      "message": "Zadejte prosím adresu URL nebo přetáhněte soubor ePub do výše uvedeného pole"
+   },
+   "message_error": {
+      "message": "Došlo k chybě! prosím zkuste to znovu."
+   },
+   "message_fetching_0": {
+      "message": "Načítání dokumentu 0% čekejte prosím ..."
+   },
+   "message_fetching_1": {
+      "message": "Načítání dokumentu"
+   },
+   "message_fetching_2": {
+      "message": "% prosím, čekejte..."
+   },
+   "message_loading": {
+      "message": "Načítání dokumentu, čekejte prosím ..."
+   },
+   "message_ready": {
+      "message": "Čtečka ePUB je připravena"
+   },
+   "message_wrong_content": {
+      "message": "Neplatný soubor! prosím zkuste to znovu."
+   },
+   "methods_archived": {
+      "message": "Archivováno"
+   },
+   "methods_highlights": {
+      "message": "Zdůrazňuje"
+   },
+   "methods_hypothes": {
+      "message": "Hypotéky"
+   },
+   "methods_scrolled": {
+      "message": "Rolování"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Posunováno nepřetržitě"
+   },
+   "methods_spreads": {
+      "message": "Šíří se"
+   },
+   "methods_spreads_continuous": {
+      "message": "Spread Continuous"
+   },
+   "methods_swipe": {
+      "message": "Výpad"
+   },
+   "title_font_size": {
+      "message": "Velikost písma (%)"
+   }
+}

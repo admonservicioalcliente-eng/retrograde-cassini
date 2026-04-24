@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Lên lịch cuộc họp với phần mềm đặt lịch. Chia sẻ lịch rảnh của bạn, cho phép khách hàng đặt lịch hẹn và đồng bộ với lịch của bạn."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Lên Lịch Hẹn Miễn Phí"
+   }
+}

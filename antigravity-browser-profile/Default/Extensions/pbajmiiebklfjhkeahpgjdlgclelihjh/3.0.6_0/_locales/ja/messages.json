@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "Convert audio to text. Automatically record and transcribe your meetings, interviews, and other conversations with Transkriptor.",
+      "message": "オーディオをテキストに変換します。 Transkriptor を使用して、会議やその他の会話を自動的に記録して文字起こしします。"
+   },
+   "appName": {
+      "description": "Transkriptor: Transcribe Audio to Text",
+      "message": "Transkriptor: オーディオをテキストに変換します。"
+   }
+}

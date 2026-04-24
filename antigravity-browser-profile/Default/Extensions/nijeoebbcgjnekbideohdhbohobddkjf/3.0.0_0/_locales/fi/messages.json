@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Tarkastele ePUB-tiedostoja suoraan selaimessasi."
+   },
+   "app_name": {
+      "message": "ePub Reader"
+   },
+   "menu_dark_mode": {
+      "message": "Tumma tila"
+   },
+   "menu_open_support": {
+      "message": "Avaa tukisivu"
+   },
+   "menu_rate_us": {
+      "message": "Ole hyvä ja arvioi meitä!"
+   },
+   "menu_reload_ui": {
+      "message": "Lataa sovellus uudelleen"
+   },
+   "menu_upload_from_device": {
+      "message": "Lataa laitteeltasi"
+   },
+   "menu_use_gdrive": {
+      "message": "Käytä Gdriveä"
+   },
+   "message_enter_url": {
+      "message": "Kirjoita URL-osoite tai vedä ja pudota ePub-tiedosto yllä olevaan kenttään"
+   },
+   "message_error": {
+      "message": "Tapahtui virhe! yritä uudelleen."
+   },
+   "message_fetching_0": {
+      "message": "Haetaan asiakirjaa 0%, odota ..."
+   },
+   "message_fetching_1": {
+      "message": "Haetaan asiakirjaa"
+   },
+   "message_fetching_2": {
+      "message": "% odota..."
+   },
+   "message_loading": {
+      "message": "Ladataan asiakirjaa, odota ..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader on valmis"
+   },
+   "message_wrong_content": {
+      "message": "Virheellinen tiedosto! yritä uudelleen."
+   },
+   "methods_archived": {
+      "message": "arkistoitu"
+   },
+   "methods_highlights": {
+      "message": "kohokohtia"
+   },
+   "methods_hypothes": {
+      "message": "Hypothes"
+   },
+   "methods_scrolled": {
+      "message": "vierittää"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Vieritetty jatkuva"
+   },
+   "methods_spreads": {
+      "message": "levitteet"
+   },
+   "methods_spreads_continuous": {
+      "message": "Levittää jatkuvasti"
+   },
+   "methods_swipe": {
+      "message": "napata"
+   },
+   "title_font_size": {
+      "message": "Fonttikoko (%)"
+   }
+}

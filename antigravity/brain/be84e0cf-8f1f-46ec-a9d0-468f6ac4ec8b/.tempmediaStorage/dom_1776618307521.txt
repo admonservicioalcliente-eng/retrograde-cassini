@@ -1,0 +1,82 @@
+FinApp
+Pro
+[0] (125,233)<button class='nav-btn'>Dashboard />
+[1] (125,337)<button class='nav-btn'>Ingreso de Datos />
+[2] (125,440)<button class='nav-btn active'>Estado Annual />
+🏠 DEMO
+[3] (125,907)<button class='btn-secondary' id='logout-btn'>Salir />
+[4] (626,500)<main class='main-content' scrollable='true' />
+	Estado de Resultados Anual
+	[5] (840,117)<label >Año: />
+	[6] (894,117)<input id='table-year' />
+	[7] (618,1005)<div class='table-container' scrollable='true' />
+		Concepto
+		Ene
+		Feb
+		Mar
+		Abr
+		May
+		Jun
+		Jul
+		Ago
+		Sep
+		1. Ventas Netas
+		$ 10.000
+		$ 15.000
+		-
+		-
+		-
+		-
+		-
+		-
+		-
+		2. Costo de Ventas
+		$ 4.000
+		$ 6.000
+		-
+		-
+		-
+		-
+		-
+		-
+		-
+		Utilidad Bruta
+		$ 6.000
+		$ 9.000
+		-
+		-
+		-
+		-
+		-
+		-
+		-
+		3. Gastos de Adm.
+		$ 2.000
+		$ 3.000
+		-
+		-
+		-
+		-
+		-
+		-
+		-
+		EBITDA
+		$ 4.000
+		$ 6.000
+		-
+		-
+		-
+		-
+		-
+		-
+		-
+		4. Dep. y Amort.
+		$ 500
+		$ 500
+		-
+		-
+		-
+		-
+		-
+		-
+		-

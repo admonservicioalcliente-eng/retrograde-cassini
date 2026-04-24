@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Visualizza i file ePUB direttamente nel tuo browser."
+   },
+   "app_name": {
+      "message": "ePub Reader"
+   },
+   "menu_dark_mode": {
+      "message": "Modalità oscura"
+   },
+   "menu_open_support": {
+      "message": "Apri la pagina di supporto"
+   },
+   "menu_rate_us": {
+      "message": "Per favore, votaci!"
+   },
+   "menu_reload_ui": {
+      "message": "Ricarica applicazione"
+   },
+   "menu_upload_from_device": {
+      "message": "Carica dal tuo dispositivo"
+   },
+   "menu_use_gdrive": {
+      "message": "Usa il tuo Gdrive"
+   },
+   "message_enter_url": {
+      "message": "Inserisci un URL o trascina e rilascia un file ePub nel campo sopra"
+   },
+   "message_error": {
+      "message": "C'è stato un errore! per favore riprova."
+   },
+   "message_fetching_0": {
+      "message": "Recupero documento 0% attendere ..."
+   },
+   "message_fetching_1": {
+      "message": "Recupero del documento"
+   },
+   "message_fetching_2": {
+      "message": "% attendere prego..."
+   },
+   "message_loading": {
+      "message": "Caricamento documento, attendere ..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader è pronto"
+   },
+   "message_wrong_content": {
+      "message": "File non valido! per favore riprova."
+   },
+   "methods_archived": {
+      "message": "archiviati"
+   },
+   "methods_highlights": {
+      "message": "Mette in risalto"
+   },
+   "methods_hypothes": {
+      "message": "Hypothes"
+   },
+   "methods_scrolled": {
+      "message": "scorrere"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Scorrimento continuo"
+   },
+   "methods_spreads": {
+      "message": "Si diffonde"
+   },
+   "methods_spreads_continuous": {
+      "message": "Si diffonde in modo continuo"
+   },
+   "methods_swipe": {
+      "message": "rubare"
+   },
+   "title_font_size": {
+      "message": "Dimensione del font (%)"
+   }
+}

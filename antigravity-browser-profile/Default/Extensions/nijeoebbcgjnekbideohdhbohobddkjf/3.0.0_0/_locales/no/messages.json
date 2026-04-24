@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Se ePUB-filer rett i nettleseren din."
+   },
+   "app_name": {
+      "message": "ePub Reader"
+   },
+   "menu_dark_mode": {
+      "message": "Mørk modus"
+   },
+   "menu_open_support": {
+      "message": "Åpne støtteside"
+   },
+   "menu_rate_us": {
+      "message": "Vennligst ranger oss!"
+   },
+   "menu_reload_ui": {
+      "message": "Last inn applikasjonen på nytt"
+   },
+   "menu_upload_from_device": {
+      "message": "Last opp fra enheten din"
+   },
+   "menu_use_gdrive": {
+      "message": "Bruk din Gdrive"
+   },
+   "message_enter_url": {
+      "message": "Skriv inn en URL eller dra og slipp en ePub-fil i feltet ovenfor"
+   },
+   "message_error": {
+      "message": "Det har oppstått en feil! Vær så snill, prøv på nytt."
+   },
+   "message_fetching_0": {
+      "message": "Henter dokument 0% vennligst vent ..."
+   },
+   "message_fetching_1": {
+      "message": "Henter dokument"
+   },
+   "message_fetching_2": {
+      "message": "% Vennligst vent..."
+   },
+   "message_loading": {
+      "message": "Laster inn dokument, vennligst vent ..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader er klar"
+   },
+   "message_wrong_content": {
+      "message": "Ugyldig fil! Vær så snill, prøv på nytt."
+   },
+   "methods_archived": {
+      "message": "arkivert"
+   },
+   "methods_highlights": {
+      "message": "Høydepunkter"
+   },
+   "methods_hypothes": {
+      "message": "Hypothes"
+   },
+   "methods_scrolled": {
+      "message": "rulles"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Rullet kontinuerlig"
+   },
+   "methods_spreads": {
+      "message": "Sprer seg"
+   },
+   "methods_spreads_continuous": {
+      "message": "Oppslag Kontinuerlig"
+   },
+   "methods_swipe": {
+      "message": "Sveip"
+   },
+   "title_font_size": {
+      "message": "Skriftstørrelse (%)"
+   }
+}

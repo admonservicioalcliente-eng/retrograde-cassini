@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "予約ソフトウェアで会議をスケジュールします。空き状況を共有し、クライアントが予約できるようにし、カレンダーと同期します。"
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: 無料の予約スケジューリング"
+   }
+}

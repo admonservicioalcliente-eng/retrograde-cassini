@@ -1,0 +1,12 @@
+FinApp
+Pro
+[0] (125,233)<button class='nav-btn active'>Dashboard />
+[1] (125,337)<button class='nav-btn'>Ingreso de Datos />
+[2] (125,440)<button class='nav-btn'>Estado Annual />
+🏠 DEMO
+[3] (125,907)<button class='btn-secondary' id='logout-btn'>Salir />
+[4] (626,500)<main class='main-content' scrollable='true' />
+	Utilidad Neta
+	$ 6.800
+	Evolución Mensual (Ventas vs Utilidad Neta)
+	Márgenes (EBITDA, EBIT)

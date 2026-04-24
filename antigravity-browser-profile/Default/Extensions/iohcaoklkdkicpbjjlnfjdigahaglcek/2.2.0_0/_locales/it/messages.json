@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Pianifica appuntamenti: condividi disponibilità, lascia prenotazioni online e sincronizza il calendario per una gestione semplice."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: gestione appuntamenti e prenotazioni online"
+   }
+}

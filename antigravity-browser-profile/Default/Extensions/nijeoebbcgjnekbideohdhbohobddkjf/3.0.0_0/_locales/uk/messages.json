@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Переглядайте файли ePUB прямо у своєму браузері."
+   },
+   "app_name": {
+      "message": "ePub Reader"
+   },
+   "menu_dark_mode": {
+      "message": "Темний режим"
+   },
+   "menu_open_support": {
+      "message": "Відкрийте сторінку підтримки"
+   },
+   "menu_rate_us": {
+      "message": "Будь ласка, оцініть нас!"
+   },
+   "menu_reload_ui": {
+      "message": "Перезавантажити додаток"
+   },
+   "menu_upload_from_device": {
+      "message": "Завантажити зі свого пристрою"
+   },
+   "menu_use_gdrive": {
+      "message": "Використовуйте свій Gdrive"
+   },
+   "message_enter_url": {
+      "message": "Введіть URL-адресу або перетягніть файл ePub у вказане вище поле"
+   },
+   "message_error": {
+      "message": "Сталася помилка! будь ласка спробуйте ще раз."
+   },
+   "message_fetching_0": {
+      "message": "Вилучення документа 0%, будь ласка, зачекайте ..."
+   },
+   "message_fetching_1": {
+      "message": "Вилучення документа"
+   },
+   "message_fetching_2": {
+      "message": "%, будь ласка, зачекайте ..."
+   },
+   "message_loading": {
+      "message": "Завантаження документа, зачекайте ..."
+   },
+   "message_ready": {
+      "message": "Програма для читання ePUB готова"
+   },
+   "message_wrong_content": {
+      "message": "Недійсний файл! будь ласка спробуйте ще раз."
+   },
+   "methods_archived": {
+      "message": "Заархівовано"
+   },
+   "methods_highlights": {
+      "message": "Основні моменти"
+   },
+   "methods_hypothes": {
+      "message": "Гіпотети"
+   },
+   "methods_scrolled": {
+      "message": "Прокручується"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Прокручується безперервно"
+   },
+   "methods_spreads": {
+      "message": "Поширюється"
+   },
+   "methods_spreads_continuous": {
+      "message": "Поширюється безперервно"
+   },
+   "methods_swipe": {
+      "message": "Проведіть пальцем"
+   },
+   "title_font_size": {
+      "message": "Розмір шрифту (%)"
+   }
+}

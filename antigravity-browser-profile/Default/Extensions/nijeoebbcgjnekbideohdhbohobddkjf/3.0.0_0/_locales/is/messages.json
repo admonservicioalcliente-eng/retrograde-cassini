@@ -1,0 +1,77 @@
+{
+  "app_name": {
+    "message": "ePub Reader"
+  },
+  "app_description": {
+    "message": "Skoða ePUB skrár beint í vafranum þínum."
+  },
+  "menu_upload_from_device": {
+    "message": "Hladdu upp úr tækinu þínu"
+  },
+  "menu_dark_mode": {
+    "message": "Dark Mode"
+  },
+  "menu_reload_ui": {
+    "message": "Endurnýjaðu forritið"
+  },
+  "menu_open_support": {
+    "message": "Opna stuðningssíðu"
+  },
+  "menu_use_gdrive": {
+    "message": "Notaðu Gdrive þinn"
+  },
+  "menu_rate_us": {
+    "message": "Vinsamlegast metið okkur!"
+  },
+  "methods_swipe": {
+    "message": "Strjúktu"
+  },
+  "methods_spreads": {
+    "message": "Dreifist"
+  },
+  "methods_hypothes": {
+    "message": "Tilgátur"
+  },
+  "methods_archived": {
+    "message": "Í geymslu"
+  },
+  "methods_scrolled": {
+    "message": "Skrúfað"
+  },
+  "methods_highlights": {
+    "message": "Hápunktar"
+  },
+  "methods_spreads_continuous": {
+    "message": "Útbreiðsla stöðugur"
+  },
+  "methods_scrolled_continuous": {
+    "message": "Skrúfað stöðugt"
+  },
+  "title_font_size": {
+    "message": "Leturstærð (%)"
+  },
+  "message_loading": {
+    "message": "Hleður skjal, vinsamlega bíðið ..."
+  },
+  "message_error": {
+    "message": "Villa hefur komið upp! Vinsamlegast reyndu aftur."
+  },
+  "message_fetching_0": {
+    "message": "Sækir skjal 0% vinsamlegast bíddu ..."
+  },
+  "message_fetching_1": {
+    "message": "Sækir skjal"
+  },
+  "message_fetching_2": {
+    "message": "% Vinsamlegast bíðið..."
+  },
+  "message_ready": {
+    "message": "ePUB Reader er tilbúinn"
+  },
+  "message_enter_url": {
+    "message": "Vinsamlegast sláðu inn vefslóð eða dragðu og slepptu ePub skrá í ofangreindan reit"
+  },
+  "message_wrong_content": {
+    "message": "Ógild skrá! Vinsamlegast reyndu aftur."
+  }
+}

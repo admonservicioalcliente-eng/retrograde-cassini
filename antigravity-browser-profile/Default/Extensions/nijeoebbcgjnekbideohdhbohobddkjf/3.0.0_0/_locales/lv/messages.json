@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Skatiet ePUB failus tieši savā pārlūkprogrammā."
+   },
+   "app_name": {
+      "message": "ePub lasītājs"
+   },
+   "menu_dark_mode": {
+      "message": "Tumšs režīms"
+   },
+   "menu_open_support": {
+      "message": "Atveriet atbalsta lapu"
+   },
+   "menu_rate_us": {
+      "message": "Lūdzu, novērtējiet mūs!"
+   },
+   "menu_reload_ui": {
+      "message": "Pārlādēt lietojumprogrammu"
+   },
+   "menu_upload_from_device": {
+      "message": "Augšupielādēt no savas ierīces"
+   },
+   "menu_use_gdrive": {
+      "message": "Izmantojiet savu Gdrive"
+   },
+   "message_enter_url": {
+      "message": "Lūdzu, ievadiet URL vai velciet un nometiet ePub failu augšējā laukā"
+   },
+   "message_error": {
+      "message": "Radās kļūda! Lūdzu mēģiniet vēlreiz."
+   },
+   "message_fetching_0": {
+      "message": "Notiek dokumenta iegūšana 0%, lūdzu, uzgaidiet ..."
+   },
+   "message_fetching_1": {
+      "message": "Notiek dokumenta iegūšana"
+   },
+   "message_fetching_2": {
+      "message": "% Lūdzu uzgaidiet..."
+   },
+   "message_loading": {
+      "message": "Notiek dokumenta ielāde, lūdzu, uzgaidiet ..."
+   },
+   "message_ready": {
+      "message": "ePUB lasītājs ir gatavs"
+   },
+   "message_wrong_content": {
+      "message": "Nederīgs fails! Lūdzu mēģiniet vēlreiz."
+   },
+   "methods_archived": {
+      "message": "Arhivēts"
+   },
+   "methods_highlights": {
+      "message": "Uzsver"
+   },
+   "methods_hypothes": {
+      "message": "Hipotēzes"
+   },
+   "methods_scrolled": {
+      "message": "Ritināts"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Ritināts Nepārtraukts"
+   },
+   "methods_spreads": {
+      "message": "Izplatās"
+   },
+   "methods_spreads_continuous": {
+      "message": "Izplatās nepārtraukti"
+   },
+   "methods_swipe": {
+      "message": "Pārvelciet"
+   },
+   "title_font_size": {
+      "message": "Fonta izmērs (%)"
+   }
+}

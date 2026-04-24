@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Programeu reunions amb programari de reserves. Compartiu la vostra disponibilitat, permeteu que els clients reservin cites i sincronitzeu amb el vostre calendari."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Programació Gratuïta de Cites"
+   }
+}

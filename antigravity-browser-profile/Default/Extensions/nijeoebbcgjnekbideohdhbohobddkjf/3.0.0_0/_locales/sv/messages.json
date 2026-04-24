@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Visa ePUB-filer direkt i din webbläsare."
+   },
+   "app_name": {
+      "message": "ePub Reader"
+   },
+   "menu_dark_mode": {
+      "message": "Mörkt läge"
+   },
+   "menu_open_support": {
+      "message": "Öppna supportsidan"
+   },
+   "menu_rate_us": {
+      "message": "Vänligen betygsätt oss!"
+   },
+   "menu_reload_ui": {
+      "message": "Ladda om applikationen"
+   },
+   "menu_upload_from_device": {
+      "message": "Ladda upp från din enhet"
+   },
+   "menu_use_gdrive": {
+      "message": "Använd din Gdrive"
+   },
+   "message_enter_url": {
+      "message": "Ange en URL eller dra & släpp en ePub-fil i fältet ovan"
+   },
+   "message_error": {
+      "message": "Ett fel har uppstått! var god försök igen."
+   },
+   "message_fetching_0": {
+      "message": "Hämtar dokument 0% vänta ..."
+   },
+   "message_fetching_1": {
+      "message": "Hämtar dokument"
+   },
+   "message_fetching_2": {
+      "message": "% Vänta..."
+   },
+   "message_loading": {
+      "message": "Laddar dokument, vänta ..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader är klar"
+   },
+   "message_wrong_content": {
+      "message": "Felaktig fil! var god försök igen."
+   },
+   "methods_archived": {
+      "message": "arkiveras"
+   },
+   "methods_highlights": {
+      "message": "slingor"
+   },
+   "methods_hypothes": {
+      "message": "Hypothes"
+   },
+   "methods_scrolled": {
+      "message": "rullas"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Rullade kontinuerligt"
+   },
+   "methods_spreads": {
+      "message": "Sprider sig"
+   },
+   "methods_spreads_continuous": {
+      "message": "Uppslag kontinuerligt"
+   },
+   "methods_swipe": {
+      "message": "Svep"
+   },
+   "title_font_size": {
+      "message": "Textstorlek (%)"
+   }
+}

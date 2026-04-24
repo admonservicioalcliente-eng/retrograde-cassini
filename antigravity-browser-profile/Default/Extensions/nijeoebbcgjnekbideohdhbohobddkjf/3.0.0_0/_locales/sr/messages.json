@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Прегледајте еПУБ датотеке директно у прегледачу."
+   },
+   "app_name": {
+      "message": "еПуб Реадер"
+   },
+   "menu_dark_mode": {
+      "message": "Дарк Моде"
+   },
+   "menu_open_support": {
+      "message": "Отворите страницу подршке"
+   },
+   "menu_rate_us": {
+      "message": "Молимо оцените нас!"
+   },
+   "menu_reload_ui": {
+      "message": "Учитај поново апликацију"
+   },
+   "menu_upload_from_device": {
+      "message": "Отпремите са свог уређаја"
+   },
+   "menu_use_gdrive": {
+      "message": "Користите свој Гдриве"
+   },
+   "message_enter_url": {
+      "message": "Унесите УРЛ адресу или превуците и испустите еПуб датотеку у горње поље"
+   },
+   "message_error": {
+      "message": "Дошло је до грешке! молим вас, покушајте поново."
+   },
+   "message_fetching_0": {
+      "message": "Дохваћање документа 0%, молим причекајте ..."
+   },
+   "message_fetching_1": {
+      "message": "Преузимање документа"
+   },
+   "message_fetching_2": {
+      "message": "% сачекајте..."
+   },
+   "message_loading": {
+      "message": "Учитавање документа, причекајте ..."
+   },
+   "message_ready": {
+      "message": "еПУБ читач је спреман"
+   },
+   "message_wrong_content": {
+      "message": "Неисправан фајл! молим вас, покушајте поново."
+   },
+   "methods_archived": {
+      "message": "Архивирано"
+   },
+   "methods_highlights": {
+      "message": "Хигхлигхтс"
+   },
+   "methods_hypothes": {
+      "message": "Хипотезе"
+   },
+   "methods_scrolled": {
+      "message": "Померио се"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Сцролл Цонтинуоус"
+   },
+   "methods_spreads": {
+      "message": "Простире се"
+   },
+   "methods_spreads_continuous": {
+      "message": "Шире се непрекидно"
+   },
+   "methods_swipe": {
+      "message": "Прелазите прстом"
+   },
+   "title_font_size": {
+      "message": "Величина слова (%)"
+   }
+}

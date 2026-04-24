@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Agendar citas fácilmente: comparte disponibilidad, deja que clientes reserven y sincroniza todo con tu calendario."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: agendar citas y sincronizar con tu calendario"
+   }
+}

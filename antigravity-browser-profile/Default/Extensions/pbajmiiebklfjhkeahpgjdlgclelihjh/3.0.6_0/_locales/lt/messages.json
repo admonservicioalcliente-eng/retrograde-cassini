@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "Convert audio to text. Automatically record and transcribe your meetings, interviews, and other conversations with Transkriptor.",
+      "message": "Konvertuoti garsą į tekstą. Automatiškai įrašykite ir perrašykite savo susitikimus ir kitus pokalbius naudodami Transkriptor."
+   },
+   "appName": {
+      "description": "Transkriptor: Transcribe Audio to Text",
+      "message": "Transkriptor: Konvertuoti garsą į tekstą."
+   }
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis Financiero Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Notificación -->
+    <div id="toast" class="toast">Mensaje</div>
+
+    <!-- Pantalla de Login -->
+    <div id="login-view" class="view active">
+        <div class="login-card">
+            <h1>FinApp <span>Pro</span></h1>
+            <p>Accede a tu análisis financiero</p>
+            <form id="login-form">
+                <div class="input-group">
+                    <label for="company-id">ID Empresa</label>
+                    <input type="text" id="company-id" required placeholder="Ej: DEMO">
+                </div>
+                <div class="input-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" required placeholder="••••••••">
+                </div>
+                <button type="submit" class="btn-primary">Ingresar</button>
+            </form>
+            <p class="hint">Usa "DEMO" y "1234" para acceder rápido, las credenciales se auto-registrarán.</p>
+        </div>
+    </div>
+
+    <!-- Pantalla Principal -->
+    <div id="dashboard-view" class="view">
+        <aside class="sidebar">
+            <div class="logo">FinApp <span>Pro</span></div>
+            <nav>
+                <button class="nav-btn active" data-target="dashboard-home">Dashboard</button>
+                <button class="nav-btn" data-target="data-entry">Ingreso de Datos</button>
+                <button class="nav-btn" data-target="annual-statement">Estado Annual</button>
+                <button class="nav-btn" data-target="margins-statement">Márgenes %</button>
+            </nav>
+            <div class="sidebar-footer">
+                <span id="current-company"></span>
+                <button id="logout-btn" class="btn-secondary">Salir</button>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <!-- Home Dashboard -->
+            <section id="dashboard-home" class="section active">
+                <header>
+                    <h2>Resumen Financiero</h2>
+                    <div class="year-selector">
+                        <label for="dash-year">Año:</label>
+                        <input type="number" id="dash-year" value="2024" min="2000" max="2100">
+                    </div>
+                </header>
+                
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <h3>Ingresos Totales</h3>
+                        <p id="kpi-ingresos">$0</p>
+                    </div>
+                    <div class="kpi-card">
+                        <h3>Utilidad Bruta</h3>
+                        <p id="kpi-bruta">$0</p>
+                    </div>
+                    <div class="kpi-card">
+                        <h3>EBITDA</h3>
+                        <p id="kpi-ebitda">$0</p>
+                    </div>
+                    <div class="kpi-card highlight">
+                        <h3>Utilidad Neta</h3>
+                        <p id="kpi-neta">$0</p>
+                    </div>
+                </div>
+
+                <div class="charts-grid">
+                    <div class="chart-card">
+                        <h3>Evolución Mensual (Ventas vs Utilidad Neta)</h3>
+                        <canvas id="monthlyChart"></canvas>
+                    </div>
+                    <div class="chart-card">
+                        <h3>Márgenes (EBITDA, EBIT)</h3>
+                        <canvas id="marginsChart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Ingreso de Datos -->
+            <section id="data-entry" class="section">
+                <header>
+                    <h2>Registro Mensual</h2>
+                </header>
+                <div class="form-card">
+                    <form id="entry-form">
+                        <div class="form-row">
+                            <div class="input-group">
+                                <label for="entry-year">Año</label>
+                                <input type="number" id="entry-year" required value="2024">
+                            </div>
+                            <div class="input-group">
+                                <label for="entry-month">Mes</label>
+                                <select id="entry-month" required>
+                                    <option value="1">Enero</option>
+                                    <option value="2">Febrero</option>
+                                    <option value="3">Marzo</option>
+                                    <option value="4">Abril</option>
+                                    <option value="5">Mayo</option>
+                                    <option value="6">Junio</option>
+                                    <option value="7">Julio</option>
+                                    <option value="8">Agosto</option>
+                                    <option value="9">Septiembre</option>
+                                    <option value="10">Octubre</option>
+                                    <option value="11">Noviembre</option>
+                                    <option value="12">Diciembre</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-grid">
+                            <div class="input-group">
+                                <label>1. Ventas Netas</label>
+                                <input type="number" id="ventas-netas" step="0.01" required>
+                            </div>
+                            <div class="input-group">
+                                <label>2. Costo de Ventas</label>
+                                <input type="number" id="costo-ventas" step="0.01" required>
+                            </div>
+                            <div class="input-group">
+                                <label>3. Gastos de Administración</label>
+                                <input type="number" id="gastos-admin" step="0.01" required>
+                            </div>
+                            <div class="input-group">
+                                <label>4. Depreciación y Amortización</label>
+                                <input type="number" id="depreciacion" step="0.01" required>
+                            </div>
+                            <div class="input-group">
+                                <label>6. Ingresos Financieros</label>
+                                <input type="number" id="ingresos-fin" step="0.01" required>
+                            </div>
+                            <div class="input-group">
+                                <label>6. Gastos Financieros</label>
+                                <input type="number" id="gastos-fin" step="0.01" required>
+                            </div>
+                            <div class="input-group">
+                                <label>7. Impuestos sobre la renta</label>
+                                <input type="number" id="impuestos" step="0.01" required>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-primary mt-2">Guardar Registro</button>
+                    </form>
+                    const enviarDatos = async (objetoFinanciero) => {
+  try {
+    const response = await fetch('/.netlify/functions/guardar-financiero', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(objetoFinanciero)
+    });
+    
+    const resultado = await response.json();
+    alert("Datos guardados con ID: " + resultado.id);
+  } catch (error) {
+    console.error("Error al enviar:", error);
+  }
+};
+
+                </div>
+            </section>
+
+            <!-- Estado Anual -->
+            <section id="annual-statement" class="section">
+                <header>
+                    <h2>Estado de Resultados Anual</h2>
+                    <div class="year-selector">
+                        <label for="table-year">Año:</label>
+                        <input type="number" id="table-year" value="2024">
+                    </div>
+                </header>
+                <div class="table-container">
+                    <table id="statement-table">
+                        <thead>
+                            <tr>
+                                <th>Concepto</th>
+                                <th>Ene</th><th>Feb</th><th>Mar</th><th>Abr</th><th>May</th><th>Jun</th><th>Jul</th><th>Ago</th><th>Sep</th><th>Oct</th><th>Nov</th><th>Dic</th>
+                                <th class="highlight">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Se rellenará con JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Índices Porcentuales (Márgenes) -->
+            <section id="margins-statement" class="section">
+                <header>
+                    <h2>Análisis de Márgenes (%)</h2>
+                    <div class="header-actions">
+                        <div class="year-selector">
+                            <label for="margins-year">Año:</label>
+                            <input type="number" id="margins-year" value="2024">
+                        </div>
+                        <button id="export-margins-btn" class="btn-secondary">Exportar a CSV</button>
+                    </div>
+                </header>
+
+                <div class="chart-card mb-2">
+                    <h3>Evolución Detallada de Márgenes</h3>
+                    <canvas id="marginsEvolutionChart"></canvas>
+                </div>
+
+                <div class="table-container">
+                    <table id="margins-table">
+                        <thead>
+                            <tr>
+                                <th>Concepto (%)</th>
+                                <th>Ene</th><th>Feb</th><th>Mar</th><th>Abr</th><th>May</th><th>Jun</th><th>Jul</th><th>Ago</th><th>Sep</th><th>Oct</th><th>Nov</th><th>Dic</th>
+                                <th class="highlight">Promedio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Se rellenará con JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="db.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

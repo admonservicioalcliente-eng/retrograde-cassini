@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "צפה בקבצי ePUB ישירות בדפדפן שלך."
+   },
+   "app_name": {
+      "message": "קורא ePub"
+   },
+   "menu_dark_mode": {
+      "message": "מצב כהה"
+   },
+   "menu_open_support": {
+      "message": "דף תמיכה פתוח"
+   },
+   "menu_rate_us": {
+      "message": "אנא דרג אותנו!"
+   },
+   "menu_reload_ui": {
+      "message": "טען מחדש את היישום"
+   },
+   "menu_upload_from_device": {
+      "message": "העלה מהמכשיר שלך"
+   },
+   "menu_use_gdrive": {
+      "message": "השתמש ב- Gdrive שלך"
+   },
+   "message_enter_url": {
+      "message": "אנא הכנס URL או גרור ושחרר קובץ ePub בשדה לעיל"
+   },
+   "message_error": {
+      "message": "אירעה שגיאה! בבקשה נסה שוב."
+   },
+   "message_fetching_0": {
+      "message": "מוציא מסמך 0% אנא המתן ..."
+   },
+   "message_fetching_1": {
+      "message": "שולף מסמך"
+   },
+   "message_fetching_2": {
+      "message": "% המתן בבקשה..."
+   },
+   "message_loading": {
+      "message": "טוען מסמך, אנא המתן ..."
+   },
+   "message_ready": {
+      "message": "קורא ה- ePUB מוכן"
+   },
+   "message_wrong_content": {
+      "message": "קובץ לא תקין! בבקשה נסה שוב."
+   },
+   "methods_archived": {
+      "message": "נשמר בארכיון"
+   },
+   "methods_highlights": {
+      "message": "עיקרי הדברים"
+   },
+   "methods_hypothes": {
+      "message": "השערות"
+   },
+   "methods_scrolled": {
+      "message": "גלול"
+   },
+   "methods_scrolled_continuous": {
+      "message": "גלילה רציפה"
+   },
+   "methods_spreads": {
+      "message": "ממרחים"
+   },
+   "methods_spreads_continuous": {
+      "message": "ממרחים רציפים"
+   },
+   "methods_swipe": {
+      "message": "החלק"
+   },
+   "title_font_size": {
+      "message": "גודל גופן (%)"
+   }
+}

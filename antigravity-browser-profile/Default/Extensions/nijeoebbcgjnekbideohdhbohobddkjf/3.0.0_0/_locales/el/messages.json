@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Προβάλετε τα αρχεία ePUB απευθείας στο πρόγραμμα περιήγησης."
+   },
+   "app_name": {
+      "message": "Αναγνώστης ePub"
+   },
+   "menu_dark_mode": {
+      "message": "Σκοτεινή λειτουργία"
+   },
+   "menu_open_support": {
+      "message": "Ανοίξτε τη σελίδα υποστήριξης"
+   },
+   "menu_rate_us": {
+      "message": "Παρακαλούμε αξιολογήστε μας!"
+   },
+   "menu_reload_ui": {
+      "message": "Επαναφόρτωση εφαρμογής"
+   },
+   "menu_upload_from_device": {
+      "message": "Μεταφόρτωση από τη συσκευή σας"
+   },
+   "menu_use_gdrive": {
+      "message": "Χρησιμοποιήστε το Gdrive σας"
+   },
+   "message_enter_url": {
+      "message": "Καταχωρίστε μια διεύθυνση URL ή μεταφέρετε και αποθέστε ένα αρχείο ePub στο παραπάνω πεδίο"
+   },
+   "message_error": {
+      "message": "Παρουσιάστηκε σφάλμα! ΠΑΡΑΚΑΛΩ προσπαθησε ξανα."
+   },
+   "message_fetching_0": {
+      "message": "Λήψη εγγράφου 0% παρακαλώ περιμένετε ..."
+   },
+   "message_fetching_1": {
+      "message": "Λήψη εγγράφου"
+   },
+   "message_fetching_2": {
+      "message": "% Παρακαλώ περιμένετε..."
+   },
+   "message_loading": {
+      "message": "Φόρτωση εγγράφου, παρακαλώ περιμένετε ..."
+   },
+   "message_ready": {
+      "message": "Το ePUB Reader είναι έτοιμο"
+   },
+   "message_wrong_content": {
+      "message": "Μη έγκυρο αρχείο! ΠΑΡΑΚΑΛΩ προσπαθησε ξανα."
+   },
+   "methods_archived": {
+      "message": "Αρχειοθετημένα"
+   },
+   "methods_highlights": {
+      "message": "Καλύτερες στιγμές"
+   },
+   "methods_hypothes": {
+      "message": "Υπόθεση"
+   },
+   "methods_scrolled": {
+      "message": "Έγιναν κύλιση"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Πραγματοποιήθηκε κύλιση Συνεχής"
+   },
+   "methods_spreads": {
+      "message": "Διαδίδει"
+   },
+   "methods_spreads_continuous": {
+      "message": "Spreads Συνεχής"
+   },
+   "methods_swipe": {
+      "message": "Σουφρώνω"
+   },
+   "title_font_size": {
+      "message": "Μέγεθος γραμματοσειράς (%)"
+   }
+}

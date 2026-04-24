@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title data-i18n="app_name">ePUB Reader</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link async rel="stylesheet" href="css/bootstrap.min.css" />
+  <link async rel="stylesheet" href="css/fall.css" />
+
+  <link async rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <div class="left">
+    <div class="item">
+      <i class="fas fa-fw fa-bars"></i>
+      <img src="../icons/32.png" height="32">
+      <span data-i18n="app_name">ePub Reader</span>
+    </div>
+    <div class="item active" id="upload-epub">
+      <i class="fas fa-fw fa-file-upload"></i>
+      <span data-i18n="menu_upload_from_device">Upload From Your Device</span>
+    </div>
+    <div class="item dark" id="dark" title="__MSG_menu_dark_mode__">
+      <i class="fas fa-fw fa-moon"></i> <span data-i18n="menu_dark_mode">Dark Mode</span>
+    </div>
+    <div class="item methods only-loaded" title="ePub View">
+      <i class="fas fa-fw fa-eye"></i>
+      <select id="methods" title="ePub view">
+        <option value="swipe" data-i18n="methods_swipe">Swipe 1</option>
+        <option value="spreads" data-i18n="methods_spreads">Spreads</option>
+        <option value="hypothes" data-i18n="methods_hypothes">Hypothes</option>
+        <option value="archived" data-i18n="methods_archived">Archived</option>
+        <option value="scrolled" data-i18n="methods_scrolled">Scrolled</option>
+        <option value="highlights" data-i18n="methods_highlights">Highlights</option>
+        <option value="spreads-continuous" data-i18n="methods_spreads_continuous">Spreads Continuous</option>
+        <option value="scrolled-continuous" data-i18n="methods_scrolled_continuous">Scrolled Continuous</option>
+      </select>
+    </div>
+    <div class="item font only-loaded" title="Font size (%)">
+      <i class="fas fa-fw fa-font"></i> <input type="number" id="font" value=75 min=10 max=300
+        title="__MSG_title_font_size__"></input>
+    </div>
+
+    <div class="item reload only-loaded" id="reload" title="__MSG_menu_reload_ui__">
+      <i class="fas fa-fw fa-redo"></i> <span data-i18n="menu_reload_ui">Reload Application</span>
+    </div>
+    <div class="item support" id="support" title="__MSG_menu_open_support__">
+      <i class="fas fa-fw fa-helicopter"></i> <span data-i18n="menu_open_support">Open support page</span>
+    </div>
+    <div class="item" id="gdrive" title="__MSG_menu_use_gdrive__">
+      <i class="fab fa-fw fa-google-drive"></i> <span data-i18n="menu_use_gdrive">Use Your Gdrive</span>
+    </div>
+    <div target="_blank" class="item teaser" id="rateUs" title="__MSG_menu_rate_us__">
+      <i class="fas fa-star"></i><span data-i18n="menu_rate_us">Please Rate Us!</span> <span
+        class="five-stars">⭑⭑⭑⭑⭑</span>
+    </div>
+
+  </div>
+  <div class="right">
+    <input type="file" id="file" title="Select an ePub file" multiple class="form-control"
+      style="display: none;"></input>
+    <div class="logo-x">
+      <a href="https://epub.freebusinessapps.net/epub-reader">
+        <img src="../icons/48.png"><span data-i18n="app_name">ePUB Reader</span>
+      </a>
+    </div>
+
+
+    <div id="content-row">
+      <div class="toolbar">
+        <table>
+          <tr>
+            <td class="prev only-loaded">
+              <div id="prev">‹</div>
+            </td>
+            <td class="url">
+              <div class="info">
+                <div id="info"></div>
+              </div>
+              <input type="text" id="url" placeholder="enter a url for the epub file" style="display:none"></input>
+            </td>
+
+            <td class="next only-loaded">
+              <div id="next">›</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="epub-container only-loaded">
+        <div class="epub">
+          <div id="epub"></div>
+        </div>
+        <!--<table>
+                        <tr>
+                          <td class="prev"><div id="prev">‹</div></td>
+                          <td class="epub"><div id="epub"></div></td>
+                          <td class="next"><div id="next">›</div></td>
+                        </tr>
+                      </table>-->
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="vendor/jszip.js"></script>
+  <script type="text/javascript" src="vendor/epub.js"></script>
+  <script type="text/javascript" src="js/popper.js"></script>
+  <script type="text/javascript" src="js/Localize.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" src="/js/rate.js"></script>
+</body>
+
+</html>

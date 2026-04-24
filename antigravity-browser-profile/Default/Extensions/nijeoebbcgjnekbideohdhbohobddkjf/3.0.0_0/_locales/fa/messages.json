@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "فایلهای ePUB را درست در مرورگر خود مشاهده کنید."
+   },
+   "app_name": {
+      "message": "ePub Reader"
+   },
+   "menu_dark_mode": {
+      "message": "حالت تاریک"
+   },
+   "menu_open_support": {
+      "message": "صفحه پشتیبانی را باز کنید"
+   },
+   "menu_rate_us": {
+      "message": "لطفا به ما امتیاز دهید"
+   },
+   "menu_reload_ui": {
+      "message": "بارگیری مجدد برنامه"
+   },
+   "menu_upload_from_device": {
+      "message": "از دستگاه خود بارگیری کنید"
+   },
+   "menu_use_gdrive": {
+      "message": "از Gdrive استفاده کنید"
+   },
+   "message_enter_url": {
+      "message": "لطفاً URL را وارد کنید یا یک پرونده ePub را در قسمت بالا بکشید و رها کنید"
+   },
+   "message_error": {
+      "message": "خطایی رخ داده است! لطفا دوباره تلاش کنید."
+   },
+   "message_fetching_0": {
+      "message": "دریافت سند 0٪ لطفا منتظر بمانید ..."
+   },
+   "message_fetching_1": {
+      "message": "سند واکشی"
+   },
+   "message_fetching_2": {
+      "message": "٪ لطفا صبر کنید..."
+   },
+   "message_loading": {
+      "message": "در حال بارگیری سند ، لطفاً صبر کنید ..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader آماده است"
+   },
+   "message_wrong_content": {
+      "message": "فایل نامعتبر! لطفا دوباره تلاش کنید."
+   },
+   "methods_archived": {
+      "message": "بایگانی شده"
+   },
+   "methods_highlights": {
+      "message": "نکات برجسته"
+   },
+   "methods_hypothes": {
+      "message": "فرضیه"
+   },
+   "methods_scrolled": {
+      "message": "پیمایش شده"
+   },
+   "methods_scrolled_continuous": {
+      "message": "پیوسته پیمایش شده است"
+   },
+   "methods_spreads": {
+      "message": "پخش می کند"
+   },
+   "methods_spreads_continuous": {
+      "message": "به طور مداوم پخش می شود"
+   },
+   "methods_swipe": {
+      "message": "کش رفتن"
+   },
+   "title_font_size": {
+      "message": "اندازه فونت (٪)"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Agende reuniões com software de reservas. Partilhe a sua disponibilidade, permita que os clientes marquem consultas e sincronize com o seu calendário."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Agendamento Gratuito de Consultas"
+   }
+}

@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Consulteu els fitxers ePUB al vostre navegador."
+   },
+   "app_name": {
+      "message": "ePub Reader"
+   },
+   "menu_dark_mode": {
+      "message": "Mode fosc"
+   },
+   "menu_open_support": {
+      "message": "Obriu la pàgina de suport"
+   },
+   "menu_rate_us": {
+      "message": "Valoreu-nos!"
+   },
+   "menu_reload_ui": {
+      "message": "Aplicació de recàrrega"
+   },
+   "menu_upload_from_device": {
+      "message": "Pengeu des del vostre dispositiu"
+   },
+   "menu_use_gdrive": {
+      "message": "Utilitzeu el vostre Gdrive"
+   },
+   "message_enter_url": {
+      "message": "Introduïu un URL o arrossegueu i deixeu anar un fitxer ePub al camp anterior"
+   },
+   "message_error": {
+      "message": "S'ha produït un error! siusplau torna-ho a provar."
+   },
+   "message_fetching_0": {
+      "message": "Obtenció del document 0%, si us plau, espera ..."
+   },
+   "message_fetching_1": {
+      "message": "Obtenció del document"
+   },
+   "message_fetching_2": {
+      "message": "% si us plau, espera ..."
+   },
+   "message_loading": {
+      "message": "Carregant document, espereu ..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader està a punt"
+   },
+   "message_wrong_content": {
+      "message": "Arxiu no vàlid! siusplau torna-ho a provar."
+   },
+   "methods_archived": {
+      "message": "Arxivat"
+   },
+   "methods_highlights": {
+      "message": "Destaquen"
+   },
+   "methods_hypothes": {
+      "message": "Hipòtesis"
+   },
+   "methods_scrolled": {
+      "message": "Desplaçat"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Desplaçament continu"
+   },
+   "methods_spreads": {
+      "message": "Difusió"
+   },
+   "methods_spreads_continuous": {
+      "message": "Difusió contínua"
+   },
+   "methods_swipe": {
+      "message": "Feu lliscar"
+   },
+   "title_font_size": {
+      "message": "Mida de la font (%)"
+   }
+}

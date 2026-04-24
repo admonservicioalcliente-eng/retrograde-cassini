@@ -1,0 +1,32 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "data/icons/16.png",
+         "32": "data/icons/32.png",
+         "48": "data/icons/48.png",
+         "64": "data/icons/64.png"
+      },
+      "default_title": "__MSG_app_name__"
+   },
+   "background": {
+      "service_worker": "/js/bg-mv3.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_app_description__",
+   "homepage_url": "https://epub-reader.freeonlineapps.net/",
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAttvoUp5KPO8h5NYilYbdh5v8q5uE8Xt/B1Waur5XhQmVC7SbfkdqyInrKjQ5Lqkpvbw7u6L3GyQr4SNBwLt1pVJ4V19Oy289MfjQmdQRK0UY2TgpkMkxqc6/rjq4qb6Jh3Uu6+6m6WxO0N0ChCDhME0DaSsqPJAiKDV1b6jek4LTsPr5ExAJhu2HeE9R/B+4MZzYrpsU5v8lXhm8vIyVXVBW+5qL66zURH2oiRNy6y8h285YpFddITgtOB5ylnCNtJ8ZKg6ScMxBXOP0bZ7ZZq04DD+SunbHjhq56shNbi8zdE4pXckWgZRzptD8UNwkPW83aE2C2GPQk7u9xkiJYQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_app_name__",
+   "offline_enabled": true,
+   "permissions": [ "storage" ],
+   "short_name": "__MSG_app_name__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.0"
+}

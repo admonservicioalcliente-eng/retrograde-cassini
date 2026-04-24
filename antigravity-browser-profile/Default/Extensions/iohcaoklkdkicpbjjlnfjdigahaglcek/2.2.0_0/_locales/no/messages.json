@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Planlegg møter med bestillingsprogramvare. Del tilgjengeligheten din, la klienter bestille avtaler og synkroniser med kalenderen din."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Gratis Avtaleplanlegging"
+   }
+}

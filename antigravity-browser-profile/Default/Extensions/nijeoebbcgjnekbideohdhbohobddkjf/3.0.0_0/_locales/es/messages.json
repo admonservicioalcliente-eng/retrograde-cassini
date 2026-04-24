@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Ver archivos ePUB directamente en su navegador."
+   },
+   "app_name": {
+      "message": "ePub Reader"
+   },
+   "menu_dark_mode": {
+      "message": "Modo oscuro"
+   },
+   "menu_open_support": {
+      "message": "Abrir página de soporte"
+   },
+   "menu_rate_us": {
+      "message": "¡Por favor califícanos!"
+   },
+   "menu_reload_ui": {
+      "message": "Recargar aplicación"
+   },
+   "menu_upload_from_device": {
+      "message": "Subir desde su dispositivo"
+   },
+   "menu_use_gdrive": {
+      "message": "Usa tu Gdrive"
+   },
+   "message_enter_url": {
+      "message": "Ingrese una URL o arrastre y suelte un archivo ePub en el campo anterior."
+   },
+   "message_error": {
+      "message": "¡Se ha producido un error! Inténtalo de nuevo."
+   },
+   "message_fetching_0": {
+      "message": "Obteniendo documento 0% por favor espere ..."
+   },
+   "message_fetching_1": {
+      "message": "Obteniendo documento"
+   },
+   "message_fetching_2": {
+      "message": "% por favor espera..."
+   },
+   "message_loading": {
+      "message": "Cargando documento, por favor espere ..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader está listo"
+   },
+   "message_wrong_content": {
+      "message": "¡Archivo inválido! Inténtalo de nuevo."
+   },
+   "methods_archived": {
+      "message": "Archivado"
+   },
+   "methods_highlights": {
+      "message": "Reflejos"
+   },
+   "methods_hypothes": {
+      "message": "Hipótesis"
+   },
+   "methods_scrolled": {
+      "message": "Desplazado"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Desplazado continuo"
+   },
+   "methods_spreads": {
+      "message": "Diferenciales"
+   },
+   "methods_spreads_continuous": {
+      "message": "Se extiende continua"
+   },
+   "methods_swipe": {
+      "message": "Golpe fuerte"
+   },
+   "title_font_size": {
+      "message": "Tamaño de fuente (%)"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Plánujte stretnutia pomocou rezervačného softvéru. Zdieľajte svoju dostupnosť, umožnite klientom rezervovať si stretnutia a synchronizujte s vaším kalendárom."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Bezplatné Plánovanie Stretnutí"
+   }
+}

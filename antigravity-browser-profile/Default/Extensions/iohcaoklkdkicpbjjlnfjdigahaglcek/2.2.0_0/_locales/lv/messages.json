@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Plānojiet tikšanās ar rezervēšanas programmatūru. Dalieties ar savu pieejamību, ļaujiet klientiem rezervēt tikšanās un sinhronizējiet ar savu kalendāru."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Bezmaksas Tikšanās Plānošana"
+   }
+}

@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "ดูไฟล์ ePUB ในเบราว์เซอร์ของคุณ"
+   },
+   "app_name": {
+      "message": "ePub Reader"
+   },
+   "menu_dark_mode": {
+      "message": "โหมดมืด"
+   },
+   "menu_open_support": {
+      "message": "เปิดหน้าสนับสนุน"
+   },
+   "menu_rate_us": {
+      "message": "กรุณาให้คะแนนเรา!"
+   },
+   "menu_reload_ui": {
+      "message": "โหลดแอปพลิเคชันใหม่"
+   },
+   "menu_upload_from_device": {
+      "message": "อัปโหลดจากอุปกรณ์ของคุณ"
+   },
+   "menu_use_gdrive": {
+      "message": "ใช้ Gdrive ของคุณ"
+   },
+   "message_enter_url": {
+      "message": "โปรดป้อน URL หรือลากและวางไฟล์ ePub ในช่องด้านบน"
+   },
+   "message_error": {
+      "message": "เกิดข้อผิดพลาด! กรุณาลองอีกครั้ง."
+   },
+   "message_fetching_0": {
+      "message": "กำลังดึงเอกสาร 0% โปรดรอสักครู่ ..."
+   },
+   "message_fetching_1": {
+      "message": "กำลังดึงเอกสาร"
+   },
+   "message_fetching_2": {
+      "message": "% โปรดรอ..."
+   },
+   "message_loading": {
+      "message": "กำลังโหลดเอกสารโปรดรอ ..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader พร้อมใช้งาน"
+   },
+   "message_wrong_content": {
+      "message": "ไฟล์ไม่ถูกต้อง! กรุณาลองอีกครั้ง."
+   },
+   "methods_archived": {
+      "message": "เก็บถาวร"
+   },
+   "methods_highlights": {
+      "message": "ไฮไลท์"
+   },
+   "methods_hypothes": {
+      "message": "Hypothes"
+   },
+   "methods_scrolled": {
+      "message": "เลื่อน"
+   },
+   "methods_scrolled_continuous": {
+      "message": "เลื่อนอย่างต่อเนื่อง"
+   },
+   "methods_spreads": {
+      "message": "การแพร่กระจาย"
+   },
+   "methods_spreads_continuous": {
+      "message": "กระจายอย่างต่อเนื่อง"
+   },
+   "methods_swipe": {
+      "message": "งาบ"
+   },
+   "title_font_size": {
+      "message": "ขนาดตัวอักษร (%)"
+   }
+}

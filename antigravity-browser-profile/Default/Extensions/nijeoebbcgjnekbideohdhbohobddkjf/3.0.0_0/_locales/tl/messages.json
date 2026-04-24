@@ -1,0 +1,77 @@
+{
+  "app_name": {
+    "message": "ePub Reader"
+  },
+  "app_description": {
+    "message": "Tingnan ang mga file ng ePUB mismo sa iyong browser."
+  },
+  "menu_upload_from_device": {
+    "message": "Mag-upload Mula sa Iyong aparato"
+  },
+  "menu_dark_mode": {
+    "message": "Madilim Mode"
+  },
+  "menu_reload_ui": {
+    "message": "Reload Application"
+  },
+  "menu_open_support": {
+    "message": "Buksan ang Pahina ng Suporta"
+  },
+  "menu_use_gdrive": {
+    "message": "Gamitin ang Iyong Gdrive"
+  },
+  "menu_rate_us": {
+    "message": "Paki-rate sa Amin!"
+  },
+  "methods_swipe": {
+    "message": "Mag-swipe"
+  },
+  "methods_spreads": {
+    "message": "Mga kumalat"
+  },
+  "methods_hypothes": {
+    "message": "Mga hipothes"
+  },
+  "methods_archived": {
+    "message": "Naka-archive"
+  },
+  "methods_scrolled": {
+    "message": "Nag-scroll"
+  },
+  "methods_highlights": {
+    "message": "Mga Highlight"
+  },
+  "methods_spreads_continuous": {
+    "message": "Patuloy ang Mga Pagkalat"
+  },
+  "methods_scrolled_continuous": {
+    "message": "Patuloy na Nag-scroll"
+  },
+  "title_font_size": {
+    "message": "Laki ng font (%)"
+  },
+  "message_loading": {
+    "message": "Naglo-load ng dokumento, mangyaring maghintay ..."
+  },
+  "message_error": {
+    "message": "May nangyaring pagakamali! ulitin mo ulit."
+  },
+  "message_fetching_0": {
+    "message": "Pagkuha ng dokumento 0% mangyaring maghintay ..."
+  },
+  "message_fetching_1": {
+    "message": "Kumuha ng dokumento"
+  },
+  "message_fetching_2": {
+    "message": "mangyaring maghintay ..."
+  },
+  "message_ready": {
+    "message": "handa ang ePUB Reader"
+  },
+  "message_enter_url": {
+    "message": "Mangyaring magpasok ng isang URL o i-drag at i-drop ang isang ePub file sa patlang sa itaas"
+  },
+  "message_wrong_content": {
+    "message": "Hindi wastong file! ulitin mo ulit."
+  }
+}

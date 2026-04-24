@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Просмотр файлов ePUB прямо в вашем браузере."
+   },
+   "app_name": {
+      "message": "ePub Reader"
+   },
+   "menu_dark_mode": {
+      "message": "Темный режим"
+   },
+   "menu_open_support": {
+      "message": "Открыть страницу поддержки"
+   },
+   "menu_rate_us": {
+      "message": "Пожалуйста, оцените нас!"
+   },
+   "menu_reload_ui": {
+      "message": "Перезагрузить приложение"
+   },
+   "menu_upload_from_device": {
+      "message": "Загрузить с вашего устройства"
+   },
+   "menu_use_gdrive": {
+      "message": "Используйте свой Gdrive"
+   },
+   "message_enter_url": {
+      "message": "Пожалуйста, введите URL или перетащите файл ePub в поле выше"
+   },
+   "message_error": {
+      "message": "Произошла ошибка! пожалуйста, попробуйте снова."
+   },
+   "message_fetching_0": {
+      "message": "Загрузка документа 0%, пожалуйста, подождите ..."
+   },
+   "message_fetching_1": {
+      "message": "Получение документа"
+   },
+   "message_fetching_2": {
+      "message": "% подождите пожалуйста..."
+   },
+   "message_loading": {
+      "message": "Загрузка документа, пожалуйста, подождите ..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader готов"
+   },
+   "message_wrong_content": {
+      "message": "Файл поврежден! пожалуйста, попробуйте снова."
+   },
+   "methods_archived": {
+      "message": "Архивировано"
+   },
+   "methods_highlights": {
+      "message": "Особенности"
+   },
+   "methods_hypothes": {
+      "message": "Hypothes"
+   },
+   "methods_scrolled": {
+      "message": "прокручивается"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Прокрутка Непрерывная"
+   },
+   "methods_spreads": {
+      "message": "спреды"
+   },
+   "methods_spreads_continuous": {
+      "message": "Спреды непрерывные"
+   },
+   "methods_swipe": {
+      "message": "красть"
+   },
+   "title_font_size": {
+      "message": "Размер шрифта (%)"
+   }
+}

@@ -1,0 +1,1576 @@
+{
+   "accountSettingsOption": {
+      "description": "Label for the account settings option in the popup",
+      "message": "Hesap ayarları"
+   },
+   "addAudioButtonDescription": {
+      "description": "Ses ekleme etiketi",
+      "message": "Kendi sesinizi yükleyerek videoya ses ekleyin"
+   },
+   "addAudioButtonTitle": {
+      "description": "Ses ekleme düğmesi",
+      "message": "Ses Ekle"
+   },
+   "addImageToastTitle": {
+      "description": "Yeni bir resim eklenirken gösterilen bilgilendirme penceresi",
+      "message": "Resim eklemek için tıklayın"
+   },
+   "addedToMultiToast": {
+      "description": "Toast message shown when a scene is added to multi-recording",
+      "message": "Sahne Multi kaydına eklendi"
+   },
+   "addingToLabel": {
+      "description": "Label shown when a scene is being recorded to a project",
+      "message": "Şuraya ekleniyor: "
+   },
+   "alarmLabel": {
+      "description": "Alarm etiketi",
+      "message": "Zaman sınırlaması ayarla"
+   },
+   "allVideosHeading": {
+      "description": "Heading for the all videos section in the popup",
+      "message": "Tüm videolar"
+   },
+   "allowCameraAccessButton": {
+      "description": "Kamera erişimine izin verme düğmesi",
+      "message": "Kamera erişimine izin ver"
+   },
+   "allowMicrophoneAccessButton": {
+      "description": "Mikrofon erişimine izin verme düğmesi",
+      "message": "Mikrofon erişimine izin ver"
+   },
+   "arrowToolTooltip": {
+      "description": "Ok Aracı araç ipucu",
+      "message": "Ok Aracı"
+   },
+   "audioTrackEndedToast": {
+      "description": "Toast shown when the audio track ends mid-recording (e.g. mic unplugged, permission revoked)",
+      "message": "Ses bağlantısı kesildi. Kaydınız şimdi kaydediliyor. Şimdiye kadar yakalanan video güvende."
+   },
+   "audioWarningDescription": {
+      "description": "Ses Uyarı Açıklaması",
+      "message": "Bu sayfanın sesini kaydetmek için '$tab$' seçeneğini kullanmalısınız.",
+      "placeholders": {
+         "tab": {
+            "content": "$1",
+            "example": "Sekme Alanı"
+         }
+      }
+   },
+   "audioWarningTitle": {
+      "description": "Ses Uyarı Başlığı",
+      "message": "Sayfa Sesini Kaydet"
+   },
+   "backgroundEffectsLabel": {
+      "description": "Arka plan efektleri anahtarı etiketi",
+      "message": "Arka plan efektleri"
+   },
+   "backupPermissionFailDescription": {
+      "description": "Yedekleme İzin Reddi Açıklaması",
+      "message": "Kayıtlarınızın yerel bir kopyası oluşturmak için bir klasör seçmediniz. Tarayıcınızın veya işletim sisteminizin sürümüne bağlı olarak, her kayıt yapmaya başladığınızda klasörü seçmeniz istenebilir. Tekrar deneyebilir veya izinleri tekrar vermek istemiyorsanız yedeklemeleri tamamen devre dışı bırakabilirsiniz."
+   },
+   "backupPermissionFailTitle": {
+      "description": "Yedekleme İzin Reddi Başlığı",
+      "message": "Kaydın Yedeklemesi İçin İzin Verilmedi"
+   },
+   "backupsClose": {
+      "description": "Yine de Sekmeyi Kapat Düğmesi",
+      "message": "Yine de Sekmeyi Kapat"
+   },
+   "backupsConfirmAllow": {
+      "description": "Yedeklemeler Onayında İzin Ver Düğmesi",
+      "message": "Screenity'e Kayıtların Yedeklemesine Devam Etme İzni Ver"
+   },
+   "backupsConfirmDescription": {
+      "description": "Yedeklemeler Onay Açıklaması",
+      "message": "Üzgünüz, ancak kayıtlarınızın yerel kopyalarını oluşturmaya devam etmek için tekrar izniniz gerekiyor. Maalesef, bu sekme kapandığında her seferinde sormamız gerekecek, bu da tarayıcıyı kapatmanız veya bilgisayarınızı yeniden başlatmanız durumunda olabilir."
+   },
+   "backupsConfirmTitle": {
+      "description": "Yedeklemeler Onay Başlığı",
+      "message": "Lütfen Screenity'in Yerel Yedekleme Klasörüne Erişimini Tekrar Onaylayın"
+   },
+   "backupsDescription1": {
+      "description": "Yedeklemeler Açıklaması",
+      "message": "Yaptığınız tüm kayıtların bir yedeğini alın. Yedeklemeleri yapılandırmazsanız, kayıtlarınızı indirmeye karar verdiğinizde yalnızca kaydedilecektir."
+   },
+   "backupsDescription2": {
+      "description": "Yedeklemeler Açıklaması",
+      "message": "İndirmeler veya diğer sistem klasörlerine kaydetmeye çalışıyorsanız, önce yeni bir klasör oluşturmanız gerekebilir."
+   },
+   "backupsNotNow": {
+      "description": "Şimdi Değil Düğmesi",
+      "message": "Şimdi Değil"
+   },
+   "backupsOnDescription": {
+      "description": "Etkin Yedeklemeler Açıklaması",
+      "message": "Her kayıt yaparken izin istemekten kaçınmak için bu sekme açık bırakmanızı öneririz."
+   },
+   "backupsOnTitle": {
+      "description": "Etkin Yedeklemeler Başlığı",
+      "message": "Kayıtlarınız Yerel Olarak Senkronize Ediliyor"
+   },
+   "backupsSelectFolder": {
+      "description": "Klasör Seçme Düğmesi",
+      "message": "Klasör Seç"
+   },
+   "backupsStop": {
+      "description": "Yedeklemeleri Durdur Düğmesi",
+      "message": "Tüm Kayıtların Yedeklemesini Durdur"
+   },
+   "backupsTitle": {
+      "description": "Yedeklemeler Başlığı",
+      "message": "Screenity Kayıtlarınız için Yerel Yedekleme Ayarları"
+   },
+   "backupsToggle": {
+      "description": "Yedeklemeleri Değiştir Etiketi",
+      "message": "Kayıtların Yedeklerini Al"
+   },
+   "blurModeToast": {
+      "description": "Bulanıklaştırma Modu bilgilendirme penceresi",
+      "message": "Bulanıklaştırma Modu"
+   },
+   "blurTypeLabel": {
+      "description": "Arka planı bulanıklaştır etiketi",
+      "message": "Bulanık"
+   },
+   "cameraType": {
+      "description": "Açılır pencere üzerinde kamera kaydı türü etiketi",
+      "message": "Kamera"
+   },
+   "cancelButton": {
+      "description": "Generic cancel button label",
+      "message": "İptal"
+   },
+   "cancelRecordingTooltip": {
+      "description": "Kaydı İptal Et araç ipucu",
+      "message": "Kaydı İptal Et"
+   },
+   "chromePermissionsModalAction": {
+      "description": "İzin modal düğmesi",
+      "message": "Ekran kaydını etkinleştir"
+   },
+   "chromePermissionsModalCancel": {
+      "description": "İzin modal iptal",
+      "message": "İptal"
+   },
+   "chromePermissionsModalDescription": {
+      "description": "İzin modal açıklaması",
+      "message": "Ekran kaydını etkinleştirmek için, Screenity'nin ekranınızı yakalamasına izin vermelisiniz."
+   },
+   "chromePermissionsModalTitle": {
+      "description": "İzin modal başlığı",
+      "message": "Screenity ekranınızı kaydetme iznine sahip değil"
+   },
+   "clearBlurredElementsTooltip": {
+      "description": "Tüm bulanık öğeleri açıklama",
+      "message": "Tüm bulanık öğeleri temizle"
+   },
+   "clearCanvasTooltip": {
+      "description": "Tuvali Temizle araç ipucu",
+      "message": "Tuvali Temizle"
+   },
+   "clearSpaceButton": {
+      "description": "Önceki Kayıtları Temizle Düğmesi",
+      "message": "Önceki Kayıtları Temizle"
+   },
+   "clickHereDrawOnboarding": {
+      "description": "Buraya tıklama rehberi",
+      "message": "Çizim yapmak için buraya tıklayın"
+   },
+   "closeModalLabel": {
+      "description": "Agnostic close modal button label",
+      "message": "Kapat"
+   },
+   "continueWithoutLogin": {
+      "description": "Button to continue using the extension without logging in",
+      "message": "Giriş yapmadan devam et"
+   },
+   "copiedToClipboardToast": {
+      "description": "Toast message shown when link has been copied to clipboard",
+      "message": "Bağlantı panoya kopyalandı"
+   },
+   "copyDebugInfoButton": {
+      "description": "Button to copy technical debug info to clipboard for support",
+      "message": "Hata ayıklama bilgisini kopyala"
+   },
+   "countdownLabel": {
+      "description": "Geri sayım etiketi",
+      "message": "Geri sayım"
+   },
+   "countdownMessage": {
+      "description": "Gerisayım mesajı",
+      "message": "Rahatlayın. Saymayı durdurmak için herhangi bir yere tıklayın."
+   },
+   "cropButtonDescription": {
+      "description": "Kırpma etiketi",
+      "message": "Videoyu kırp ve yeniden boyutlandır"
+   },
+   "cropButtonTitle": {
+      "description": "Kırpma düğmesi",
+      "message": "Kırp"
+   },
+   "croppingInfoDescription": {
+      "description": "Kırpma bilgi açıklaması",
+      "message": "Daha hızlı işlem için yükseltme yapın"
+   },
+   "croppingInfoTitle": {
+      "description": "Kırpma bilgi başlığı",
+      "message": "Kırpma biraz zaman alabilir"
+   },
+   "customAreaLabel": {
+      "description": "Özel alan anahtarı etiketi",
+      "message": "Kaydedilecek bir alan belirleyin"
+   },
+   "customAreaRecordingDisabledAction": {
+      "description": "Chrome sürümü 104'ten eski olanlar için özel alan kaydı devre dışı uyarısı eylemi",
+      "message": "Güncelle"
+   },
+   "customAreaRecordingDisabledDescription": {
+      "description": "Chrome sürümü 104'ten eski olanlar için özel alan kaydı devre dışı uyarısı açıklaması",
+      "message": "Daha fazla özellik için Chrome sürümünü 110+ olarak güncelleyin"
+   },
+   "customAreaRecordingDisabledTitle": {
+      "description": "Chrome sürümü 104'ten eski olanlar için özel alan kaydı devre dışı uyarısı başlığı",
+      "message": "Özel alan kaydı devre dışı"
+   },
+   "debugInfoCopiedToast": {
+      "description": "Toast shown after debug info is copied",
+      "message": "Hata ayıklama bilgisi kopyalandı"
+   },
+   "disableCameraTooltip": {
+      "description": "Kamerayı Kapat araç ipucu",
+      "message": "Kamerayı Kapat"
+   },
+   "disableMicrophoneTooltip": {
+      "description": "Mikrofonu Kapat araç ipucu",
+      "message": "Mikrofonu Kapat"
+   },
+   "discardModalDescription": {
+      "description": "Silme modalı açıklama",
+      "message": "Mevcut video ilerlemeniz kaybedilecektir."
+   },
+   "discardModalDiscard": {
+      "description": "Silme modalı sil düğmesi",
+      "message": "Kaydı sil"
+   },
+   "discardModalResume": {
+      "description": "Silme modalı devam et düğmesi",
+      "message": "Kayda devam et"
+   },
+   "discardModalTitle": {
+      "description": "Silme modalı başlık",
+      "message": "Kaydı silmek istediğinizden emin misiniz?"
+   },
+   "downgradeToFreeButton": {
+      "description": "Button to log out and downgrade to the free version",
+      "message": "Çıkış yap ve ücretsiz sürüme geç"
+   },
+   "downloadAnywayButton": {
+      "description": "Button to download the recording file despite validation failure",
+      "message": "Yine de indir"
+   },
+   "downloadForTroubleshootingOption": {
+      "description": "Sorunları Giderme Seçeneği",
+      "message": "Sorunları Gidermek için Verileri İndir"
+   },
+   "downloadGIFButtonDescription": {
+      "description": "GIF olarak İndir etiketi",
+      "message": "GIF olarak dışa aktar (maksimum 30 saniye)"
+   },
+   "downloadGIFButtonTitle": {
+      "description": "GIF olarak İndir düğmesi",
+      "message": ".gif olarak İndir"
+   },
+   "downloadMP4ButtonDescription": {
+      "description": "MP4 olarak İndir etiketi",
+      "message": ".mp4 video olarak dışa aktar (önerilen)"
+   },
+   "downloadMP4ButtonTitle": {
+      "description": "MP4 olarak İndir düğmesi",
+      "message": ".mp4 olarak İndir"
+   },
+   "downloadWEBMButtonDescription": {
+      "description": "WEBM olarak İndir etiketi",
+      "message": ".webm video olarak dışa aktar"
+   },
+   "downloadWEBMButtonTitle": {
+      "description": "WEBM olarak İndir düğmesi",
+      "message": ".webm olarak İndir"
+   },
+   "downloadingLabel": {
+      "description": "İndiriliyor etiketi",
+      "message": "İndiriliyor..."
+   },
+   "drawingModeToast": {
+      "description": "Çizim Modu bilgilendirme penceresi",
+      "message": "Çizim Modu"
+   },
+   "editButtonDescription": {
+      "description": "Kırpma etiketi",
+      "message": "Videoyu kırp, kes veya sustur"
+   },
+   "editButtonTitle": {
+      "description": "Kırpma etiket düğmesi",
+      "message": "Videoyu Düzenle"
+   },
+   "editFailedDescription": {
+      "description": "Alert body for edit failure; explicitly confirms the original recording is untouched",
+      "message": "İşleme sırasında bir sorun oluştu. Orijinal kaydınız güvende. Tekrar deneyebilir veya olduğu gibi indirebilirsiniz."
+   },
+   "editFailedTitle": {
+      "description": "Alert title when an edit operation fails due to an encoding or processing error",
+      "message": "Düzenleme uygulanamadı"
+   },
+   "editProcessingSafeDescription": {
+      "description": "Shown in the editor processing alert when a user-initiated edit is running, to reassure the original is safe",
+      "message": "Düzenlemeniz işleniyor. Orijinal kaydınız değiştirilmedi."
+   },
+   "editTimeoutDescription": {
+      "description": "Alert body for the timeout case, prompting retry or shorter clip",
+      "message": "Düzenleme zamanında tamamlanamadı. Orijinal kaydınız değişmedi. Tekrar deneyin veya önce klibi kırpın."
+   },
+   "editTimeoutTitle": {
+      "description": "Alert title when an edit operation does not complete within the 5-minute watchdog period",
+      "message": "Düzenleme zaman aşımına uğradı"
+   },
+   "editTooLongDescription": {
+      "description": "Alert body explaining the 15-minute limit and suggesting trimming first",
+      "message": "Bu ses düzenlemesi 15 dakikadan uzun klipler için desteklenmiyor. Orijinaliniz değişmedi. Önce klibi kırpmayı deneyin."
+   },
+   "editTooLongTitle": {
+      "description": "Alert title when an audio mute/mix edit is rejected because the clip exceeds 15 minutes",
+      "message": "Ses düzenlemesi çok uzun"
+   },
+   "editorRecoveryToast": {
+      "description": "Toast shown on the active tab when the post-recording editor tab fails to open",
+      "message": "Kaydınız kaydedildi. Düzenleyici açılmadı. Tekrar denemek için Screenity simgesine tıklayın."
+   },
+   "enableCameraTooltip": {
+      "description": "Kamerayı Aç araç ipucu",
+      "message": "Kamerayı Aç"
+   },
+   "enableMicrophoneTooltip": {
+      "description": "Mikrofonu Aç araç ipucu",
+      "message": "Mikrofonu Aç"
+   },
+   "eraserToolTooltip": {
+      "description": "Silgi Aracı araç ipucu",
+      "message": "Silgi Aracı"
+   },
+   "extDesc": {
+      "description": "Uzantı açıklaması",
+      "message": "Sınırsız en iyi ücretsiz ekran kaydedici. Kayıt, açıklama, yakınlaştırma, bulanıklık, video düzenleme ve daha fazlasını yapın - giriş yapmanıza gerek yok, gizlilik dostu."
+   },
+   "extName": {
+      "description": "Uzantı adı",
+      "message": "Screenity - Ekran Kayıt & Not Aracı"
+   },
+   "extensionNotSupportedDescription": {
+      "description": "Sekme Üzerinde Desteklenmeyen Uzantı Açıklaması",
+      "message": "Screenity önceki sekmenizde desteklenmiyordu. Yine de burada kaydı başlatabilir ve ardından sekmeye geçebilirsiniz, ancak kamera ve araç çubuğunuz görünür olmayacaktır."
+   },
+   "extensionNotSupportedTitle": {
+      "description": "Sekme Üzerinde Desteklenmeyen Uzantı Başlığı",
+      "message": "Sayfada Desteklenmeyen Uzantı"
+   },
+   "failedToCopyToClipboardToast": {
+      "description": "Toast message shown when failed to copy link to clipboard",
+      "message": "Bağlantı kopyalanamadı"
+   },
+   "fastRecorderFailedDescription": {
+      "description": "Body text for the fast recorder failure modal",
+      "message": "Hızlı kaydedicinin çıktısı bu cihazda doğrulanamadı.\nDosyayı yine de indirebilirsiniz."
+   },
+   "fastRecorderFailedTitle": {
+      "description": "Title for the modal shown when the fast MP4 recorder output could not be validated",
+      "message": "Hızlı kayıt başarısız oldu"
+   },
+   "finishLabelMulti": {
+      "description": "Label for the finish multi-recording button",
+      "message": "Bitir"
+   },
+   "finishRecordingTooltip": {
+      "description": "Kaydı Bitir araç ipucu",
+      "message": "Kaydı Bitir"
+   },
+   "flipCameraLabel": {
+      "description": "Kamera çevirme anahtarı etiketi",
+      "message": "Kamerayı çevir"
+   },
+   "followForUpdates": {
+      "description": "Güncellemeleri takip etme düğmesi",
+      "message": "Güncellemeleri Takip Edin"
+   },
+   "getHelpButton": {
+      "description": "Side button on error modals that opens a prefilled support form",
+      "message": "Yardım al"
+   },
+   "getHelpNav": {
+      "description": "Yardım Navigasyon Öğesi",
+      "message": "Yardım Merkezi"
+   },
+   "goToDashboardButtonLabel": {
+      "description": "Button label to go to the dashboard in the popup",
+      "message": "Panel'e git"
+   },
+   "havingIssuesButton": {
+      "description": "Editörde sorunlar düğmesi",
+      "message": "Sorun mu yaşıyorsunuz?"
+   },
+   "havingIssuesModalButton": {
+      "description": "Editörde sorunlar modal düğmesi",
+      "message": "Ham video verilerini indir"
+   },
+   "havingIssuesModalButton2": {
+      "description": "Editörde sorunlar modal düğme 2",
+      "message": "Hata Bildir"
+   },
+   "havingIssuesModalDescription": {
+      "description": "Editörde sorunlar modal açıklaması",
+      "message": "Kaydınızı tamamladınız ve videonuzu görmeyen bir sayfadaysanız, mevcutsa ham video verilerini indirmeyi deneyebilirsiniz. Ayrıca bize ulaşabilir ve bir hata raporu gönderebilirsiniz."
+   },
+   "havingIssuesModalTitle": {
+      "description": "Editörde sorunlar modal başlığı",
+      "message": "Kaydınızı göremiyor musunuz?"
+   },
+   "heightLabel": {
+      "description": "Özellikler için Yükseklik etiketi",
+      "message": "Yükseklik"
+   },
+   "helpPopup": {
+      "description": "Yardım açılır pencere düğmesi",
+      "message": "Yardım"
+   },
+   "hideToolbarLabel": {
+      "description": "Araç çubuğunu gizle etiketi",
+      "message": "Araç çubuğunu gizle"
+   },
+   "hideUIAlerts": {
+      "description": "UI uyarılarını gizle düğmesi",
+      "message": "UI bildirimlerini gizle"
+   },
+   "highestQuality": {
+      "description": "Açılır penceredeki en yüksek kalite etiketi",
+      "message": "En Yüksek Kalite"
+   },
+   "highlightClicksTooltip": {
+      "description": "Tıklamaları vurgula açıklama",
+      "message": "Tıklamaları vurgula"
+   },
+   "highlightCursorTooltip": {
+      "description": "İmleci vurgula açıklama",
+      "message": "İmleci vurgula"
+   },
+   "highlighterToolTooltip": {
+      "description": "Marker Aracı araç ipucu",
+      "message": "Marker Aracı"
+   },
+   "hostBannerDescription": {
+      "description": "Kendi sunucusunda barındıran kullanıcılar için banner açıklaması",
+      "message": "Screenity, bağımsız bir kadın geliştirici tarafından oluşturuldu. Kendi sunucunuzda kullanmak ücretsizdir, ancak faydalı buluyorsanız, Pro ile desteklemeyi düşünebilirsiniz ❤️"
+   },
+   "hostBannerTitle": {
+      "description": "Kendi sunucusunda barındıran kullanıcılar için banner başlığı",
+      "message": "Screenity’yi yerel olarak mı kullanıyorsunuz? Gelecekteki geliştirmelere destek olun!"
+   },
+   "imageToolTooltip": {
+      "description": "Resim Aracı araç ipucu",
+      "message": "Resim Aracı"
+   },
+   "inactiveSubscriptionDeletionWarning": {
+      "description": "Warning message about the deletion of videos and data",
+      "message": "Videolarınız ve verileriniz şu tarihte kalıcı olarak silinecek: "
+   },
+   "inactiveSubscriptionDescription": {
+      "description": "Description shown when the user's subscription is inactive",
+      "message": "Screenity Pro aboneliğiniz aktif değil."
+   },
+   "inactiveSubscriptionFreeVersion": {
+      "description": "Message prompting the user to continue using the free version",
+      "message": "Ücretsiz sürümü kullanmaya devam etmek ister misiniz?"
+   },
+   "inactiveSubscriptionReactivation": {
+      "description": "Message prompting the user to reactivate their subscription",
+      "message": "Erişime devam etmek için lütfen yeniden etkinleştirin."
+   },
+   "inactiveSubscriptionTitle": {
+      "description": "Title shown when the user's subscription is inactive",
+      "message": "Pro aboneliğiniz aktif değil"
+   },
+   "instantRecordingModeAction": {
+      "description": "Action button for the instant recording mode",
+      "message": "Anladım"
+   },
+   "instantRecordingModeDescription": {
+      "description": "Description for the instant recording mode",
+      "message": "Bu mod her şeyi tek bir videoya kaydeder, anında indirip paylaşabilirsiniz. Kamera düzenini daha sonra değiştiremezsiniz, ancak diğer düzenlemeler hâlâ mümkündür."
+   },
+   "instantRecordingModeLabel": {
+      "description": "Label for the instant recording mode",
+      "message": "Anında kayıt modu"
+   },
+   "instantRecordingModeTitle": {
+      "description": "Title for the instant recording mode",
+      "message": "Anında kayıt modu"
+   },
+   "instantRecordingModeTooltip": {
+      "description": "Tooltip for the instant recording mode",
+      "message": "Anında indirme, ancak kamera ve düzen daha sonra düzenlenemez."
+   },
+   "learnMoreDot": {
+      "description": "Nokta ile daha fazla bilgi",
+      "message": "Daha Fazla Bilgi"
+   },
+   "learnMoreLabel": {
+      "description": "Daha fazla bilgi düğmesi",
+      "message": "Daha Fazla Bilgi"
+   },
+   "leaveReview": {
+      "description": "İnceleme bırakma düğmesi",
+      "message": "İnceleme yazın"
+   },
+   "leftLabel": {
+      "description": "Özellikler için Sol etiketi",
+      "message": "Sol"
+   },
+   "loadingVideosLabel": {
+      "description": "Label shown when videos are loading in the popup",
+      "message": "Videolar yükleniyor..."
+   },
+   "logBackInButton": {
+      "description": "Button to log back in after being logged out",
+      "message": "Yeniden giriş yap"
+   },
+   "loggedOutDescription": {
+      "description": "Description shown when the user is logged out",
+      "message": "Kayıtlarınızın hesabınıza senkronize edilmesi ve premium özelliklere erişim için tekrar giriş yapmalısınız."
+   },
+   "loggedOutFreeVersion": {
+      "description": "Message shown when the user is logged out and using the free version",
+      "message": "Uzantıyı hesap olmadan kullanmaya devam edebilirsin - ancak kayıtların kaydedilmeyecek ve daha sonra kurtarılamayacak."
+   },
+   "loggedOutTitle": {
+      "description": "Title shown when the user is logged out",
+      "message": "Oturumunuz kapatıldı"
+   },
+   "loggedOutToastTitle": {
+      "description": "Toast message shown when the user logs out",
+      "message": "Oturumunuz kapatıldı"
+   },
+   "loginButtonLabel": {
+      "description": "Login button label in popup settings menu",
+      "message": "Giriş yap veya kaydol"
+   },
+   "logoutButtonLabel": {
+      "description": "Logout button label in popup settings menu",
+      "message": "Çıkış yap"
+   },
+   "longRecordingDescription": {
+      "description": "Banner description for long recordings that can be downloaded but not edited locally",
+      "message": "Kaydınız tamamlandı ve güvende. Aşağıdan WebM olarak indirin."
+   },
+   "longRecordingTitle": {
+      "description": "Banner title shown when a recording exceeds the local processing limit but is otherwise successful",
+      "message": "Uzun kayıt"
+   },
+   "manageStorageButtonLabel": {
+      "description": "Button label to manage storage in the popup settings menu",
+      "message": "Depolamayı yönet"
+   },
+   "manageSubscriptionButton": {
+      "description": "Button to manage the user's subscription",
+      "message": "Aboneliğini yönet"
+   },
+   "maxFPSLabel": {
+      "description": "Ayarlar menüsündeki maksimum FPS etiketi",
+      "message": "Maksimum FPS"
+   },
+   "maxResolutionLabel": {
+      "description": "Ayarlar menüsündeki maksimum çözünürlük etiketi",
+      "message": "Maksimum çözünürlük"
+   },
+   "maxResolutionTooltip": {
+      "description": "Ayarlar menüsündeki maksimum çözünürlük bilgi baloncuğu",
+      "message": "Bu çözünürlükte kayıt yapmak cihazınızda mümkün değil"
+   },
+   "mediumStrokeTooltip": {
+      "description": "Orta Kalınlıkta Hat araç ipucu",
+      "message": "Orta Kalınlıkta Hat"
+   },
+   "memoryLimitDescription": {
+      "description": "Hafıza Sınırına Ulaşıldı Açıklama",
+      "message": "Cihazınız, kayıt için kullanılabilir belleği tüketti ve kayıt otomatik olarak durdu. Daha uzun süre kayıt yapmak istiyorsanız video kalitesini düşürmeyi veya cihazınızdaki alanı temizlemeyi deneyebilirsiniz."
+   },
+   "memoryLimitTitle": {
+      "description": "Hafıza Sınırına Ulaşıldı Başlık",
+      "message": "Hafıza Sınırına Ulaşıldı"
+   },
+   "micMutedModalAction": {
+      "description": "Mikrofon kapalı modal devam et",
+      "message": "Evet, devam et"
+   },
+   "micMutedModalCancel": {
+      "description": "Mikrofon kapalı modal iptal",
+      "message": "İptal"
+   },
+   "micMutedModalDescription": {
+      "description": "Mikrofon kapalı modal açıklaması",
+      "message": "Kaydınıza ses eklemek için mikrofonunuzu açmanız gerekecek. Sesi olmadan devam etmek istiyor musunuz?"
+   },
+   "micMutedModalTitle": {
+      "description": "Mikrofon kapalı modal başlığı",
+      "message": "Mikrofonunuz kapalı"
+   },
+   "micOffToast": {
+      "description": "Mikrofon devre dışı bırakıldı bildirimi başlığı",
+      "message": "Mikrofon devre dışı"
+   },
+   "micOnToast": {
+      "description": "Mikrofon etkinleştirildi bildirimi başlığı",
+      "message": "Mikrofon etkin"
+   },
+   "micReminderPopup": {
+      "description": "Mikrofon hatırlatma açılır penceresi",
+      "message": "Mikrofon kapalı uyarısı"
+   },
+   "mockupType": {
+      "description": "Açılır pencere üzerinde mockup kaydı türü etiketi",
+      "message": "Mockup"
+   },
+   "moreColorsTooltip": {
+      "description": "Daha Fazla Renk araç ipucu",
+      "message": "Daha Fazla Renk"
+   },
+   "multiLabel": {
+      "description": "Label for the multi-recording mode",
+      "message": "Multi"
+   },
+   "multiRecordingModeDescription": {
+      "description": "Description for the multi-recording mode modal",
+      "message": "Ekran, kamera veya her ikisi gibi birden fazla sahneyi art arda kaydedin. Birden fazla deneme yapmak, görünümleri değiştirmek veya kaydınızı parçalara ayırmak için harikadır. İşiniz bittiğinde, tüm sahnelerin tek bir videoda birleştirildiği editörü açmak için Bitir'e tıklayın."
+   },
+   "multiRecordingModeTitle": {
+      "description": "Title for the multi-recording mode modal",
+      "message": "Multi modu"
+   },
+   "newestSortLabel": {
+      "description": "Label for the newest sort option",
+      "message": "En yeni"
+   },
+   "noCameraDropdownLabel": {
+      "description": "Hiçbir kamera seçilmedi etiketi",
+      "message": "Kamera yok"
+   },
+   "noCameraPermissionsTooltip": {
+      "description": "Kamera İzni Yok araç ipucu",
+      "message": "Kamera İzni Yok"
+   },
+   "noConnectionLabel": {
+      "description": "Bağlantı yok etiketi",
+      "message": "Bağlantı Yok"
+   },
+   "noMicrophoneDropdownLabel": {
+      "description": "Hiçbir mikrofon seçilmedi etiketi",
+      "message": "Mikrofon yok"
+   },
+   "noMicrophonePermissionsTooltip": {
+      "description": "Mikrofon İzni Yok araç ipucu",
+      "message": "Mikrofon İzni Yok"
+   },
+   "noRecordingFound": {
+      "description": "Editörde kayıt bulunamadı uyarısı",
+      "message": "Kayıt bulunamadı, üzgünüz :("
+   },
+   "noShowAgain": {
+      "description": "Tekrar gösterme düğmesi",
+      "message": "Tekrar gösterme"
+   },
+   "noSubscriptionYetDescription": {
+      "description": "Message prompting the user to subscribe to reactivate their Pro features",
+      "message": "Pro özelliklere erişmek için abone olun."
+   },
+   "noSubscriptionYetTitle": {
+      "description": "Title shown when the user has no active subscription",
+      "message": "Başlamak için Pro’yu etkinleştir"
+   },
+   "noVideosFound": {
+      "description": "Message shown when no videos are found in the popup",
+      "message": "Hiç video bulunamadı"
+   },
+   "noneDropdownLabel": {
+      "description": "Hiçbir cihaz seçilmedi etiketi",
+      "message": "Hiçbiri"
+   },
+   "notAvailableLabel": {
+      "description": "Kullanılamıyor etiketi",
+      "message": "Kullanılamıyor"
+   },
+   "notAvailableLongRecording": {
+      "description": "Disabled button label for features not available due to recording length",
+      "message": "Uzun kayıtlar için kullanılamıyor"
+   },
+   "notAvailableRecoveryMode": {
+      "description": "Disabled button label for features not available in recovery/fallback mode",
+      "message": "Kurtarma modunda kullanılamıyor"
+   },
+   "notEnoughRAM": {
+      "description": "Ayarlar menüsünde yetersiz RAM etiketi",
+      "message": "Yetersiz RAM"
+   },
+   "notEnoughSpaceDescription": {
+      "description": "Yetersiz Alan Açıklama",
+      "message": "Screenity, kayıt için en az 1 GB boş alan gerektirir. Lütfen cihazınızda alan açın ve yeniden deneyin."
+   },
+   "notEnoughSpaceTitle": {
+      "description": "Yetersiz Alan Başlık",
+      "message": "Yetersiz Alan"
+   },
+   "offLabel": {
+      "description": "Açılır listede Kapalı etiketi",
+      "message": "Kapalı"
+   },
+   "offlineLabelDescription": {
+      "description": "Çevrimdışı etiketi açıklaması",
+      "message": "Bağlantınız yeniden sağlanana kadar bazı özellikler kullanılamaz"
+   },
+   "offlineLabelTitle": {
+      "description": "Çevrimdışı etiketi",
+      "message": "Şu anda çevrimdışısınız"
+   },
+   "offlineLabelTryAgain": {
+      "description": "Çevrimdışı etiketi tekrar deneme düğmesi",
+      "message": "Yeniden Deneyin"
+   },
+   "oldestSortLabel": {
+      "description": "Label for the oldest sort option",
+      "message": "En eski"
+   },
+   "overLimitLabelDescription": {
+      "description": "Editörde 5 dakikadan fazla sınır açıklaması",
+      "message": "Düzenleme ve MP4 biçiminde dışa aktarma mevcut değil"
+   },
+   "overLimitLabelTitle": {
+      "description": "Editörde 5 dakikadan fazla sınır etiketi",
+      "message": "Video yerel olarak işlemek için çok uzun"
+   },
+   "overLimitModalButton": {
+      "description": "5 dakika sınırlı modal düğmesi",
+      "message": "Riski anladım, yine de dene"
+   },
+   "overLimitModalDescription": {
+      "description": "5 dakika sınırlı modal açıklaması",
+      "message": "Screenity tamamen özel ve yerel olarak çalıştığı için cihazınızın donanımıyla sınırlıdır. Bu uzunluktaki bir videoyu işlemek çok uzun sürer ve çok fazla kaynak kullanır. Ancak, hala WEBM dosyasını veya ham kaydı indirebilirsiniz, ancak düzenleme ve MP4 dışa aktarma seçenekleri mevcut değildir. Yine de riskleri anlıyorsanız, videoyu işlemeyi deneyebilirsiniz."
+   },
+   "overLimitModalLearnMore": {
+      "description": "5 dakika sınırlı modal daha fazla bilgi öğrenme bağlantısı",
+      "message": "Uzun videoları işleme hakkında daha fazla bilgi edinin."
+   },
+   "overLimitModalTitle": {
+      "description": "5 dakika sınırlı modal başlığı",
+      "message": "Videonuz cihazınızda işlemek için çok uzun"
+   },
+   "pauseRecordingTooltip": {
+      "description": "Kaydı Durdur araç ipucu",
+      "message": "Kaydı Durdur"
+   },
+   "pausedRecordingToast": {
+      "description": "Durdurulan kayıt modal başlığı",
+      "message": "Kayıt durdu. Devam etmek için oynatma düğmesine basın."
+   },
+   "penToolTooltip": {
+      "description": "Kalem Aracı araç ipucu",
+      "message": "Kalem Aracı"
+   },
+   "permissionsModalDescription": {
+      "description": "Kamera / mikrofon izinleri uyarı modalı açıklaması",
+      "message": "Screenity'nin kamera veya mikrofonunuza erişemiyor gibi görünüyor. Kameranın simgesine tıklayarak erişime izin verdiğinizden emin olun."
+   },
+   "permissionsModalDismiss": {
+      "description": "Kamera / mikrofon izinleri uyarı modalı kapatma düğmesi",
+      "message": "Kapat"
+   },
+   "permissionsModalNoShowAgain": {
+      "description": "İzinler penceresini kapat düğmesi",
+      "message": "Tekrar gösterme"
+   },
+   "permissionsModalReview": {
+      "description": "İzinleri İncele düğmesi",
+      "message": "İzinleri İncele"
+   },
+   "permissionsModalTitle": {
+      "description": "Kamera / mikrofon izinleri uyarı modalı başlığı",
+      "message": "İzinlerinizi kontrol edin"
+   },
+   "preparingLabel": {
+      "description": "Hazırlanıyor etiketi",
+      "message": "Hazırlanıyor..."
+   },
+   "proBannerAltButton": {
+      "description": "Pro banner don't show again button in the editor",
+      "message": "Bir daha gösterme"
+   },
+   "proBannerButton": {
+      "description": "Pro banner button in the editor",
+      "message": "Dene"
+   },
+   "proBannerDescription": {
+      "description": "Pro banner description in the editor",
+      "message": "Screenity her zaman ücretsiz, açık kaynak ve reklamsız olacak. Pro, bulut & altyapı maliyetlerini karşılar ve bağımsız bir geliştiriciyi destekler! ❤️"
+   },
+   "proBannerTitle": {
+      "description": "Pro banner title in the editor",
+      "message": "Bulut paylaşımı, çok sahneli düzenleme, otomatik yakınlaştırma, altyazılar ve daha fazlasının kilidini aç"
+   },
+   "proOnboardingBack": {
+      "description": "Pro onboarding back button text",
+      "message": "Geri"
+   },
+   "proOnboardingCameraDescription": {
+      "description": "Pro onboarding camera step description",
+      "message": "Kayıt sırasında kamera \u003Cstrong>gizlenebilir veya PiP'e geçebilir\u003C/strong>, bu normaldir.\u003Cbr/>\u003Cbr/>Daha sonra istediğin gibi konumlandırabilmen için ayrı kaydedilir."
+   },
+   "proOnboardingCameraTitle": {
+      "description": "Pro onboarding camera step title",
+      "message": "Kamera ayrı kaydedilir"
+   },
+   "proOnboardingDone": {
+      "description": "Pro onboarding done button text",
+      "message": "Anladım"
+   },
+   "proOnboardingInstantDescription": {
+      "description": "Pro onboarding instant mode step description",
+      "message": "Hızlı paylaşım ve \u003Cstrong>sınırsız indirme\u003C/strong> için en iyi seçenek.\u003Cbr/>\u003Cbr/>Bu modda gelişmiş düzen ve düzenleyici seçenekleri kullanılamaz."
+   },
+   "proOnboardingInstantTitle": {
+      "description": "Pro onboarding instant mode step title",
+      "message": "Anlık mod"
+   },
+   "proOnboardingNext": {
+      "description": "Pro onboarding next button text",
+      "message": "İleri"
+   },
+   "proOnboardingToolbarDescription": {
+      "description": "Pro onboarding toolbar step description",
+      "message": "Bu çubuğu çizim, imleç efektleri, bulanıklaştırma ve kayıt kontrolleri için kullan.\u003Cbr/>\u003Cbr/>\u003Cstrong>Bu çubuk, gizlemezsen videoda görünür\u003C/strong>."
+   },
+   "proOnboardingToolbarLearnMore": {
+      "description": "Pro onboarding toolbar learn more link label",
+      "message": "Daha fazla bilgi"
+   },
+   "proOnboardingToolbarTitle": {
+      "description": "Pro onboarding toolbar step title",
+      "message": "Kayıt araç çubuğu ve efektler"
+   },
+   "proOnboardingWelcomeDescription": {
+      "description": "Pro onboarding welcome step description",
+      "message": "Kayda başlamadan önce birkaç hızlı ipucu.\u003Cbr/>Otomatik yakınlaştırma yalnızca \u003Cstrong>Chrome sekmeleri\u003C/strong> içindeki tıklamalarda çalışır. Daha sonra manuel olarak yakınlaştırma ekleyebilirsin."
+   },
+   "proOnboardingWelcomeTitle": {
+      "description": "Pro onboarding welcome step title",
+      "message": "Screenity Pro uzantısına hoş geldin"
+   },
+   "processingBannerEditor": {
+      "description": "Editörde işleme bannerı",
+      "message": "Video işleniyor, oynatma yanıltıcı veya kesilebilir."
+   },
+   "projectRecordingCancelledToast": {
+      "description": "Toast message shown when the user cancels project recording",
+      "message": "Video kaydı iptal edildi"
+   },
+   "pushToTalkLabel": {
+      "description": "Konuşmaya başla anahtarı etiketi",
+      "message": "Konuşmaya başlamak için basın"
+   },
+   "rawRecordingButtonDescription": {
+      "description": "Ham kayıt etiketi",
+      "message": "Orijinal kayıt verilerini dışa aktar"
+   },
+   "rawRecordingButtonTitle": {
+      "description": "Ham kayıt düğmesi",
+      "message": "Ham video dosyasını indir"
+   },
+   "rawRecordingModalButton": {
+      "description": "Ham kayıt modal düğmesi",
+      "message": "İndir"
+   },
+   "rawRecordingModalDescription": {
+      "description": "Ham kayıt modal açıklaması",
+      "message": "Ham video dosyası, Screenity tarafından kaydedilen orijinal video dosyasıdır. Bu video işlenmemiş veya düzenlenmemiş olduğundan çok büyük olabilir ve tüm cihazlarda oynatılamayabilir. İşlenmiş video ile sorun yaşıyorsanız, bu dosyayı videoyu kurtarmak için kullanabilirsiniz."
+   },
+   "rawRecordingModalTitle": {
+      "description": "Ham kayıt modal başlığı",
+      "message": "Ham video dosyasını indir"
+   },
+   "reachingRecordingLimitToast": {
+      "description": "Toast message shown when the recording is reaching the 90 minute limit",
+      "message": "Kayıt 90 dakikalık sınıra ulaşıyor, yakında duracak"
+   },
+   "readyRecordSceneToast": {
+      "description": "Toast message shown when the user is in an existing project and ready to record a new scene",
+      "message": "Videona yeni bir sahne kaydetmeye hazırsın"
+   },
+   "recordAudioWarningMacDescription": {
+      "description": "macOS İçin Ses Uyarı Açıklaması",
+      "message": "macOS'ta yalnızca sekmelerden ses kaydedebilirsiniz. 'Chrome Sekmesi' seçeneğini seçin ve 'Ses Sekmesiyle de paylaş' seçeneğinin etkin olduğundan emin olun."
+   },
+   "recordAudioWarningMacTitle": {
+      "description": "macOS İçin Ses Uyarı Başlığı",
+      "message": "Bilgisayar Sesini Kaydet"
+   },
+   "recordAudioWarningOtherDescription": {
+      "description": "Diğer Sistemler İçin Ses Uyarı Açıklaması",
+      "message": "Bilgisayar sesini kaydetmek istiyorsanız, 'Sistem Sesini Paylaş' seçeneğinin etkin olduğundan emin olun. Bu seçeneği görmüyorsanız, Chrome'u güncellemeyi deneyin veya sekme kaydı seçeneğine geçin."
+   },
+   "recordAudioWarningOtherTitle": {
+      "description": "Diğer Sistemler İçin Ses Uyarı Başlığı",
+      "message": "Bilgisayar Sesini Kaydet"
+   },
+   "recordButtonInProgressLabel": {
+      "description": "Kayıt düğmesi işlem süreci etiketi",
+      "message": "Kayıt başlatılıyor..."
+   },
+   "recordButtonLabel": {
+      "description": "Kayıt düğme etiketi",
+      "message": "Kayda başla"
+   },
+   "recordButtonMultiLabel": {
+      "description": "Record button label (multi mode)",
+      "message": "Başka bir kayıt ekle"
+   },
+   "recordButtonNoCameraLabel": {
+      "description": "Kamera modundayken ve hiçbir kamera seçilmediğinde kayıt düğme etiketi",
+      "message": "Kayıt yapmak için bir kamera seçin"
+   },
+   "recordTab": {
+      "description": "Açılır pencere üzerinde kayıt sekmesi etiketi",
+      "message": "Kaydet"
+   },
+   "recorderSelectDescription": {
+      "description": "Kayıt sayfasındaki açıklama",
+      "message": "Bu sekme açık kalmalıdır. Kaydınız kaydedildikten sonra kapanacaktır."
+   },
+   "recorderSelectProgressTitle": {
+      "description": "Kayıt sayfasındaki kaydediliyor başlığı",
+      "message": "Kaydediliyor..."
+   },
+   "recorderSelectTitle": {
+      "description": "Kayıt sayfasındaki başlık",
+      "message": "Ne kaydetmek istediğinizi seçin"
+   },
+   "recorderSetupDescription": {
+      "description": "Description in recording page before countdown starts",
+      "message": "Beklemede kal! Kayıt hazırlanıyor."
+   },
+   "recorderSetupTitle": {
+      "description": "Title in recording page while setting up project before countdown starts",
+      "message": "Hazırlanıyor..."
+   },
+   "recordingLimitReachedToast": {
+      "description": "Toast message shown when the recording limit is reached",
+      "message": "Kayıt 90 dakikalık sınıra ulaştığı için durduruldu"
+   },
+   "recordingTooShortToast": {
+      "description": "Toast shown when a region recording is stopped by navigation but no chunks were saved",
+      "message": "Kayıt kaydedilemeyecek kadar kısa"
+   },
+   "recoverLastRecordingOption": {
+      "description": "Settings menu item to manually trigger cloud recording recovery",
+      "message": "Recover last recording"
+   },
+   "recoveryModeDescription": {
+      "description": "Recovery mode banner description — reassures user their recording is accessible despite the processing failure",
+      "message": "Bir işleme sorunu oluştu, ancak kaydınız güvende. Aşağıdan indirebilirsiniz."
+   },
+   "recoveryModeTitle": {
+      "description": "Kurtarma Modu Başlığı",
+      "message": "Kurtarma Modu"
+   },
+   "redoLabel": {
+      "description": "Yinele etiketi",
+      "message": "Yinele"
+   },
+   "redoTooltip": {
+      "description": "Yinele araç ipucu",
+      "message": "Yinele"
+   },
+   "regionHeightLabel": {
+      "description": "Bölge yüksekliği etiketi",
+      "message": "Yükseklik"
+   },
+   "regionWidthLabel": {
+      "description": "Bölge genişliği etiketi",
+      "message": "Genişlik"
+   },
+   "reopenToolbarToast": {
+      "description": "Toast message explaining to reopen the toolbar in the popup options",
+      "message": "Araç çubuğu gizlendi. Açılır menüden yeniden etkinleştirin."
+   },
+   "replaceAudioEditor": {
+      "description": "Editörde sesi değiştirme düğmesi",
+      "message": "Mevcut sesi değiştir"
+   },
+   "resetOnboardingOption": {
+      "description": "Reset pro onboarding option label in popup settings menu",
+      "message": "Onboarding'i sıfırla"
+   },
+   "resizeWindowLabel": {
+      "description": "Ayarlar menüsündeki pencere boyutlandırma etiketi",
+      "message": "Pencereyi Yeniden Boyutlandır"
+   },
+   "restartModalDescription": {
+      "description": "Yeniden başlatma modalı açıklama",
+      "message": "Mevcut video ilerlemeniz kaybedilecektir."
+   },
+   "restartModalRestart": {
+      "description": "Yeniden başlatma modalı yeniden başlat düğmesi",
+      "message": "Kaydı yeniden başlat"
+   },
+   "restartModalResume": {
+      "description": "Yeniden başlatma modalı devam et düğmesi",
+      "message": "Kayda devam et"
+   },
+   "restartModalTitle": {
+      "description": "Yeniden başlatma modalı başlık",
+      "message": "Kaydı yeniden başlatmak istediğinizden emin misiniz?"
+   },
+   "restartRecordingTooltip": {
+      "description": "Kaydı Yeniden Başlat araç ipucu",
+      "message": "Kaydı Yeniden Başlat"
+   },
+   "restoreRecording": {
+      "description": "Açılır penceredeki son kaydı geri yükle düğmesi",
+      "message": "Son kaydı geri yükle"
+   },
+   "resumeRecordingTooltip": {
+      "description": "Kaydı Devam Ettir araç ipucu",
+      "message": "Kaydı Devam Ettir"
+   },
+   "retryButtonLabel": {
+      "description": "Agnostic button label to try again",
+      "message": "Tekrar dene"
+   },
+   "sandboxAdvancedTitle": {
+      "description": "Güvenli düzenleyici sayfasındaki Gelişmiş bölüm",
+      "message": "Gelişmiş"
+   },
+   "sandboxAudioDragAndDrop": {
+      "description": "Kum havuzu editör sayfasındaki ses dosyasını sürükleyip bırakın",
+      "message": "Ses dosyanızı sürükleyip bırakın"
+   },
+   "sandboxAudioOrBrowse": {
+      "description": "Kum havuzu editör sayfasındaki ses dosyasını taramak için tıklayın",
+      "message": "Veya taramak için tıklayın"
+   },
+   "sandboxAudioSettingsTitle": {
+      "description": "Kum havuzu editör sayfasındaki ses ayarları başlığı",
+      "message": "Ayarlar"
+   },
+   "sandboxAudioUpdateButton": {
+      "description": "Kum havuzu editör sayfasındaki sesi güncelle düğmesi",
+      "message": "Güncelle"
+   },
+   "sandboxAudioVolumeLabel": {
+      "description": "Kum havuzu editör sayfasındaki ses seviyesi etiketi",
+      "message": "Ses Seviyesi"
+   },
+   "sandboxCropTitle": {
+      "description": "Kum havuzu editör sayfasındaki kırpma başlığı",
+      "message": "Kırp"
+   },
+   "sandboxEditTitle": {
+      "description": "Kum havuzlu editör sayfasındaki düzenleme başlığı",
+      "message": "Düzenle"
+   },
+   "sandboxEditorCancelButton": {
+      "description": "Kum havuzu editör sayfasındaki İptal düğmesi",
+      "message": "İptal"
+   },
+   "sandboxEditorCutButton": {
+      "description": "Kum havuzlu editörde kesme düğmesi",
+      "message": "Bölümü Kes"
+   },
+   "sandboxEditorCutProgressButton": {
+      "description": "Kum havuzlu editörde kesme sırasında kesme düğmesi",
+      "message": "Kesiliyor..."
+   },
+   "sandboxEditorMainTitle": {
+      "description": "Kum havuzu editör sayfasındaki başlık",
+      "message": "Editör"
+   },
+   "sandboxEditorMuteButton": {
+      "description": "Kum havuzlu editörde sesi kapatma düğmesi",
+      "message": "Sesi Kapat"
+   },
+   "sandboxEditorMuteProgressButton": {
+      "description": "Kum havuzlu editörde sesi sustururken sesi kapatma düğmesi",
+      "message": "Susturuluyor..."
+   },
+   "sandboxEditorResetButton": {
+      "description": "Kum havuzu editör sayfasındaki Sıfırla düğmesi",
+      "message": "Sıfırla"
+   },
+   "sandboxEditorRevertButton": {
+      "description": "Kum havuzu editör sayfasındaki Geri Dön düğmesi",
+      "message": "Orijinaline geri dön"
+   },
+   "sandboxEditorSaveButton": {
+      "description": "Kum havuzu editör sayfasındaki Kaydet düğmesi",
+      "message": "Değişiklikleri kaydet"
+   },
+   "sandboxEditorSaveProgressButton": {
+      "description": "Kum havuzu editör sayfasındaki Kaydet düğmesi (kaydediliyor)",
+      "message": "Kaydediliyor..."
+   },
+   "sandboxEditorTooSmallInfo": {
+      "description": "Editörün çok küçük olduğu hakkında bilgi",
+      "message": "Çerçeve aralıkları nedeniyle kısa zaman aralıkları için düzenlemeler doğru olmayabilir."
+   },
+   "sandboxEditorTrimButton": {
+      "description": "Kum havuzlu editörde kırpma düğmesi",
+      "message": "Videoyu Kırp"
+   },
+   "sandboxEditorTrimInfo": {
+      "description": "Kum havuzlu editörde kesme hakkında bilgi",
+      "message": "Kolları sürükleyin ve seçilen bölümü düzenlemek için soldaki düğmeleri kullanın."
+   },
+   "sandboxEditorTrimProgressButton": {
+      "description": "Kum havuzlu editörde kesme sırasında kırpma düğmesi",
+      "message": "Kırpılıyor..."
+   },
+   "sandboxExportTitle": {
+      "description": "Kum havuzlu editör sayfasındaki dışa aktarma başlığı",
+      "message": "Dışa Aktar"
+   },
+   "sandboxProgressDescription": {
+      "description": "Kum havuzu sayfasındaki açıklama (kayıt / kaydediliyor)",
+      "message": "Bu sekme açık kalmalıdır. Kaydınız hazır olduğunda güncellenecektir."
+   },
+   "sandboxProgressTitle": {
+      "description": "Kum havuzu sayfasındaki başlık (kayıt / kaydediliyor)",
+      "message": "Kayıt hazırlanıyor..."
+   },
+   "sandboxSaveTitle": {
+      "description": "Kum havuzlu editör sayfasındaki kaydetme başlığı",
+      "message": "Kaydet"
+   },
+   "saveDriveButtonDescription": {
+      "description": "Google Drive'a kaydetme etiketi",
+      "message": "Mevcut sürümü Google Drive'a kaydedin"
+   },
+   "saveDriveButtonTitle": {
+      "description": "Google Drive'a kaydetme düğmesi",
+      "message": "Drive'a Kaydet"
+   },
+   "savingDriveLabel": {
+      "description": "Google Drive'a kaydetme etiketi",
+      "message": "Kaydediliyor..."
+   },
+   "screenTooSmallTooltip": {
+      "description": "Ayarlar menüsündeki ekran çok küçük bilgi baloncuğu",
+      "message": "Bu çözünürlüğe pencereyi yeniden boyutlandırmak için ekran çok küçük"
+   },
+   "screenType": {
+      "description": "Açılır pencere üzerinde ekran kaydı türü etiketi",
+      "message": "Ekran"
+   },
+   "selectSourceDropdownPlaceholder": {
+      "description": "Kaynak seçme alanı etiketi",
+      "message": "Bir kaynak seçin"
+   },
+   "selectToolTooltip": {
+      "description": "Araç Seç araç ipucu",
+      "message": "Araç Seç"
+   },
+   "setupCompleteDescription": {
+      "description": "Kurulum tamamlandı açıklaması",
+      "message": "Şimdi burada veya başka bir sekmede kayıt yapmaya başlayabilirsiniz."
+   },
+   "setupCompleteTitle": {
+      "description": "Kurulum tamamlandı başlığı",
+      "message": "Harika! Şimdi hazırsınız"
+   },
+   "setupStep1After": {
+      "description": "Kurulum adımı 1, ikonun sonunda. Başında bir boşluk olmalı.",
+      "message": " uzantı ikonuna tıklayın"
+   },
+   "setupStep1Before": {
+      "description": "Kurulum adımı 1, ikonun önünde. Sonunda bir boşluk olmalı.",
+      "message": "1- "
+   },
+   "setupStep2After": {
+      "description": "Kurulum adımı 2, ikonun sonunda. Başında bir boşluk olmalı.",
+      "message": " pin ikonuna basın"
+   },
+   "setupStep2Before": {
+      "description": "Kurulum adımı 2, ikonun önünde. Sonunda bir boşluk olmalı.",
+      "message": "2- "
+   },
+   "setupStep3After": {
+      "description": "Kurulum adımı 3, ikonun sonunda. Başında bir boşluk olmalı.",
+      "message": " Screenity ikonuna tıklayarak başlayın"
+   },
+   "setupStep3Before": {
+      "description": "Kurulum adımı 3, ikonun önünde. Sonunda bir boşluk olmalı.",
+      "message": "3- "
+   },
+   "setupTitle": {
+      "description": "Kurulum adımları başlığı",
+      "message": "Screenity ile üç basit adımda başlayın:"
+   },
+   "shapeToolTooltip": {
+      "description": "Şekil Aracı araç ipucu",
+      "message": "Şekil Aracı"
+   },
+   "shareModalSandboxButton": {
+      "description": "Share modal email placeholder in sandbox editor page",
+      "message": "Pro hakkında daha fazla bilgi"
+   },
+   "shareModalSandboxDescription": {
+      "description": "Share modal description in sandbox editor page",
+      "message": "Bulutta paylaşım, yakınlaştırmalar, şablonlar... ve gizliliğe önem veren bağımsız bir kadın geliştiriciyi destekle ❤️"
+   },
+   "shareModalSandboxLogin": {
+      "description": "Share modal login link in sandbox editor page",
+      "message": "Zaten bir hesabın var mı? Giriş yap"
+   },
+   "shareModalSandboxTitle": {
+      "description": "Share modal title in sandbox editor page",
+      "message": "Kayıtlarını geliştirmeye hazır mısın?"
+   },
+   "shareSandboxButton": {
+      "description": "Kum havuzlu editör sayfasındaki paylaşma düğmesi",
+      "message": "Videoyu Paylaş"
+   },
+   "shareUnlockButton": {
+      "description": "Button to sign in to share in the editor",
+      "message": "Paylaşmak için giriş yap (pro)"
+   },
+   "showMoreOptionsLabel": {
+      "description": "Daha fazla seçenekler etiketi",
+      "message": "Daha fazla seçeneği göster"
+   },
+   "signInDriveLabel": {
+      "description": "Google Drive'a oturum açma etiketi",
+      "message": "Oturum açın ve Drive'a kaydedin"
+   },
+   "signOutDriveLabel": {
+      "description": "Google Drive'dan çıkış yapma etiketi",
+      "message": "Drive'dan Çıkış Yap"
+   },
+   "spotlightCursorTooltip": {
+      "description": "İmleci aydınlat açıklama",
+      "message": "İmleci aydınlat"
+   },
+   "stayInPagePopup": {
+      "description": "Sayfa içinde kalma açılır penceresi",
+      "message": "Kayıt yaparken sayfada kal"
+   },
+   "stopAckTimeoutToast": {
+      "description": "Toast shown when the recorder does not acknowledge the stop request within a few seconds",
+      "message": "Kaydetme beklenenden uzun sürüyor. Verileriniz güvende. Düzenleyici kısa süre içinde açılacak."
+   },
+   "stopRecording": {
+      "description": "Kaydı Durdur düğmesi",
+      "message": "Kaydı Durdur"
+   },
+   "storageCheckFailAuthDescription": {
+      "description": "Description shown when the storage check fails due to authentication",
+      "message": "Depolamanız kontrol edilirken bir sorun oluştu. Lütfen tekrar giriş yapın ve kaydı deneyin."
+   },
+   "storageCheckFailDescription": {
+      "description": "Description shown when the storage check fails",
+      "message": "Depolama kotanızı doğrulayamadık. Lütfen birkaç saniye sonra tekrar deneyin veya sayfayı yenileyin."
+   },
+   "storageCheckFailTitle": {
+      "description": "Title shown when the storage check fails",
+      "message": "Depolama kontrol edilemedi"
+   },
+   "storageLimitReachedDescription": {
+      "description": "Modal description shown when the storage limit is reached",
+      "message": "100 GB depolama alanınızın tamamını kullandınız. Lütfen kayıt yapmaya devam etmek için eski videoları veya sahneleri silin."
+   },
+   "storageLimitReachedTitle": {
+      "description": "Modal message shown when the storage limit is reached",
+      "message": "Depolama sınırına ulaşıldı"
+   },
+   "streamEndedWarningToast": {
+      "description": "Toast shown when screen share track ends mid-recording. Recording continues; removes false urgency about data loss.",
+      "message": "Ekran paylaşımı durdu. Kaydınız kaydedildi. Hazır olduğunuzda durdurun."
+   },
+   "streamErrorModalDescription": {
+      "description": "Akış hatası modal açıklaması",
+      "message": "Kaydın başlatılmasında bir hata oluştu gibi görünüyor. Tarayıcınızı yeniden başlatın ve tekrar deneyin. Sorun devam ederse, lütfen support@screenity.io adresinden bize ulaşın."
+   },
+   "streamErrorModalTitle": {
+      "description": "Akış hatası modal başlığı",
+      "message": "Kaydın başlatılmasında hata oluştu"
+   },
+   "supportSettingsOption": {
+      "description": "Label for the support option in the popup",
+      "message": "Destek"
+   },
+   "systemAudioLabel": {
+      "description": "Sistem sesi etiketi/sekmeleri",
+      "message": "Sistem sesini dahil et"
+   },
+   "tabRecordingDisabledToast": {
+      "description": "Toast message shown when tab recording is disabled on a page",
+      "message": "Bu sayfada sekme kaydı devre dışı. Ekran kaydına geçildi."
+   },
+   "tabRecordingDisabledTooltip": {
+      "description": "Tooltip shown when tab recording is disabled on a page",
+      "message": "Bu sayfada sekme kaydı devre dışı"
+   },
+   "tabType": {
+      "description": "Açılır pencere üzerinde sekme alanı kaydı türü etiketi",
+      "message": "Sekme alanı"
+   },
+   "textToolTooltip": {
+      "description": "Metin Aracı araç ipucu",
+      "message": "Metin Aracı"
+   },
+   "thickStrokeTooltip": {
+      "description": "Kalın Hat araç ipucu",
+      "message": "Kalın Hat"
+   },
+   "thinStrokeTooltip": {
+      "description": "İnce Hat araç ipucu",
+      "message": "İnce Hat"
+   },
+   "toastAudioCaptureDegraded": {
+      "description": "Toast shown when the audio recorder is stopped early because the audio buffer limit was reached",
+      "message": "Transcription capture paused due to memory pressure. Video upload continues."
+   },
+   "toastNetworkOffline": {
+      "description": "Toast shown when the browser goes offline during a cloud recording upload",
+      "message": "Network offline. Upload paused. Screen chunks are saved locally."
+   },
+   "toastRecoveredSession": {
+      "description": "Toast shown when a crashed recording session is auto-recovered on startup",
+      "message": "Recovered unsaved recording from the previous session."
+   },
+   "toastStorageCritical": {
+      "description": "Toast shown when available storage drops below the critical threshold during recording; reassures that captured data is preserved",
+      "message": "Disk alanı düşük. Kaydınız şimdi kaydediliyor. Şimdiye kadar yakalanan her şey güvende."
+   },
+   "toastStorageLow": {
+      "description": "Toast shown when available storage drops below the warning threshold during recording",
+      "message": "Storage is running low. Upload reliability may degrade for long recordings."
+   },
+   "toggleBlurToolTooltip": {
+      "description": "Bulanıklaştırma Aracını Aç/Kapat araç ipucu",
+      "message": "Bulanıklaştırma Aracını Aç/Kapat"
+   },
+   "toggleCursorOptionsTooltip": {
+      "description": "İşaretçi Seçeneklerini Aç/Kapat araç ipucu",
+      "message": "İşaretçi Seçeneklerini Aç/Kapat"
+   },
+   "toggleDrawingToolsTooltip": {
+      "description": "Çizim Araçlarını Aç/Kapat araç ipucu",
+      "message": "Çizim Araçlarını Aç/Kapat"
+   },
+   "toggleFillTooltip": {
+      "description": "Dolgu Seçeneğini Aç/Kapat araç ipucu",
+      "message": "Dolgu Seçeneğini Aç/Kapat"
+   },
+   "togglePictureinPictureModeTooltip": {
+      "description": "Resim İçinde Resim Modunu Aç/Kapat araç ipucu",
+      "message": "Resim İçinde Resim Modunu Aç/Kapat"
+   },
+   "toolbarHoverOnly": {
+      "description": "Yalnızca üzerine gelindiğinde araç çubuğunu göster düğmesi",
+      "message": "Kullanılmadığında araç çubuğunu gizle"
+   },
+   "topLabel": {
+      "description": "Özellikler için Üst etiketi",
+      "message": "Üst"
+   },
+   "troubleShootButtonDescription": {
+      "description": "Sorun giderme etiketi",
+      "message": "Videoyu kurtarın ve diğer sorunları çözün"
+   },
+   "troubleshootButtonTitle": {
+      "description": "Sorun giderme düğmesi",
+      "message": "Kaydınızla ilgili yardım alın"
+   },
+   "troubleshootModalButton": {
+      "description": "Sorun giderme modal düğmesi",
+      "message": "İndir"
+   },
+   "troubleshootModalDescription": {
+      "description": "Sorun giderme modal açıklaması",
+      "message": "İndirdikten sonra dosyayı support@screenity.io adresine gönderin ve ilgili bilgileri ekleyin. Bu verileri, uzantı ile ilgili yaşadığınız sorunları çözmek ve mümkünse videonuzu kurtarmak için kullanacağız."
+   },
+   "troubleshootModalTitle": {
+      "description": "Sorun giderme modal başlığı",
+      "message": "Sistem bilgisi ve video verilerini indirip sorun giderme için gönderin"
+   },
+   "understoodButton": {
+      "description": "Anladım Düğmesi",
+      "message": "Anladım"
+   },
+   "undoLabel": {
+      "description": "Geri Al etiketi",
+      "message": "Geri Al"
+   },
+   "undoTooltip": {
+      "description": "Geri Al araç ipucu",
+      "message": "Geri Al"
+   },
+   "unlockMoreFeatures": {
+      "description": "Button to unlock more features in the editor",
+      "message": "Daha fazla özelliğin kilidini aç"
+   },
+   "updateAnnouncementButton": {
+      "description": "Mevcut kullanıcılar için güncelleme duyurusu düğmesi",
+      "message": "Başlamak İçin"
+   },
+   "updateAnnouncementDescription": {
+      "description": "Mevcut kullanıcılar için güncelleme duyurusu açıklaması",
+      "message": "Yeni bir görünüm ve birçok heyecan verici özellik tanıtıyoruz, ama endişelenmeyin, hala bildiğiniz ve sevdiğiniz ücretsiz, özel ve açık kaynaklı uzantı aynı."
+   },
+   "updateAnnouncementLearnMore": {
+      "description": "Mevcut kullanıcılar için güncelleme duyurusu daha fazla bilgi bağlantısı",
+      "message": "Güncelleme hakkında daha fazla bilgi edinin."
+   },
+   "updateAnnouncementTitle": {
+      "description": "Mevcut kullanıcılar için güncelleme duyurusu başlığı",
+      "message": "Yeni Screenity'ye Hoş Geldiniz!"
+   },
+   "updateChromeLabelDescription": {
+      "description": "Chrome güncelleme açıklaması",
+      "message": "Daha fazla özelliğe erişmek için güncelleyin"
+   },
+   "updateChromeLabelTitle": {
+      "description": "Chrome güncelleme etiketi",
+      "message": "Chrome güncellenmesi gerekiyor"
+   },
+   "upgradeToProButton": {
+      "description": "Button to upgrade to Pro",
+      "message": "Pro’ya abone ol"
+   },
+   "videoProcessingLabelDescription": {
+      "description": "Editörde video işleme açıklaması",
+      "message": "Daha hızlı düzenleme için yükseltme yapın"
+   },
+   "videoProcessingLabelTitle": {
+      "description": "Editörde video işleme etiketi",
+      "message": "Video işleniyor..."
+   },
+   "videoTrackEndedToast": {
+      "description": "Toast shown when the video track ends mid-recording (e.g. monitor disconnected, screen share revoked)",
+      "message": "Ekran paylaşımı durdu. Kaydınız şimdi kaydediliyor. Şimdiye kadar yakalanan her şey güvende."
+   },
+   "videosTab": {
+      "description": "Açılır pencere üzerinde videolar sekmesi etiketi",
+      "message": "Videolarınız"
+   },
+   "webcodecsFailedOffToast": {
+      "description": "WebCodecs failure auto-disable toast",
+      "message": "Fast MP4 hata — kapalı"
+   },
+   "webcodecsToggleLabel": {
+      "description": "WebCodecs recorder toggle label",
+      "message": "Fast MP4 (beta)"
+   },
+   "welcomeBackPopupTitle": {
+      "description": "Geri dönen kullanıcılar için karşılama açılır penceresi başlığı",
+      "message": "Screenity’e tekrar hoş geldiniz"
+   },
+   "welcomeBackProCTA": {
+      "description": "Karşılama açılır penceresinde bulut depolama özelliği için harekete geçirici buton",
+      "message": "Screenity Pro hakkında daha fazla bilgi edinin"
+   },
+   "welcomeBackProDescription": {
+      "description": "Karşılama açılır penceresinde bulut depolama özelliğinin açıklaması",
+      "message": "Screenity Pro, videolarınızı bulutta saklamak, bağlantıyla paylaşmak ve gelişmiş düzenleme araçlarının kilidini açmak için isteğe bağlı yeni bir platformdur – ihtiyacınız olduğunda kullanabilirsiniz."
+   },
+   "welcomeBackProTitle": {
+      "description": "Karşılama açılır penceresinde bulut depolama özelliği başlığı",
+      "message": "✨ Yeni: Kayıtlarınızı bir üst seviyeye taşıyın"
+   },
+   "welcomePopupCTA": {
+      "description": "Call to action button for the welcome popup shown to new users",
+      "message": "Ücretsiz kullan — kaydolmana gerek yok!"
+   },
+   "welcomePopupCloudCTA": {
+      "description": "Call to action button for the cloud storage feature in the welcome popup",
+      "message": "🔓 Ekstra özelliklerin kilidini aç"
+   },
+   "welcomePopupCloudFeature1": {
+      "description": "Feature 1 for the cloud storage in the welcome popup",
+      "message": "Bulut depolama, bağlantıyla paylaş"
+   },
+   "welcomePopupCloudFeature2": {
+      "description": "Feature 2 for the cloud storage in the welcome popup",
+      "message": "Birden fazla klibi tek bir hikâyede birleştir"
+   },
+   "welcomePopupCloudFeature3": {
+      "description": "Feature 3 for the cloud storage in the welcome popup",
+      "message": "Tıklamada akıllı yakınlaştırmalar (ya da kendi yakınlaştırmanı ekle!)"
+   },
+   "welcomePopupCloudFeature4": {
+      "description": "Feature 4 for the cloud storage in the welcome popup",
+      "message": "Şablonlar, altyazılar, düzenler ekle..."
+   },
+   "welcomePopupCloudFeature5": {
+      "description": "Feature 5 for the cloud storage in the welcome popup",
+      "message": "Özel arka planlar ve maketler"
+   },
+   "welcomePopupCloudTitle": {
+      "description": "Title for the cloud storage feature in the welcome popup",
+      "message": "Videolarınla daha fazlasını yapmak ister misin?"
+   },
+   "welcomePopupDescriptionBottom": {
+      "description": "Description for the welcome popup shown to new users",
+      "message": "Sadece kayda bas."
+   },
+   "welcomePopupDescriptionTop": {
+      "description": "Description for the welcome popup shown to new users",
+      "message": "Reklam yok. Takip yok. Sınır yok."
+   },
+   "welcomePopupSupport": {
+      "description": "Message for supporting the indie maker in the welcome popup",
+      "message": "+ Bağımsız bir geliştiriciyi destekle!"
+   },
+   "welcomePopupTitle": {
+      "description": "Title for the welcome popup shown to new users",
+      "message": "Screenity'e hoş geldin"
+   },
+   "welcomeProButton": {
+      "description": "Button to sign in to Screenity Pro",
+      "message": "Ücretli özelliklerin kilidini açmak için giriş yap"
+   },
+   "welcomeProDescription": {
+      "description": "Description for the welcome Pro popup",
+      "message": "Videolarını buluta kaydetmek, bağlantıyla paylaşmak ve gelişmiş düzenleme özelliklerine erişmek için giriş yap."
+   },
+   "welcomeProSupport": {
+      "description": "Message for supporting the indie maker in the welcome Pro popup",
+      "message": "Bağımsız bir geliştiriciyi destekle"
+   },
+   "welcomeProTitle": {
+      "description": "Title for the welcome Pro popup",
+      "message": "Kayıtlarınla daha fazlasını yapmak ister misin?"
+   },
+   "welcomeToProActionModal": {
+      "description": "Pro karşılama modali eylem düğmesi",
+      "message": "Tamamdır"
+   },
+   "welcomeToProDescriptionModal": {
+      "description": "Pro karşılama modali açıklaması",
+      "message": "Kayda başlamaya hazırsınız! Aklınızda bulundurmanız gereken birkaç şey:\n\n- Kayıt sırasında kamera balonu kaybolabilir, bu normaldir. Arka planda ayrı olarak kaydedilir, böylece sonradan istediğiniz gibi konumlandırabilirsiniz.\n- Yakınlaştırmalar (zoom), yalnızca Chrome sekmeleri içindeki tıklamalarda otomatik olarak oluşturulur — bu, tarayıcıdan kaynaklı bir sınırlamadır. Kayıttan sonra manuel olarak daha fazla yakınlaştırma ekleyebilirsiniz.\n- Hızlı kayıtlar ve anında indirme için Instant Mode'u deneyin. Ancak, düzenleme seçeneklerinin sınırlı olduğunu unutmayın: arka planlar, yerleşimler veya gelişmiş ayarlar mevcut değildir."
+   },
+   "welcomeToProTitleModal": {
+      "description": "Pro karşılama modali başlığı",
+      "message": "Screenity Pro'ya Hoş Geldiniz"
+   },
+   "widthLabel": {
+      "description": "Özellikler için Genişlik etiketi",
+      "message": "Genişlik"
+   },
+   "zoomToPointPopup": {
+      "description": "Noktaya yakınlaşma açılır penceresi",
+      "message": "İşarete Yakınlaştır"
+   }
+}

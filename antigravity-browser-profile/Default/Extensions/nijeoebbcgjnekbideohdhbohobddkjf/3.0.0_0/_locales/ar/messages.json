@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "عرض ملفات ePUB مباشرة في متصفحك."
+   },
+   "app_name": {
+      "message": "قارئ ePub"
+   },
+   "menu_dark_mode": {
+      "message": "وضع الظلام"
+   },
+   "menu_open_support": {
+      "message": "افتح صفحة الدعم"
+   },
+   "menu_rate_us": {
+      "message": "ارجوك قم بتقييمنا!"
+   },
+   "menu_reload_ui": {
+      "message": "إعادة تحميل التطبيق"
+   },
+   "menu_upload_from_device": {
+      "message": "تحميل من جهازك"
+   },
+   "menu_use_gdrive": {
+      "message": "استخدم Gdrive الخاص بك"
+   },
+   "message_enter_url": {
+      "message": "الرجاء إدخال عنوان URL أو سحب وإفلات ملف ePub في الحقل أعلاه"
+   },
+   "message_error": {
+      "message": "حدث خطأ! حاول مرة اخرى."
+   },
+   "message_fetching_0": {
+      "message": "جارٍ إحضار المستند 0٪ يرجى الانتظار ..."
+   },
+   "message_fetching_1": {
+      "message": "إحضار المستند"
+   },
+   "message_fetching_2": {
+      "message": "٪ ارجوك انتظر..."
+   },
+   "message_loading": {
+      "message": "جارٍ تحميل المستند ، يرجى الانتظار ..."
+   },
+   "message_ready": {
+      "message": "قارئ ePUB جاهز"
+   },
+   "message_wrong_content": {
+      "message": "ملف غير صالح! حاول مرة اخرى."
+   },
+   "methods_archived": {
+      "message": "أرشفة"
+   },
+   "methods_highlights": {
+      "message": "يسلط الضوء"
+   },
+   "methods_hypothes": {
+      "message": "Hypothes"
+   },
+   "methods_scrolled": {
+      "message": "تمريره"
+   },
+   "methods_scrolled_continuous": {
+      "message": "التمرير المستمر"
+   },
+   "methods_spreads": {
+      "message": "الهوامش"
+   },
+   "methods_spreads_continuous": {
+      "message": "ينتشر مستمر"
+   },
+   "methods_swipe": {
+      "message": "صفعة"
+   },
+   "title_font_size": {
+      "message": "حجم الخط (٪)"
+   }
+}

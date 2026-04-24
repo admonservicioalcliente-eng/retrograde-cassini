@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Meetings einfach planen: Verfügbarkeit teilen, Kunden buchen lassen und alles per Terminplanung im Online-Kalender synchron halten."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Terminplanung mit Online-Kalender"
+   }
+}

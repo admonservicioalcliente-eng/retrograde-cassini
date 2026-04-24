@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Tekintse meg az ePUB fájlokat közvetlenül a böngészőjében."
+   },
+   "app_name": {
+      "message": "ePub Reader"
+   },
+   "menu_dark_mode": {
+      "message": "Sötét mód"
+   },
+   "menu_open_support": {
+      "message": "Nyissa meg a támogatási oldalt"
+   },
+   "menu_rate_us": {
+      "message": "Kérjük, értékelje minket!"
+   },
+   "menu_reload_ui": {
+      "message": "Újratöltés alkalmazás"
+   },
+   "menu_upload_from_device": {
+      "message": "Feltöltés az eszközről"
+   },
+   "menu_use_gdrive": {
+      "message": "Használja a Gdrive-t"
+   },
+   "message_enter_url": {
+      "message": "Adjon meg egy URL-t, vagy húzza át és dobja be az ePub fájlt a fenti mezőbe"
+   },
+   "message_error": {
+      "message": "Hiba történt! Kérlek próbáld újra."
+   },
+   "message_fetching_0": {
+      "message": "A dokumentum beolvasása 0%, kérjük várjon ..."
+   },
+   "message_fetching_1": {
+      "message": "A dokumentum beolvasása"
+   },
+   "message_fetching_2": {
+      "message": "% kérlek várj..."
+   },
+   "message_loading": {
+      "message": "Dokumentum betöltése, kérem várjon ..."
+   },
+   "message_ready": {
+      "message": "Az ePUB Reader kész"
+   },
+   "message_wrong_content": {
+      "message": "Érvénytelen fájl! Kérlek próbáld újra."
+   },
+   "methods_archived": {
+      "message": "Archivált"
+   },
+   "methods_highlights": {
+      "message": "Főbb"
+   },
+   "methods_hypothes": {
+      "message": "Hypothes"
+   },
+   "methods_scrolled": {
+      "message": "görgetni"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Görgetés folyamatos"
+   },
+   "methods_spreads": {
+      "message": "Spreads"
+   },
+   "methods_spreads_continuous": {
+      "message": "Folyamatosan terjed"
+   },
+   "methods_swipe": {
+      "message": "Elcsór"
+   },
+   "title_font_size": {
+      "message": "Betűméret (%)"
+   }
+}

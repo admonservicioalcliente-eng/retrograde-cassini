@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Peržiūrėkite „ePUB“ failus tiesiai naršyklėje."
+   },
+   "app_name": {
+      "message": "„ePub Reader“"
+   },
+   "menu_dark_mode": {
+      "message": "Tamsus režimas"
+   },
+   "menu_open_support": {
+      "message": "Atidarykite palaikymo puslapį"
+   },
+   "menu_rate_us": {
+      "message": "Prašau Įvertink mus!"
+   },
+   "menu_reload_ui": {
+      "message": "Iš naujo įkelti programą"
+   },
+   "menu_upload_from_device": {
+      "message": "Įkelkite iš savo įrenginio"
+   },
+   "menu_use_gdrive": {
+      "message": "Naudokite savo „Gdrive“"
+   },
+   "message_enter_url": {
+      "message": "Įveskite URL arba vilkite ir numeskite „ePub“ failą aukščiau esančiame lauke"
+   },
+   "message_error": {
+      "message": "Įvyko klaida! Prašau, pabandykite dar kartą."
+   },
+   "message_fetching_0": {
+      "message": "Gaunamas dokumentas 0%, palaukite ..."
+   },
+   "message_fetching_1": {
+      "message": "Gaunamas dokumentas"
+   },
+   "message_fetching_2": {
+      "message": "% prašau palauk..."
+   },
+   "message_loading": {
+      "message": "Įkeliamas dokumentas, palaukite ..."
+   },
+   "message_ready": {
+      "message": "„ePUB Reader“ yra paruoštas"
+   },
+   "message_wrong_content": {
+      "message": "Netinkamas failas! Prašau, pabandykite dar kartą."
+   },
+   "methods_archived": {
+      "message": "Archyvuota"
+   },
+   "methods_highlights": {
+      "message": "Pabrėžia"
+   },
+   "methods_hypothes": {
+      "message": "Hipotezės"
+   },
+   "methods_scrolled": {
+      "message": "Slinko"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Slinkite nenutrūkstamai"
+   },
+   "methods_spreads": {
+      "message": "Skleidžiasi"
+   },
+   "methods_spreads_continuous": {
+      "message": "Plinta nuolat"
+   },
+   "methods_swipe": {
+      "message": "Perbraukite"
+   },
+   "title_font_size": {
+      "message": "Šrifto dydis (%)"
+   }
+}

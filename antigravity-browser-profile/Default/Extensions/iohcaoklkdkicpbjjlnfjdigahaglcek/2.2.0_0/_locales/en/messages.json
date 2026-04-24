@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Schedule meetings with booking software. Share your availability, let clients book appointments, and sync with your calendar."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Free Appointment Scheduling"
+   }
+}

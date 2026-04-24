@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "बुकिंग सॉफ़्टवेयर के साथ मीटिंग शेड्यूल करें। अपनी उपलब्धता साझा करें, ग्राहकों को अपॉइंटमेंट बुक करने दें और अपने कैलेंडर के साथ सिंक करें।"
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: निःशुल्क अपॉइंटमेंट शेड्यूलिंग"
+   }
+}

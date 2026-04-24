@@ -1,0 +1,8 @@
+# Archivos de ambiente
+.env
+.env.local
+
+# Carpetas de dependencias (ejemplos)
+node_modules/
+__pycache__/
+venv/

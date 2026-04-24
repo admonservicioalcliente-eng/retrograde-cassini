@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Bekijk ePUB-bestanden rechtstreeks in uw browser."
+   },
+   "app_name": {
+      "message": "ePub Reader"
+   },
+   "menu_dark_mode": {
+      "message": "Donkere modus"
+   },
+   "menu_open_support": {
+      "message": "Open de ondersteuningspagina"
+   },
+   "menu_rate_us": {
+      "message": "Beoordeel ons alstublieft!"
+   },
+   "menu_reload_ui": {
+      "message": "Toepassing opnieuw laden"
+   },
+   "menu_upload_from_device": {
+      "message": "Uploaden vanaf uw apparaat"
+   },
+   "menu_use_gdrive": {
+      "message": "Gebruik uw Gdrive"
+   },
+   "message_enter_url": {
+      "message": "Voer een URL in of sleep een ePub-bestand in het bovenstaande veld"
+   },
+   "message_error": {
+      "message": "Er is een fout opgetreden! probeer het opnieuw."
+   },
+   "message_fetching_0": {
+      "message": "Document wordt opgehaald 0% even geduld ..."
+   },
+   "message_fetching_1": {
+      "message": "Document wordt opgehaald"
+   },
+   "message_fetching_2": {
+      "message": "% even geduld aub..."
+   },
+   "message_loading": {
+      "message": "Document wordt geladen, even geduld ..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader is klaar"
+   },
+   "message_wrong_content": {
+      "message": "Ongeldig bestand! probeer het opnieuw."
+   },
+   "methods_archived": {
+      "message": "gearchiveerd"
+   },
+   "methods_highlights": {
+      "message": "highlights"
+   },
+   "methods_hypothes": {
+      "message": "Hypothes"
+   },
+   "methods_scrolled": {
+      "message": "gebladerd"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Scrolled Continuous"
+   },
+   "methods_spreads": {
+      "message": "spreads"
+   },
+   "methods_spreads_continuous": {
+      "message": "Wordt continu verspreid"
+   },
+   "methods_swipe": {
+      "message": "wip"
+   },
+   "title_font_size": {
+      "message": "Lettertypegrootte (%)"
+   }
+}

@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Pregledajte ePUB datoteke izravno u pregledniku."
+   },
+   "app_name": {
+      "message": "ePub čitač"
+   },
+   "menu_dark_mode": {
+      "message": "Dark Mode"
+   },
+   "menu_open_support": {
+      "message": "Otvorite stranicu podrške"
+   },
+   "menu_rate_us": {
+      "message": "Molimo ocijenite nas!"
+   },
+   "menu_reload_ui": {
+      "message": "Ponovno učitajte aplikaciju"
+   },
+   "menu_upload_from_device": {
+      "message": "Prijenos s uređaja"
+   },
+   "menu_use_gdrive": {
+      "message": "Koristite svoj Gdrive"
+   },
+   "message_enter_url": {
+      "message": "Unesite URL ili prevucite i ispustite ePub datoteku u gornje polje"
+   },
+   "message_error": {
+      "message": "Došlo je do pogreške! molim te pokušaj ponovno."
+   },
+   "message_fetching_0": {
+      "message": "Dohvaćanje dokumenta 0%, pričekajte ..."
+   },
+   "message_fetching_1": {
+      "message": "Dohvaćanje dokumenta"
+   },
+   "message_fetching_2": {
+      "message": "% molim pričekajte ..."
+   },
+   "message_loading": {
+      "message": "Učitavanje dokumenta, pričekajte ..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader je spreman"
+   },
+   "message_wrong_content": {
+      "message": "Nevažeća datoteka! molim te pokušaj ponovno."
+   },
+   "methods_archived": {
+      "message": "Arhivirano"
+   },
+   "methods_highlights": {
+      "message": "Naglasci"
+   },
+   "methods_hypothes": {
+      "message": "Hypothes"
+   },
+   "methods_scrolled": {
+      "message": "pomicana"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Pomiče se kontinuirano"
+   },
+   "methods_spreads": {
+      "message": "namazi"
+   },
+   "methods_spreads_continuous": {
+      "message": "Šire se neprekidno"
+   },
+   "methods_swipe": {
+      "message": "Ukrasti"
+   },
+   "title_font_size": {
+      "message": "Veličina fonta (%)"
+   }
+}

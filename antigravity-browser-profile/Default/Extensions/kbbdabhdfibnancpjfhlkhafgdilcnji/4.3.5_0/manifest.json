@@ -1,0 +1,88 @@
+{
+   "action": {
+      "default_icon": "assets/img/icon-34.png"
+   },
+   "background": {
+      "service_worker": "background.bundle.js"
+   },
+   "commands": {
+      "cancel-recording": {
+         "description": "Cancel recording",
+         "suggested_key": {
+            "default": "Alt+Shift+X"
+         }
+      },
+      "pause-recording": {
+         "description": "Pause/Resume recording",
+         "suggested_key": {
+            "default": "Alt+Shift+M"
+         }
+      },
+      "start-recording": {
+         "description": "Start recording",
+         "suggested_key": {
+            "default": "Alt+Shift+G"
+         }
+      },
+      "stop-recording": {
+         "description": "Stop recording"
+      },
+      "toggle-blur-mode": {
+         "description": "Toggle blur mode"
+      },
+      "toggle-cursor-mode": {
+         "description": "Toggle cursor options"
+      },
+      "toggle-drawing-mode": {
+         "description": "Toggle drawing mode"
+      },
+      "toggle-hide-ui": {
+         "description": "Toggle hide UI"
+      }
+   },
+   "content_scripts": [ {
+      "css": [ "assets/fonts/fonts.css" ],
+      "js": [ "contentScript.bundle.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'; media-src 'self' data: blob: *; img-src 'self' https: data: blob:",
+      "sandbox": "sandbox allow-scripts allow-modals allow-popups; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob:; object-src 'self'; worker-src 'self' blob: ;"
+   },
+   "cross_origin_embedder_policy": {
+      "value": "require-corp"
+   },
+   "cross_origin_opener_policy": {
+      "value": "same-origin"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "externally_connectable": {
+      "matches": [ "https://app.screenity.io/*" ]
+   },
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "assets/img/icon-128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9pb4XFYH1UnRSPKMiLJkrawC33zmGf2x2OjCGvENRqqpIsVPzdbBtkx7y1Ho4rFcXx8CYNyt4E9avnuMVQgE43FIZJwmZYjyNXUEskd2FPZmpqqHGK3zSNgB6rP12Cgazk7WMjl24CpEOS6K7ZiE/7uSK17kv9ZcKgoMlnWEh5HhdjtnvfZkMCQvWN2IxGLjFiB7C2zsjayIijTS+rA6nXstVy07hur4rFayrkLXu4SbRggNzb7YKIevs05F+whBuEAcPmd4ZOh3y+JCMJydjZ8iEDFkkFxVuwrMngdvUn4iqnDHneogHyS1zaD2XkQ9SAX1IcAmMbOSTWQCUX0LgwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "oauth2": {
+      "client_id": "560517327251-m7n1k3kddknu7s9s4ejvrs1bj91gutd7.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/drive.file" ]
+   },
+   "optional_permissions": [ "offscreen", "desktopCapture", "alarms", "clipboardWrite" ],
+   "permissions": [ "identity", "activeTab", "storage", "unlimitedStorage", "downloads", "tabs", "tabCapture", "scripting", "system.display" ],
+   "sandbox": {
+      "pages": [ "editor.html" ]
+   },
+   "storage": {
+      "managed_schema": "schema.json"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.3.5",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "content.styles.css", "blank.mp4", "editor.html", "assets/*", "setup.html", "worker.js", "vendor/*", "cloudrecorder.html", "recorder.html", "recorderoffscreen.html", "sandbox.html", "wrapper.html", "camera.html", "permissions.html", "region.html", "waveform.html", "playground.html", "editorwebcodecs.html", "editorviewer.html", "download.html", "*" ]
+   } ]
+}

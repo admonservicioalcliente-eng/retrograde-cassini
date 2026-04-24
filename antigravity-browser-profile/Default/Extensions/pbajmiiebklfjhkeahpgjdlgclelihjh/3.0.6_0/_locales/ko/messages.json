@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "Convert audio to text. Automatically record and transcribe your meetings, interviews, and other conversations with Transkriptor.",
+      "message": "오디오를 텍스트로 변환합니다. Transkrriptor를 사용하여 회의 및 기타 대화를 자동으로 녹음하고 전사합니다."
+   },
+   "appName": {
+      "description": "Transkriptor: Transcribe Audio to Text",
+      "message": "Transkriptor: 오디오를 텍스트로 변환합니다."
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "Convert audio to text. Automatically record and transcribe your meetings, interviews, and other conversations with Transkriptor.",
+      "message": "Teisendage heli tekstiks. Salvestage ja transkribeerige automaatselt oma koosolekud ja muud vestlused rakendusega Transkriptor."
+   },
+   "appName": {
+      "description": "Transkriptor: Transcribe Audio to Text",
+      "message": "Transkriptor: Teisendage heli tekstiks"
+   }
+}

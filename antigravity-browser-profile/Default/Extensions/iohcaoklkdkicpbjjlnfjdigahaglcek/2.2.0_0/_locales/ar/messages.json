@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "جدولة الاجتماعات باستخدام برنامج الحجز. شارك توفرك، واسمح للعملاء بحجز المواعيد، والمزامنة مع تقويمك."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: جدولة المواعيد المجانية"
+   }
+}

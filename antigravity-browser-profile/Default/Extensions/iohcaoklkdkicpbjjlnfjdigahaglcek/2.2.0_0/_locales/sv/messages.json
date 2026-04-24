@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Schemalägg möten med bokningsprogramvara. Dela din tillgänglighet, låt klienter boka tider och synkronisera med din kalender."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Gratis Tidsbokning"
+   }
+}

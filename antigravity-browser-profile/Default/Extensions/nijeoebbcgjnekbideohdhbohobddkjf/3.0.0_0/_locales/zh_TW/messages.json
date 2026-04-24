@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "在瀏覽器中查看ePUB文件。"
+   },
+   "app_name": {
+      "message": "ePub閱讀器"
+   },
+   "menu_dark_mode": {
+      "message": "暗模式"
+   },
+   "menu_open_support": {
+      "message": "打開支持頁面"
+   },
+   "menu_rate_us": {
+      "message": "請給我們評分！"
+   },
+   "menu_reload_ui": {
+      "message": "重新加載應用"
+   },
+   "menu_upload_from_device": {
+      "message": "從您的設備上傳"
+   },
+   "menu_use_gdrive": {
+      "message": "使用你的Gdrive"
+   },
+   "message_enter_url": {
+      "message": "請在上面的字段中輸入URL或拖放ePub文件"
+   },
+   "message_error": {
+      "message": "發生了錯誤！請再試一次。"
+   },
+   "message_fetching_0": {
+      "message": "獲取文件0％，請稍候..."
+   },
+   "message_fetching_1": {
+      "message": "獲取文件"
+   },
+   "message_fetching_2": {
+      "message": "％ 請耐心等待..."
+   },
+   "message_loading": {
+      "message": "正在加載文檔，請稍候..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader準備就緒"
+   },
+   "message_wrong_content": {
+      "message": "無效的文件！請再試一次。"
+   },
+   "methods_archived": {
+      "message": "存檔"
+   },
+   "methods_highlights": {
+      "message": "強調"
+   },
+   "methods_hypothes": {
+      "message": "Hypothes"
+   },
+   "methods_scrolled": {
+      "message": "滾動"
+   },
+   "methods_scrolled_continuous": {
+      "message": "滾動連續"
+   },
+   "methods_spreads": {
+      "message": "價差"
+   },
+   "methods_spreads_continuous": {
+      "message": "傳播持續"
+   },
+   "methods_swipe": {
+      "message": "刷卡"
+   },
+   "title_font_size": {
+      "message": "字體大小 （％）"
+   }
+}

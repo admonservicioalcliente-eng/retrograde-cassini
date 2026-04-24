@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Oglejte si datoteke ePUB neposredno v svojem brskalniku."
+   },
+   "app_name": {
+      "message": "bralnik ePub"
+   },
+   "menu_dark_mode": {
+      "message": "Dark Mode"
+   },
+   "menu_open_support": {
+      "message": "Odprite stran za podporo"
+   },
+   "menu_rate_us": {
+      "message": "Prosimo ocenite nas!"
+   },
+   "menu_reload_ui": {
+      "message": "Ponovno naloži aplikacijo"
+   },
+   "menu_upload_from_device": {
+      "message": "Naloži s svoje naprave"
+   },
+   "menu_use_gdrive": {
+      "message": "Uporabite svoj Gdrive"
+   },
+   "message_enter_url": {
+      "message": "V zgornje polje vnesite URL ali povlecite in spustite ePub datoteko"
+   },
+   "message_error": {
+      "message": "Prišlo je do napake! prosim poskusite ponovno."
+   },
+   "message_fetching_0": {
+      "message": "Pridobivanje dokumenta 0%, počakajte ..."
+   },
+   "message_fetching_1": {
+      "message": "Pridobivanje dokumenta"
+   },
+   "message_fetching_2": {
+      "message": "% prosim počakaj..."
+   },
+   "message_loading": {
+      "message": "Nalaganje dokumenta, počakajte ..."
+   },
+   "message_ready": {
+      "message": "Bralnik ePUB je pripravljen"
+   },
+   "message_wrong_content": {
+      "message": "Neveljavna datoteka! prosim poskusite ponovno."
+   },
+   "methods_archived": {
+      "message": "Arhivirano"
+   },
+   "methods_highlights": {
+      "message": "Poudarki"
+   },
+   "methods_hypothes": {
+      "message": "Hipoteze"
+   },
+   "methods_scrolled": {
+      "message": "Drsela"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Pomikanje neprekinjeno"
+   },
+   "methods_spreads": {
+      "message": "Širjenje"
+   },
+   "methods_spreads_continuous": {
+      "message": "Nenehno se širi"
+   },
+   "methods_swipe": {
+      "message": "Povlecite"
+   },
+   "title_font_size": {
+      "message": "Velikost pisave (%)"
+   }
+}

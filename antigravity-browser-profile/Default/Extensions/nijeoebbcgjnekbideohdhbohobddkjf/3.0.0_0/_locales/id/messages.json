@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Lihat file ePUB tepat di browser Anda."
+   },
+   "app_name": {
+      "message": "ePub Reader"
+   },
+   "menu_dark_mode": {
+      "message": "Mode Gelap"
+   },
+   "menu_open_support": {
+      "message": "Buka Halaman Dukungan"
+   },
+   "menu_rate_us": {
+      "message": "Silakan Beri Nilai Kami!"
+   },
+   "menu_reload_ui": {
+      "message": "Muat Ulang Aplikasi"
+   },
+   "menu_upload_from_device": {
+      "message": "Unggah Dari Perangkat Anda"
+   },
+   "menu_use_gdrive": {
+      "message": "Gunakan Gdrive Anda"
+   },
+   "message_enter_url": {
+      "message": "Silakan masukkan URL atau seret & jatuhkan file ePub di bidang di atas"
+   },
+   "message_error": {
+      "message": "Sebuah kesalahan telah terjadi! tolong coba lagi."
+   },
+   "message_fetching_0": {
+      "message": "Mengambil dokumen 0% harap tunggu ..."
+   },
+   "message_fetching_1": {
+      "message": "Mengambil dokumen"
+   },
+   "message_fetching_2": {
+      "message": "% tunggu sebentar..."
+   },
+   "message_loading": {
+      "message": "Sedang memuat dokumen, harap tunggu ..."
+   },
+   "message_ready": {
+      "message": "Pembaca ePUB siap"
+   },
+   "message_wrong_content": {
+      "message": "File tidak valid! tolong coba lagi."
+   },
+   "methods_archived": {
+      "message": "Diarsipkan"
+   },
+   "methods_highlights": {
+      "message": "Highlight"
+   },
+   "methods_hypothes": {
+      "message": "Hipotesis"
+   },
+   "methods_scrolled": {
+      "message": "Digulir"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Bergulir Kontinu"
+   },
+   "methods_spreads": {
+      "message": "Spread"
+   },
+   "methods_spreads_continuous": {
+      "message": "Spread Terus Menerus"
+   },
+   "methods_swipe": {
+      "message": "Babatan"
+   },
+   "title_font_size": {
+      "message": "Ukuran huruf (%)"
+   }
+}

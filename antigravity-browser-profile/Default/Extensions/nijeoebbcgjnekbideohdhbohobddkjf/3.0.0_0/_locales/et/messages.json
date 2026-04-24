@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Vaadake ePUB-faile otse oma brauseris."
+   },
+   "app_name": {
+      "message": "ePubi lugeja"
+   },
+   "menu_dark_mode": {
+      "message": "Tume režiim"
+   },
+   "menu_open_support": {
+      "message": "Avage tugiteenuste leht"
+   },
+   "menu_rate_us": {
+      "message": "Palun hinnake meid!"
+   },
+   "menu_reload_ui": {
+      "message": "Laadige rakendus uuesti alla"
+   },
+   "menu_upload_from_device": {
+      "message": "Laadige oma seadmest üles"
+   },
+   "menu_use_gdrive": {
+      "message": "Kasutage oma Gdrive"
+   },
+   "message_enter_url": {
+      "message": "Sisestage URL või lohistage ülaltoodud väljale ePub-fail"
+   },
+   "message_error": {
+      "message": "Tekkis viga! Palun proovi uuesti."
+   },
+   "message_fetching_0": {
+      "message": "Dokumendi toomine 0% palun oodake ..."
+   },
+   "message_fetching_1": {
+      "message": "Dokumendi toomine"
+   },
+   "message_fetching_2": {
+      "message": "% Palun oota..."
+   },
+   "message_loading": {
+      "message": "Dokumendi laadimine, palun oodake ..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader on valmis"
+   },
+   "message_wrong_content": {
+      "message": "Vigane fail! Palun proovi uuesti."
+   },
+   "methods_archived": {
+      "message": "Arhiivitud"
+   },
+   "methods_highlights": {
+      "message": "Tähtsündmused"
+   },
+   "methods_hypothes": {
+      "message": "Hüpoteesid"
+   },
+   "methods_scrolled": {
+      "message": "Keritud"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Keritud pidev"
+   },
+   "methods_spreads": {
+      "message": "Levib"
+   },
+   "methods_spreads_continuous": {
+      "message": "Levib pidevalt"
+   },
+   "methods_swipe": {
+      "message": "Pühkige"
+   },
+   "title_font_size": {
+      "message": "Fondi suurus (%)"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Planuj spotkania za pomocą oprogramowania do rezerwacji. Udostępnij swoją dostępność, pozwól klientom rezerwować spotkania i synchronizuj z kalendarzem."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Darmowe Planowanie Spotkań"
+   }
+}

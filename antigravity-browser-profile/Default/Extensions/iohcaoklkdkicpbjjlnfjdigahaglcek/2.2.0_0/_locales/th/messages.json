@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "กำหนดการประชุมด้วยซอฟต์แวร์การจอง แบ่งปันความพร้อมของคุณ ให้ลูกค้าจองนัดหมาย และซิงค์กับปฏิทินของคุณ"
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: กำหนดการนัดหมายฟรี"
+   }
+}

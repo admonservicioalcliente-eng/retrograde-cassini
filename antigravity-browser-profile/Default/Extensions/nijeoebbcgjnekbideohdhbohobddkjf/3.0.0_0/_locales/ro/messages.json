@@ -1,0 +1,77 @@
+{
+   "app_description": {
+      "message": "Vizualizați fișierele ePUB chiar în browserul dvs."
+   },
+   "app_name": {
+      "message": "ePub Reader"
+   },
+   "menu_dark_mode": {
+      "message": "Modul întunecat"
+   },
+   "menu_open_support": {
+      "message": "Deschideți pagina de asistență"
+   },
+   "menu_rate_us": {
+      "message": "Vă rugăm să ne evaluați!"
+   },
+   "menu_reload_ui": {
+      "message": "Aplicația de reîncărcare"
+   },
+   "menu_upload_from_device": {
+      "message": "Încărcați de pe dispozitivul dvs."
+   },
+   "menu_use_gdrive": {
+      "message": "Folosește-ți Gdrive-ul"
+   },
+   "message_enter_url": {
+      "message": "Vă rugăm să introduceți un URL sau să glisați și să fixați un fișier ePub în câmpul de mai sus"
+   },
+   "message_error": {
+      "message": "A avut loc o eroare! vă rugăm să încercați din nou."
+   },
+   "message_fetching_0": {
+      "message": "Obținerea documentului 0% vă rugăm să așteptați ..."
+   },
+   "message_fetching_1": {
+      "message": "Obținerea documentului"
+   },
+   "message_fetching_2": {
+      "message": "% te rog asteapta..."
+   },
+   "message_loading": {
+      "message": "Se încarcă documentul, vă rugăm să așteptați ..."
+   },
+   "message_ready": {
+      "message": "ePUB Reader este gata"
+   },
+   "message_wrong_content": {
+      "message": "Fișier invalid! vă rugăm să încercați din nou."
+   },
+   "methods_archived": {
+      "message": "arhivată"
+   },
+   "methods_highlights": {
+      "message": "Repere"
+   },
+   "methods_hypothes": {
+      "message": "Hypothes"
+   },
+   "methods_scrolled": {
+      "message": "scrolled"
+   },
+   "methods_scrolled_continuous": {
+      "message": "Defilat continuu"
+   },
+   "methods_spreads": {
+      "message": "Spread-urile"
+   },
+   "methods_spreads_continuous": {
+      "message": "Răspândește continuu"
+   },
+   "methods_swipe": {
+      "message": "Beţivan"
+   },
+   "title_font_size": {
+      "message": "Marimea fontului (%)"
+   }
+}

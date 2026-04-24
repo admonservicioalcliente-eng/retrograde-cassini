@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Плануйте зустрічі за допомогою програмного забезпечення для бронювання. Діліться своєю доступністю, дозволяйте клієнтам бронювати зустрічі та синхронізуйте з вашим календарем."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Koalendar: Безкоштовне Планування Зустрічей"
+   }
+}
