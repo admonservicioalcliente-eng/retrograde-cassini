@@ -1,2 +1,4 @@
 [build]
   functions = "netlify/functions"
+  publish = "retrograde-cassini"
+  command = "npm run build"
