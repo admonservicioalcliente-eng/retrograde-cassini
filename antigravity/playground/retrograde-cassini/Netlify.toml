@@ -1,5 +1,5 @@
 [build]
   functions = "netlify/functions"
-  base = "/opt/build"
+  base = "."
   publish = "retrograde-cassini"
   command = "npm run build"
