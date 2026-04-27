@@ -139,7 +139,7 @@
                                 <input type="number" id="depreciacion" step="0.01" required>
                             </div>
                             <div class="input-group">
-                                <label>6. Ingresos Financieros</label>
+                                <label>5. Ingresos Financieros</label>
                                 <input type="number" id="ingresos-fin" step="0.01" required>
                             </div>
                             <div class="input-group">
@@ -153,20 +153,22 @@
                         </div>
                         <button type="submit" class="btn-primary mt-2">Guardar Registro</button>
                     </form>
-                    const enviarDatos = async (objetoFinanciero) => {
-  try {
-    const response = await fetch('/.netlify/functions/guardar-financiero', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(objetoFinanciero)
-    });
-    
-    const resultado = await response.json();
-    alert("Datos guardados con ID: " + resultado.id);
-  } catch (error) {
-    console.error("Error al enviar:", error);
-  }
-};
+                    <script>
+                        const enviarDatos = async (objetoFinanciero) => {
+                            try {
+                                const response = await fetch('/.netlify/functions/guardar-financiero', {
+                                    method: 'POST',
+                                    headers: { 'Content-Type': 'application/json' },
+                                    body: JSON.stringify(objetoFinanciero)
+                                });
+                                
+                                const resultado = await response.json();
+                                alert("Datos guardados con ID: " + resultado.id);
+                            } catch (error) {
+                                console.error("Error al enviar:", error);
+                            }
+                        };
+                    </script>
 
                 </div>
             </section>
