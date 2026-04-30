@@ -1,0 +1,1584 @@
+{
+   "accountSettingsOption": {
+      "description": "Label for the account settings option in the popup",
+      "message": "अकाउंट सेटिंग्स"
+   },
+   "addAudioButtonDescription": {
+      "description": "ऑडियो लेबल",
+      "message": "अपना खुद का ऑडियो अपलोड करके वीडियो में जोड़ें"
+   },
+   "addAudioButtonTitle": {
+      "description": "ऑडियो लेबल बटन",
+      "message": "ऑडियो जोड़ें"
+   },
+   "addImageToastTitle": {
+      "description": "नई छवि जोड़ते समय टोस्ट",
+      "message": "छवि डालने के लिए क्लिक करें"
+   },
+   "addedToMultiToast": {
+      "description": "Toast message shown when a scene is added to multi-recording",
+      "message": "सीन को Multi रिकॉर्डिंग में जोड़ा गया"
+   },
+   "addingToLabel": {
+      "description": "Label shown when a scene is being recorded to a project",
+      "message": "इसमें जोड़ रहे हैं: "
+   },
+   "alarmLabel": {
+      "description": "अलार्म लेबल",
+      "message": "समय सीमा सेट करें"
+   },
+   "allVideosHeading": {
+      "description": "Heading for the all videos section in the popup",
+      "message": "सभी वीडियो"
+   },
+   "allowCameraAccessButton": {
+      "description": "कैमरा अनुमति दें बटन",
+      "message": "कैमरा अनुमति दें"
+   },
+   "allowMicrophoneAccessButton": {
+      "description": "माइक्रोफ़ोन अनुमति दें बटन",
+      "message": "माइक्रोफ़ोन अनुमति दें"
+   },
+   "arrowToolTooltip": {
+      "description": "तीर टूलटिप",
+      "message": "तीर टूल"
+   },
+   "audioTrackEndedToast": {
+      "description": "Toast shown when the audio track ends mid-recording (e.g. mic unplugged, permission revoked)",
+      "message": "ऑडियो डिस्कनेक्ट हो गया। आपकी रिकॉर्डिंग सहेजी जा रही है। अब तक कैप्चर किया गया वीडियो सुरक्षित है।"
+   },
+   "audioWarningDescription": {
+      "description": "ऑडियो चेतावनी विवरण",
+      "message": "इस पेज से ऑडियो रिकॉर्ड करने के लिए, आपको '$tab$' पर स्विच करना होगा।",
+      "placeholders": {
+         "tab": {
+            "content": "$1",
+            "example": "टैब क्षेत्र"
+         }
+      }
+   },
+   "audioWarningTitle": {
+      "description": "ऑडियो चेतावनी शीर्षक",
+      "message": "कंप्यूटर ऑडियो रिकॉर्ड करें"
+   },
+   "backgroundEffectsLabel": {
+      "description": "पृष्ठभूमि प्रभाव स्विच लेबल",
+      "message": "पृष्ठभूमि प्रभाव"
+   },
+   "backupPermissionFailDescription": {
+      "description": "बैकअप अनुमति असफल विवरण",
+      "message": "आपने अपनी रिकॉर्डिंग्स की स्थानीय बैकअप के लिए कोई फ़ोल्डर चुना नहीं है। आपके ब्राउज़र संस्करण या ऑपरेटिंग सिस्टम के आधार पर आपको हर बार रिकॉर्डिंग शुरू करने पर फ़ोल्डर का चयन करने के लिए कहा जा सकता है। आप फिर से कोशिश कर सकते हैं, या यदि आप दोहरी अनुमतियों को नहीं देना चाहते हैं, तो पूरी तरह से बैकअप को अक्षम कर सकते हैं।"
+   },
+   "backupPermissionFailTitle": {
+      "description": "बैकअप अनुमति असफल शीर्षक",
+      "message": "रिकॉर्डिंग की बैकअप के लिए अनुमति नहीं दी गई"
+   },
+   "backupsClose": {
+      "description": "फिर भी टैब बंद करें बटन",
+      "message": "तब भी टैब बंद करें"
+   },
+   "backupsConfirmAllow": {
+      "description": "बैकअप पुष्टि अनुमति बटन",
+      "message": "Screenity को रिकॉर्डिंग्स को बैकअप करने की अनुमति देने दें"
+   },
+   "backupsConfirmDescription": {
+      "description": "बैकअप पुष्टि विवरण",
+      "message": "हमें खेद है, लेकिन हमें आपकी रिकॉर्डिंग्स को स्थानीय रूप से बैकअप करने के लिए एक बार फिर आपकी अनुमति की आवश्यकता है। दुखद है कि हर बार यह सवाल पूछना होगा जब आप इस टैब को बंद करते हैं, जो ब्राउज़र को बंद करने या अपने कंप्यूटर को पुनरारंभ करने पर हो सकता है।"
+   },
+   "backupsConfirmTitle": {
+      "description": "बैकअप पुष्टि शीर्षक",
+      "message": "कृपया अपने स्थानीय Screenity बैकअप फ़ोल्डर तक पहुँच की पुनः पुष्टि करें"
+   },
+   "backupsDescription1": {
+      "description": "बैकअप विवरण",
+      "message": "आपकी सभी रिकॉर्डिंग्स की प्रतिलिपि रखें। यदि आप बैकअप सेट नहीं करते हैं, तो आपकी रिकॉर्डिंग्स को डाउनलोड करने के लिए ही बचाया जाएगा।"
+   },
+   "backupsDescription2": {
+      "description": "बैकअप विवरण",
+      "message": "यदि आप डाउनलोड्स या अन्य सिस्टम फ़ोल्डर्स में सहेजने का प्रयास कर रहे हैं, तो आपको पहले एक नया फ़ोल्डर बनाने की आवश्यकता हो सकती है।"
+   },
+   "backupsNotNow": {
+      "description": "अब नहीं बटन",
+      "message": "अभी नहीं"
+   },
+   "backupsOnDescription": {
+      "description": "सक्रिय बैकअप विवरण",
+      "message": "रिकॉर्ड करते समय हर बार अनुमतियों के लिए पूछा जाने को रोकने के लिए हम आपको सुझाव देते हैं कि आप इस टैब को खोले रखें।"
+   },
+   "backupsOnTitle": {
+      "description": "सक्रिय बैकअप शीर्षक",
+      "message": "आपकी रिकॉर्डिंग्स स्थानीय रूप से बैकअप किए जा रहे हैं"
+   },
+   "backupsSelectFolder": {
+      "description": "फ़ोल्डर चुनने का बटन",
+      "message": "एक फ़ोल्डर चुनें"
+   },
+   "backupsStop": {
+      "description": "बैकअप बंद करें बटन",
+      "message": "सभी रिकॉर्डिंग्स का बैकअप बंद करें"
+   },
+   "backupsTitle": {
+      "description": "बैकअप शीर्षक",
+      "message": "अपनी Screenity रिकॉर्डिंग्स के लिए स्थानीय बैकअप सेट अप करें"
+   },
+   "backupsToggle": {
+      "description": "बैकअप टॉगल लेबल",
+      "message": "रिकॉर्डिंग्स का बैकअप करें"
+   },
+   "blurModeToast": {
+      "description": "ब्लर मोड टोस्ट",
+      "message": "ब्लर मोड"
+   },
+   "blurTypeLabel": {
+      "description": "पृष्ठभूमि ब्लर लेबल",
+      "message": "ब्लर"
+   },
+   "cameraType": {
+      "description": "पॉपअप पर कैमरा रिकॉर्डिंग प्रकार लेबल",
+      "message": "कैमरा"
+   },
+   "cancelButton": {
+      "description": "Generic cancel button label",
+      "message": "रद्द करें"
+   },
+   "cancelRecordingTooltip": {
+      "description": "रिकॉर्डिंग टूलटिप रद्द करें",
+      "message": "रिकॉर्डिंग रद्द करें"
+   },
+   "chromePermissionsModalAction": {
+      "description": "अनुमति मॉडल क्रिया",
+      "message": "स्क्रीन रिकॉर्डिंग सक्षम करें"
+   },
+   "chromePermissionsModalCancel": {
+      "description": "अनुमति मॉडल रद्द करें",
+      "message": "रद्द करें"
+   },
+   "chromePermissionsModalDescription": {
+      "description": "अनुमति मॉडल विवरण",
+      "message": "स्क्रीन रिकॉर्डिंग सक्षम करने के लिए, आपको Screenity को आपकी स्क्रीन को कैप्चर करने की अनुमति देनी होगी जब प्रोम्प्ट होता है।"
+   },
+   "chromePermissionsModalTitle": {
+      "description": "अनुमति मॉडल शीर्षक",
+      "message": "Screenity को आपकी स्क्रीन रिकॉर्ड करने की अनुमति नहीं है"
+   },
+   "clearBlurredElementsTooltip": {
+      "description": "सभी ब्लर किए गए तत्वों को हटाएं टूलटिप",
+      "message": "सभी ब्लर किए गए तत्वों को हटाएं"
+   },
+   "clearCanvasTooltip": {
+      "description": "कैनवास साफ़ करें टूलटिप",
+      "message": "कैनवास साफ़ करें"
+   },
+   "clearSpaceButton": {
+      "description": "पिछली रिकॉर्डिंग हटाएं बटन",
+      "message": "पिछली रिकॉर्डिंग हटाएं"
+   },
+   "clickHereDrawOnboarding": {
+      "description": "यहां क्लिक करने पर आग्रहण",
+      "message": "ड्रा करने के लिए यहां क्लिक करें"
+   },
+   "closeModalLabel": {
+      "description": "Agnostic close modal button label",
+      "message": "बंद करें"
+   },
+   "continueWithoutLogin": {
+      "description": "Button to continue using the extension without logging in",
+      "message": "लॉगिन के बिना जारी रखें"
+   },
+   "copiedToClipboardToast": {
+      "description": "Toast message shown when link has been copied to clipboard",
+      "message": "लिंक क्लिपबोर्ड पर कॉपी किया गया"
+   },
+   "copyDebugInfoButton": {
+      "description": "Button to copy technical debug info to clipboard for support",
+      "message": "डीबग जानकारी कॉपी करें"
+   },
+   "countdownLabel": {
+      "description": "गिनती लेबल",
+      "message": "गिनती शुरू करें"
+   },
+   "countdownMessage": {
+      "description": "गिनती संदेश",
+      "message": "आराम करें। किसी भी जगह पर क्लिक करके गिनती रोकने के लिए।"
+   },
+   "cropButtonDescription": {
+      "description": "क्रॉप लेबल",
+      "message": "वीडियो को क्रॉप और आकार दें"
+   },
+   "cropButtonTitle": {
+      "description": "क्रॉप लेबल बटन",
+      "message": "क्रॉप"
+   },
+   "croppingInfoDescription": {
+      "description": "क्रॉपिंग जानकारी विवरण",
+      "message": "तेज प्रोसेसिंग के लिए अपग्रेड करें"
+   },
+   "croppingInfoTitle": {
+      "description": "क्रॉपिंग जानकारी शीर्षक",
+      "message": "क्रॉपिंग कुछ समय लग सकता है"
+   },
+   "customAreaLabel": {
+      "description": "कस्टम क्षेत्र स्विच लेबल",
+      "message": "रिकॉर्ड करने के लिए एक क्षेत्र सेट करें"
+   },
+   "customAreaRecordingDisabledAction": {
+      "description": "क्रोम संस्करण 104 से पुराने के लिए कस्टम क्षेत्र रिकॉर्डिंग अक्षम चेतावनी क्रिया",
+      "message": "अपडेट करें"
+   },
+   "customAreaRecordingDisabledDescription": {
+      "description": "क्रोम संस्करण 104 से पुराने के लिए कस्टम क्षेत्र रिकॉर्डिंग अक्षम चेतावनी विवरण",
+      "message": "क्रोम संस्करण को 110+ पर अपडेट करें"
+   },
+   "customAreaRecordingDisabledTitle": {
+      "description": "पॉपअप के लिए 104 से पुराने क्रोम संस्करण के लिए कस्टम क्षेत्र रिकॉर्डिंग अक्षम चेतावनी",
+      "message": "कस्टम क्षेत्र रिकॉर्डिंग अक्षम"
+   },
+   "debugInfoCopiedToast": {
+      "description": "Toast shown after debug info is copied",
+      "message": "डीबग जानकारी कॉपी हो गई"
+   },
+   "disableCameraTooltip": {
+      "description": "कैमरा टूलटिप बंद करें",
+      "message": "कैमरा बंद करें"
+   },
+   "disableMicrophoneTooltip": {
+      "description": "माइक्रोफोन टूलटिप बंद करें",
+      "message": "माइक्रोफोन बंद करें"
+   },
+   "discardModalDescription": {
+      "description": "वीडियो को छोड़ने का मॉडल विवरण",
+      "message": "आपकी वर्तमान वीडियो प्रगति खो जाएगी।"
+   },
+   "discardModalDiscard": {
+      "description": "वीडियो को छोड़ने का मॉडल छोड़ने बटन",
+      "message": "वीडियो को छोड़ें"
+   },
+   "discardModalResume": {
+      "description": "वीडियो को छोड़ने का मॉडल रिज्यूम बटन",
+      "message": "रिज्यूम रिकॉर्डिंग"
+   },
+   "discardModalTitle": {
+      "description": "वीडियो को छोड़ने का मॉडल शीर्षक",
+      "message": "क्या आप वीडियो को छोड़ना चाहते हैं?"
+   },
+   "downgradeToFreeButton": {
+      "description": "Button to log out and downgrade to the free version",
+      "message": "लॉग आउट करें और डाउनग्रेड करें"
+   },
+   "downloadAnywayButton": {
+      "description": "Button to download the recording file despite validation failure",
+      "message": "फिर भी डाउनलोड करें"
+   },
+   "downloadForTroubleshootingOption": {
+      "description": "समस्या समाधान के लिए डाउनलोड करने का विकल्प",
+      "message": "समस्या समाधान के लिए डेटा डाउनलोड करें"
+   },
+   "downloadGIFButtonDescription": {
+      "description": "GIF डाउनलोड लेबल",
+      "message": "एक GIF निर्यात करें (अधिकतम 30 सेकंड)"
+   },
+   "downloadGIFButtonTitle": {
+      "description": "GIF डाउनलोड बटन",
+      "message": ".gif के रूप में डाउनलोड करें"
+   },
+   "downloadMP4ButtonDescription": {
+      "description": "MP4 डाउनलोड लेबल",
+      "message": ".mp4 वीडियो निर्यात करें (सिफारिश किया जाता है)"
+   },
+   "downloadMP4ButtonTitle": {
+      "description": "MP4 डाउनलोड बटन",
+      "message": ".mp4 के रूप में डाउनलोड करें"
+   },
+   "downloadWEBMButtonDescription": {
+      "description": "WEBM डाउनलोड लेबल",
+      "message": ".webm वीडियो निर्यात करें"
+   },
+   "downloadWEBMButtonTitle": {
+      "description": "WEBM डाउनलोड बटन",
+      "message": ".webm के रूप में डाउनलोड करें"
+   },
+   "downloadingLabel": {
+      "description": "डाउनलोड हो रहा है लेबल",
+      "message": "डाउनलोड हो रहा है..."
+   },
+   "drawingModeToast": {
+      "description": "ड्रॉइंग मोड टोस्ट",
+      "message": "ड्रॉइंग मोड"
+   },
+   "editButtonDescription": {
+      "description": "ट्रिम लेबल",
+      "message": "वीडियो को ट्रिम, कट या म्यूट करें"
+   },
+   "editButtonTitle": {
+      "description": "ट्रिम लेबल बटन",
+      "message": "वीडियो संपादित करें"
+   },
+   "editFailedDescription": {
+      "description": "Alert body for edit failure; explicitly confirms the original recording is untouched",
+      "message": "प्रोसेसिंग के दौरान कुछ गलत हो गया। आपकी मूल रिकॉर्डिंग सुरक्षित है। आप फिर से कोशिश कर सकते हैं या इसे वैसे ही डाउनलोड कर सकते हैं।"
+   },
+   "editFailedTitle": {
+      "description": "Alert title when an edit operation fails due to an encoding or processing error",
+      "message": "संपादन लागू नहीं हो सका"
+   },
+   "editProcessingSafeDescription": {
+      "description": "Shown in the editor processing alert when a user-initiated edit is running, to reassure the original is safe",
+      "message": "आपका संपादन प्रोसेस हो रहा है। आपकी मूल रिकॉर्डिंग अपरिवर्तित है।"
+   },
+   "editTimeoutDescription": {
+      "description": "Alert body for the timeout case, prompting retry or shorter clip",
+      "message": "संपादन समय पर पूरा नहीं हुआ। आपकी मूल रिकॉर्डिंग अपरिवर्तित है। फिर से प्रयास करें या पहले क्लिप ट्रिम करें।"
+   },
+   "editTimeoutTitle": {
+      "description": "Alert title when an edit operation does not complete within the 5-minute watchdog period",
+      "message": "संपादन का समय समाप्त"
+   },
+   "editTooLongDescription": {
+      "description": "Alert body explaining the 15-minute limit and suggesting trimming first",
+      "message": "यह ऑडियो संपादन 15 मिनट से अधिक के क्लिप के लिए समर्थित नहीं है। आपका मूल अपरिवर्तित है। पहले क्लिप को ट्रिम करने का प्रयास करें।"
+   },
+   "editTooLongTitle": {
+      "description": "Alert title when an audio mute/mix edit is rejected because the clip exceeds 15 minutes",
+      "message": "ऑडियो संपादन बहुत लंबा"
+   },
+   "editorRecoveryToast": {
+      "description": "Toast shown on the active tab when the post-recording editor tab fails to open",
+      "message": "आपकी रिकॉर्डिंग सहेजी गई है। एडिटर नहीं खुला। फिर से कोशिश करने के लिए Screenity आइकन पर क्लिक करें।"
+   },
+   "enableCameraTooltip": {
+      "description": "कैमरा टूलटिप चालने के लिए",
+      "message": "कैमरा चालने के लिए"
+   },
+   "enableMicrophoneTooltip": {
+      "description": "माइक्रोफोन टूलटिप चालने के लिए",
+      "message": "माइक्रोफोन चालने के लिए"
+   },
+   "eraserToolTooltip": {
+      "description": "मिटाने वाला टूलटिप",
+      "message": "मिटाने वाला टूल"
+   },
+   "extDesc": {
+      "description": "एक्सटेंशन का विवरण",
+      "message": "सबसे बेहतरीन मुफ्त स्क्रीन रिकॉर्डर बिना किसी सीमा के। छवि कैद करें, टिप्पणी करें, जूम करें, धुंधला करें, वीडियो संपादित करें और और भी - किसी पंजीकरण की आवश्यकता नहीं है, और गोपनीयता का आदरणीय।"
+   },
+   "extName": {
+      "description": "एक्सटेंशन का नाम",
+      "message": "स्क्रीनिटी - स्क्रीन रिकॉर्डिंग & नोट्स"
+   },
+   "extensionNotSupportedDescription": {
+      "description": "एक्सटेंशन टैब पर समर्थित नहीं शीर्षक विवरण",
+      "message": "आपके पिछले टैब पर Screenity समर्थित नहीं था। आप अपनी रिकॉर्डिंग यहाँ पर शुरू कर सकते हैं और फिर टैब पर स्विच कर सकते हैं, लेकिन आपका कैमरा और टूलबार दिखाई नहीं देंगे।"
+   },
+   "extensionNotSupportedTitle": {
+      "description": "एक्सटेंशन टैब पर समर्थित नहीं शीर्षक",
+      "message": "एक्सटेंशन टैब पर समर्थित नहीं"
+   },
+   "failedToCopyToClipboardToast": {
+      "description": "Toast message shown when failed to copy link to clipboard",
+      "message": "लिंक कॉपी करने में विफल"
+   },
+   "fastRecorderFailedDescription": {
+      "description": "Body text for the fast recorder failure modal",
+      "message": "इस डिवाइस पर तेज़ रिकॉर्डर का आउटपुट सत्यापित नहीं हो सका।\nआप फिर भी फ़ाइल डाउनलोड कर सकते हैं।"
+   },
+   "fastRecorderFailedTitle": {
+      "description": "Title for the modal shown when the fast MP4 recorder output could not be validated",
+      "message": "तेज़ रिकॉर्डर विफल हुआ"
+   },
+   "finishLabelMulti": {
+      "description": "Label for the finish multi-recording button",
+      "message": "समाप्त करें"
+   },
+   "finishRecordingTooltip": {
+      "description": "रिकॉर्डिंग समाप्त करने की टूलटिप",
+      "message": "रिकॉर्डिंग समाप्त करें"
+   },
+   "flipCameraLabel": {
+      "description": "कैमरा पलटने का स्विच लेबल",
+      "message": "कैमरा पलटें"
+   },
+   "followForUpdates": {
+      "description": "अपडेट्स के लिए फॉलो करें बटन",
+      "message": "अपडेट्स के लिए फॉलो करें"
+   },
+   "getHelpButton": {
+      "description": "Side button on error modals that opens a prefilled support form",
+      "message": "सहायता प्राप्त करें"
+   },
+   "getHelpNav": {
+      "description": "सहायता नेविगेशन आइटम",
+      "message": "सहायता केंद्र"
+   },
+   "goToDashboardButtonLabel": {
+      "description": "Button label to go to the dashboard in the popup",
+      "message": "डैशबोर्ड पर जाएं"
+   },
+   "havingIssuesButton": {
+      "description": "संपादक में समस्या बटन",
+      "message": "कोई समस्या है?"
+   },
+   "havingIssuesModalButton": {
+      "description": "संपादक में समस्या मॉडल बटन",
+      "message": "रॉ वीडियो डेटा डाउनलोड करें"
+   },
+   "havingIssuesModalButton2": {
+      "description": "संपादक में समस्या मॉडल बटन 2",
+      "message": "बग रिपोर्ट करें"
+   },
+   "havingIssuesModalDescription": {
+      "description": "संपादक में समस्या मॉडल विवरण",
+      "message": "अगर आपने अपनी रिकॉर्डिंग पूरी की है और इस पृष्ठ पर अपने वीडियो को देखते बिना पाए हैं, तो यदि यह उपलब्ध है, आप वीडियो के रॉ डेटा को डाउनलोड करने का प्रयास कर सकते हैं। आप भी हमसे संपर्क कर सकते हैं और एक बग रिपोर्ट सबमिट कर सकते हैं।"
+   },
+   "havingIssuesModalTitle": {
+      "description": "संपादक में समस्या मॉडल टाइटल",
+      "message": "अपनी रिकॉर्डिंग देख नहीं सकते?"
+   },
+   "heightLabel": {
+      "description": "संपत्ति के लिए ऊंचाई लेबल",
+      "message": "ऊंचाई"
+   },
+   "helpPopup": {
+      "description": "सहायता पॉपअप बटन",
+      "message": "सहायता"
+   },
+   "hideToolbarLabel": {
+      "description": "टूलबार लेबल",
+      "message": "टूलबार छिपाएं"
+   },
+   "hideUIAlerts": {
+      "description": "UI सूचनाओं को छुपाएं बटन",
+      "message": "UI सूचनाओं को छुपाएं"
+   },
+   "highestQuality": {
+      "description": "पॉपअप में सर्वोत्तम गुणवत्ता का लेबल टॉगल करें",
+      "message": "सर्वोत्तम गुणवत्ता"
+   },
+   "highlightClicksTooltip": {
+      "description": "क्लिक को हाइलाइट करें टूलटिप",
+      "message": "क्लिक को हाइलाइट करें"
+   },
+   "highlightCursorTooltip": {
+      "description": "कर्सर को हाइलाइट करें टूलटिप",
+      "message": "कर्सर को हाइलाइट करें"
+   },
+   "highlighterToolTooltip": {
+      "description": "हाइलाइटर टूलटिप",
+      "message": "हाइलाइटर टूल"
+   },
+   "hostBannerDescription": {
+      "description": "एडिटर में सेल्फ-होस्ट बैनर का विवरण",
+      "message": "Screenity एक अकेली इंडी डेवलपर द्वारा बनाया गया है। सेल्फ-होस्टिंग पूरी तरह मुफ्त है, लेकिन अगर यह आपके काम आया हो, तो Pro के ज़रिए समर्थन देने पर विचार करें ❤️"
+   },
+   "hostBannerTitle": {
+      "description": "एडिटर में सेल्फ-होस्ट बैनर का शीर्षक",
+      "message": "क्या आप लोकली Screenity का इस्तेमाल कर रहे हैं? भविष्य के विकास में मदद करें!"
+   },
+   "imageToolTooltip": {
+      "description": "छवि टूलटिप",
+      "message": "छवि टूल"
+   },
+   "inactiveSubscriptionDeletionWarning": {
+      "description": "Warning message about the deletion of videos and data",
+      "message": "आपके वीडियो और डेटा को स्थायी रूप से हटाया जाएगा "
+   },
+   "inactiveSubscriptionDescription": {
+      "description": "Description shown when the user's subscription is inactive",
+      "message": "आपकी Screenity Pro सदस्यता सक्रिय नहीं है।"
+   },
+   "inactiveSubscriptionFreeVersion": {
+      "description": "Message prompting the user to continue using the free version",
+      "message": "क्या आप मुफ्त संस्करण का उपयोग जारी रखना चाहते हैं?"
+   },
+   "inactiveSubscriptionReactivation": {
+      "description": "Message prompting the user to reactivate their subscription",
+      "message": "कृपया एक्सेस फिर से शुरू करने के लिए पुनः सक्रिय करें।"
+   },
+   "inactiveSubscriptionTitle": {
+      "description": "Title shown when the user's subscription is inactive",
+      "message": "आपकी Pro सदस्यता सक्रिय नहीं है"
+   },
+   "instantRecordingModeAction": {
+      "description": "Action button for the instant recording mode",
+      "message": "समझ गई"
+   },
+   "instantRecordingModeDescription": {
+      "description": "Description for the instant recording mode",
+      "message": "यह सब कुछ एक वीडियो में रिकॉर्ड करता है ताकि तुरंत डाउनलोड और साझा किया जा सके। आप बाद में कैमरा लेआउट नहीं बदल सकेंगी, लेकिन अन्य संपादन संभव हैं।"
+   },
+   "instantRecordingModeLabel": {
+      "description": "Label for the instant recording mode",
+      "message": "तत्काल रिकॉर्डिंग मोड"
+   },
+   "instantRecordingModeTitle": {
+      "description": "Title for the instant recording mode",
+      "message": "तत्काल रिकॉर्डिंग मोड"
+   },
+   "instantRecordingModeTooltip": {
+      "description": "Tooltip for the instant recording mode",
+      "message": "तत्काल डाउनलोड, लेकिन कैमरा और लेआउट बाद में संपादन योग्य नहीं होंगे।"
+   },
+   "learnMoreDot": {
+      "description": "एक डॉट के साथ और जानें",
+      "message": "और जानें।"
+   },
+   "learnMoreLabel": {
+      "description": "और जानें बटन",
+      "message": "और जानें"
+   },
+   "leaveReview": {
+      "description": "समीक्षा छोड़ें बटन",
+      "message": "समीक्षा छोड़ें"
+   },
+   "leftLabel": {
+      "description": "संपत्ति के लिए बाएं लेबल",
+      "message": "बाएं"
+   },
+   "loadingVideosLabel": {
+      "description": "Label shown when videos are loading in the popup",
+      "message": "वीडियो लोड हो रहे हैं..."
+   },
+   "logBackInButton": {
+      "description": "Button to log back in after being logged out",
+      "message": "दोबारा लॉग इन करें"
+   },
+   "loggedOutDescription": {
+      "description": "Description shown when the user is logged out",
+      "message": "अपनी रिकॉर्डिंग को अकाउंट से सिंक रखने और प्रीमियम फीचर्स का उपयोग जारी रखने के लिए, दोबारा लॉग इन करना होगा।"
+   },
+   "loggedOutFreeVersion": {
+      "description": "Message shown when the user is logged out and using the free version",
+      "message": "आप बिना अकाउंट के एक्सटेंशन का उपयोग कर सकते हैं — लेकिन आपकी रिकॉर्डिंग सेव नहीं होगी और बाद में पुनः प्राप्त नहीं की जा सकेगी।"
+   },
+   "loggedOutTitle": {
+      "description": "Title shown when the user is logged out",
+      "message": "आप लॉग आउट हो चुके हैं"
+   },
+   "loggedOutToastTitle": {
+      "description": "Toast message shown when the user logs out",
+      "message": "आप लॉग आउट हो चुके हैं"
+   },
+   "loginButtonLabel": {
+      "description": "Login button label in popup settings menu",
+      "message": "लॉग इन करें या साइन अप करें"
+   },
+   "logoutButtonLabel": {
+      "description": "Logout button label in popup settings menu",
+      "message": "लॉग आउट करें"
+   },
+   "longRecordingDescription": {
+      "description": "Banner description for long recordings that can be downloaded but not edited locally",
+      "message": "आपकी रिकॉर्डिंग पूर्ण और सुरक्षित है। नीचे WebM के रूप में डाउनलोड करें।"
+   },
+   "longRecordingTitle": {
+      "description": "Banner title shown when a recording exceeds the local processing limit but is otherwise successful",
+      "message": "लंबी रिकॉर्डिंग"
+   },
+   "manageStorageButtonLabel": {
+      "description": "Button label to manage storage in the popup settings menu",
+      "message": "स्टोरेज प्रबंधित करें"
+   },
+   "manageSubscriptionButton": {
+      "description": "Button to manage the user's subscription",
+      "message": "अपनी सदस्यता प्रबंधित करें"
+   },
+   "maxFPSLabel": {
+      "description": "सेटिंग्स मेनू में अधिकतम FPS का लेबल",
+      "message": "अधिकतम FPS"
+   },
+   "maxResolutionLabel": {
+      "description": "सेटिंग्स मेनू में अधिकतम रिज़ॉल्यूशन का लेबल",
+      "message": "अधिकतम रिज़ॉल्यूशन"
+   },
+   "maxResolutionTooltip": {
+      "description": "सेटिंग्स मेनू में इस रिज़ॉल्यूशन पर रिकॉर्ड नहीं किया जा सकता है टूलटिप",
+      "message": "इस उपकरण पर इस रिज़ॉल्यूशन पर रिकॉर्ड नहीं किया जा सकता है"
+   },
+   "mediumStrokeTooltip": {
+      "description": "मध्यम स्ट्रोक टूलटिप",
+      "message": "मध्यम स्ट्रोक"
+   },
+   "memoryLimitDescription": {
+      "description": "मेमोरी सीमा पहुंच गई विवरण",
+      "message": "आपके डिवाइस की रिकॉर्डिंग के लिए उपलब्ध मेमोरी का समय समाप्त हो गया है, इसके परिणामस्वरूप रिकॉर्डिंग स्वतः बंद हो गई है। अगर आप और लंबे समय तक रिकॉर्ड करना चाहते हैं, तो वीडियो की गुणवत्ता को कम करने का प्रयास करें या अपने डिवाइस पर कुछ स्थान मुक्त करें।"
+   },
+   "memoryLimitTitle": {
+      "description": "मेमोरी सीमा पहुंच गई शीर्षक",
+      "message": "मेमोरी सीमा पहुंच गई"
+   },
+   "micMutedModalAction": {
+      "description": "माइक्रोफ़ोन म्यूट हो गया मॉडल जारी रखें",
+      "message": "हाँ, जारी रखें"
+   },
+   "micMutedModalCancel": {
+      "description": "माइक्रोफ़ोन म्यूट हो गया मॉडल रद्द करें",
+      "message": "रद्द करें"
+   },
+   "micMutedModalDescription": {
+      "description": "माइक्रोफ़ोन म्यूट हो गया मॉडल विवरण",
+      "message": "आपकी रिकॉर्डिंग में ऑडियो शामिल करने के लिए, आपको अपने माइक्रोफ़ोन को अनम्यूट करना होगा। क्या आप बिना ऑडियो के जारी रखना चाहते हैं?"
+   },
+   "micMutedModalTitle": {
+      "description": "माइक्रोफ़ोन म्यूट हो गया मॉडल शीर्षक",
+      "message": "आपका माइक्रोफ़ोन म्यूट है"
+   },
+   "micOffToast": {
+      "description": "माइक्रोफ़ोन बंद टोस्ट शीर्षक",
+      "message": "माइक्रोफ़ोन बंद है"
+   },
+   "micOnToast": {
+      "description": "माइक्रोफ़ोन सक्षम टोस्ट शीर्षक",
+      "message": "माइक्रोफ़ोन सक्षम है"
+   },
+   "micReminderPopup": {
+      "description": "माइक्रोफ़ोन चेतावना पॉपअप",
+      "message": "माइक्रोफ़ोन बंद है चेतावनी"
+   },
+   "mockupType": {
+      "description": "पॉपअप पर मॉकअप रिकॉर्डिंग प्रकार लेबल",
+      "message": "मॉकअप"
+   },
+   "moreColorsTooltip": {
+      "description": "और रंग टूलटिप",
+      "message": "और रंग"
+   },
+   "multiLabel": {
+      "description": "Label for the multi-recording mode",
+      "message": "Multi"
+   },
+   "multiRecordingModeDescription": {
+      "description": "Description for the multi-recording mode modal",
+      "message": "एक के बाद एक कई सीन रिकॉर्ड करें — जैसे आपकी स्क्रीन, कैमरा या दोनों। यह कई टेक लेने, व्यू बदलने या रिकॉर्डिंग को हिस्सों में बाँटने के लिए बेहतरीन है। जब आप समाप्त कर लें, तो सभी सीन को एक ही वीडियो में जोड़ने के लिए 'Finish' पर क्लिक करें।"
+   },
+   "multiRecordingModeTitle": {
+      "description": "Title for the multi-recording mode modal",
+      "message": "मल्टी मोड"
+   },
+   "newestSortLabel": {
+      "description": "Label for the newest sort option",
+      "message": "नवीनतम"
+   },
+   "noCameraDropdownLabel": {
+      "description": "कोई कैमरा चयन नहीं किया गया",
+      "message": "कैमरा नहीं"
+   },
+   "noCameraPermissionsTooltip": {
+      "description": "कैमरा टूलटिप अनुमतियाँ नहीं हैं",
+      "message": "कैमरा अनुमतियाँ नहीं हैं"
+   },
+   "noConnectionLabel": {
+      "description": "कोई कनेक्शन लेबल",
+      "message": "कोई कनेक्शन नहीं"
+   },
+   "noMicrophoneDropdownLabel": {
+      "description": "कोई माइक्रोफ़ोन चयन नहीं किया गया",
+      "message": "माइक्रोफ़ोन नहीं"
+   },
+   "noMicrophonePermissionsTooltip": {
+      "description": "माइक्रोफोन टूलटिप अनुमतियाँ नहीं हैं",
+      "message": "माइक्रोफोन अनुमतियाँ नहीं हैं"
+   },
+   "noRecordingFound": {
+      "description": "संपादक में कोई रिकॉर्डिंग नहीं मिली अलर्ट",
+      "message": "कोई रिकॉर्डिंग नहीं मिली, दुखी हैं :("
+   },
+   "noShowAgain": {
+      "description": "फिर से दिखाना नहीं बटन",
+      "message": "फिर से दिखाना नहीं"
+   },
+   "noSubscriptionYetDescription": {
+      "description": "Message prompting the user to subscribe to reactivate their Pro features",
+      "message": "Pro सुविधाओं का उपयोग करने के लिए सदस्यता लें।"
+   },
+   "noSubscriptionYetTitle": {
+      "description": "Title shown when the user has no active subscription",
+      "message": "शुरू करने के लिए Pro सक्रिय करें"
+   },
+   "noVideosFound": {
+      "description": "Message shown when no videos are found in the popup",
+      "message": "कोई वीडियो नहीं मिला"
+   },
+   "noneDropdownLabel": {
+      "description": "कोई डिवाइस चयन नहीं किया गया",
+      "message": "कोई नहीं"
+   },
+   "notAvailableLabel": {
+      "description": "उपलब्ध नहीं है लेबल",
+      "message": "उपलब्ध नहीं है"
+   },
+   "notAvailableLongRecording": {
+      "description": "Disabled button label for features not available due to recording length",
+      "message": "लंबी रिकॉर्डिंग के लिए अनुपलब्ध"
+   },
+   "notAvailableRecoveryMode": {
+      "description": "Disabled button label for features not available in recovery/fallback mode",
+      "message": "पुनर्प्राप्ति मोड में अनुपलब्ध"
+   },
+   "notEnoughRAM": {
+      "description": "सेटिंग्स मेनू में 'पर्याप्त रैम नहीं' लेबल",
+      "message": "पर्याप्त रैम नहीं"
+   },
+   "notEnoughSpaceDescription": {
+      "description": "पर्याप्त स्थान नहीं विवरण",
+      "message": "Screenity को रिकॉर्ड करने के लिए कम से कम 1 जीबी फ्री स्थान की आवश्यकता है। कृपया स्थान मुक्त करें और पुनः प्रयास करें।"
+   },
+   "notEnoughSpaceTitle": {
+      "description": "पर्याप्त स्थान नहीं शीर्षक",
+      "message": "पर्याप्त स्थान नहीं"
+   },
+   "offLabel": {
+      "description": "ड्रॉपडाउन पर बंद लेबल",
+      "message": "बंद"
+   },
+   "offlineLabelDescription": {
+      "description": "ऑफ़लाइन लेबल विवरण",
+      "message": "कुछ सुविधाएं फिर से कनेक्ट होने तक अनुपलब्ध हैं"
+   },
+   "offlineLabelTitle": {
+      "description": "ऑफ़लाइन लेबल",
+      "message": "आप वर्तमान में ऑफ़लाइन हैं"
+   },
+   "offlineLabelTryAgain": {
+      "description": "ऑफ़लाइन लेबल पुनः प्रयास करें बटन",
+      "message": "फिर से प्रयास करें"
+   },
+   "oldestSortLabel": {
+      "description": "Label for the oldest sort option",
+      "message": "सबसे पुराने"
+   },
+   "overLimitLabelDescription": {
+      "description": "संपादक में 5 मिनट से अधिक सीमा का विवरण",
+      "message": "संपादन और MP4 निर्यात उपलब्ध नहीं है"
+   },
+   "overLimitLabelDescriptionFastPath": {
+      "description": "Over limit description when the recording is a native MP4 (fast recorder / WebCodecs) so MP4 export still works",
+      "message": "संपादन सुविधाएँ उपलब्ध नहीं हैं"
+   },
+   "overLimitLabelTitle": {
+      "description": "संपादक में 5 मिनट से अधिक सीमा का लेबल",
+      "message": "वीडियो स्थानीय रूप से प्रोसेस करने के लिए बहुत लम्बा है"
+   },
+   "overLimitModalButton": {
+      "description": "5 मिनट सीमा मॉडल बटन",
+      "message": "मैं खतरा समझता हूँ, फिर भी कोशिश करें"
+   },
+   "overLimitModalDescription": {
+      "description": "5 मिनट सीमा मॉडल विवरण",
+      "message": "क्योंकि Screenity पूरी तरह से निजी है और स्थानीय रूप से चलता है, यह आपके डिवाइस के हार्डवेयर द्वारा सीमित होता है। इस लम्बाई के वीडियो को प्रोसेस करना बहुत समय लगेगा और बहुत अधिक संसाधनों की आवश्यकता होगी। फिकर न करें, आप फिर भी WEBM फ़ाइल या रॉ रिकॉर्डिंग डाउनलोड कर सकते हैं, लेकिन संपादन और MP4 निर्यात उपलब्ध नहीं हैं। इसके बावजूद, आप फिर भी कोशिश कर सकते हैं कि वीडियो को प्रोसेस करने का प्रयास करें, अगर आप खतरों को समझते हैं।"
+   },
+   "overLimitModalDescriptionFastPath": {
+      "description": "Over 5 minutes limit modal description when the recording is a native MP4 (fast recorder / WebCodecs)",
+      "message": "क्योंकि Screenity पूरी तरह से निजी है और स्थानीय रूप से चलता है, यह आपके डिवाइस के हार्डवेयर द्वारा सीमित होता है। इस लम्बाई के वीडियो को प्रोसेस करना बहुत समय लगेगा और बहुत अधिक संसाधनों की आवश्यकता होगी। आपका MP4 डाउनलोड करने के लिए तैयार है, लेकिन इतनी लंबी क्लिप के लिए ब्राउज़र में संपादन उपलब्ध नहीं है। इसके बावजूद, आप फिर भी कोशिश कर सकते हैं कि वीडियो को प्रोसेस करने का प्रयास करें, अगर आप खतरों को समझते हैं।"
+   },
+   "overLimitModalLearnMore": {
+      "description": "5 मिनट सीमा मॉडल की अधिक जानकारी वाला लिंक",
+      "message": "लंबे वीडियो को प्रोसेस करने के बारे में और जानें।"
+   },
+   "overLimitModalTitle": {
+      "description": "5 मिनट सीमा मॉडल शीर्षक",
+      "message": "वीडियो को आपके डिवाइस में प्रोसेस करने के लिए बहुत लम्बी है"
+   },
+   "pauseRecordingTooltip": {
+      "description": "रिकॉर्डिंग रोकने की टूलटिप",
+      "message": "रिकॉर्डिंग रोकें"
+   },
+   "pausedRecordingToast": {
+      "description": "रुकी हुई रिकॉर्डिंग मॉडल शीर्षक",
+      "message": "रिकॉर्डिंग रोकी गई है। फिर से आरंभ करने के लिए प्ले बटन दबाएं।"
+   },
+   "penToolTooltip": {
+      "description": "पेन टूलटिप",
+      "message": "पेन टूल"
+   },
+   "permissionsModalDescription": {
+      "description": "कैमरा / माइक्रोफ़ोन अनुमतियों की चेतावनी मॉडल विवरण",
+      "message": "लगता है कि स्क्रीनिटी कैमरा या माइक्रोफ़ोन तक पहुंच नहीं पा रहा है। कृपया पता करें कि कैमरा आइकन पर क्लिक करके पहुंच को अनुमति दें।"
+   },
+   "permissionsModalDismiss": {
+      "description": "कैमरा / माइक्रोफ़ोन अनुमतियों की चेतावनी मॉडल निरस्त करें बटन",
+      "message": "रद्द करें"
+   },
+   "permissionsModalNoShowAgain": {
+      "description": "अनुमतियों मॉडल डिस्मिस बटन",
+      "message": "फिर से न दिखाएं"
+   },
+   "permissionsModalReview": {
+      "description": "अनुमतियों की समीक्षा करने का बटन",
+      "message": "अनुमतियों की समीक्षा करें"
+   },
+   "permissionsModalTitle": {
+      "description": "कैमरा / माइक्रोफ़ोन अनुमतियों की चेतावनी मॉडल शीर्षक",
+      "message": "अपनी अनुमतियों की जांच करें"
+   },
+   "preparingLabel": {
+      "description": "तैयारी लेबल",
+      "message": "तैयारी हो रही है..."
+   },
+   "proBannerAltButton": {
+      "description": "Pro banner don't show again button in the editor",
+      "message": "फिर से न दिखाएं"
+   },
+   "proBannerButton": {
+      "description": "Pro banner button in the editor",
+      "message": "आज़माएं"
+   },
+   "proBannerDescription": {
+      "description": "Pro banner description in the editor",
+      "message": "Screenity हमेशा मुफ्त, ओपन-सोर्स और विज्ञापन मुक्त रहेगा। Pro क्लाउड और इन्फ्रास्ट्रक्चर लागत को कवर करता है और एक सोलो इंडी डेव का समर्थन करता है! ❤️"
+   },
+   "proBannerTitle": {
+      "description": "Pro banner title in the editor",
+      "message": "क्लाउड शेयरिंग, मल्टी-सीन एडिटिंग, ऑटो ज़ूम, कैप्शन और बहुत कुछ अनलॉक करें"
+   },
+   "proOnboardingBack": {
+      "description": "Pro onboarding back button text",
+      "message": "वापस"
+   },
+   "proOnboardingCameraDescription": {
+      "description": "Pro onboarding camera step description",
+      "message": "रिकॉर्डिंग के दौरान आपका कैमरा \u003Cstrong>छिप सकता है या PiP में जा सकता है\u003C/strong>, यह सामान्य है।\u003Cbr/>\u003Cbr/>इसे अलग से कैप्चर किया जाता है ताकि आप बाद में इसकी पोज़िशन बदल सकें।"
+   },
+   "proOnboardingCameraTitle": {
+      "description": "Pro onboarding camera step title",
+      "message": "कैमरा अलग से कैप्चर होता है"
+   },
+   "proOnboardingDone": {
+      "description": "Pro onboarding done button text",
+      "message": "ठीक है"
+   },
+   "proOnboardingInstantDescription": {
+      "description": "Pro onboarding instant mode step description",
+      "message": "तेज़ शेयरिंग और \u003Cstrong>अनलिमिटेड डाउनलोड्स\u003C/strong> के लिए सबसे अच्छा।\u003Cbr/>\u003Cbr/>इस मोड में एडवांस लेआउट और एडिटर विकल्प उपलब्ध नहीं हैं।"
+   },
+   "proOnboardingInstantTitle": {
+      "description": "Pro onboarding instant mode step title",
+      "message": "इंस्टेंट मोड"
+   },
+   "proOnboardingNext": {
+      "description": "Pro onboarding next button text",
+      "message": "आगे"
+   },
+   "proOnboardingToolbarDescription": {
+      "description": "Pro onboarding toolbar step description",
+      "message": "इस टूलबार से ड्रॉ करें, कर्सर इफेक्ट्स लगाएँ, ब्लर करें और रिकॉर्डिंग कंट्रोल करें।\u003Cbr/>\u003Cbr/>\u003Cstrong>यह टूलबार वीडियो में दिखेगा\u003C/strong> अगर आप इसे छिपाएँगे नहीं।"
+   },
+   "proOnboardingToolbarLearnMore": {
+      "description": "Pro onboarding toolbar learn more link label",
+      "message": "और जानें"
+   },
+   "proOnboardingToolbarTitle": {
+      "description": "Pro onboarding toolbar step title",
+      "message": "रिकॉर्डिंग टूलबार और इफेक्ट्स"
+   },
+   "proOnboardingWelcomeDescription": {
+      "description": "Pro onboarding welcome step description",
+      "message": "रिकॉर्डिंग शुरू करने से पहले कुछ ज़रूरी टिप्स।\u003Cbr/>ऑटो-ज़ूम केवल \u003Cstrong>Chrome टैब्स\u003C/strong> के अंदर किए गए क्लिक पर काम करता है। बाद में आप ज़ूम मैन्युअली जोड़ सकते हैं।"
+   },
+   "proOnboardingWelcomeTitle": {
+      "description": "Pro onboarding welcome step title",
+      "message": "Screenity Pro एक्सटेंशन में आपका स्वागत है"
+   },
+   "processingBannerEditor": {
+      "description": "संपादक में प्रोसेसिंग बैनर",
+      "message": "वीडियो प्रोसेस हो रहा है, प्लेबैक अशुद्ध या टूट सकता है।"
+   },
+   "projectRecordingCancelledToast": {
+      "description": "Toast message shown when the user cancels project recording",
+      "message": "वीडियो रिकॉर्डिंग रद्द कर दी गई"
+   },
+   "pushToTalkLabel": {
+      "description": "पुश टू टॉक स्विच लेबल",
+      "message": "बोलने के लिए दबाएं"
+   },
+   "rawRecordingButtonDescription": {
+      "description": "कच्चे रिकॉर्डिंग लेबल डाउनलोड करें",
+      "message": "मूल रिकॉर्डिंग डेटा को निर्यात करें"
+   },
+   "rawRecordingButtonTitle": {
+      "description": "कच्चे रिकॉर्डिंग बटन डाउनलोड करें",
+      "message": "कच्चा वीडियो फ़ाइल डाउनलोड करें"
+   },
+   "rawRecordingModalButton": {
+      "description": "कच्चे रिकॉर्डिंग मॉडल बटन",
+      "message": "डाउनलोड करें"
+   },
+   "rawRecordingModalDescription": {
+      "description": "कच्चे रिकॉर्डिंग मॉडल विवरण",
+      "message": "कच्चा वीडियो फ़ाइल वह मूल वीडियो फ़ाइल है जो Screenity द्वारा रिकॉर्ड की गई है। इस वीडियो को प्रोसेस या संपादित नहीं किया गया है, इसलिए यह बहुत बड़ा हो सकता है और सभी उपकरणों पर प्लेबल नहीं हो सकता है। यदि आपको प्रोसेस्ड वीडियो के साथ समस्या हो रही है, तो आप इस फ़ाइल का उपयोग अपने वीडियो को पुनः प्राप्त करने के लिए कर सकते हैं।"
+   },
+   "rawRecordingModalTitle": {
+      "description": "कच्चे रिकॉर्डिंग मॉडल शीर्षक",
+      "message": "कच्चा वीडियो फ़ाइल डाउनलोड करें"
+   },
+   "reachingRecordingLimitToast": {
+      "description": "Toast message shown when the recording is reaching the 90 minute limit",
+      "message": "रिकॉर्डिंग 90 मिनट की सीमा के करीब है, यह जल्द ही बंद हो जाएगी"
+   },
+   "readyRecordSceneToast": {
+      "description": "Toast message shown when the user is in an existing project and ready to record a new scene",
+      "message": "अपने वीडियो में नया सीन रिकॉर्ड करने के लिए तैयार"
+   },
+   "recordAudioWarningMacDescription": {
+      "description": "macOS ऑडियो चेतावना विवरण",
+      "message": "macOS में, आप केवल टैब ऑडियो को रिकॉर्ड कर सकते हैं। 'भी Chrome टैब ऑडियो साझा करें' को सक्षम करने के लिए Chrome टैब विकल्प का चयन करें और सुनिश्चित करें।"
+   },
+   "recordAudioWarningMacTitle": {
+      "description": "ऑडियो चेतावना शीर्षक",
+      "message": "कंप्यूटर ऑडियो रिकॉर्ड करें"
+   },
+   "recordAudioWarningOtherDescription": {
+      "description": "अन्य ऑडियो चेतावना विवरण",
+      "message": "कंप्यूटर ऑडियो को रिकॉर्ड करना चाहते हैं तो 'सिस्टम ऑडियो साझा करें' विकल्प को टॉगल करने की सुनिश्चित करें। इस विकल्प को दिखाई नहीं देता है, तो कृपया Chrome को अपडेट करने का प्रयास करें, या टैब रिकॉर्डिंग पर स्विच करें।"
+   },
+   "recordAudioWarningOtherTitle": {
+      "description": "ऑडियो चेतावना शीर्षक",
+      "message": "कंप्यूटर ऑडियो रिकॉर्ड करें"
+   },
+   "recordButtonInProgressLabel": {
+      "description": "रिकॉर्ड बटन कार्रवाई में लेबल",
+      "message": "रिकॉर्डिंग शुरू हो रही है..."
+   },
+   "recordButtonLabel": {
+      "description": "रिकॉर्ड बटन लेबल",
+      "message": "रिकॉर्डिंग शुरू करें"
+   },
+   "recordButtonMultiLabel": {
+      "description": "Record button label (multi mode)",
+      "message": "एक और रिकॉर्डिंग जोड़ें"
+   },
+   "recordButtonNoCameraLabel": {
+      "description": "कैमरा मोड में होते हुए रिकॉर्ड बटन लेबल और कोई कैमरा चयन नहीं किया गया है",
+      "message": "रिकॉर्ड करने के लिए कैमरा सेट करें"
+   },
+   "recordTab": {
+      "description": "पॉपअप पर रिकॉर्ड टैब लेबल",
+      "message": "रिकॉर्ड"
+   },
+   "recorderSelectDescription": {
+      "description": "रेकॉर्डिंग पृष्ठ में विवरण",
+      "message": "इस टैब को खुला रखें। यह आपकी रेकॉर्डिंग सहेजी जाने के बाद बंद हो जाएगा।"
+   },
+   "recorderSelectProgressTitle": {
+      "description": "रेकॉर्डिंग पृष्ठ में रेकॉर्डिंग के दौरान शीर्षक",
+      "message": "रेकॉर्डिंग..."
+   },
+   "recorderSelectTitle": {
+      "description": "रिकॉर्डिंग पृष्ठ में शीर्षक",
+      "message": "चुनें कि आप क्या रिकॉर्ड करना चाहते हैं"
+   },
+   "recorderSetupDescription": {
+      "description": "Description in recording page before countdown starts",
+      "message": "थोड़ा रुकिए! आपकी रिकॉर्डिंग तैयार की जा रही है।"
+   },
+   "recorderSetupTitle": {
+      "description": "Title in recording page while setting up project before countdown starts",
+      "message": "तैयारी की जा रही है..."
+   },
+   "recordingLimitReachedToast": {
+      "description": "Toast message shown when the recording limit is reached",
+      "message": "90 मिनट की सीमा के कारण रिकॉर्डिंग बंद हो गई"
+   },
+   "recordingTooShortToast": {
+      "description": "Toast shown when a region recording is stopped by navigation but no chunks were saved",
+      "message": "रिकॉर्डिंग सेव करने के लिए बहुत छोटी थी"
+   },
+   "recoverLastRecordingOption": {
+      "description": "Settings menu item to manually trigger cloud recording recovery",
+      "message": "Recover last recording"
+   },
+   "recoveryModeDescription": {
+      "description": "Recovery mode banner description — reassures user their recording is accessible despite the processing failure",
+      "message": "प्रोसेसिंग में कोई समस्या थी, लेकिन आपकी रिकॉर्डिंग सुरक्षित है। आप इसे नीचे डाउनलोड कर सकते हैं।"
+   },
+   "recoveryModeTitle": {
+      "description": "पुनर्प्राप्ति मोड का शीर्षक",
+      "message": "पुनर्प्राप्ति मोड"
+   },
+   "redoLabel": {
+      "description": "फिर से करें लेबल",
+      "message": "फिर से करें"
+   },
+   "redoTooltip": {
+      "description": "फिर से करें टूलटिप",
+      "message": "फिर से करें"
+   },
+   "regionHeightLabel": {
+      "description": "क्षेत्र ऊंचाई लेबल",
+      "message": "ऊंचाई"
+   },
+   "regionWidthLabel": {
+      "description": "क्षेत्र चौड़ाई लेबल",
+      "message": "चौड़ाई"
+   },
+   "reopenToolbarToast": {
+      "description": "Toast message explaining to reopen the toolbar in the popup options",
+      "message": "टूलबार छुपा हुआ है। पॉपअप विकल्पों में फिर से सक्षम करें।"
+   },
+   "replaceAudioEditor": {
+      "description": "संपादक में ऑडियो बदलें बटन",
+      "message": "मौजूदा ऑडियो को बदलें"
+   },
+   "resetOnboardingOption": {
+      "description": "Reset pro onboarding option label in popup settings menu",
+      "message": "ऑनबोर्डिंग रीसेट करें"
+   },
+   "resizeWindowLabel": {
+      "description": "सेटिंग्स मेनू में विंडो के आकार के लिए लेबल",
+      "message": "विंडो का आकार बदलें"
+   },
+   "restartModalDescription": {
+      "description": "वीडियो पुनः प्रारंभ मॉडल विवरण",
+      "message": "आपकी वर्तमान वीडियो प्रगति खो जाएगी।"
+   },
+   "restartModalRestart": {
+      "description": "वीडियो पुनः प्रारंभ मॉडल पुनः प्रारंभ बटन",
+      "message": "वीडियो पुनः प्रारंभ करें"
+   },
+   "restartModalResume": {
+      "description": "वीडियो पुनः प्रारंभ मॉडल रिज्यूम बटन",
+      "message": "रिज्यूम रिकॉर्डिंग"
+   },
+   "restartModalTitle": {
+      "description": "वीडियो पुनः प्रारंभ मॉडल शीर्षक",
+      "message": "क्या आप वीडियो को पुनः प्रारंभ करना चाहते हैं?"
+   },
+   "restartRecordingTooltip": {
+      "description": "रिकॉर्डिंग फिर से शुरू करने की टूलटिप",
+      "message": "रिकॉर्डिंग फिर से शुरू करें"
+   },
+   "restoreRecording": {
+      "description": "पॉपअप में आखिरी रिकॉर्डिंग को पुनर्स्थापित करने के लिए बटन",
+      "message": "आखिरी रिकॉर्डिंग को पुनर्स्थापित करें"
+   },
+   "resumeRecordingTooltip": {
+      "description": "रिकॉर्डिंग टूलटिप फिर से शुरू करें",
+      "message": "रिकॉर्डिंग फिर से शुरू करें"
+   },
+   "retryButtonLabel": {
+      "description": "Agnostic button label to try again",
+      "message": "फिर से प्रयास करें"
+   },
+   "sandboxAdvancedTitle": {
+      "description": "सैंडबॉक्स संपादक पृष्ठ में उन्नत खंड",
+      "message": "उन्नत"
+   },
+   "sandboxAudioDragAndDrop": {
+      "description": "सैंडबॉक्स संपादक पृष्ठ में ऑडियो फ़ाइल को खींचें और छोड़ें",
+      "message": "आपके ऑडियो फ़ाइल को खींचें और छोड़ें"
+   },
+   "sandboxAudioOrBrowse": {
+      "description": "सैंडबॉक्स संपादक पृष्ठ में ऑडियो फ़ाइल ब्राउज़ करने के लिए क्लिक करें",
+      "message": "या ब्राउज़ करने के लिए क्लिक करें"
+   },
+   "sandboxAudioSettingsTitle": {
+      "description": "सैंडबॉक्स संपादक पृष्ठ में ऑडियो सेटिंग्स शीर्षक",
+      "message": "सेटिंग्स"
+   },
+   "sandboxAudioUpdateButton": {
+      "description": "सैंडबॉक्स संपादक पृष्ठ में ऑडियो को अपडेट करें बटन",
+      "message": "अपडेट करें"
+   },
+   "sandboxAudioVolumeLabel": {
+      "description": "सैंडबॉक्स संपादक पृष्ठ में ऑडियो वॉल्यूम लेबल",
+      "message": "वॉल्यूम"
+   },
+   "sandboxCropTitle": {
+      "description": "सैंडबॉक्स संपादक पृष्ठ में क्रॉप शीर्षक",
+      "message": "क्रॉप"
+   },
+   "sandboxEditTitle": {
+      "description": "सैंडबॉक्स संपादक पृष्ठ में संपादन शीर्षक",
+      "message": "संपादन करें"
+   },
+   "sandboxEditorCancelButton": {
+      "description": "सैंडबॉक्स संपादक पृष्ठ में रद्द करें बटन",
+      "message": "रद्द करें"
+   },
+   "sandboxEditorCutButton": {
+      "description": "सैंडबॉक्स संपादक में कट बटन",
+      "message": "खंड काटें"
+   },
+   "sandboxEditorCutProgressButton": {
+      "description": "सैंडबॉक्स संपादक में कट बटन की कटाई के दौरान",
+      "message": "कटाई जा रही है..."
+   },
+   "sandboxEditorMainTitle": {
+      "description": "सैंडबॉक्स संपादक पृष्ठ में नेविगेशन का शीर्षक",
+      "message": "संपादक"
+   },
+   "sandboxEditorMuteButton": {
+      "description": "सैंडबॉक्स संपादक में म्यूट बटन",
+      "message": "ध्वनि बंद करें"
+   },
+   "sandboxEditorMuteProgressButton": {
+      "description": "सैंडबॉक्स संपादक में म्यूट बटन की म्यूट करते समय",
+      "message": "म्यूट किया जा रहा है..."
+   },
+   "sandboxEditorResetButton": {
+      "description": "सैंडबॉक्स संपादक पृष्ठ में रीसेट करें बटन",
+      "message": "रीसेट"
+   },
+   "sandboxEditorRevertButton": {
+      "description": "सैंडबॉक्स संपादक पृष्ठ में पुनर्स्थापित करें बटन",
+      "message": "मूल को पुनः लाएं"
+   },
+   "sandboxEditorSaveButton": {
+      "description": "सैंडबॉक्स संपादक पृष्ठ में सहेजें बटन",
+      "message": "परिवर्तन सहेजें"
+   },
+   "sandboxEditorSaveProgressButton": {
+      "description": "सैंडबॉक्स संपादक पृष्ठ में सहेजें बटन के दौरान सहेजें",
+      "message": "सहेज रहा है..."
+   },
+   "sandboxEditorTooSmallInfo": {
+      "description": "संपादक बहुत छोटा होने के बारे में जानकारी",
+      "message": "संवाद के बीच के अंतराल के कारण छोटे समय सीमाओं के लिए संशोधन अशुद्ध हो सकते हैं।"
+   },
+   "sandboxEditorTrimButton": {
+      "description": "सैंडबॉक्स संपादक में कट बटन",
+      "message": "वीडियो को कटा जा रहा है"
+   },
+   "sandboxEditorTrimInfo": {
+      "description": "सैंडबॉक्स संपादक में कट आपूर्ति के बारे में जानकारी",
+      "message": "चुने हुए खंड को संपादित करने के लिए हैंडल को खींचें और बाएं बटन का उपयोग करें।"
+   },
+   "sandboxEditorTrimProgressButton": {
+      "description": "सैंडबॉक्स संपादक में कट बटन की कटाई के दौरान",
+      "message": "कटाई जा रही है..."
+   },
+   "sandboxExportTitle": {
+      "description": "सैंडबॉक्स संपादक पृष्ठ में निर्यात शीर्षक",
+      "message": "निर्यात"
+   },
+   "sandboxProgressDescription": {
+      "description": "सैंडबॉक्स पृष्ठ में रेकॉर्डिंग / सहेजने के दौरान विवरण",
+      "message": "इस टैब को खुला रखें। यह आपकी रेकॉर्डिंग तैयार होने पर अपडेट हो जाएगा।"
+   },
+   "sandboxProgressTitle": {
+      "description": "सैंडबॉक्स पृष्ठ में रेकॉर्डिंग / सहेजने के दौरान शीर्षक",
+      "message": "रेकॉर्डिंग की तैयारी..."
+   },
+   "sandboxSaveTitle": {
+      "description": "सैंडबॉक्स संपादक पृष्ठ में शीर्षक सहेजें",
+      "message": "सहेजें"
+   },
+   "saveDriveButtonDescription": {
+      "description": "Google ड्राइव में सहेजें लेबल",
+      "message": "वर्तमान संस्करण को Google ड्राइव में सहेजें"
+   },
+   "saveDriveButtonTitle": {
+      "description": "Google ड्राइव में सहेजें बटन",
+      "message": "ड्राइव में सहेजें"
+   },
+   "savingDriveLabel": {
+      "description": "Google ड्राइव में सहेज रहे हैं लेबल",
+      "message": "सहेज रहे हैं..."
+   },
+   "screenTooSmallTooltip": {
+      "description": "सेटिंग्स मेनू में स्क्रीन बहुत छोटा है टूलटिप",
+      "message": "इस रिज़ॉल्यूशन के लिए स्क्रीन बहुत छोटा है"
+   },
+   "screenType": {
+      "description": "पॉपअप पर स्क्रीन रिकॉर्डिंग प्रकार लेबल",
+      "message": "स्क्रीन"
+   },
+   "selectSourceDropdownPlaceholder": {
+      "description": "स्रोत चुनने का प्लेसहोल्डर",
+      "message": "एक स्रोत चुनें"
+   },
+   "selectToolTooltip": {
+      "description": "टूल टूलटिप चुनें",
+      "message": "टूल चुनें"
+   },
+   "setupCompleteDescription": {
+      "description": "सेटअप पूरा विवरण",
+      "message": "आप अब यहां या किसी और टैब में रिकॉर्डिंग शुरू कर सकते हैं।"
+   },
+   "setupCompleteTitle": {
+      "description": "सेटअप पूरा शीर्षक",
+      "message": "बढ़िया! आपका सेटअप पूरा है"
+   },
+   "setupStep1After": {
+      "description": "सेटअप कदम 1, चिन्ह के बाद। इसे पहले एक स्पेस की आवश्यकता है।",
+      "message": " एक्सटेंशन चिन्ह"
+   },
+   "setupStep1Before": {
+      "description": "सेटअप कदम 1, चिन्ह के पहले। इसे आखिरी में एक स्पेस की आवश्यकता है।",
+      "message": "1- क्लिक करें "
+   },
+   "setupStep2After": {
+      "description": "सेटअप कदम 2, चिन्ह के बाद। इसे पहले एक स्पेस की आवश्यकता है।",
+      "message": " पिन आइकन"
+   },
+   "setupStep2Before": {
+      "description": "सेटअप कदम 2, चिन्ह के पहले। इसे आखिरी में एक स्पेस की आवश्यकता है।",
+      "message": "2- दबाएं "
+   },
+   "setupStep3After": {
+      "description": "सेटअप कदम 3, चिन्ह के बाद। इसे पहले एक स्पेस की आवश्यकता है।",
+      "message": " Screenity आइकन को शुरू करने के लिए"
+   },
+   "setupStep3Before": {
+      "description": "सेटअप कदम 3, चिन्ह के पहले। इसे आखिरी में एक स्पेस की आवश्यकता है।",
+      "message": "3- क्लिक करें "
+   },
+   "setupTitle": {
+      "description": "सेटअप कदम शीर्षक",
+      "message": "Screenity के साथ तीन सरल कदमों में शुरू हो जाइए:"
+   },
+   "shapeToolTooltip": {
+      "description": "आकार टूलटिप",
+      "message": "आकार टूल"
+   },
+   "shareModalSandboxButton": {
+      "description": "Share modal email placeholder in sandbox editor page",
+      "message": "Pro के बारे में जानें"
+   },
+   "shareModalSandboxDescription": {
+      "description": "Share modal description in sandbox editor page",
+      "message": "क्लाउड शेयरिंग, ज़ूम, टेम्पलेट्स पाएं... और एक प्राइवेसी-फ्रेंडली टूल को सपोर्ट करें जिसे एक इंडी डेव ने बनाया है ❤️"
+   },
+   "shareModalSandboxLogin": {
+      "description": "Share modal login link in sandbox editor page",
+      "message": "पहले से अकाउंट है? लॉग इन करें"
+   },
+   "shareModalSandboxTitle": {
+      "description": "Share modal title in sandbox editor page",
+      "message": "क्या आप अपनी रिकॉर्डिंग बेहतर करना चाहते हैं?"
+   },
+   "shareSandboxButton": {
+      "description": "सैंडबॉक्स संपादक पृष्ठ में साझा करें बटन",
+      "message": "वीडियो साझा करें"
+   },
+   "shareUnlockButton": {
+      "description": "Button to sign in to share in the editor",
+      "message": "साझा करने के लिए साइन इन करें (pro)"
+   },
+   "showMoreOptionsLabel": {
+      "description": "अधिक विकल्प लेबल",
+      "message": "अधिक विकल्प दिखाएं"
+   },
+   "signInDriveLabel": {
+      "description": "Google ड्राइव में साइन इन करें लेबल",
+      "message": "साइन इन करें और ड्राइव में सहेजें"
+   },
+   "signOutDriveLabel": {
+      "description": "Google ड्राइव से लॉग आउट लेबल",
+      "message": "ड्राइव से लॉग आउट करें"
+   },
+   "spotlightCursorTooltip": {
+      "description": "कर्सर को स्पॉटलाइट करें टूलटिप",
+      "message": "कर्सर को स्पॉटलाइट करें"
+   },
+   "stayInPagePopup": {
+      "description": "पेज में रहें पॉपअप",
+      "message": "रिकॉर्डिंग के समय पेज में रहें"
+   },
+   "stopAckTimeoutToast": {
+      "description": "Toast shown when the recorder does not acknowledge the stop request within a few seconds",
+      "message": "सहेजने में अपेक्षा से अधिक समय लग रहा है। आपका डेटा सुरक्षित है। एडिटर जल्द खुलेगा।"
+   },
+   "stopRecording": {
+      "description": "रिकॉर्डिंग स्क्रीन में बंद करें बटन",
+      "message": "रिकॉर्डिंग बंद करें"
+   },
+   "storageCheckFailAuthDescription": {
+      "description": "Description shown when the storage check fails due to authentication",
+      "message": "आपकी स्टोरेज जांचने में समस्या हुई। कृपया दोबारा लॉग इन करें और रिकॉर्डिंग आज़माएं।"
+   },
+   "storageCheckFailDescription": {
+      "description": "Description shown when the storage check fails",
+      "message": "हम आपकी स्टोरेज कोटा सत्यापित नहीं कर सके। कुछ सेकंड में दोबारा प्रयास करें या पेज रीफ़्रेश करें।"
+   },
+   "storageCheckFailTitle": {
+      "description": "Title shown when the storage check fails",
+      "message": "स्टोरेज जांच नहीं हो सकी"
+   },
+   "storageLimitReachedDescription": {
+      "description": "Modal description shown when the storage limit is reached",
+      "message": "आपने अपनी पूरी 100 GB स्टोरेज का उपयोग कर लिया है। कृपया रिकॉर्डिंग जारी रखने के लिए पुराने वीडियो या सीन हटाएं।"
+   },
+   "storageLimitReachedTitle": {
+      "description": "Modal message shown when the storage limit is reached",
+      "message": "स्टोरेज सीमा पूरी हो गई है"
+   },
+   "streamEndedWarningToast": {
+      "description": "Toast shown when screen share track ends mid-recording. Recording continues; removes false urgency about data loss.",
+      "message": "स्क्रीन शेयरिंग बंद हो गई। आपकी रिकॉर्डिंग सहेजी गई है। जब तैयार हों तब रोकें।"
+   },
+   "streamErrorModalDescription": {
+      "description": "स्ट्रीम त्रुटि मॉडल विवरण",
+      "message": "लगता है कि रिकॉर्डिंग शुरू करने में त्रुटि हुई है। अपने ब्राउज़र को फिर से चालने और पुनः प्रयास करें। यदि समस्या बरकरार रहती है, कृपया हमसे संपर्क करें support@screenity.io पर।"
+   },
+   "streamErrorModalTitle": {
+      "description": "स्ट्रीम त्रुटि मॉडल शीर्षक",
+      "message": "रिकॉर्डिंग शुरू करने में त्रुटि"
+   },
+   "supportSettingsOption": {
+      "description": "Label for the support option in the popup",
+      "message": "सहायता"
+   },
+   "systemAudioLabel": {
+      "description": "टैब/सिस्टम ऑडियो लेबल",
+      "message": "सिस्टम ऑडियो शामिल करें"
+   },
+   "tabRecordingDisabledToast": {
+      "description": "Toast message shown when tab recording is disabled on a page",
+      "message": "इस पेज पर टैब रिकॉर्डिंग अक्षम है। स्क्रीन रिकॉर्डिंग पर स्विच किया गया।"
+   },
+   "tabRecordingDisabledTooltip": {
+      "description": "Tooltip shown when tab recording is disabled on a page",
+      "message": "इस पेज पर टैब रिकॉर्डिंग अक्षम है"
+   },
+   "tabType": {
+      "description": "पॉपअप पर टैब क्षेत्र रिकॉर्डिंग प्रकार लेबल",
+      "message": "टैब क्षेत्र"
+   },
+   "textToolTooltip": {
+      "description": "टेक्स्ट टूलटिप",
+      "message": "टेक्स्ट टूल"
+   },
+   "thickStrokeTooltip": {
+      "description": "मोटा स्ट्रोक टूलटिप",
+      "message": "मोटा स्ट्रोक"
+   },
+   "thinStrokeTooltip": {
+      "description": "पतला स्ट्रोक टूलटिप",
+      "message": "पतला स्ट्रोक"
+   },
+   "toastAudioCaptureDegraded": {
+      "description": "Toast shown when the audio recorder is stopped early because the audio buffer limit was reached",
+      "message": "Transcription capture paused due to memory pressure. Video upload continues."
+   },
+   "toastNetworkOffline": {
+      "description": "Toast shown when the browser goes offline during a cloud recording upload",
+      "message": "Network offline. Upload paused. Screen chunks are saved locally."
+   },
+   "toastRecoveredSession": {
+      "description": "Toast shown when a crashed recording session is auto-recovered on startup",
+      "message": "Recovered unsaved recording from the previous session."
+   },
+   "toastStorageCritical": {
+      "description": "Toast shown when available storage drops below the critical threshold during recording; reassures that captured data is preserved",
+      "message": "डिस्क में कम जगह। आपकी रिकॉर्डिंग सहेजी जा रही है। अब तक कैप्चर किया गया सब कुछ सुरक्षित है।"
+   },
+   "toastStorageLow": {
+      "description": "Toast shown when available storage drops below the warning threshold during recording",
+      "message": "Storage is running low. Upload reliability may degrade for long recordings."
+   },
+   "toggleBlurToolTooltip": {
+      "description": "ब्लर टूल टूलटिप टॉगल करें",
+      "message": "ब्लर टूल टॉगल करें"
+   },
+   "toggleCursorOptionsTooltip": {
+      "description": "कर्सर विकल्प टूलटिप टॉगल करें",
+      "message": "कर्सर विकल्प टॉगल करें"
+   },
+   "toggleDrawingToolsTooltip": {
+      "description": "ड्रॉइंग टूल्स टूलटिप टॉगल करें",
+      "message": "ड्रॉइंग टूल्स टॉगल करें"
+   },
+   "toggleFillTooltip": {
+      "description": "भराई टूलटिप",
+      "message": "भराई टॉगल करें"
+   },
+   "togglePictureinPictureModeTooltip": {
+      "description": "पिक्चर-इन-पिक्चर मोड टूलटिप",
+      "message": "पिक्चर-इन-पिक्चर मोड टॉगल करें"
+   },
+   "toolbarHoverOnly": {
+      "description": "केवल हवाकारी पर टूलबार दिखाएं बटन",
+      "message": "उपयोग न करने पर टूलबार छुपाएं"
+   },
+   "topLabel": {
+      "description": "संपत्ति के लिए ऊपर लेबल",
+      "message": "ऊपर"
+   },
+   "troubleShootButtonDescription": {
+      "description": "समस्या समाधान लेबल",
+      "message": "अपने वीडियो को पुनः प्राप्त करें और अन्य समस्याओं का समाधान करें"
+   },
+   "troubleshootButtonTitle": {
+      "description": "समस्या समाधान बटन",
+      "message": "अपनी रिकॉर्डिंग के लिए मदद प्राप्त करें"
+   },
+   "troubleshootModalButton": {
+      "description": "समस्या समाधान मॉडल बटन",
+      "message": "डाउनलोड करें"
+   },
+   "troubleshootModalDescription": {
+      "description": "समस्या समाधान मॉडल विवरण",
+      "message": "डाउनलोड करने के बाद, सहायता@screenity.io पर फ़ाइल भेजें और संबंधित जानकारी के साथ। हम इन डेटा का उपयोग आपकी एक्सटेंशन के साथ किसी भी समस्या को समाधान करने और आपके वीडियो को यदि संभव हो तो पुनः प्राप्त करने के लिए करेंगे।"
+   },
+   "troubleshootModalTitle": {
+      "description": "समस्या समाधान मॉडल शीर्षक",
+      "message": "सिस्टम जानकारी और वीडियो डेटा डाउनलोड करें और समस्या समाधान के लिए भेजें"
+   },
+   "understoodButton": {
+      "description": "समझा बटन",
+      "message": "समझा"
+   },
+   "undoLabel": {
+      "description": "पूर्ववत लेबल",
+      "message": "पूर्ववत करें"
+   },
+   "undoTooltip": {
+      "description": "पूर्ववत करें टूलटिप",
+      "message": "पूर्ववत करें"
+   },
+   "unlockMoreFeatures": {
+      "description": "Button to unlock more features in the editor",
+      "message": "और अधिक फीचर्स अनलॉक करें"
+   },
+   "updateAnnouncementButton": {
+      "description": "मौजूदा उपयोगकर्ताओं के लिए अपडेट घोषणा बटन",
+      "message": "शुरू हो जाओ"
+   },
+   "updateAnnouncementDescription": {
+      "description": "मौजूदा उपयोगकर्ताओं के लिए अपडेट घोषणा विवरण",
+      "message": "हम एक नए दिखावट और कई रोमांचक सुविधाओं का परिचय कर रहे हैं, लेकिन चिंता न करें, यह वही मुफ्त, निजी और ओपन सोर्स एक्सटेंशन है जो आप जानते और पसंद करते हैं।"
+   },
+   "updateAnnouncementLearnMore": {
+      "description": "मौजूदा उपयोगकर्ताओं के लिए अपडेट घोषणा और अधिक जानें लिंक",
+      "message": "अपडेट के बारे में और अधिक जानें।"
+   },
+   "updateAnnouncementTitle": {
+      "description": "मौजूदा उपयोगकर्ताओं के लिए अपडेट घोषणा शीर्षक",
+      "message": "नए Screenity में आपका स्वागत है!"
+   },
+   "updateChromeLabelDescription": {
+      "description": "क्रोम अपडेट लेबल विवरण",
+      "message": "और फ़ीचर्स तक पहुँचने के लिए अपडेट करें"
+   },
+   "updateChromeLabelTitle": {
+      "description": "क्रोम अपडेट लेबल",
+      "message": "क्रोम को अपडेट करने की आवश्यकता है"
+   },
+   "upgradeToProButton": {
+      "description": "Button to upgrade to Pro",
+      "message": "Pro सदस्यता लें"
+   },
+   "videoProcessingLabelDescription": {
+      "description": "संपादक में वीडियो प्रसंस्करण विवरण",
+      "message": "फ़ास्ट संपादन के लिए अपग्रेड करें"
+   },
+   "videoProcessingLabelTitle": {
+      "description": "संपादक में वीडियो प्रसंस्करण लेबल",
+      "message": "वीडियो प्रसंस्करण हो रहा है..."
+   },
+   "videoTrackEndedToast": {
+      "description": "Toast shown when the video track ends mid-recording (e.g. monitor disconnected, screen share revoked)",
+      "message": "स्क्रीन शेयरिंग बंद हो गई। आपकी रिकॉर्डिंग सहेजी जा रही है। अब तक कैप्चर किया गया सब कुछ सुरक्षित है।"
+   },
+   "videosTab": {
+      "description": "पॉपअप पर वीडियो टैब लेबल",
+      "message": "आपके वीडियो"
+   },
+   "webcodecsFailedOffToast": {
+      "description": "WebCodecs failure auto-disable toast",
+      "message": "Fast MP4 विफल — ऑफ"
+   },
+   "webcodecsToggleLabel": {
+      "description": "WebCodecs recorder toggle label",
+      "message": "Fast MP4"
+   },
+   "welcomeBackPopupTitle": {
+      "description": "वापसी करने वाले उपयोगकर्ताओं को दिखाए जाने वाले वेलकम पॉपअप का शीर्षक",
+      "message": "स्क्रीनिटी में वापस स्वागत है"
+   },
+   "welcomeBackProCTA": {
+      "description": "वेलकम पॉपअप में क्लाउड फीचर के लिए कॉल-टू-एक्शन बटन",
+      "message": "Screenity Pro के बारे में और जानें"
+   },
+   "welcomeBackProDescription": {
+      "description": "वेलकम पॉपअप में क्लाउड स्टोरेज फीचर का विवरण",
+      "message": "Screenity Pro एक वैकल्पिक नया प्लेटफ़ॉर्म है जहाँ आप अपने वीडियो क्लाउड में सेव कर सकते हैं, लिंक के ज़रिए शेयर कर सकते हैं, और ज़रूरत पड़ने पर एडवांस्ड एडिटिंग टूल्स का इस्तेमाल कर सकते हैं।"
+   },
+   "welcomeBackProTitle": {
+      "description": "वेलकम पॉपअप में क्लाउड स्टोरेज फीचर का शीर्षक",
+      "message": "✨ नया: अपनी रिकॉर्डिंग को अगले स्तर पर ले जाएं"
+   },
+   "welcomePopupCTA": {
+      "description": "Call to action button for the welcome popup shown to new users",
+      "message": "इसे मुफ्त में इस्तेमाल करें — साइन अप की ज़रूरत नहीं!"
+   },
+   "welcomePopupCloudCTA": {
+      "description": "Call to action button for the cloud storage feature in the welcome popup",
+      "message": "🔓 अतिरिक्त सुविधाएँ अनलॉक करें"
+   },
+   "welcomePopupCloudFeature1": {
+      "description": "Feature 1 for the cloud storage in the welcome popup",
+      "message": "क्लाउड स्टोरेज, लिंक के साथ वीडियो साझा करें"
+   },
+   "welcomePopupCloudFeature2": {
+      "description": "Feature 2 for the cloud storage in the welcome popup",
+      "message": "कई क्लिप को एक कहानी में जोड़ें"
+   },
+   "welcomePopupCloudFeature3": {
+      "description": "Feature 3 for the cloud storage in the welcome popup",
+      "message": "क्लिक पर स्मार्ट ज़ूम (या अपना जोड़ें!)"
+   },
+   "welcomePopupCloudFeature4": {
+      "description": "Feature 4 for the cloud storage in the welcome popup",
+      "message": "टेम्पलेट, कैप्शन, लेआउट जोड़ें..."
+   },
+   "welcomePopupCloudFeature5": {
+      "description": "Feature 5 for the cloud storage in the welcome popup",
+      "message": "कस्टम बैकग्राउंड और मॉकअप"
+   },
+   "welcomePopupCloudTitle": {
+      "description": "Title for the cloud storage feature in the welcome popup",
+      "message": "अपने वीडियो से और ज़्यादा करना चाहते हैं?"
+   },
+   "welcomePopupDescriptionBottom": {
+      "description": "Description for the welcome popup shown to new users",
+      "message": "बस रिकॉर्ड दबाएँ।"
+   },
+   "welcomePopupDescriptionTop": {
+      "description": "Description for the welcome popup shown to new users",
+      "message": "कोई विज्ञापन नहीं। कोई ट्रैकिंग नहीं। कोई सीमा नहीं।"
+   },
+   "welcomePopupSupport": {
+      "description": "Message for supporting the indie maker in the welcome popup",
+      "message": "+ एक सोलो इंडी मेकर के विकास को सपोर्ट करें!"
+   },
+   "welcomePopupTitle": {
+      "description": "Title for the welcome popup shown to new users",
+      "message": "Screenity में आपका स्वागत है"
+   },
+   "welcomeProButton": {
+      "description": "Button to sign in to Screenity Pro",
+      "message": "पेड फीचर्स अनलॉक करने के लिए साइन इन करें"
+   },
+   "welcomeProDescription": {
+      "description": "Description for the welcome Pro popup",
+      "message": "अपने वीडियो क्लाउड में सेव करने, लिंक के साथ साझा करने और एडवांस एडिटिंग फीचर्स एक्सेस करने के लिए साइन इन करें।"
+   },
+   "welcomeProSupport": {
+      "description": "Message for supporting the indie maker in the welcome Pro popup",
+      "message": "एक सोलो इंडी मेकर के विकास को सपोर्ट करें"
+   },
+   "welcomeProTitle": {
+      "description": "Title for the welcome Pro popup",
+      "message": "अपनी रिकॉर्डिंग से और अधिक करना चाहती हैं?"
+   },
+   "welcomeToProActionModal": {
+      "description": "Pro वेलकम मोडल का एक्शन बटन",
+      "message": "ठीक है"
+   },
+   "welcomeToProDescriptionModal": {
+      "description": "Pro वेलकम मोडल का विवरण",
+      "message": "रिकॉर्डिंग शुरू करने के लिए सब कुछ तैयार है! कुछ बातों का ध्यान रखें:\n\n- रिकॉर्डिंग के दौरान कैमरा बबल गायब हो सकता है, यह सामान्य है। इसे बैकग्राउंड में अलग से कैप्चर किया जाता है ताकि आप बाद में इसे कहीं भी रख सकें।\n- ज़ूम केवल Chrome टैब्स में क्लिक करने पर अपने आप बनते हैं — यह ब्राउज़र की सीमा है। आप रिकॉर्डिंग के बाद मैन्युअली ज़ूम जोड़ सकते हैं।\n- त्वरित रिकॉर्डिंग और तुरंत डाउनलोड के लिए Instant Mode का उपयोग करें। ध्यान रखें कि इसमें एडिटिंग के विकल्प सीमित होते हैं: कोई बैकग्राउंड्स, लेआउट्स या एडवांस टूल्स नहीं।"
+   },
+   "welcomeToProTitleModal": {
+      "description": "Pro वेलकम मोडल का शीर्षक",
+      "message": "Screenity Pro में आपका स्वागत है"
+   },
+   "widthLabel": {
+      "description": "संपत्ति के लिए चौड़ाई लेबल",
+      "message": "चौड़ाई"
+   },
+   "zoomToPointPopup": {
+      "description": "बिंदु पॉपअप पर ज़ूम करें",
+      "message": "कर्सर पर ज़ूम करें"
+   }
+}

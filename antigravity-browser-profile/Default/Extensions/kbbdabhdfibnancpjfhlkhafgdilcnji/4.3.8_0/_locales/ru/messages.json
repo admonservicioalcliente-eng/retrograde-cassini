@@ -1,0 +1,1584 @@
+{
+   "accountSettingsOption": {
+      "description": "Label for the account settings option in the popup",
+      "message": "Настройки аккаунта"
+   },
+   "addAudioButtonDescription": {
+      "description": "Метка добавления аудио",
+      "message": "Загрузите свой звук для добавления в видео"
+   },
+   "addAudioButtonTitle": {
+      "description": "Кнопка добавления аудио",
+      "message": "Добавить аудио"
+   },
+   "addImageToastTitle": {
+      "description": "Всплывающее уведомление при добавлении нового изображения",
+      "message": "Щелкните, чтобы разместить изображение"
+   },
+   "addedToMultiToast": {
+      "description": "Toast message shown when a scene is added to multi-recording",
+      "message": "Сцена добавлена в Multi-запись"
+   },
+   "addingToLabel": {
+      "description": "Label shown when a scene is being recorded to a project",
+      "message": "Добавление в: "
+   },
+   "alarmLabel": {
+      "description": "Метка для установки временного ограничения",
+      "message": "Установить временное ограничение"
+   },
+   "allVideosHeading": {
+      "description": "Heading for the all videos section in the popup",
+      "message": "Все видео"
+   },
+   "allowCameraAccessButton": {
+      "description": "Кнопка разрешения доступа к камере",
+      "message": "Разрешить доступ к камере"
+   },
+   "allowMicrophoneAccessButton": {
+      "description": "Кнопка разрешения доступа к микрофону",
+      "message": "Разрешить доступ к микрофону"
+   },
+   "arrowToolTooltip": {
+      "description": "Подсказка для инструмента Стрелка",
+      "message": "Инструмент Стрелка"
+   },
+   "audioTrackEndedToast": {
+      "description": "Toast shown when the audio track ends mid-recording (e.g. mic unplugged, permission revoked)",
+      "message": "Аудио отключено. Сохраняем запись. Записанное видео в безопасности."
+   },
+   "audioWarningDescription": {
+      "description": "Описание предупреждения о звуке",
+      "message": "Для записи аудио с этой страницы вы должны использовать опцию '$tab$'.",
+      "placeholders": {
+         "tab": {
+            "content": "$1",
+            "example": "Область вкладки"
+         }
+      }
+   },
+   "audioWarningTitle": {
+      "description": "Заголовок предупреждения о звуке",
+      "message": "Запись аудио с страницы"
+   },
+   "backgroundEffectsLabel": {
+      "description": "Метка переключения 'Background effects'",
+      "message": "Эффекты фона"
+   },
+   "backupPermissionFailDescription": {
+      "description": "Описание отказа в разрешении на резервное копирование",
+      "message": "Вы не выбрали папку для создания локальных резервных копий записей. В зависимости от версии вашего браузера или операционной системы, вас могут попросить выбрать папку каждый раз, когда вы начнете запись. Вы можете попробовать снова или полностью отключить резервное копирование, если вы предпочтете не давать разрешения повторно."
+   },
+   "backupPermissionFailTitle": {
+      "description": "Заголовок отказа в разрешении на резервное копирование",
+      "message": "Отказано в разрешении на создание резервных копий записи"
+   },
+   "backupsClose": {
+      "description": "Кнопка Закрыть вкладку в любом случае",
+      "message": "Закрыть вкладку в любом случае"
+   },
+   "backupsConfirmAllow": {
+      "description": "Кнопка Разрешить в подтверждении резервных копий",
+      "message": "Разрешить Screenity продолжить создавать резервные копии записей"
+   },
+   "backupsConfirmDescription": {
+      "description": "Описание подтверждения резервных копий",
+      "message": "Извините, но нам нужно ваше разрешение еще раз, чтобы продолжить создавать локальные копии ваших записей. К сожалению, нам придется спрашивать каждый раз, когда вы закроете эту вкладку, что может случиться, если вы закроете браузер или перезагрузите компьютер."
+   },
+   "backupsConfirmTitle": {
+      "description": "Заголовок подтверждения резервных копий",
+      "message": "Пожалуйста, подтвердите доступ к вашей локальной папке резервных копий Screenity"
+   },
+   "backupsDescription1": {
+      "description": "Описание резервных копий",
+      "message": "Сохраняйте копии всех ваших записей. Если вы не настроите резервные копии, ваши записи будут сохранены только при скачивании."
+   },
+   "backupsDescription2": {
+      "description": "Описание резервных копий",
+      "message": "Вам может потребоваться создать новую папку сначала, если вы пытаетесь сохранить записи в папках, таких как 'Загрузки' или других системных папках."
+   },
+   "backupsNotNow": {
+      "description": "Кнопка Не сейчас",
+      "message": "Не сейчас"
+   },
+   "backupsOnDescription": {
+      "description": "Описание активированных резервных копий",
+      "message": "Для избежания запросов на разрешение при каждой записи рекомендуется оставить эту вкладку открытой."
+   },
+   "backupsOnTitle": {
+      "description": "Заголовок активированных резервных копий",
+      "message": "Ваши записи локально синхронизированы"
+   },
+   "backupsSelectFolder": {
+      "description": "Кнопка Выбрать папку",
+      "message": "Выбрать папку"
+   },
+   "backupsStop": {
+      "description": "Кнопка Остановить резервные копии",
+      "message": "Остановить все резервные копии записей"
+   },
+   "backupsTitle": {
+      "description": "Заголовок резервных копий",
+      "message": "Настройка локальных резервных копий для записей в Screenity"
+   },
+   "backupsToggle": {
+      "description": "Метка Переключить резервные копии",
+      "message": "Создавать резервные копии записей"
+   },
+   "blurModeToast": {
+      "description": "Уведомление о режиме размытия",
+      "message": "Режим размытия"
+   },
+   "blurTypeLabel": {
+      "description": "Метка для размытия фона",
+      "message": "Размыть"
+   },
+   "cameraType": {
+      "description": "Метка типа записи с камеры на всплывающем окне",
+      "message": "Камера"
+   },
+   "cancelButton": {
+      "description": "Generic cancel button label",
+      "message": "Отмена"
+   },
+   "cancelRecordingTooltip": {
+      "description": "Подсказка для отмены записи",
+      "message": "Отменить запись"
+   },
+   "chromePermissionsModalAction": {
+      "description": "Действие модального окна разрешения",
+      "message": "Включить запись экрана"
+   },
+   "chromePermissionsModalCancel": {
+      "description": "Отмена модального окна разрешения",
+      "message": "Отмена"
+   },
+   "chromePermissionsModalDescription": {
+      "description": "Описание модального окна разрешения",
+      "message": "Для включения записи экрана вы должны предоставить разрешение на запись экрана при запросе от Screenity."
+   },
+   "chromePermissionsModalTitle": {
+      "description": "Заголовок модального окна разрешения",
+      "message": "Screenity не имеет разрешения на запись вашего экрана"
+   },
+   "clearBlurredElementsTooltip": {
+      "description": "Подсказка для очистки всех размытых элементов",
+      "message": "Очистить все размытые элементы"
+   },
+   "clearCanvasTooltip": {
+      "description": "Подсказка для очистки холста",
+      "message": "Очистить холст"
+   },
+   "clearSpaceButton": {
+      "description": "Кнопка 'Удалить предыдущие записи'",
+      "message": "Удалить предыдущие записи"
+   },
+   "clickHereDrawOnboarding": {
+      "description": "Сообщение об обучении: нажмите здесь",
+      "message": "Нажмите здесь, чтобы рисовать"
+   },
+   "closeModalLabel": {
+      "description": "Agnostic close modal button label",
+      "message": "Закрыть"
+   },
+   "continueWithoutLogin": {
+      "description": "Button to continue using the extension without logging in",
+      "message": "Продолжить без входа"
+   },
+   "copiedToClipboardToast": {
+      "description": "Toast message shown when link has been copied to clipboard",
+      "message": "Ссылка скопирована в буфер"
+   },
+   "copyDebugInfoButton": {
+      "description": "Button to copy technical debug info to clipboard for support",
+      "message": "Скопировать данные отладки"
+   },
+   "countdownLabel": {
+      "description": "Метка для обратного отсчета",
+      "message": "Обратный отсчет"
+   },
+   "countdownMessage": {
+      "description": "Сообщение обратного отсчета",
+      "message": "Расслабьтесь. Нажмите в любом месте, чтобы остановить обратный отсчет."
+   },
+   "cropButtonDescription": {
+      "description": "Метка обрезки",
+      "message": "Обрезать и изменять размер видео"
+   },
+   "cropButtonTitle": {
+      "description": "Кнопка обрезки",
+      "message": "Обрезать"
+   },
+   "croppingInfoDescription": {
+      "description": "Описание информации об обрезке",
+      "message": "Обновите для более быстрой обработки"
+   },
+   "croppingInfoTitle": {
+      "description": "Заголовок информации об обрезке",
+      "message": "Обрезка может занять некоторое время"
+   },
+   "customAreaLabel": {
+      "description": "Метка переключения 'Custom area'",
+      "message": "Установите область для записи"
+   },
+   "customAreaRecordingDisabledAction": {
+      "description": "Действие предупреждения о выключенной записи в произвольной области для версии Chrome старше 104",
+      "message": "Обновить"
+   },
+   "customAreaRecordingDisabledDescription": {
+      "description": "Описание предупреждения о выключенной записи в произвольной области для версии Chrome старше 104",
+      "message": "Обновите версию Chrome до 110+"
+   },
+   "customAreaRecordingDisabledTitle": {
+      "description": "Предупреждение о выключенной записи в произвольной области для версии Chrome старше 104",
+      "message": "Запись в произвольной области отключена"
+   },
+   "debugInfoCopiedToast": {
+      "description": "Toast shown after debug info is copied",
+      "message": "Данные отладки скопированы"
+   },
+   "disableCameraTooltip": {
+      "description": "Подсказка для отключения камеры",
+      "message": "Отключить камеру"
+   },
+   "disableMicrophoneTooltip": {
+      "description": "Подсказка для отключения микрофона",
+      "message": "Отключить микрофон"
+   },
+   "discardModalDescription": {
+      "description": "Описание модального окна отмены записи",
+      "message": "Ваш текущий прогресс видеозаписи будет потерян."
+   },
+   "discardModalDiscard": {
+      "description": "Кнопка отмены записи в модальном окне",
+      "message": "Отменить запись"
+   },
+   "discardModalResume": {
+      "description": "Кнопка продолжения записи в модальном окне",
+      "message": "Продолжить запись"
+   },
+   "discardModalTitle": {
+      "description": "Заголовок модального окна отмены записи",
+      "message": "Вы уверены, что хотите отменить запись?"
+   },
+   "downgradeToFreeButton": {
+      "description": "Button to log out and downgrade to the free version",
+      "message": "Выйти и перейти на бесплатную версию"
+   },
+   "downloadAnywayButton": {
+      "description": "Button to download the recording file despite validation failure",
+      "message": "Скачать все равно"
+   },
+   "downloadForTroubleshootingOption": {
+      "description": "Опция скачивания для устранения проблем",
+      "message": "Скачать данные для устранения проблем"
+   },
+   "downloadGIFButtonDescription": {
+      "description": "Метка скачивания GIF",
+      "message": "Экспортировать GIF (максимум 30 секунд)"
+   },
+   "downloadGIFButtonTitle": {
+      "description": "Кнопка скачивания GIF",
+      "message": "Скачать как .gif"
+   },
+   "downloadMP4ButtonDescription": {
+      "description": "Метка скачивания MP4",
+      "message": "Экспортировать видео в формате .mp4 (рекомендуется)"
+   },
+   "downloadMP4ButtonTitle": {
+      "description": "Кнопка скачивания MP4",
+      "message": "Скачать как .mp4"
+   },
+   "downloadWEBMButtonDescription": {
+      "description": "Метка скачивания WEBM",
+      "message": "Экспортировать видео в формате .webm"
+   },
+   "downloadWEBMButtonTitle": {
+      "description": "Кнопка скачивания WEBM",
+      "message": "Скачать как .webm"
+   },
+   "downloadingLabel": {
+      "description": "Метка загрузки",
+      "message": "Загрузка..."
+   },
+   "drawingModeToast": {
+      "description": "Уведомление о режиме рисования",
+      "message": "Режим рисования"
+   },
+   "editButtonDescription": {
+      "description": "Метка обрезки",
+      "message": "Обрезать, удалять или отключать звук в видео"
+   },
+   "editButtonTitle": {
+      "description": "Кнопка обрезки",
+      "message": "Редактировать видео"
+   },
+   "editFailedDescription": {
+      "description": "Alert body for edit failure; explicitly confirms the original recording is untouched",
+      "message": "Что-то пошло не так при обработке. Исходная запись в безопасности. Вы можете попробовать снова или скачать как есть."
+   },
+   "editFailedTitle": {
+      "description": "Alert title when an edit operation fails due to an encoding or processing error",
+      "message": "Не удалось применить редактирование"
+   },
+   "editProcessingSafeDescription": {
+      "description": "Shown in the editor processing alert when a user-initiated edit is running, to reassure the original is safe",
+      "message": "Обработка редактирования. Исходная запись не изменена."
+   },
+   "editTimeoutDescription": {
+      "description": "Alert body for the timeout case, prompting retry or shorter clip",
+      "message": "Редактирование не завершилось вовремя. Исходная запись не изменена. Повторите попытку или сначала обрежьте клип."
+   },
+   "editTimeoutTitle": {
+      "description": "Alert title when an edit operation does not complete within the 5-minute watchdog period",
+      "message": "Время редактирования истекло"
+   },
+   "editTooLongDescription": {
+      "description": "Alert body explaining the 15-minute limit and suggesting trimming first",
+      "message": "Это редактирование аудио не поддерживается для клипов длиннее 15 минут. Оригинал не изменён. Попробуйте сначала обрезать клип."
+   },
+   "editTooLongTitle": {
+      "description": "Alert title when an audio mute/mix edit is rejected because the clip exceeds 15 minutes",
+      "message": "Редактирование аудио слишком длинное"
+   },
+   "editorRecoveryToast": {
+      "description": "Toast shown on the active tab when the post-recording editor tab fails to open",
+      "message": "Запись сохранена. Редактор не открылся. Нажмите на значок Screenity, чтобы попробовать снова."
+   },
+   "enableCameraTooltip": {
+      "description": "Подсказка для включения камеры",
+      "message": "Включить камеру"
+   },
+   "enableMicrophoneTooltip": {
+      "description": "Подсказка для включения микрофона",
+      "message": "Включить микрофон"
+   },
+   "eraserToolTooltip": {
+      "description": "Подсказка для инструмента стирания",
+      "message": "Инструмент стирания"
+   },
+   "extDesc": {
+      "description": "Описание расширения",
+      "message": "Лучший бесплатный экран записи без ограничений. Захват, аннотация, масштабирование, размытие, редактирование видео и многое другое - без необходимости входа и с уважением к конфиденциальности."
+   },
+   "extName": {
+      "description": "Название расширения",
+      "message": "Screenity - Запись экрана & Аннотации"
+   },
+   "extensionNotSupportedDescription": {
+      "description": "Описание предупреждения о не поддерживаемом расширении на вкладке",
+      "message": "Screenity не поддерживался на вашей предыдущей вкладке. Тем не менее, вы все равно можете начать запись здесь, а затем перейти на другую вкладку, но камера и панель инструментов не будут видны."
+   },
+   "extensionNotSupportedTitle": {
+      "description": "Заголовок предупреждения о не поддерживаемом расширении на вкладке",
+      "message": "Расширение не поддерживается на странице"
+   },
+   "failedToCopyToClipboardToast": {
+      "description": "Toast message shown when failed to copy link to clipboard",
+      "message": "Не удалось скопировать ссылку"
+   },
+   "fastRecorderFailedDescription": {
+      "description": "Body text for the fast recorder failure modal",
+      "message": "Результат быстрой записи не удалось проверить на этом устройстве.\nВы все равно можете скачать файл."
+   },
+   "fastRecorderFailedTitle": {
+      "description": "Title for the modal shown when the fast MP4 recorder output could not be validated",
+      "message": "Быстрая запись не удалась"
+   },
+   "finishLabelMulti": {
+      "description": "Label for the finish multi-recording button",
+      "message": "Завершить"
+   },
+   "finishRecordingTooltip": {
+      "description": "Подсказка для завершения записи",
+      "message": "Завершить запись"
+   },
+   "flipCameraLabel": {
+      "description": "Метка переключения 'Flip camera'",
+      "message": "Повернуть камеру"
+   },
+   "followForUpdates": {
+      "description": "Кнопка подписки на обновления",
+      "message": "Подписаться на обновления"
+   },
+   "getHelpButton": {
+      "description": "Side button on error modals that opens a prefilled support form",
+      "message": "Получить помощь"
+   },
+   "getHelpNav": {
+      "description": "Элемент навигации помощи",
+      "message": "Центр помощи"
+   },
+   "goToDashboardButtonLabel": {
+      "description": "Button label to go to the dashboard in the popup",
+      "message": "Перейти в панель"
+   },
+   "havingIssuesButton": {
+      "description": "Кнопка проблем в редакторе",
+      "message": "Возникли проблемы?"
+   },
+   "havingIssuesModalButton": {
+      "description": "Кнопка в модальном окне проблем в редакторе",
+      "message": "Скачать необработанные видеоданные"
+   },
+   "havingIssuesModalButton2": {
+      "description": "Вторая кнопка в модальном окне проблем в редакторе",
+      "message": "Сообщить о проблеме"
+   },
+   "havingIssuesModalDescription": {
+      "description": "Описание модального окна проблем в редакторе",
+      "message": "Если вы завершили запись и оказались на этой странице, не видя свое видео, вы можете попробовать скачать необработанные видеоданные, если они доступны. Вы также можете связаться с нами и отправить отчет об ошибке."
+   },
+   "havingIssuesModalTitle": {
+      "description": "Заголовок модального окна проблем в редакторе",
+      "message": "Не видите свою запись?"
+   },
+   "heightLabel": {
+      "description": "Метка высоты для свойств",
+      "message": "Высота"
+   },
+   "helpPopup": {
+      "description": "Кнопка всплывающего окна справки",
+      "message": "Помощь"
+   },
+   "hideToolbarLabel": {
+      "description": "Метка для скрытия панели инструментов",
+      "message": "Скрыть панель инструментов"
+   },
+   "hideUIAlerts": {
+      "description": "Кнопка скрытия уведомлений интерфейса",
+      "message": "Скрыть уведомления интерфейса"
+   },
+   "highestQuality": {
+      "description": "Метка переключения наивысшего качества во всплывающем окне",
+      "message": "Наивысшее качество"
+   },
+   "highlightClicksTooltip": {
+      "description": "Подсказка для подсветки кликов",
+      "message": "Подсветить клики"
+   },
+   "highlightCursorTooltip": {
+      "description": "Подсказка для подсветки курсора",
+      "message": "Подсветить курсор"
+   },
+   "highlighterToolTooltip": {
+      "description": "Подсказка для инструмента маркера",
+      "message": "Инструмент маркера"
+   },
+   "hostBannerDescription": {
+      "description": "Описание баннера о самостоятельном хостинге в редакторе",
+      "message": "Screenity разработана независимой разработчицей. Самостоятельный хостинг бесплатен, но если вам полезен этот инструмент, подумайте о поддержке через Pro ❤️"
+   },
+   "hostBannerTitle": {
+      "description": "Заголовок баннера о самостоятельном хостинге в редакторе",
+      "message": "Нравится пользоваться Screenity локально? Поддержите дальнейшую разработку!"
+   },
+   "imageToolTooltip": {
+      "description": "Подсказка для инструмента Изображение",
+      "message": "Инструмент Изображение"
+   },
+   "inactiveSubscriptionDeletionWarning": {
+      "description": "Warning message about the deletion of videos and data",
+      "message": "Ваши видео и данные будут безвозвратно удалены "
+   },
+   "inactiveSubscriptionDescription": {
+      "description": "Description shown when the user's subscription is inactive",
+      "message": "Ваша подписка Screenity Pro неактивна."
+   },
+   "inactiveSubscriptionFreeVersion": {
+      "description": "Message prompting the user to continue using the free version",
+      "message": "Хотите продолжить использовать бесплатную версию?"
+   },
+   "inactiveSubscriptionReactivation": {
+      "description": "Message prompting the user to reactivate their subscription",
+      "message": "Пожалуйста, активируйте снова, чтобы продолжить использование."
+   },
+   "inactiveSubscriptionTitle": {
+      "description": "Title shown when the user's subscription is inactive",
+      "message": "Ваша подписка Pro неактивна"
+   },
+   "instantRecordingModeAction": {
+      "description": "Action button for the instant recording mode",
+      "message": "Поняла"
+   },
+   "instantRecordingModeDescription": {
+      "description": "Description for the instant recording mode",
+      "message": "Всё записывается в одно видео для мгновенной загрузки и публикации. Расположение камеры изменить будет нельзя, но другие правки возможны."
+   },
+   "instantRecordingModeLabel": {
+      "description": "Label for the instant recording mode",
+      "message": "Мгновенный режим записи"
+   },
+   "instantRecordingModeTitle": {
+      "description": "Title for the instant recording mode",
+      "message": "Мгновенный режим записи"
+   },
+   "instantRecordingModeTooltip": {
+      "description": "Tooltip for the instant recording mode",
+      "message": "Мгновенное скачивание, но камеру и макет потом нельзя будет изменить."
+   },
+   "learnMoreDot": {
+      "description": "Узнать больше с точкой",
+      "message": "Узнать больше."
+   },
+   "learnMoreLabel": {
+      "description": "Кнопка узнать больше",
+      "message": "Узнать больше"
+   },
+   "leaveReview": {
+      "description": "Кнопка оставления отзыва",
+      "message": "Оставьте отзыв"
+   },
+   "leftLabel": {
+      "description": "Метка слева для свойств",
+      "message": "Слева"
+   },
+   "loadingVideosLabel": {
+      "description": "Label shown when videos are loading in the popup",
+      "message": "Загрузка видео..."
+   },
+   "logBackInButton": {
+      "description": "Button to log back in after being logged out",
+      "message": "Войти снова"
+   },
+   "loggedOutDescription": {
+      "description": "Description shown when the user is logged out",
+      "message": "Чтобы сохранить записи в аккаунте и получить доступ к функциям Pro, войдите снова."
+   },
+   "loggedOutFreeVersion": {
+      "description": "Message shown when the user is logged out and using the free version",
+      "message": "Вы можете продолжать использовать расширение без аккаунта — но ваши записи не будут сохранены и не смогут быть восстановлены позже."
+   },
+   "loggedOutTitle": {
+      "description": "Title shown when the user is logged out",
+      "message": "Вы вышли из аккаунта"
+   },
+   "loggedOutToastTitle": {
+      "description": "Toast message shown when the user logs out",
+      "message": "Вы вышли из аккаунта"
+   },
+   "loginButtonLabel": {
+      "description": "Login button label in popup settings menu",
+      "message": "Войти или зарегистрироваться"
+   },
+   "logoutButtonLabel": {
+      "description": "Logout button label in popup settings menu",
+      "message": "Выйти"
+   },
+   "longRecordingDescription": {
+      "description": "Banner description for long recordings that can be downloaded but not edited locally",
+      "message": "Запись завершена и в безопасности. Скачайте в формате WebM ниже."
+   },
+   "longRecordingTitle": {
+      "description": "Banner title shown when a recording exceeds the local processing limit but is otherwise successful",
+      "message": "Длинная запись"
+   },
+   "manageStorageButtonLabel": {
+      "description": "Button label to manage storage in the popup settings menu",
+      "message": "Управление хранилищем"
+   },
+   "manageSubscriptionButton": {
+      "description": "Button to manage the user's subscription",
+      "message": "Управление подпиской"
+   },
+   "maxFPSLabel": {
+      "description": "Метка максимального количества кадров в секунду в меню настроек",
+      "message": "Максимальное количество кадров в секунду"
+   },
+   "maxResolutionLabel": {
+      "description": "Метка максимального разрешения в меню настроек",
+      "message": "Максимальное разрешение"
+   },
+   "maxResolutionTooltip": {
+      "description": "Подсказка о максимальном разрешении в меню настроек",
+      "message": "Невозможно записать в этом разрешении на вашем устройстве"
+   },
+   "mediumStrokeTooltip": {
+      "description": "Подсказка для средней линии",
+      "message": "Средняя линия"
+   },
+   "memoryLimitDescription": {
+      "description": "Описание сообщения о достижении лимита памяти",
+      "message": "Ваше устройство исчерпало доступную память для записи, что привело к автоматической остановке записи. Если вы хотите записывать дольше, вы можете попробовать уменьшить качество видео или освободить место на вашем устройстве."
+   },
+   "memoryLimitTitle": {
+      "description": "Заголовок сообщения о достижении лимита памяти",
+      "message": "Достигнут лимит памяти"
+   },
+   "micMutedModalAction": {
+      "description": "Действие модального окна отключенного микрофона",
+      "message": "Да, продолжить"
+   },
+   "micMutedModalCancel": {
+      "description": "Отмена модального окна отключенного микрофона",
+      "message": "Отмена"
+   },
+   "micMutedModalDescription": {
+      "description": "Описание модального окна отключенного микрофона",
+      "message": "Для включения звука в вашей записи вам нужно включить микрофон. Хотите продолжить без звука?"
+   },
+   "micMutedModalTitle": {
+      "description": "Заголовок модального окна отключенного микрофона",
+      "message": "Ваш микрофон отключен"
+   },
+   "micOffToast": {
+      "description": "Заголовок всплывающего окна отключенного микрофона",
+      "message": "Микрофон отключен"
+   },
+   "micOnToast": {
+      "description": "Заголовок всплывающего окна включенного микрофона",
+      "message": "Микрофон включен"
+   },
+   "micReminderPopup": {
+      "description": "Всплывающее окно напоминания о микрофоне",
+      "message": "Предупреждение: микрофон выключен"
+   },
+   "mockupType": {
+      "description": "Метка типа записи макета на всплывающем окне",
+      "message": "Макет"
+   },
+   "moreColorsTooltip": {
+      "description": "Подсказка для дополнительных цветов",
+      "message": "Дополнительные цвета"
+   },
+   "multiLabel": {
+      "description": "Label for the multi-recording mode",
+      "message": "Multi"
+   },
+   "multiRecordingModeDescription": {
+      "description": "Description for the multi-recording mode modal",
+      "message": "Записывайте несколько сцен — экран, камеру или оба варианта — одну за другой. Отлично подходит для нескольких дублей, смены ракурса или разбивки записи на части. Когда закончите, нажмите «Готово», чтобы открыть редактор со всеми сценами, объединёнными в одно видео."
+   },
+   "multiRecordingModeTitle": {
+      "description": "Title for the multi-recording mode modal",
+      "message": "Режим Multi"
+   },
+   "newestSortLabel": {
+      "description": "Label for the newest sort option",
+      "message": "Новые"
+   },
+   "noCameraDropdownLabel": {
+      "description": "Не выбрана камера",
+      "message": "Нет камеры"
+   },
+   "noCameraPermissionsTooltip": {
+      "description": "Подсказка о отсутствии разрешения на использование камеры",
+      "message": "Нет разрешения на использование камеры"
+   },
+   "noConnectionLabel": {
+      "description": "Метка отсутствия соединения",
+      "message": "Нет соединения"
+   },
+   "noMicrophoneDropdownLabel": {
+      "description": "Не выбран микрофон",
+      "message": "Нет микрофона"
+   },
+   "noMicrophonePermissionsTooltip": {
+      "description": "Подсказка о отсутствии разрешения на использование микрофона",
+      "message": "Нет разрешения на использование микрофона"
+   },
+   "noRecordingFound": {
+      "description": "Предупреждение о отсутствии записи в редакторе",
+      "message": "Запись не найдена, извините :("
+   },
+   "noShowAgain": {
+      "description": "Кнопка 'Не показывать снова'",
+      "message": "Не показывать снова"
+   },
+   "noSubscriptionYetDescription": {
+      "description": "Message prompting the user to subscribe to reactivate their Pro features",
+      "message": "Оформите подписку, чтобы получить доступ к функциям Pro."
+   },
+   "noSubscriptionYetTitle": {
+      "description": "Title shown when the user has no active subscription",
+      "message": "Активируйте Pro, чтобы начать"
+   },
+   "noVideosFound": {
+      "description": "Message shown when no videos are found in the popup",
+      "message": "Видео не найдены"
+   },
+   "noneDropdownLabel": {
+      "description": "Не выбрано устройство",
+      "message": "Нет"
+   },
+   "notAvailableLabel": {
+      "description": "Метка недоступности",
+      "message": "Недоступно"
+   },
+   "notAvailableLongRecording": {
+      "description": "Disabled button label for features not available due to recording length",
+      "message": "Недоступно для длинных записей"
+   },
+   "notAvailableRecoveryMode": {
+      "description": "Disabled button label for features not available in recovery/fallback mode",
+      "message": "Недоступно в режиме восстановления"
+   },
+   "notEnoughRAM": {
+      "description": "Метка 'Недостаточно оперативной памяти' в меню настроек",
+      "message": "Недостаточно оперативной памяти"
+   },
+   "notEnoughSpaceDescription": {
+      "description": "Описание сообщения о нехватке места",
+      "message": "Для работы Screenity требуется как минимум 1 ГБ свободного места. Пожалуйста, освободите место на вашем устройстве и попробуйте снова."
+   },
+   "notEnoughSpaceTitle": {
+      "description": "Заголовок сообщения о нехватке места",
+      "message": "Недостаточно места"
+   },
+   "offLabel": {
+      "description": "Метка для отключения в выпадающем списке",
+      "message": "Выкл"
+   },
+   "offlineLabelDescription": {
+      "description": "Описание метки офлайн",
+      "message": "Некоторые функции недоступны до восстановления подключения"
+   },
+   "offlineLabelTitle": {
+      "description": "Метка офлайн",
+      "message": "В данный момент вы офлайн"
+   },
+   "offlineLabelTryAgain": {
+      "description": "Кнопка повторной попытки при офлайне",
+      "message": "Попробуйте снова"
+   },
+   "oldestSortLabel": {
+      "description": "Label for the oldest sort option",
+      "message": "Старые"
+   },
+   "overLimitLabelDescription": {
+      "description": "Описание ограничения более 5 минут в редакторе",
+      "message": "Редактирование и экспорт в формате MP4 недоступны"
+   },
+   "overLimitLabelDescriptionFastPath": {
+      "description": "Over limit description when the recording is a native MP4 (fast recorder / WebCodecs) so MP4 export still works",
+      "message": "Функции редактирования недоступны"
+   },
+   "overLimitLabelTitle": {
+      "description": "Метка ограничения более 5 минут в редакторе",
+      "message": "Видео слишком длинное для обработки локально"
+   },
+   "overLimitModalButton": {
+      "description": "Кнопка модального окна ограничения более 5 минут",
+      "message": "Я понимаю риск, попробовать в любом случае"
+   },
+   "overLimitModalDescription": {
+      "description": "Описание модального окна ограничения более 5 минут",
+      "message": "Поскольку Screenity полностью конфиденциален и работает локально, его возможности ограничены аппаратными ресурсами вашего устройства. Обработка видео такой длины займет слишком много времени и ресурсов. Но не волнуйтесь, вы всё равно можете скачать файл WEBM или оригинальную запись, но редактирование и экспорт в MP4 недоступны. Тем не менее, вы можете попробовать обработать видео, если осознаете риски."
+   },
+   "overLimitModalDescriptionFastPath": {
+      "description": "Over 5 minutes limit modal description when the recording is a native MP4 (fast recorder / WebCodecs)",
+      "message": "Поскольку Screenity полностью конфиденциален и работает локально, его возможности ограничены аппаратными ресурсами вашего устройства. Обработка видео такой длины займет слишком много времени и ресурсов. Ваш файл MP4 готов к скачиванию, но редактирование в браузере недоступно для записей такой длины. Тем не менее, вы можете попробовать обработать видео, если осознаете риски."
+   },
+   "overLimitModalLearnMore": {
+      "description": "Ссылка «Узнать больше» в модальном окне ограничения более 5 минут с точкой",
+      "message": "Узнать больше о обработке длинных видео."
+   },
+   "overLimitModalTitle": {
+      "description": "Заголовок модального окна ограничения более 5 минут",
+      "message": "Видео слишком длинное для обработки на вашем устройстве"
+   },
+   "pauseRecordingTooltip": {
+      "description": "Подсказка для приостановки записи",
+      "message": "Приостановить запись"
+   },
+   "pausedRecordingToast": {
+      "description": "Заголовок всплывающего окна приостановленной записи",
+      "message": "Запись приостановлена. Нажмите кнопку воспроизведения, чтобы продолжить."
+   },
+   "penToolTooltip": {
+      "description": "Подсказка для инструмента ручки",
+      "message": "Инструмент ручки"
+   },
+   "permissionsModalDescription": {
+      "description": "Описание модального окна предупреждения о разрешениях для камеры / микрофона",
+      "message": "Похоже, Screenity не может получить доступ к вашей камере или микрофону. Убедитесь, что разрешаете доступ, нажав на значок камеры в строке адреса."
+   },
+   "permissionsModalDismiss": {
+      "description": "Кнопка закрытия модального окна предупреждения о разрешениях для камеры / микрофона",
+      "message": "Отклонить"
+   },
+   "permissionsModalNoShowAgain": {
+      "description": "Кнопка отклонения в модальном окне разрешений",
+      "message": "Больше не показывать"
+   },
+   "permissionsModalReview": {
+      "description": "Кнопка просмотра разрешений",
+      "message": "Просмотреть разрешения"
+   },
+   "permissionsModalTitle": {
+      "description": "Заголовок модального окна предупреждения о разрешениях для камеры / микрофона",
+      "message": "Проверьте разрешения"
+   },
+   "preparingLabel": {
+      "description": "Метка подготовки",
+      "message": "Подготовка..."
+   },
+   "proBannerAltButton": {
+      "description": "Pro banner don't show again button in the editor",
+      "message": "Больше не показывать"
+   },
+   "proBannerButton": {
+      "description": "Pro banner button in the editor",
+      "message": "Попробовать"
+   },
+   "proBannerDescription": {
+      "description": "Pro banner description in the editor",
+      "message": "Screenity всегда будет бесплатным, с открытым кодом и без рекламы. Pro покрывает облачные и серверные расходы и поддерживает инди-разработку! ❤️"
+   },
+   "proBannerTitle": {
+      "description": "Pro banner title in the editor",
+      "message": "Доступ к облачному обмену, редактированию сцен, автоувеличению, подписям и другим функциям"
+   },
+   "proOnboardingBack": {
+      "description": "Pro onboarding back button text",
+      "message": "Назад"
+   },
+   "proOnboardingCameraDescription": {
+      "description": "Pro onboarding camera step description",
+      "message": "Во время записи камера может \u003Cstrong>скрываться или переходить в PiP\u003C/strong> - это нормально.\u003Cbr/>\u003Cbr/>Она записывается отдельно, чтобы вы могли настроить её положение позже."
+   },
+   "proOnboardingCameraTitle": {
+      "description": "Pro onboarding camera step title",
+      "message": "Камера записывается отдельно"
+   },
+   "proOnboardingDone": {
+      "description": "Pro onboarding done button text",
+      "message": "Понятно"
+   },
+   "proOnboardingInstantDescription": {
+      "description": "Pro onboarding instant mode step description",
+      "message": "Лучший вариант для быстрого обмена с \u003Cstrong>безлимитными загрузками\u003C/strong>.\u003Cbr/>\u003Cbr/>В этом режиме недоступны расширенные макеты и функции редактора."
+   },
+   "proOnboardingInstantTitle": {
+      "description": "Pro onboarding instant mode step title",
+      "message": "Мгновенный режим"
+   },
+   "proOnboardingNext": {
+      "description": "Pro onboarding next button text",
+      "message": "Далее"
+   },
+   "proOnboardingToolbarDescription": {
+      "description": "Pro onboarding toolbar step description",
+      "message": "Используйте эту панель для рисования, эффектов курсора, размытия и управления записью.\u003Cbr/>\u003Cbr/>\u003Cstrong>Эта панель попадет в видео\u003C/strong>, если её не скрыть."
+   },
+   "proOnboardingToolbarLearnMore": {
+      "description": "Pro onboarding toolbar learn more link label",
+      "message": "Подробнее"
+   },
+   "proOnboardingToolbarTitle": {
+      "description": "Pro onboarding toolbar step title",
+      "message": "Панель записи и эффекты"
+   },
+   "proOnboardingWelcomeDescription": {
+      "description": "Pro onboarding welcome step description",
+      "message": "Пара быстрых советов перед записью.\u003Cbr/>Автозум работает только по кликам внутри \u003Cstrong>вкладок Chrome\u003C/strong>. Дополнительные зумы всегда можно добавить вручную позже."
+   },
+   "proOnboardingWelcomeTitle": {
+      "description": "Pro onboarding welcome step title",
+      "message": "Добро пожаловать в расширение Screenity Pro"
+   },
+   "processingBannerEditor": {
+      "description": "Баннер обработки в редакторе",
+      "message": "Видео обрабатывается, воспроизведение может быть неточным или прерываться."
+   },
+   "projectRecordingCancelledToast": {
+      "description": "Toast message shown when the user cancels project recording",
+      "message": "Запись видео отменена"
+   },
+   "pushToTalkLabel": {
+      "description": "Метка переключения 'Push to talk'",
+      "message": "Нажмите, чтобы говорить"
+   },
+   "rawRecordingButtonDescription": {
+      "description": "Метка скачивания необработанной записи",
+      "message": "Экспорт исходных данных записи"
+   },
+   "rawRecordingButtonTitle": {
+      "description": "Кнопка скачивания необработанной записи",
+      "message": "Скачать необработанный видеофайл"
+   },
+   "rawRecordingModalButton": {
+      "description": "Кнопка модального окна необработанной записи",
+      "message": "Скачать"
+   },
+   "rawRecordingModalDescription": {
+      "description": "Описание модального окна необработанной записи",
+      "message": "Необработанный видеофайл - это оригинальный видеофайл, записанный Screenity. Этот видеофайл не обработан и не редактирован, поэтому он может быть очень большим и не всегда можно воспроизвести на всех устройствах. Если у вас возникли проблемы с обработанным видео, вы можете использовать этот файл для восстановления своего видео."
+   },
+   "rawRecordingModalTitle": {
+      "description": "Заголовок модального окна необработанной записи",
+      "message": "Скачать необработанный видеофайл"
+   },
+   "reachingRecordingLimitToast": {
+      "description": "Toast message shown when the recording is reaching the 90 minute limit",
+      "message": "Запись приближается к лимиту 90 минут, скоро завершится"
+   },
+   "readyRecordSceneToast": {
+      "description": "Toast message shown when the user is in an existing project and ready to record a new scene",
+      "message": "Готовы записать новую сцену в видео"
+   },
+   "recordAudioWarningMacDescription": {
+      "description": "Описание предупреждения о звуке для macOS",
+      "message": "В macOS вы можете записывать звук только с вкладок. Выберите опцию 'Вкладка Chrome' и убедитесь, что включена опция 'Также делиться аудио с вкладки'."
+   },
+   "recordAudioWarningMacTitle": {
+      "description": "Заголовок предупреждения о звуке для macOS",
+      "message": "Запись аудио с компьютера"
+   },
+   "recordAudioWarningOtherDescription": {
+      "description": "Описание предупреждения о звуке для других систем",
+      "message": "Для записи звука с компьютера убедитесь, что включена опция 'Делиться аудио системы'. Если вы не видите эту опцию, попробуйте обновить Chrome или перейти на опцию записи вкладок."
+   },
+   "recordAudioWarningOtherTitle": {
+      "description": "Заголовок предупреждения о звуке для других систем",
+      "message": "Запись аудио с компьютера"
+   },
+   "recordButtonInProgressLabel": {
+      "description": "Метка кнопки записи в процессе",
+      "message": "Запуск записи..."
+   },
+   "recordButtonLabel": {
+      "description": "Метка кнопки записи",
+      "message": "Начать запись"
+   },
+   "recordButtonMultiLabel": {
+      "description": "Record button label (multi mode)",
+      "message": "Добавить ещё одну запись"
+   },
+   "recordButtonNoCameraLabel": {
+      "description": "Метка кнопки записи в режиме камеры, когда не выбрана камера",
+      "message": "Выберите камеру для записи"
+   },
+   "recordTab": {
+      "description": "Метка вкладки записи на всплывающем окне",
+      "message": "Запись"
+   },
+   "recorderSelectDescription": {
+      "description": "Описание на странице записи",
+      "message": "Оставьте эту вкладку открытой. Она закроется, когда ваша запись будет сохранена."
+   },
+   "recorderSelectProgressTitle": {
+      "description": "Заголовок на странице записи во время записи",
+      "message": "Идет запись..."
+   },
+   "recorderSelectTitle": {
+      "description": "Заголовок на странице записи",
+      "message": "Выберите, что вы хотите записать"
+   },
+   "recorderSetupDescription": {
+      "description": "Description in recording page before countdown starts",
+      "message": "Подождите немного! Ваша запись готовится."
+   },
+   "recorderSetupTitle": {
+      "description": "Title in recording page while setting up project before countdown starts",
+      "message": "Готовим всё..."
+   },
+   "recordingLimitReachedToast": {
+      "description": "Toast message shown when the recording limit is reached",
+      "message": "Запись остановлена из-за лимита 90 минут"
+   },
+   "recordingTooShortToast": {
+      "description": "Toast shown when a region recording is stopped by navigation but no chunks were saved",
+      "message": "Запись слишком короткая для сохранения"
+   },
+   "recoverLastRecordingOption": {
+      "description": "Settings menu item to manually trigger cloud recording recovery",
+      "message": "Recover last recording"
+   },
+   "recoveryModeDescription": {
+      "description": "Recovery mode banner description — reassures user their recording is accessible despite the processing failure",
+      "message": "Произошла ошибка обработки, но ваша запись в безопасности. Вы можете скачать её ниже."
+   },
+   "recoveryModeTitle": {
+      "description": "Заголовок режима восстановления",
+      "message": "Режим восстановления"
+   },
+   "redoLabel": {
+      "description": "Метка повтора",
+      "message": "Повторить"
+   },
+   "redoTooltip": {
+      "description": "Подсказка для повтора",
+      "message": "Повторить"
+   },
+   "regionHeightLabel": {
+      "description": "Метка для высоты области",
+      "message": "Высота"
+   },
+   "regionWidthLabel": {
+      "description": "Метка для ширины области",
+      "message": "Ширина"
+   },
+   "reopenToolbarToast": {
+      "description": "Toast message explaining to reopen the toolbar in the popup options",
+      "message": "Панель инструментов скрыта. Включите её снова в настройках расширения."
+   },
+   "replaceAudioEditor": {
+      "description": "Кнопка замены аудиофайла в редакторе",
+      "message": "Заменить существующий аудиофайл"
+   },
+   "resetOnboardingOption": {
+      "description": "Reset pro onboarding option label in popup settings menu",
+      "message": "Сбросить онбординг"
+   },
+   "resizeWindowLabel": {
+      "description": "Метка изменения размера окна в меню настроек",
+      "message": "Изменить размер окна"
+   },
+   "restartModalDescription": {
+      "description": "Описание модального окна перезапуска записи",
+      "message": "Ваш текущий прогресс видеозаписи будет потерян."
+   },
+   "restartModalRestart": {
+      "description": "Кнопка перезапуска записи в модальном окне",
+      "message": "Перезапустить запись"
+   },
+   "restartModalResume": {
+      "description": "Кнопка продолжения записи в модальном окне",
+      "message": "Продолжить запись"
+   },
+   "restartModalTitle": {
+      "description": "Заголовок модального окна перезапуска записи",
+      "message": "Вы уверены, что хотите перезапустить запись?"
+   },
+   "restartRecordingTooltip": {
+      "description": "Подсказка для перезапуска записи",
+      "message": "Перезапустить запись"
+   },
+   "restoreRecording": {
+      "description": "Кнопка восстановления последней записи во всплывающем окне",
+      "message": "Восстановить последнюю запись"
+   },
+   "resumeRecordingTooltip": {
+      "description": "Подсказка для продолжения записи",
+      "message": "Продолжить запись"
+   },
+   "retryButtonLabel": {
+      "description": "Agnostic button label to try again",
+      "message": "Попробовать снова"
+   },
+   "sandboxAdvancedTitle": {
+      "description": "Раздел 'Дополнительно' на странице редактора в режиме песочницы",
+      "message": "Дополнительно"
+   },
+   "sandboxAudioDragAndDrop": {
+      "description": "Перетащите аудиофайл в редактор песочницы",
+      "message": "Перетащите ваш аудиофайл"
+   },
+   "sandboxAudioOrBrowse": {
+      "description": "Или нажмите, чтобы выбрать аудиофайл в редакторе песочницы",
+      "message": "Или нажмите, чтобы выбрать"
+   },
+   "sandboxAudioSettingsTitle": {
+      "description": "Заголовок настроек аудио в редакторе песочницы",
+      "message": "Настройки"
+   },
+   "sandboxAudioUpdateButton": {
+      "description": "Кнопка обновления аудио в редакторе песочницы",
+      "message": "Обновить"
+   },
+   "sandboxAudioVolumeLabel": {
+      "description": "Метка громкости аудио в редакторе песочницы",
+      "message": "Громкость"
+   },
+   "sandboxCropTitle": {
+      "description": "Заголовок обрезки в редакторе песочницы",
+      "message": "Обрезать"
+   },
+   "sandboxEditTitle": {
+      "description": "Заголовок редактора в песочнице",
+      "message": "Редактирование"
+   },
+   "sandboxEditorCancelButton": {
+      "description": "Кнопка отмены на странице редактора песочницы",
+      "message": "Отмена"
+   },
+   "sandboxEditorCutButton": {
+      "description": "Кнопка вырезки в редакторе песочницы",
+      "message": "Вырезать участок"
+   },
+   "sandboxEditorCutProgressButton": {
+      "description": "Кнопка вырезки в редакторе песочницы во время вырезки",
+      "message": "Вырезка..."
+   },
+   "sandboxEditorMainTitle": {
+      "description": "Заголовок в навигации страницы редактора песочницы",
+      "message": "Редактор"
+   },
+   "sandboxEditorMuteButton": {
+      "description": "Кнопка выключения звука в редакторе песочницы",
+      "message": "Выключить звук"
+   },
+   "sandboxEditorMuteProgressButton": {
+      "description": "Кнопка выключения звука в редакторе песочницы во время выключения звука",
+      "message": "Выключение звука..."
+   },
+   "sandboxEditorResetButton": {
+      "description": "Кнопка сброса в редакторе песочницы",
+      "message": "Сбросить"
+   },
+   "sandboxEditorRevertButton": {
+      "description": "Кнопка отмены в редакторе песочницы",
+      "message": "Вернуть к оригиналу"
+   },
+   "sandboxEditorSaveButton": {
+      "description": "Кнопка сохранения в редакторе песочницы",
+      "message": "Сохранить изменения"
+   },
+   "sandboxEditorSaveProgressButton": {
+      "description": "Кнопка сохранения в процессе сохранения в редакторе песочницы",
+      "message": "Сохранение..."
+   },
+   "sandboxEditorTooSmallInfo": {
+      "description": "Информация о слишком маленьком редакторе",
+      "message": "Изменения могут быть неточными для коротких временных интервалов из-за интервалов между кадрами."
+   },
+   "sandboxEditorTrimButton": {
+      "description": "Кнопка обрезки в редакторе песочницы",
+      "message": "Обрезать видео"
+   },
+   "sandboxEditorTrimInfo": {
+      "description": "Информация о обрезке в редакторе песочницы",
+      "message": "Перетащите ручки и используйте кнопки слева, чтобы редактировать выбранный участок."
+   },
+   "sandboxEditorTrimProgressButton": {
+      "description": "Кнопка обрезки в редакторе песочницы во время обрезки",
+      "message": "Обрезка..."
+   },
+   "sandboxExportTitle": {
+      "description": "Заголовок экспорта в песочнице",
+      "message": "Экспорт"
+   },
+   "sandboxProgressDescription": {
+      "description": "Описание на странице песочницы во время записи / сохранения",
+      "message": "Оставьте эту вкладку открытой. Она будет обновлена с вашей записью, как только она будет готова."
+   },
+   "sandboxProgressTitle": {
+      "description": "Заголовок на странице песочницы во время записи / сохранения",
+      "message": "Подготовка записи..."
+   },
+   "sandboxSaveTitle": {
+      "description": "Заголовок сохранения в песочнице",
+      "message": "Сохранить"
+   },
+   "saveDriveButtonDescription": {
+      "description": "Метка сохранения в Google Диск",
+      "message": "Сохранить текущую версию на Google Диск"
+   },
+   "saveDriveButtonTitle": {
+      "description": "Кнопка сохранения в Google Диск",
+      "message": "Сохранить на Диск"
+   },
+   "savingDriveLabel": {
+      "description": "Метка сохранения в Google Диск",
+      "message": "Сохранение..."
+   },
+   "screenTooSmallTooltip": {
+      "description": "Подсказка о слишком маленьком экране в меню настроек",
+      "message": "Экран слишком мал для этого разрешения"
+   },
+   "screenType": {
+      "description": "Метка типа записи экрана на всплывающем окне",
+      "message": "Экран"
+   },
+   "selectSourceDropdownPlaceholder": {
+      "description": "Заглушка для выбора источника",
+      "message": "Выберите источник"
+   },
+   "selectToolTooltip": {
+      "description": "Подсказка для выбора инструмента",
+      "message": "Выбрать инструмент"
+   },
+   "setupCompleteDescription": {
+      "description": "Описание завершения настройки",
+      "message": "Теперь вы можете начать запись здесь или в любой другой вкладке."
+   },
+   "setupCompleteTitle": {
+      "description": "Заголовок завершения настройки",
+      "message": "Отлично! Вы готовы"
+   },
+   "setupStep1After": {
+      "description": "Шаг 1 настройки, после значка. Требуется пробел в начале.",
+      "message": " значок расширения"
+   },
+   "setupStep1Before": {
+      "description": "Шаг 1 настройки, перед значком. Требуется пробел в конце.",
+      "message": "1- Нажмите на "
+   },
+   "setupStep2After": {
+      "description": "Шаг 2 настройки, после значка. Требуется пробел в начале.",
+      "message": " значок закрепления"
+   },
+   "setupStep2Before": {
+      "description": "Шаг 2 настройки, перед значком. Требуется пробел в конце.",
+      "message": "2- Нажмите на "
+   },
+   "setupStep3After": {
+      "description": "Шаг 3 настройки, после значка. Требуется пробел в начале.",
+      "message": " значок Screenity для запуска"
+   },
+   "setupStep3Before": {
+      "description": "Шаг 3 настройки, перед значком. Требуется пробел в конце.",
+      "message": "3- Нажмите на "
+   },
+   "setupTitle": {
+      "description": "Заголовок шагов настройки",
+      "message": "Начните работу с Screenity в трех простых шагах:"
+   },
+   "shapeToolTooltip": {
+      "description": "Подсказка для инструмента фигур",
+      "message": "Инструмент фигур"
+   },
+   "shareModalSandboxButton": {
+      "description": "Share modal email placeholder in sandbox editor page",
+      "message": "Узнать больше о Pro"
+   },
+   "shareModalSandboxDescription": {
+      "description": "Share modal description in sandbox editor page",
+      "message": "Облачный доступ, зум, шаблоны... и поддержка инструмента от инди-разработчицы, уважающей твою приватность ❤️"
+   },
+   "shareModalSandboxLogin": {
+      "description": "Share modal login link in sandbox editor page",
+      "message": "Уже есть аккаунт? Войти"
+   },
+   "shareModalSandboxTitle": {
+      "description": "Share modal title in sandbox editor page",
+      "message": "Готов улучшить свои записи?"
+   },
+   "shareSandboxButton": {
+      "description": "Кнопка обмена в редакторе песочницы",
+      "message": "Поделиться видео"
+   },
+   "shareUnlockButton": {
+      "description": "Button to sign in to share in the editor",
+      "message": "Войти, чтобы поделиться (pro)"
+   },
+   "showMoreOptionsLabel": {
+      "description": "Метка для показа больше опций",
+      "message": "Показать больше опций"
+   },
+   "signInDriveLabel": {
+      "description": "Метка входа в Google Диск",
+      "message": "Войти и сохранить на Диск"
+   },
+   "signOutDriveLabel": {
+      "description": "Метка выхода из Google Диска",
+      "message": "Выйти из Диска"
+   },
+   "spotlightCursorTooltip": {
+      "description": "Подсказка для прожектора на курсор",
+      "message": "Прожектор на курсор"
+   },
+   "stayInPagePopup": {
+      "description": "Всплывающее окно для оставания на странице",
+      "message": "Оставаться на странице во время записи"
+   },
+   "stopAckTimeoutToast": {
+      "description": "Toast shown when the recorder does not acknowledge the stop request within a few seconds",
+      "message": "Сохранение занимает больше времени, чем ожидалось. Ваши данные в безопасности. Редактор скоро откроется."
+   },
+   "stopRecording": {
+      "description": "Кнопка 'Остановить запись' на экране записи",
+      "message": "Остановить запись"
+   },
+   "storageCheckFailAuthDescription": {
+      "description": "Description shown when the storage check fails due to authentication",
+      "message": "Произошла ошибка при проверке хранилища. Пожалуйста, войдите заново и попробуйте снова."
+   },
+   "storageCheckFailDescription": {
+      "description": "Description shown when the storage check fails",
+      "message": "Не удалось проверить ваш лимит хранилища. Попробуйте снова через несколько секунд или обновите страницу."
+   },
+   "storageCheckFailTitle": {
+      "description": "Title shown when the storage check fails",
+      "message": "Не удалось проверить хранилище"
+   },
+   "storageLimitReachedDescription": {
+      "description": "Modal description shown when the storage limit is reached",
+      "message": "Вы использовали все 50 ГБ хранилища. Удалите старые видео или сцены, чтобы продолжить запись."
+   },
+   "storageLimitReachedTitle": {
+      "description": "Modal message shown when the storage limit is reached",
+      "message": "Достигнут лимит хранилища"
+   },
+   "streamEndedWarningToast": {
+      "description": "Toast shown when screen share track ends mid-recording. Recording continues; removes false urgency about data loss.",
+      "message": "Демонстрация экрана прекращена. Ваша запись сохранена. Остановите, когда будете готовы."
+   },
+   "streamErrorModalDescription": {
+      "description": "Описание модального окна ошибки потока",
+      "message": "Похоже, произошла ошибка при запуске записи. Перезапустите браузер и попробуйте снова. Если проблема сохраняется, пожалуйста, свяжитесь с нами по адресу support@screenity.io."
+   },
+   "streamErrorModalTitle": {
+      "description": "Заголовок модального окна ошибки потока",
+      "message": "Ошибка при запуске записи"
+   },
+   "supportSettingsOption": {
+      "description": "Label for the support option in the popup",
+      "message": "Поддержка"
+   },
+   "systemAudioLabel": {
+      "description": "Метка системного звука/вкладка",
+      "message": "Включить системный звук"
+   },
+   "tabRecordingDisabledToast": {
+      "description": "Toast message shown when tab recording is disabled on a page",
+      "message": "Запись вкладки отключена на этой странице. Переключено на запись экрана."
+   },
+   "tabRecordingDisabledTooltip": {
+      "description": "Tooltip shown when tab recording is disabled on a page",
+      "message": "Запись вкладки отключена на этой странице"
+   },
+   "tabType": {
+      "description": "Метка типа записи области вкладки на всплывающем окне",
+      "message": "Область вкладки"
+   },
+   "textToolTooltip": {
+      "description": "Подсказка для инструмента текста",
+      "message": "Инструмент текста"
+   },
+   "thickStrokeTooltip": {
+      "description": "Подсказка для толстой линии",
+      "message": "Толстая линия"
+   },
+   "thinStrokeTooltip": {
+      "description": "Подсказка для тонкой линии",
+      "message": "Тонкая линия"
+   },
+   "toastAudioCaptureDegraded": {
+      "description": "Toast shown when the audio recorder is stopped early because the audio buffer limit was reached",
+      "message": "Transcription capture paused due to memory pressure. Video upload continues."
+   },
+   "toastNetworkOffline": {
+      "description": "Toast shown when the browser goes offline during a cloud recording upload",
+      "message": "Network offline. Upload paused. Screen chunks are saved locally."
+   },
+   "toastRecoveredSession": {
+      "description": "Toast shown when a crashed recording session is auto-recovered on startup",
+      "message": "Recovered unsaved recording from the previous session."
+   },
+   "toastStorageCritical": {
+      "description": "Toast shown when available storage drops below the critical threshold during recording; reassures that captured data is preserved",
+      "message": "Мало места на диске. Сохраняем запись. Всё, что было записано, в безопасности."
+   },
+   "toastStorageLow": {
+      "description": "Toast shown when available storage drops below the warning threshold during recording",
+      "message": "Storage is running low. Upload reliability may degrade for long recordings."
+   },
+   "toggleBlurToolTooltip": {
+      "description": "Подсказка для переключения инструментов размытия",
+      "message": "Переключить инструмент размытия"
+   },
+   "toggleCursorOptionsTooltip": {
+      "description": "Подсказка для переключения настроек курсора",
+      "message": "Переключить настройки курсора"
+   },
+   "toggleDrawingToolsTooltip": {
+      "description": "Подсказка для переключения инструментов рисования",
+      "message": "Переключить инструменты рисования"
+   },
+   "toggleFillTooltip": {
+      "description": "Подсказка для включения заливки",
+      "message": "Включить заливку"
+   },
+   "togglePictureinPictureModeTooltip": {
+      "description": "Подсказка для переключения режима изображения в картине",
+      "message": "Переключить режим изображения в картине"
+   },
+   "toolbarHoverOnly": {
+      "description": "Кнопка 'Показывать панель инструментов только при наведении'",
+      "message": "Скрывать панель инструментов, когда она не используется"
+   },
+   "topLabel": {
+      "description": "Метка сверху для свойств",
+      "message": "Сверху"
+   },
+   "troubleShootButtonDescription": {
+      "description": "Метка Устранения неполадок",
+      "message": "Восстановите свое видео и решите другие проблемы"
+   },
+   "troubleshootButtonTitle": {
+      "description": "Кнопка Устранения неполадок",
+      "message": "Получить помощь по вашей записи"
+   },
+   "troubleshootModalButton": {
+      "description": "Кнопка модального окна Устранения неполадок",
+      "message": "Скачать"
+   },
+   "troubleshootModalDescription": {
+      "description": "Описание модального окна Устранения неполадок",
+      "message": "После скачивания отправьте этот файл на support@screenity.io вместе с любой актуальной информацией. Мы используем эти данные, чтобы помочь вам устранить любые проблемы с расширением и, при возможности, восстановить ваше видео."
+   },
+   "troubleshootModalTitle": {
+      "description": "Заголовок модального окна Устранения неполадок",
+      "message": "Скачать информацию о системе и видеоданные для устранения неполадок"
+   },
+   "understoodButton": {
+      "description": "Кнопка 'Понятно'",
+      "message": "Понятно"
+   },
+   "undoLabel": {
+      "description": "Метка отмены",
+      "message": "Отменить"
+   },
+   "undoTooltip": {
+      "description": "Подсказка для отмены",
+      "message": "Отменить"
+   },
+   "unlockMoreFeatures": {
+      "description": "Button to unlock more features in the editor",
+      "message": "Открыть больше функций"
+   },
+   "updateAnnouncementButton": {
+      "description": "Кнопка 'Начать' в объявлении об обновлении для существующих пользователей",
+      "message": "Начать"
+   },
+   "updateAnnouncementDescription": {
+      "description": "Описание объявления об обновлении для существующих пользователей",
+      "message": "Мы представляем новый дизайн и множество увлекательных функций, но не волнуйтесь, это все еще бесплатное, частное и открытое расширение, которое вы знаете и любите."
+   },
+   "updateAnnouncementLearnMore": {
+      "description": "Ссылка 'Узнать больше' в объявлении об обновлении для существующих пользователей",
+      "message": "Узнать больше об обновлении."
+   },
+   "updateAnnouncementTitle": {
+      "description": "Заголовок объявления об обновлении для существующих пользователей",
+      "message": "Добро пожаловать в новый Screenity!"
+   },
+   "updateChromeLabelDescription": {
+      "description": "Описание метки обновления Chrome",
+      "message": "Обновите для доступа к дополнительным функциям"
+   },
+   "updateChromeLabelTitle": {
+      "description": "Метка обновления Chrome",
+      "message": "Требуется обновление Chrome"
+   },
+   "upgradeToProButton": {
+      "description": "Button to upgrade to Pro",
+      "message": "Оформить подписку на Pro"
+   },
+   "videoProcessingLabelDescription": {
+      "description": "Описание обработки видео в редакторе",
+      "message": "Обновите для более быстрого редактирования"
+   },
+   "videoProcessingLabelTitle": {
+      "description": "Метка обработки видео в редакторе",
+      "message": "Видео обрабатывается..."
+   },
+   "videoTrackEndedToast": {
+      "description": "Toast shown when the video track ends mid-recording (e.g. monitor disconnected, screen share revoked)",
+      "message": "Демонстрация экрана прекращена. Сохраняем запись. Всё, что было записано, в безопасности."
+   },
+   "videosTab": {
+      "description": "Метка вкладки видео на всплывающем окне",
+      "message": "Ваши видео"
+   },
+   "webcodecsFailedOffToast": {
+      "description": "WebCodecs failure auto-disable toast",
+      "message": "Fast MP4 ошибка — выкл"
+   },
+   "webcodecsToggleLabel": {
+      "description": "WebCodecs recorder toggle label",
+      "message": "Fast MP4"
+   },
+   "welcomeBackPopupTitle": {
+      "description": "Заголовок приветственного окна для возвращающихся пользователей",
+      "message": "С возвращением в Screenity"
+   },
+   "welcomeBackProCTA": {
+      "description": "Кнопка призыва к действию для функции облачного хранилища в приветственном окне",
+      "message": "Узнать больше о Screenity Pro"
+   },
+   "welcomeBackProDescription": {
+      "description": "Описание функции облачного хранилища в приветственном окне",
+      "message": "Screenity Pro — это новая дополнительная платформа для сохранения видео в облаке, обмена по ссылке и использования расширенных инструментов редактирования — если и когда они вам понадобятся."
+   },
+   "welcomeBackProTitle": {
+      "description": "Заголовок для функции облачного хранилища в приветственном окне",
+      "message": "✨ Новое: Хотите больше, чем просто запись?"
+   },
+   "welcomePopupCTA": {
+      "description": "Call to action button for the welcome popup shown to new users",
+      "message": "Бесплатно — без регистрации!"
+   },
+   "welcomePopupCloudCTA": {
+      "description": "Call to action button for the cloud storage feature in the welcome popup",
+      "message": "🔓 Открыть дополнительные функции"
+   },
+   "welcomePopupCloudFeature1": {
+      "description": "Feature 1 for the cloud storage in the welcome popup",
+      "message": "Облачное хранилище, делитесь ссылкой на видео"
+   },
+   "welcomePopupCloudFeature2": {
+      "description": "Feature 2 for the cloud storage in the welcome popup",
+      "message": "Объединяйте клипы в единую историю"
+   },
+   "welcomePopupCloudFeature3": {
+      "description": "Feature 3 for the cloud storage in the welcome popup",
+      "message": "Умные увеличения при клике (или добавьте свои!)"
+   },
+   "welcomePopupCloudFeature4": {
+      "description": "Feature 4 for the cloud storage in the welcome popup",
+      "message": "Добавляйте шаблоны, подписи, макеты..."
+   },
+   "welcomePopupCloudFeature5": {
+      "description": "Feature 5 for the cloud storage in the welcome popup",
+      "message": "Пользовательские фоны и мокапы"
+   },
+   "welcomePopupCloudTitle": {
+      "description": "Title for the cloud storage feature in the welcome popup",
+      "message": "Хотите больше возможностей для видео?"
+   },
+   "welcomePopupDescriptionBottom": {
+      "description": "Description for the welcome popup shown to new users",
+      "message": "Просто нажмите «Запись»."
+   },
+   "welcomePopupDescriptionTop": {
+      "description": "Description for the welcome popup shown to new users",
+      "message": "Без рекламы. Без слежки. Без ограничений."
+   },
+   "welcomePopupSupport": {
+      "description": "Message for supporting the indie maker in the welcome popup",
+      "message": "+ Поддержите разработку от инди-разработчицы!"
+   },
+   "welcomePopupTitle": {
+      "description": "Title for the welcome popup shown to new users",
+      "message": "Добро пожаловать в Screenity"
+   },
+   "welcomeProButton": {
+      "description": "Button to sign in to Screenity Pro",
+      "message": "Войти, чтобы открыть платные функции"
+   },
+   "welcomeProDescription": {
+      "description": "Description for the welcome Pro popup",
+      "message": "Войдите, чтобы сохранить видео в облако, делиться ссылкой и использовать расширенное редактирование."
+   },
+   "welcomeProSupport": {
+      "description": "Message for supporting the indie maker in the welcome Pro popup",
+      "message": "Поддержите разработку от инди-разработчицы"
+   },
+   "welcomeProTitle": {
+      "description": "Title for the welcome Pro popup",
+      "message": "Хотите больше от своих записей?"
+   },
+   "welcomeToProActionModal": {
+      "description": "Кнопка действия в приветственном окне Pro",
+      "message": "Понятно"
+   },
+   "welcomeToProDescriptionModal": {
+      "description": "Описание приветственного окна Pro",
+      "message": "Вы готовы начать запись! Вот несколько моментов, которые стоит учитывать:\n\n- Пузырёк с камерой может исчезнуть во время записи — это нормально. Он записывается отдельно в фоновом режиме, чтобы вы могли позже разместить его где угодно.\n- Увеличения автоматически создаются только при кликах внутри вкладок Chrome — это ограничение браузера. Вы всегда можете добавить дополнительные увеличения вручную после записи.\n- Для быстрых записей с мгновенным скачиванием используйте Мгновенный режим. Учтите, что возможности редактирования в нём ограничены: нет фонов, макетов и продвинутых настроек."
+   },
+   "welcomeToProTitleModal": {
+      "description": "Заголовок приветственного окна Pro",
+      "message": "Добро пожаловать в Screenity Pro"
+   },
+   "widthLabel": {
+      "description": "Метка ширины для свойств",
+      "message": "Ширина"
+   },
+   "zoomToPointPopup": {
+      "description": "Всплывающее окно для увеличения к курсору",
+      "message": "Увеличить к курсору"
+   }
+}

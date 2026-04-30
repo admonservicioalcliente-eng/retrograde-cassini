@@ -1,0 +1,22 @@
+Bienvenido DEMO
+FinApp
+Pro
+[0] (125,256)<button class='nav-btn active'>Dashboard />
+[1] (125,370)<button class='nav-btn'>Ingreso de Datos />
+[2] (125,484)<button class='nav-btn'>Estado Annual />
+[3] (125,598)<button class='nav-btn'>Márgenes % />
+🏠 DEMO
+[4] (125,898)<button class='btn-secondary' id='logout-btn'>Salir />
+[5] (626,500)<main class='main-content' scrollable='true' />
+	Resumen Financiero
+	Año:
+	Ingresos Totales
+	$ 0
+	Utilidad Bruta
+	$ 0
+	EBITDA
+	$ 0
+	Utilidad Neta
+	$ 0
+	Evolución Mensual (Ventas vs Utilidad Neta)
+	Márgenes (EBITDA, EBIT)

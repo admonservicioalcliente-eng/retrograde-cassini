@@ -1,0 +1,1576 @@
+{
+   "accountSettingsOption": {
+      "description": "Label for the account settings option in the popup",
+      "message": "Налаштування облікового запису"
+   },
+   "addAudioButtonDescription": {
+      "description": "Add audio label",
+      "message": "Завантажте своє аудіо для додавання до відео"
+   },
+   "addAudioButtonTitle": {
+      "description": "Add audio label button",
+      "message": "Додати аудіо"
+   },
+   "addImageToastTitle": {
+      "description": "Toast that shows when adding a new image",
+      "message": "Клацніть, щоб вставити зображення"
+   },
+   "addedToMultiToast": {
+      "description": "Toast message shown when a scene is added to multi-recording",
+      "message": "Сцену додано до Multi-запису"
+   },
+   "addingToLabel": {
+      "description": "Label shown when a scene is being recorded to a project",
+      "message": "Додається до: "
+   },
+   "alarmLabel": {
+      "description": "Alarm label",
+      "message": "Встановити обмеження за часом"
+   },
+   "allVideosHeading": {
+      "description": "Heading for the all videos section in the popup",
+      "message": "Усі відео"
+   },
+   "allowCameraAccessButton": {
+      "description": "Allow camera access button",
+      "message": "Дозволити доступ до камери"
+   },
+   "allowMicrophoneAccessButton": {
+      "description": "Allow microphone access button",
+      "message": "Дозволити доступ до мікрофону"
+   },
+   "arrowToolTooltip": {
+      "description": "Arrow tool tooltip",
+      "message": "Інструмент стрілки"
+   },
+   "audioTrackEndedToast": {
+      "description": "Toast shown when the audio track ends mid-recording (e.g. mic unplugged, permission revoked)",
+      "message": "Аудіо від'єднано. Зберігаємо запис. Записане відео у безпеці."
+   },
+   "audioWarningDescription": {
+      "description": "Опис попередження про аудіо",
+      "message": "Для запису звуку цієї сторінки використовуйте опцію '$tab$'.",
+      "placeholders": {
+         "tab": {
+            "content": "$1",
+            "example": "Область вкладки"
+         }
+      }
+   },
+   "audioWarningTitle": {
+      "description": "Заголовок попередження про аудіо",
+      "message": "Запис звуку сторінки"
+   },
+   "backgroundEffectsLabel": {
+      "description": "Background effects switch label",
+      "message": "Ефекти фону"
+   },
+   "backupPermissionFailDescription": {
+      "description": "Опис помилки дозволу на резервне копіювання",
+      "message": "Ви не вибрали папку для створення локальної копії ваших записів. Залежно від версії вашого браузера або операційної системи, вас можуть попросити вибрати папку кожного разу, коли ви починаєте записувати. Ви можете спробувати ще раз або повністю вимкнути резервне копіювання, якщо ви не хочете надавати дозволи повторно."
+   },
+   "backupPermissionFailTitle": {
+      "description": "Заголовок помилки дозволу на резервне копіювання",
+      "message": "Дозвіл на створення резервної копії запису не надано"
+   },
+   "backupsClose": {
+      "description": "Кнопка Закрити вкладку все одно",
+      "message": "Закрити вкладку все одно"
+   },
+   "backupsConfirmAllow": {
+      "description": "Кнопка Дозволити в підтвердженні резервного копіювання",
+      "message": "Дозволити Screenity продовжувати резервне копіювання записів"
+   },
+   "backupsConfirmDescription": {
+      "description": "Опис підтвердження резервного копіювання",
+      "message": "Вибачте, але нам потрібен ваш дозвіл ще раз, щоб продовжити створювати локальні копії ваших записів. Нажаль, нам доведеться запитувати кожного разу, коли ви закриєте цю вкладку, що може статися, якщо ви закриєте браузер або перезавантажите комп'ютер."
+   },
+   "backupsConfirmTitle": {
+      "description": "Заголовок підтвердження резервного копіювання",
+      "message": "Будь ласка, підтвердіть доступ до вашої локальної папки резервного копіювання Screenity"
+   },
+   "backupsDescription1": {
+      "description": "Опис резервного копіювання",
+      "message": "Зберігайте копії всіх ваших записів. Якщо ви не налаштуєте резервне копіювання, ваші записи збережуться лише тоді, коли ви вирішите їх завантажити."
+   },
+   "backupsDescription2": {
+      "description": "Опис резервного копіювання",
+      "message": "Можливо, вам спершу потрібно створити нову папку, якщо ви намагаєтеся зберегти їх в Завантаження або інші системні папки."
+   },
+   "backupsNotNow": {
+      "description": "Кнопка Не зараз",
+      "message": "Не зараз"
+   },
+   "backupsOnDescription": {
+      "description": "Опис активного резервного копіювання",
+      "message": "Щоб уникнути запитів на дозвіл кожного разу, коли ви записуєте, ми рекомендуємо залишити цю вкладку відкритою."
+   },
+   "backupsOnTitle": {
+      "description": "Заголовок активного резервного копіювання",
+      "message": "Ваші записи локально синхронізовані"
+   },
+   "backupsSelectFolder": {
+      "description": "Кнопка Вибрати папку",
+      "message": "Вибрати папку"
+   },
+   "backupsStop": {
+      "description": "Кнопка Зупинити резервне копіювання",
+      "message": "Зупинити резервне копіювання всіх записів"
+   },
+   "backupsTitle": {
+      "description": "Заголовок резервного копіювання",
+      "message": "Налаштування локального резервного копіювання для ваших записів в Screenity"
+   },
+   "backupsToggle": {
+      "description": "Етикетка перемикача резервного копіювання",
+      "message": "Створювати резервні копії записів"
+   },
+   "blurModeToast": {
+      "description": "Blur mode toast",
+      "message": "Режим розмиття"
+   },
+   "blurTypeLabel": {
+      "description": "Blur background label",
+      "message": "Розмиття"
+   },
+   "cameraType": {
+      "description": "Camera recording type label on popup",
+      "message": "Камера"
+   },
+   "cancelButton": {
+      "description": "Generic cancel button label",
+      "message": "Скасувати"
+   },
+   "cancelRecordingTooltip": {
+      "description": "Cancel recording tooltip",
+      "message": "Скасувати запис"
+   },
+   "chromePermissionsModalAction": {
+      "description": "Permission modal action",
+      "message": "Увімкнути запис екрану"
+   },
+   "chromePermissionsModalCancel": {
+      "description": "Permission modal cancel",
+      "message": "Скасувати"
+   },
+   "chromePermissionsModalDescription": {
+      "description": "Permission modal description",
+      "message": "Щоб увімкнути запис екрану, вам слід дозволити Screenity захоплювати ваш екран, коли це буде запитано."
+   },
+   "chromePermissionsModalTitle": {
+      "description": "Permission modal title",
+      "message": "Screenity не має дозволу на запис вашого екрану"
+   },
+   "clearBlurredElementsTooltip": {
+      "description": "Clear all blurred elements tooltip",
+      "message": "Очистити всі розмиті елементи"
+   },
+   "clearCanvasTooltip": {
+      "description": "Clear canvas tooltip",
+      "message": "Очистити полотно"
+   },
+   "clearSpaceButton": {
+      "description": "Кнопка 'Видалити попередні записи'",
+      "message": "Видалити попередні записи"
+   },
+   "clickHereDrawOnboarding": {
+      "description": "Click here onboarding",
+      "message": "Клацніть тут, щоб малювати"
+   },
+   "closeModalLabel": {
+      "description": "Agnostic close modal button label",
+      "message": "Закрити"
+   },
+   "continueWithoutLogin": {
+      "description": "Button to continue using the extension without logging in",
+      "message": "Продовжити без входу"
+   },
+   "copiedToClipboardToast": {
+      "description": "Toast message shown when link has been copied to clipboard",
+      "message": "Посилання скопійовано в буфер обміну"
+   },
+   "copyDebugInfoButton": {
+      "description": "Button to copy technical debug info to clipboard for support",
+      "message": "Скопіювати дані відлагодження"
+   },
+   "countdownLabel": {
+      "description": "Countdown label",
+      "message": "Зворотний відлік"
+   },
+   "countdownMessage": {
+      "description": "Countdown message",
+      "message": "Розслабтеся. Клацніть будь-де, щоб зупинити відлік."
+   },
+   "cropButtonDescription": {
+      "description": "Crop label",
+      "message": "Обрізати та змінити розмір відео"
+   },
+   "cropButtonTitle": {
+      "description": "Crop label button",
+      "message": "Обрізати"
+   },
+   "croppingInfoDescription": {
+      "description": "Cropping info description",
+      "message": "Оновіть для швидшої обробки"
+   },
+   "croppingInfoTitle": {
+      "description": "Cropping info title",
+      "message": "Обрізка може зайняти деякий час"
+   },
+   "customAreaLabel": {
+      "description": "Custom area switch label",
+      "message": "Встановіть область для запису"
+   },
+   "customAreaRecordingDisabledAction": {
+      "description": "Custom area recording disabled warning action on popup for Chrome version older than 104",
+      "message": "Оновити"
+   },
+   "customAreaRecordingDisabledDescription": {
+      "description": "Custom area recording disabled warning description on popup for Chrome version older than 104",
+      "message": "Оновіть версію Chrome до 110+"
+   },
+   "customAreaRecordingDisabledTitle": {
+      "description": "Custom area recording disabled warning on popup for Chrome version older than 104",
+      "message": "Запис області користувача вимкнено"
+   },
+   "debugInfoCopiedToast": {
+      "description": "Toast shown after debug info is copied",
+      "message": "Дані відлагодження скопійовано"
+   },
+   "disableCameraTooltip": {
+      "description": "Disable camera tooltip",
+      "message": "Вимкнути камеру"
+   },
+   "disableMicrophoneTooltip": {
+      "description": "Disable microphone tooltip",
+      "message": "Вимкнути мікрофон"
+   },
+   "discardModalDescription": {
+      "description": "Discard recording modal description",
+      "message": "Ваш поточний відеопрогрес буде втрачено."
+   },
+   "discardModalDiscard": {
+      "description": "Discard recording modal discard button",
+      "message": "Відхилити запис"
+   },
+   "discardModalResume": {
+      "description": "Discard recording modal resume button",
+      "message": "Продовжити запис"
+   },
+   "discardModalTitle": {
+      "description": "Discard recording modal title",
+      "message": "Ви впевнені, що хочете відхилити запис?"
+   },
+   "downgradeToFreeButton": {
+      "description": "Button to log out and downgrade to the free version",
+      "message": "Вийти та перейти на безкоштовну версію"
+   },
+   "downloadAnywayButton": {
+      "description": "Button to download the recording file despite validation failure",
+      "message": "Завантажити все одно"
+   },
+   "downloadForTroubleshootingOption": {
+      "description": "Опція завантаження для усунення проблем",
+      "message": "Завантажити дані для усунення проблем"
+   },
+   "downloadGIFButtonDescription": {
+      "description": "Download GIF label",
+      "message": "Експорт у форматі GIF (максимум 30 секунд)"
+   },
+   "downloadGIFButtonTitle": {
+      "description": "Download GIF button",
+      "message": "Завантажити як .gif"
+   },
+   "downloadMP4ButtonDescription": {
+      "description": "Download MP4 label",
+      "message": "Експорт відео у форматі .mp4 (рекомендовано)"
+   },
+   "downloadMP4ButtonTitle": {
+      "description": "Download MP4 button",
+      "message": "Завантажити як .mp4"
+   },
+   "downloadWEBMButtonDescription": {
+      "description": "Download WEBM label",
+      "message": "Експорт відео у форматі .webm"
+   },
+   "downloadWEBMButtonTitle": {
+      "description": "Download WEBM button",
+      "message": "Завантажити як .webm"
+   },
+   "downloadingLabel": {
+      "description": "Downloading label",
+      "message": "Завантаження..."
+   },
+   "drawingModeToast": {
+      "description": "Drawing mode toast",
+      "message": "Режим малювання"
+   },
+   "editButtonDescription": {
+      "description": "Trim label",
+      "message": "Обрізати, вирізати або вимкнути звук у відео"
+   },
+   "editButtonTitle": {
+      "description": "Trim label button",
+      "message": "Редагувати відео"
+   },
+   "editFailedDescription": {
+      "description": "Alert body for edit failure; explicitly confirms the original recording is untouched",
+      "message": "Щось пішло не так під час обробки. Оригінальний запис у безпеці. Ви можете спробувати знову або завантажити як є."
+   },
+   "editFailedTitle": {
+      "description": "Alert title when an edit operation fails due to an encoding or processing error",
+      "message": "Не вдалося застосувати редагування"
+   },
+   "editProcessingSafeDescription": {
+      "description": "Shown in the editor processing alert when a user-initiated edit is running, to reassure the original is safe",
+      "message": "Обробка редагування. Оригінальний запис не змінено."
+   },
+   "editTimeoutDescription": {
+      "description": "Alert body for the timeout case, prompting retry or shorter clip",
+      "message": "Редагування не завершилось вчасно. Оригінальний запис не змінено. Спробуйте ще раз або спочатку обріжте кліп."
+   },
+   "editTimeoutTitle": {
+      "description": "Alert title when an edit operation does not complete within the 5-minute watchdog period",
+      "message": "Час редагування вичерпано"
+   },
+   "editTooLongDescription": {
+      "description": "Alert body explaining the 15-minute limit and suggesting trimming first",
+      "message": "Це редагування аудіо не підтримується для кліпів довших за 15 хвилин. Оригінал не змінено. Спробуйте спочатку обрізати кліп."
+   },
+   "editTooLongTitle": {
+      "description": "Alert title when an audio mute/mix edit is rejected because the clip exceeds 15 minutes",
+      "message": "Редагування аудіо занадто довге"
+   },
+   "editorRecoveryToast": {
+      "description": "Toast shown on the active tab when the post-recording editor tab fails to open",
+      "message": "Запис збережено. Редактор не відкрився. Натисніть на значок Screenity, щоб спробувати знову."
+   },
+   "enableCameraTooltip": {
+      "description": "Enable camera tooltip",
+      "message": "Увімкнути камеру"
+   },
+   "enableMicrophoneTooltip": {
+      "description": "Enable microphone tooltip",
+      "message": "Увімкнути мікрофон"
+   },
+   "eraserToolTooltip": {
+      "description": "Eraser tool tooltip",
+      "message": "Інструмент гумки"
+   },
+   "extDesc": {
+      "description": "Extension description",
+      "message": "Найкращий безкоштовний відеореєстратор екрану без обмежень. Захоплення, анотація, збільшення, розмиття, редагування відео та багато іншого - без необхідності входу та з увагою до конфіденційності."
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Screenity - Запис екрану & Анотації"
+   },
+   "extensionNotSupportedDescription": {
+      "description": "Опис попередження про непідтримку розширення на вкладці",
+      "message": "Screenity не підтримувався на вашій попередній вкладці. Проте ви можете розпочати запис тут, а потім перейти на вкладку, але ваша камера і панель інструментів не будуть видимими."
+   },
+   "extensionNotSupportedTitle": {
+      "description": "Заголовок попередження про непідтримку розширення на вкладці",
+      "message": "Розширення не підтримується на сторінці"
+   },
+   "failedToCopyToClipboardToast": {
+      "description": "Toast message shown when failed to copy link to clipboard",
+      "message": "Не вдалося скопіювати посилання"
+   },
+   "fastRecorderFailedDescription": {
+      "description": "Body text for the fast recorder failure modal",
+      "message": "Результат швидкого запису не вдалося перевірити на цьому пристрої.\nВи все одно можете завантажити файл."
+   },
+   "fastRecorderFailedTitle": {
+      "description": "Title for the modal shown when the fast MP4 recorder output could not be validated",
+      "message": "Швидкий запис не вдався"
+   },
+   "finishLabelMulti": {
+      "description": "Label for the finish multi-recording button",
+      "message": "Завершити"
+   },
+   "finishRecordingTooltip": {
+      "description": "Finish recording tooltip",
+      "message": "Завершити запис"
+   },
+   "flipCameraLabel": {
+      "description": "Flip camera switch label",
+      "message": "Перевернути камеру"
+   },
+   "followForUpdates": {
+      "description": "Follow for updates button",
+      "message": "Слідкуйте за оновленнями"
+   },
+   "getHelpButton": {
+      "description": "Side button on error modals that opens a prefilled support form",
+      "message": "Отримати допомогу"
+   },
+   "getHelpNav": {
+      "description": "Елемент навігації для допомоги",
+      "message": "Центр допомоги"
+   },
+   "goToDashboardButtonLabel": {
+      "description": "Button label to go to the dashboard in the popup",
+      "message": "Перейти до панелі"
+   },
+   "havingIssuesButton": {
+      "description": "Кнопка проблем в редакторі",
+      "message": "Виникли проблеми?"
+   },
+   "havingIssuesModalButton": {
+      "description": "Кнопка в модальному вікні проблем в редакторі",
+      "message": "Завантажити сиру відеоінформацію"
+   },
+   "havingIssuesModalButton2": {
+      "description": "Друга кнопка в модальному вікні проблем в редакторі",
+      "message": "Повідомити про помилку"
+   },
+   "havingIssuesModalDescription": {
+      "description": "Опис модального вікна проблем в редакторі",
+      "message": "Якщо ви завершили запис і опинилися на цій сторінці без можливості переглянути своє відео, ви можете спробувати завантажити сиру відеоінформацію, якщо вона доступна. Ви також можете зв'язатися з нами і подати звіт про помилку."
+   },
+   "havingIssuesModalTitle": {
+      "description": "Заголовок модального вікна проблем в редакторі",
+      "message": "Не бачите свого запису?"
+   },
+   "heightLabel": {
+      "description": "Height label for properties",
+      "message": "Висота"
+   },
+   "helpPopup": {
+      "description": "Help popup button",
+      "message": "Довідка"
+   },
+   "hideToolbarLabel": {
+      "description": "Hide toolbar label",
+      "message": "Приховати панель інструментів"
+   },
+   "hideUIAlerts": {
+      "description": "Hide UI alerts button",
+      "message": "Приховати сповіщення інтерфейсу"
+   },
+   "highestQuality": {
+      "description": "Позначка перемикача найвищої якості в спливаючому вікні",
+      "message": "Найвища якість"
+   },
+   "highlightClicksTooltip": {
+      "description": "Highlight clicks tooltip",
+      "message": "Підсвічувати кліки"
+   },
+   "highlightCursorTooltip": {
+      "description": "Highlight cursor tooltip",
+      "message": "Підсвічувати курсор"
+   },
+   "highlighterToolTooltip": {
+      "description": "Highlighter tool tooltip",
+      "message": "Інструмент маркера"
+   },
+   "imageToolTooltip": {
+      "description": "Image tool tooltip",
+      "message": "Інструмент зображення"
+   },
+   "inactiveSubscriptionDeletionWarning": {
+      "description": "Warning message about the deletion of videos and data",
+      "message": "Ваші відео та дані будуть остаточно видалені "
+   },
+   "inactiveSubscriptionDescription": {
+      "description": "Description shown when the user's subscription is inactive",
+      "message": "Ваша підписка на Screenity Pro неактивна."
+   },
+   "inactiveSubscriptionFreeVersion": {
+      "description": "Message prompting the user to continue using the free version",
+      "message": "Хочете продовжити користування безкоштовною версією?"
+   },
+   "inactiveSubscriptionReactivation": {
+      "description": "Message prompting the user to reactivate their subscription",
+      "message": "Будь ласка, активуйте знову, щоб відновити доступ."
+   },
+   "inactiveSubscriptionTitle": {
+      "description": "Title shown when the user's subscription is inactive",
+      "message": "Ваша підписка Pro неактивна"
+   },
+   "instantRecordingModeAction": {
+      "description": "Action button for the instant recording mode",
+      "message": "Зрозуміло"
+   },
+   "instantRecordingModeDescription": {
+      "description": "Description for the instant recording mode",
+      "message": "Це записує все в одне відео для миттєвого завантаження та поширення. Розташування камери не можна буде змінити, але інші правки будуть доступні."
+   },
+   "instantRecordingModeLabel": {
+      "description": "Label for the instant recording mode",
+      "message": "Режим миттєвого запису"
+   },
+   "instantRecordingModeTitle": {
+      "description": "Title for the instant recording mode",
+      "message": "Режим миттєвого запису"
+   },
+   "instantRecordingModeTooltip": {
+      "description": "Tooltip for the instant recording mode",
+      "message": "Миттєве завантаження, але камеру та макет не можна буде змінити пізніше."
+   },
+   "learnMoreDot": {
+      "description": "Learn more with a dot",
+      "message": "Дізнайтеся більше."
+   },
+   "learnMoreLabel": {
+      "description": "Learn more button",
+      "message": "Дізнатися більше"
+   },
+   "leaveReview": {
+      "description": "Leave a review button",
+      "message": "Залиште відгук"
+   },
+   "leftLabel": {
+      "description": "Left label for properties",
+      "message": "Зліва"
+   },
+   "loadingVideosLabel": {
+      "description": "Label shown when videos are loading in the popup",
+      "message": "Завантаження відео..."
+   },
+   "logBackInButton": {
+      "description": "Button to log back in after being logged out",
+      "message": "Увійти знову"
+   },
+   "loggedOutDescription": {
+      "description": "Description shown when the user is logged out",
+      "message": "Щоб синхронізувати записи з обліковим записом та отримати доступ до преміум-функцій, увійдіть знову."
+   },
+   "loggedOutFreeVersion": {
+      "description": "Message shown when the user is logged out and using the free version",
+      "message": "Ви можете користуватися розширенням без облікового запису — але ваші записи не зберігатимуться і не можуть бути відновлені."
+   },
+   "loggedOutTitle": {
+      "description": "Title shown when the user is logged out",
+      "message": "Ви вийшли з облікового запису"
+   },
+   "loggedOutToastTitle": {
+      "description": "Toast message shown when the user logs out",
+      "message": "Ви вийшли з облікового запису"
+   },
+   "loginButtonLabel": {
+      "description": "Login button label in popup settings menu",
+      "message": "Увійти або зареєструватися"
+   },
+   "logoutButtonLabel": {
+      "description": "Logout button label in popup settings menu",
+      "message": "Вийти"
+   },
+   "longRecordingDescription": {
+      "description": "Banner description for long recordings that can be downloaded but not edited locally",
+      "message": "Ваш запис завершено і він у безпеці. Завантажте у форматі WebM нижче."
+   },
+   "longRecordingTitle": {
+      "description": "Banner title shown when a recording exceeds the local processing limit but is otherwise successful",
+      "message": "Довгий запис"
+   },
+   "manageStorageButtonLabel": {
+      "description": "Button label to manage storage in the popup settings menu",
+      "message": "Керувати сховищем"
+   },
+   "manageSubscriptionButton": {
+      "description": "Button to manage the user's subscription",
+      "message": "Керувати підпискою"
+   },
+   "maxFPSLabel": {
+      "description": "Максимальний підпис кадрового кута в меню налаштувань",
+      "message": "Максимальний кадровий кут"
+   },
+   "maxResolutionLabel": {
+      "description": "Максимальний підпис роздільної здатності в меню налаштувань",
+      "message": "Максимальний роздільна здатність"
+   },
+   "maxResolutionTooltip": {
+      "description": "Підказка про максимальну роздільну здатність в меню налаштувань",
+      "message": "Не можливо записувати у цій роздільній здатності на вашому пристрої"
+   },
+   "mediumStrokeTooltip": {
+      "description": "Medium stroke tooltip",
+      "message": "Середня обводка"
+   },
+   "memoryLimitDescription": {
+      "description": "Опис повідомлення про досягнення ліміту пам'яті",
+      "message": "Ваш пристрій вичерпав доступну пам'ять для запису, що призвело до автоматичної зупинки запису. Якщо ви хочете записувати довше, спробуйте зменшити якість відео або видалити деякі файли на пристрої."
+   },
+   "memoryLimitTitle": {
+      "description": "Заголовок повідомлення про досягнення ліміту пам'яті",
+      "message": "Досягнуто ліміт пам'яті"
+   },
+   "micMutedModalAction": {
+      "description": "Microphone muted modal continue",
+      "message": "Так, продовжити"
+   },
+   "micMutedModalCancel": {
+      "description": "Microphone muted modal cancel",
+      "message": "Скасувати"
+   },
+   "micMutedModalDescription": {
+      "description": "Microphone muted modal description",
+      "message": "Для включення звуку у вашому записі слід розблокувати мікрофон. Бажаєте продовжити без звуку?"
+   },
+   "micMutedModalTitle": {
+      "description": "Microphone muted modal title",
+      "message": "Ваш мікрофон вимкнено"
+   },
+   "micOffToast": {
+      "description": "Microphone disabled toast title",
+      "message": "Мікрофон вимкнено"
+   },
+   "micOnToast": {
+      "description": "Microphone enabled toast title",
+      "message": "Мікрофон увімкнено"
+   },
+   "micReminderPopup": {
+      "description": "Mic reminder popup",
+      "message": "Попередження про вимкнений мікрофон"
+   },
+   "mockupType": {
+      "description": "Mockup recording type label on popup",
+      "message": "Макет"
+   },
+   "moreColorsTooltip": {
+      "description": "More colors tooltip",
+      "message": "Більше кольорів"
+   },
+   "multiLabel": {
+      "description": "Label for the multi-recording mode",
+      "message": "Multi"
+   },
+   "multiRecordingModeDescription": {
+      "description": "Description for the multi-recording mode modal",
+      "message": "Записуйте кілька сцен — екран, камеру або обидва варіанти — одну за одною. Це чудово підходить для кількох дублів, зміни ракурсу або поділу запису на частини. Коли завершите, натисніть «Готово», щоб відкрити редактор з усіма сценами, об’єднаними в одне відео."
+   },
+   "multiRecordingModeTitle": {
+      "description": "Title for the multi-recording mode modal",
+      "message": "Режим Multi"
+   },
+   "newestSortLabel": {
+      "description": "Label for the newest sort option",
+      "message": "Останні"
+   },
+   "noCameraDropdownLabel": {
+      "description": "No camera selected",
+      "message": "Немає камери"
+   },
+   "noCameraPermissionsTooltip": {
+      "description": "No camera permissions tooltip",
+      "message": "Відсутні дозволи на камеру"
+   },
+   "noConnectionLabel": {
+      "description": "No connection label",
+      "message": "Немає з'єднання"
+   },
+   "noMicrophoneDropdownLabel": {
+      "description": "No microphone selected",
+      "message": "Немає мікрофону"
+   },
+   "noMicrophonePermissionsTooltip": {
+      "description": "No microphone permissions tooltip",
+      "message": "Відсутні дозволи на мікрофон"
+   },
+   "noRecordingFound": {
+      "description": "Попередження про відсутність запису в редакторі",
+      "message": "Запис не знайдено, вибачте :("
+   },
+   "noShowAgain": {
+      "description": "Don't show again button",
+      "message": "Не показувати знову"
+   },
+   "noSubscriptionYetDescription": {
+      "description": "Message prompting the user to subscribe to reactivate their Pro features",
+      "message": "Оформіть підписку, щоб отримати доступ до функцій Pro."
+   },
+   "noSubscriptionYetTitle": {
+      "description": "Title shown when the user has no active subscription",
+      "message": "Активуйте Pro, щоб почати"
+   },
+   "noVideosFound": {
+      "description": "Message shown when no videos are found in the popup",
+      "message": "Відео не знайдено"
+   },
+   "noneDropdownLabel": {
+      "description": "No device selected",
+      "message": "Немає"
+   },
+   "notAvailableLabel": {
+      "description": "Not available label",
+      "message": "Недоступно"
+   },
+   "notAvailableLongRecording": {
+      "description": "Disabled button label for features not available due to recording length",
+      "message": "Недоступно для довгих записів"
+   },
+   "notAvailableRecoveryMode": {
+      "description": "Disabled button label for features not available in recovery/fallback mode",
+      "message": "Недоступно в режимі відновлення"
+   },
+   "notEnoughRAM": {
+      "description": "Надпис Недостатньо ОПЕРАТИВНОЇ ПАМ'ЯТІ в меню налаштувань",
+      "message": "Недостатньо ОПЕРАТИВНОЇ ПАМ'ЯТІ"
+   },
+   "notEnoughSpaceDescription": {
+      "description": "Опис повідомлення про недостатньо місця",
+      "message": "Для роботи Screenity потрібно принаймні 1 ГБ вільного місця. Будь ласка, звільніть простір на пристрої і спробуйте ще раз."
+   },
+   "notEnoughSpaceTitle": {
+      "description": "Заголовок повідомлення про недостатньо місця",
+      "message": "Недостатньо місця"
+   },
+   "offLabel": {
+      "description": "Off label on dropdown",
+      "message": "Вимкнено"
+   },
+   "offlineLabelDescription": {
+      "description": "Offline label description",
+      "message": "Деякі функції недоступні до повторного підключення"
+   },
+   "offlineLabelTitle": {
+      "description": "Offline label",
+      "message": "Ви зараз в автономному режимі"
+   },
+   "offlineLabelTryAgain": {
+      "description": "Offline label try again button",
+      "message": "Спробуйте знову"
+   },
+   "oldestSortLabel": {
+      "description": "Label for the oldest sort option",
+      "message": "Найстаріші"
+   },
+   "overLimitLabelDescription": {
+      "description": "Опис обмеження понад 5 хвилин у редакторі",
+      "message": "Редагування та експорт у форматі MP4 недоступні"
+   },
+   "overLimitLabelDescriptionFastPath": {
+      "description": "Over limit description when the recording is a native MP4 (fast recorder / WebCodecs) so MP4 export still works",
+      "message": "Функції редагування недоступні"
+   },
+   "overLimitLabelTitle": {
+      "description": "Мітка обмеження понад 5 хвилин у редакторі",
+      "message": "Відео занадто довге для обробки локально"
+   },
+   "overLimitModalButton": {
+      "description": "Кнопка модального вікна обмеження понад 5 хвилин",
+      "message": "Я розумію ризики, все одно спробувати"
+   },
+   "overLimitModalDescription": {
+      "description": "Опис модального вікна обмеження понад 5 хвилин",
+      "message": "Оскільки Screenity цілком приватний і працює локально, він обмежений апаратним забезпеченням вашого пристрою. Обробка відео цієї довжини займе дуже багато часу та буде вимагати значних ресурсів. Однак ви все ще можете завантажити файл WEBM або необроблену запису, але можливості редагування та експорту в MP4 недоступні. Так чи інакше, ви можете спробувати обробити відео, якщо розумієте ризики."
+   },
+   "overLimitModalDescriptionFastPath": {
+      "description": "Over 5 minutes limit modal description when the recording is a native MP4 (fast recorder / WebCodecs)",
+      "message": "Оскільки Screenity цілком приватний і працює локально, він обмежений апаратним забезпеченням вашого пристрою. Обробка відео цієї довжини займе дуже багато часу та буде вимагати значних ресурсів. Ваш файл MP4 готовий до завантаження, але редагування в браузері недоступне для записів такої довжини. Так чи інакше, ви можете спробувати обробити відео, якщо розумієте ризики."
+   },
+   "overLimitModalLearnMore": {
+      "description": "Посилання на додаткову інформацію в модальному вікні обмеження понад 5 хвилин",
+      "message": "Дізнайтеся більше про обробку довгих відео."
+   },
+   "overLimitModalTitle": {
+      "description": "Заголовок модального вікна обмеження понад 5 хвилин",
+      "message": "Відео занадто довге для обробки на вашому пристрої"
+   },
+   "pauseRecordingTooltip": {
+      "description": "Pause recording tooltip",
+      "message": "Призупинити запис"
+   },
+   "pausedRecordingToast": {
+      "description": "Paused recording modal title",
+      "message": "Запис призупинено. Натисніть кнопку відтворення для продовження."
+   },
+   "penToolTooltip": {
+      "description": "Pen tool tooltip",
+      "message": "Інструмент ручки"
+   },
+   "permissionsModalDescription": {
+      "description": "Camera / microphone permissions warning modal description",
+      "message": "Схоже, що Screenity не може отримати доступ до вашої камери або мікрофону. Обов'язково дозвольте доступ, натиснувши на значок камери у панелі адреси."
+   },
+   "permissionsModalDismiss": {
+      "description": "Camera / microphone permissions warning modal dismiss button",
+      "message": "Відхилити"
+   },
+   "permissionsModalNoShowAgain": {
+      "description": "Permissions modal dismiss button",
+      "message": "Не показувати знову"
+   },
+   "permissionsModalReview": {
+      "description": "Кнопка перегляду дозволів",
+      "message": "Переглянути дозволи"
+   },
+   "permissionsModalTitle": {
+      "description": "Camera / microphone permissions warning modal title",
+      "message": "Перевірте ваші дозволи"
+   },
+   "preparingLabel": {
+      "description": "Preparing label",
+      "message": "Підготовка..."
+   },
+   "proBannerAltButton": {
+      "description": "Pro banner don't show again button in the editor",
+      "message": "Більше не показувати"
+   },
+   "proBannerButton": {
+      "description": "Pro banner button in the editor",
+      "message": "Спробувати"
+   },
+   "proBannerDescription": {
+      "description": "Pro banner description in the editor",
+      "message": "Screenity завжди буде безкоштовним, з відкритим кодом та без реклами. Pro покриває витрати на хмару та інфраструктуру й підтримує інді-розробницю! ❤️"
+   },
+   "proBannerTitle": {
+      "description": "Pro banner title in the editor",
+      "message": "Відкрийте хмарне поширення, багатосценове редагування, автозуми, субтитри та інше"
+   },
+   "proOnboardingBack": {
+      "description": "Pro onboarding back button text",
+      "message": "Назад"
+   },
+   "proOnboardingCameraDescription": {
+      "description": "Pro onboarding camera step description",
+      "message": "Під час запису камера може \u003Cstrong>зникати або переходити в PiP\u003C/strong> - це нормально.\u003Cbr/>\u003Cbr/>Вона записується окремо, щоб ви могли змінити її позицію пізніше."
+   },
+   "proOnboardingCameraTitle": {
+      "description": "Pro onboarding camera step title",
+      "message": "Камера записується окремо"
+   },
+   "proOnboardingDone": {
+      "description": "Pro onboarding done button text",
+      "message": "Зрозуміло"
+   },
+   "proOnboardingInstantDescription": {
+      "description": "Pro onboarding instant mode step description",
+      "message": "Найкраще для швидкого поширення з \u003Cstrong>необмеженими завантаженнями\u003C/strong>.\u003Cbr/>\u003Cbr/>У цьому режимі недоступні розширені макети й опції редактора."
+   },
+   "proOnboardingInstantTitle": {
+      "description": "Pro onboarding instant mode step title",
+      "message": "Миттєвий режим"
+   },
+   "proOnboardingNext": {
+      "description": "Pro onboarding next button text",
+      "message": "Далі"
+   },
+   "proOnboardingToolbarDescription": {
+      "description": "Pro onboarding toolbar step description",
+      "message": "Використовуйте цю панель для малювання, ефектів курсора, розмиття та керування записом.\u003Cbr/>\u003Cbr/>\u003Cstrong>Ця панель буде у відео\u003C/strong>, якщо її не приховати."
+   },
+   "proOnboardingToolbarLearnMore": {
+      "description": "Pro onboarding toolbar learn more link label",
+      "message": "Дізнатися більше"
+   },
+   "proOnboardingToolbarTitle": {
+      "description": "Pro onboarding toolbar step title",
+      "message": "Панель запису та ефекти"
+   },
+   "proOnboardingWelcomeDescription": {
+      "description": "Pro onboarding welcome step description",
+      "message": "Кілька швидких порад перед записом.\u003Cbr/>Автозум працює лише для кліків у \u003Cstrong>вкладках Chrome\u003C/strong>. Пізніше ви завжди можете додати зуми вручну."
+   },
+   "proOnboardingWelcomeTitle": {
+      "description": "Pro onboarding welcome step title",
+      "message": "Ласкаво просимо до розширення Screenity Pro"
+   },
+   "processingBannerEditor": {
+      "description": "Processing banner in editor",
+      "message": "Відео обробляється, відтворення може бути неточним або перерваним."
+   },
+   "projectRecordingCancelledToast": {
+      "description": "Toast message shown when the user cancels project recording",
+      "message": "Запис відео скасовано"
+   },
+   "pushToTalkLabel": {
+      "description": "Push to talk switch label",
+      "message": "Натискайте, щоб говорити"
+   },
+   "rawRecordingButtonDescription": {
+      "description": "Мітка завантаження сирого запису",
+      "message": "Експорт оригінальних даних запису"
+   },
+   "rawRecordingButtonTitle": {
+      "description": "Кнопка завантаження сирого запису",
+      "message": "Завантажити сирі відеофайли"
+   },
+   "rawRecordingModalButton": {
+      "description": "Кнопка модального вікна сирого запису",
+      "message": "Завантажити"
+   },
+   "rawRecordingModalDescription": {
+      "description": "Опис модального вікна сирого запису",
+      "message": "Сирі відеофайли - це оригінальний відеофайл, який був записаний Screenity. Цей відеофайл не оброблявся або редагувався, тому він може бути дуже великим і не всі пристрої можуть його програвати. Якщо у вас є проблеми з обробленим відео, ви можете використовувати цей файл для відновлення відео."
+   },
+   "rawRecordingModalTitle": {
+      "description": "Заголовок модального вікна сирого запису",
+      "message": "Завантажити сирі відеофайли"
+   },
+   "reachingRecordingLimitToast": {
+      "description": "Toast message shown when the recording is reaching the 90 minute limit",
+      "message": "Запис наближається до 90-хвилинної межі, незабаром завершиться"
+   },
+   "readyRecordSceneToast": {
+      "description": "Toast message shown when the user is in an existing project and ready to record a new scene",
+      "message": "Готово до запису нової сцени у відео"
+   },
+   "recordAudioWarningMacDescription": {
+      "description": "Опис попередження про аудіо для macOS",
+      "message": "На macOS ви можете записувати звук лише з вкладок. Виберіть опцію 'Вкладка Chrome' і переконайтеся, що включена опція 'Також ділитися аудіо вкладки'."
+   },
+   "recordAudioWarningMacTitle": {
+      "description": "Заголовок попередження про аудіо для macOS",
+      "message": "Запис аудіо комп'ютера"
+   },
+   "recordAudioWarningOtherDescription": {
+      "description": "Опис попередження про аудіо для інших систем",
+      "message": "Якщо ви хочете записувати звук комп'ютера, переконайтеся, що опція 'Ділитися аудіо системи' активована. Якщо ви не бачите цю опцію, спробуйте оновити Chrome або перейти до опції запису вкладок."
+   },
+   "recordAudioWarningOtherTitle": {
+      "description": "Заголовок попередження про аудіо для інших систем",
+      "message": "Запис аудіо комп'ютера"
+   },
+   "recordButtonInProgressLabel": {
+      "description": "Record button in progress label",
+      "message": "Початок запису..."
+   },
+   "recordButtonLabel": {
+      "description": "Record button label",
+      "message": "Почати запис"
+   },
+   "recordButtonMultiLabel": {
+      "description": "Record button label (multi mode)",
+      "message": "Додати ще один запис"
+   },
+   "recordButtonNoCameraLabel": {
+      "description": "Record button label when in camera mode and no camera is selected",
+      "message": "Встановіть камеру для запису"
+   },
+   "recordTab": {
+      "description": "Record tab label on popup",
+      "message": "Запис"
+   },
+   "recorderSelectDescription": {
+      "description": "Description in recording page",
+      "message": "Залиште цю вкладку відкритою. Вона закриється, як тільки ваш запис буде збережено."
+   },
+   "recorderSelectProgressTitle": {
+      "description": "Title in recording page while recording",
+      "message": "Запис..."
+   },
+   "recorderSelectTitle": {
+      "description": "Title in recording page",
+      "message": "Виберіть, що ви хочете записати"
+   },
+   "recorderSetupDescription": {
+      "description": "Description in recording page before countdown starts",
+      "message": "Зачекайте! Ваш запис готується."
+   },
+   "recorderSetupTitle": {
+      "description": "Title in recording page while setting up project before countdown starts",
+      "message": "Готуємо все до старту..."
+   },
+   "recordingLimitReachedToast": {
+      "description": "Toast message shown when the recording limit is reached",
+      "message": "Запис зупинено через 90-хвилинне обмеження"
+   },
+   "recordingTooShortToast": {
+      "description": "Toast shown when a region recording is stopped by navigation but no chunks were saved",
+      "message": "Запис занадто короткий для збереження"
+   },
+   "recoverLastRecordingOption": {
+      "description": "Settings menu item to manually trigger cloud recording recovery",
+      "message": "Recover last recording"
+   },
+   "recoveryModeDescription": {
+      "description": "Recovery mode banner description — reassures user their recording is accessible despite the processing failure",
+      "message": "Виникла помилка обробки, але ваш запис у безпеці. Ви можете завантажити його нижче."
+   },
+   "recoveryModeTitle": {
+      "description": "Заголовок режиму відновлення",
+      "message": "Режим відновлення"
+   },
+   "redoLabel": {
+      "description": "Redo label",
+      "message": "Повторити"
+   },
+   "redoTooltip": {
+      "description": "Redo tooltip",
+      "message": "Повторити"
+   },
+   "regionHeightLabel": {
+      "description": "Region height label",
+      "message": "Висота"
+   },
+   "regionWidthLabel": {
+      "description": "Region width label",
+      "message": "Ширина"
+   },
+   "reopenToolbarToast": {
+      "description": "Toast message explaining to reopen the toolbar in the popup options",
+      "message": "Панель інструментів приховано. Увімкніть її в налаштуваннях спливаючого вікна."
+   },
+   "replaceAudioEditor": {
+      "description": "Replace audio button in editor",
+      "message": "Замінити існуюче аудіо"
+   },
+   "resetOnboardingOption": {
+      "description": "Reset pro onboarding option label in popup settings menu",
+      "message": "Скинути онбординг"
+   },
+   "resizeWindowLabel": {
+      "description": "Мітка зміни розміру вікна в меню налаштувань",
+      "message": "Змінити розмір вікна"
+   },
+   "restartModalDescription": {
+      "description": "Restart recording modal description",
+      "message": "Ваш поточний відеопрогрес буде втрачено."
+   },
+   "restartModalRestart": {
+      "description": "Restart recording modal restart button",
+      "message": "Перезапустити запис"
+   },
+   "restartModalResume": {
+      "description": "Restart recording modal resume button",
+      "message": "Продовжити запис"
+   },
+   "restartModalTitle": {
+      "description": "Restart recording modal title",
+      "message": "Ви впевнені, що хочете перезапустити запис?"
+   },
+   "restartRecordingTooltip": {
+      "description": "Restart recording tooltip",
+      "message": "Почати запис знову"
+   },
+   "restoreRecording": {
+      "description": "Кнопка відновлення останнього запису в спливаючому вікні",
+      "message": "Відновити останнє запис"
+   },
+   "resumeRecordingTooltip": {
+      "description": "Resume recording tooltip",
+      "message": "Продовжити запис"
+   },
+   "retryButtonLabel": {
+      "description": "Agnostic button label to try again",
+      "message": "Спробувати ще раз"
+   },
+   "sandboxAdvancedTitle": {
+      "description": "Розділ Розширений на сторінці редактора в безпечному середовищі",
+      "message": "Розширений"
+   },
+   "sandboxAudioDragAndDrop": {
+      "description": "Drag and drop audio file in sandbox editor page",
+      "message": "Перетягніть ваш аудіофайл"
+   },
+   "sandboxAudioOrBrowse": {
+      "description": "Or click to browse audio file in sandbox editor page",
+      "message": "Або натисніть, щоб переглянути"
+   },
+   "sandboxAudioSettingsTitle": {
+      "description": "Audio settings title in sandbox editor page",
+      "message": "Налаштування"
+   },
+   "sandboxAudioUpdateButton": {
+      "description": "Update audio button in sandbox editor page",
+      "message": "Оновити"
+   },
+   "sandboxAudioVolumeLabel": {
+      "description": "Audio volume label in sandbox editor page",
+      "message": "Гучність"
+   },
+   "sandboxCropTitle": {
+      "description": "Crop title in sandbox editor page",
+      "message": "Обрізати"
+   },
+   "sandboxEditTitle": {
+      "description": "Edit title in sandbox editor page",
+      "message": "Редагувати"
+   },
+   "sandboxEditorCancelButton": {
+      "description": "Cancel button in sandbox editor page",
+      "message": "Скасувати"
+   },
+   "sandboxEditorCutButton": {
+      "description": "Cut button in sandbox editor",
+      "message": "Вирізати секцію"
+   },
+   "sandboxEditorCutProgressButton": {
+      "description": "Cut button in sandbox editor while cutting",
+      "message": "Вирізання..."
+   },
+   "sandboxEditorMainTitle": {
+      "description": "Title in navigation of the sandbox editor page",
+      "message": "Редактор"
+   },
+   "sandboxEditorMuteButton": {
+      "description": "Mute button in sandbox editor",
+      "message": "Вимкнути звук"
+   },
+   "sandboxEditorMuteProgressButton": {
+      "description": "Mute button in sandbox editor while muting",
+      "message": "Вимкнення..."
+   },
+   "sandboxEditorResetButton": {
+      "description": "Reset button in sandbox editor page",
+      "message": "Скинути"
+   },
+   "sandboxEditorRevertButton": {
+      "description": "Revert button in sandbox editor page",
+      "message": "Скасувати зміни"
+   },
+   "sandboxEditorSaveButton": {
+      "description": "Save button in sandbox editor page",
+      "message": "Зберегти зміни"
+   },
+   "sandboxEditorSaveProgressButton": {
+      "description": "Save button in sandbox editor page while saving",
+      "message": "Збереження..."
+   },
+   "sandboxEditorTooSmallInfo": {
+      "description": "Info about the editor being too small",
+      "message": "Редагування може бути неточними для коротких проміжків часу через інтервали між кадрами."
+   },
+   "sandboxEditorTrimButton": {
+      "description": "Trim button in sandbox editor",
+      "message": "Обрізати відео"
+   },
+   "sandboxEditorTrimInfo": {
+      "description": "Info about trimming in sandbox editor",
+      "message": "Перетягніть ручки та використовуйте кнопки ліворуч для редагування вибраного розділу."
+   },
+   "sandboxEditorTrimProgressButton": {
+      "description": "Trim button in sandbox editor while trimming",
+      "message": "Обрізання..."
+   },
+   "sandboxExportTitle": {
+      "description": "Export title in sandbox editor page",
+      "message": "Експорт"
+   },
+   "sandboxProgressDescription": {
+      "description": "Description in sandbox page while recording / saving",
+      "message": "Залиште цю вкладку відкритою. Вона оновиться з вашим записом, коли він буде готовий."
+   },
+   "sandboxProgressTitle": {
+      "description": "Title in sandbox page while recording / saving",
+      "message": "Підготовка до запису..."
+   },
+   "sandboxSaveTitle": {
+      "description": "Save title in sandbox editor page",
+      "message": "Зберегти"
+   },
+   "saveDriveButtonDescription": {
+      "description": "Save to Google Drive label",
+      "message": "Зберегти поточну версію на Диск Google"
+   },
+   "saveDriveButtonTitle": {
+      "description": "Save to Google Drive button",
+      "message": "Зберегти на Диск"
+   },
+   "savingDriveLabel": {
+      "description": "Saving to Google Drive label",
+      "message": "Збереження..."
+   },
+   "screenTooSmallTooltip": {
+      "description": "Підказка про занадто малий екран в меню налаштувань",
+      "message": "Екран занадто малий для цієї роздільної здатності"
+   },
+   "screenType": {
+      "description": "Screen recording type label on popup",
+      "message": "Екран"
+   },
+   "selectSourceDropdownPlaceholder": {
+      "description": "Select source placeholder",
+      "message": "Виберіть джерело"
+   },
+   "selectToolTooltip": {
+      "description": "Select tool tooltip",
+      "message": "Вибрати інструмент"
+   },
+   "setupCompleteDescription": {
+      "description": "Set up complete description",
+      "message": "Тепер ви можете почати запис тут або в іншій вкладці."
+   },
+   "setupCompleteTitle": {
+      "description": "Set up complete title",
+      "message": "Чудово! Ви готові"
+   },
+   "setupStep1After": {
+      "description": "Set up step 1, after the icon. It needs a space at the beginning.",
+      "message": " значок розширення"
+   },
+   "setupStep1Before": {
+      "description": "Set up step 1, before the icon. It needs a space at the end.",
+      "message": "1- Натисніть "
+   },
+   "setupStep2After": {
+      "description": "Set up step 2, after the icon. It needs a space at the beginning.",
+      "message": " значок закріплення"
+   },
+   "setupStep2Before": {
+      "description": "Set up step 2, before the icon. It needs a space at the end.",
+      "message": "2- Натисніть "
+   },
+   "setupStep3After": {
+      "description": "Set up step 3, after the icon. It needs a space at the beginning.",
+      "message": " значок Screenity, щоб розпочати"
+   },
+   "setupStep3Before": {
+      "description": "Set up step 3, before the icon. It needs a space at the end.",
+      "message": "3- Клацніть на "
+   },
+   "setupTitle": {
+      "description": "Set up steps title",
+      "message": "Почніть використовувати Screenity за три простих кроки:"
+   },
+   "shapeToolTooltip": {
+      "description": "Shape tool tooltip",
+      "message": "Фігурний інструмент"
+   },
+   "shareModalSandboxButton": {
+      "description": "Share modal email placeholder in sandbox editor page",
+      "message": "Дізнатися більше про Pro"
+   },
+   "shareModalSandboxDescription": {
+      "description": "Share modal description in sandbox editor page",
+      "message": "Хмарне поширення, зуми, шаблони... і підтримка інструменту від інді-розробниці, яка поважає твою приватність ❤️"
+   },
+   "shareModalSandboxLogin": {
+      "description": "Share modal login link in sandbox editor page",
+      "message": "Вже маєш акаунт? Увійти"
+   },
+   "shareModalSandboxTitle": {
+      "description": "Share modal title in sandbox editor page",
+      "message": "Готовий покращити свої записи?"
+   },
+   "shareSandboxButton": {
+      "description": "Share button in sandbox editor page",
+      "message": "Поділитися відео"
+   },
+   "shareUnlockButton": {
+      "description": "Button to sign in to share in the editor",
+      "message": "Увійти, щоб поділитися (pro)"
+   },
+   "showMoreOptionsLabel": {
+      "description": "Show more options label",
+      "message": "Показати більше опцій"
+   },
+   "signInDriveLabel": {
+      "description": "Sign in to Google Drive label",
+      "message": "Увійти та зберегти на Диск"
+   },
+   "signOutDriveLabel": {
+      "description": "Sign out of Google Drive label",
+      "message": "Вийти з Диска"
+   },
+   "spotlightCursorTooltip": {
+      "description": "Spotlight cursor tooltip",
+      "message": "Спрямовувати прожектор на курсор"
+   },
+   "stayInPagePopup": {
+      "description": "Stay in page popup",
+      "message": "Залишайтеся на сторінці під час запису"
+   },
+   "stopAckTimeoutToast": {
+      "description": "Toast shown when the recorder does not acknowledge the stop request within a few seconds",
+      "message": "Збереження триває довше, ніж очікувалось. Ваші дані у безпеці. Редактор незабаром відкриється."
+   },
+   "stopRecording": {
+      "description": "Stop recording button in recording screen",
+      "message": "Зупинити запис"
+   },
+   "storageCheckFailAuthDescription": {
+      "description": "Description shown when the storage check fails due to authentication",
+      "message": "Сталася помилка під час перевірки сховища. Увійдіть знову та спробуйте записати."
+   },
+   "storageCheckFailDescription": {
+      "description": "Description shown when the storage check fails",
+      "message": "Не вдалося перевірити квоту сховища. Спробуйте ще раз за кілька секунд або оновіть сторінку."
+   },
+   "storageCheckFailTitle": {
+      "description": "Title shown when the storage check fails",
+      "message": "Не вдалося перевірити сховище"
+   },
+   "storageLimitReachedDescription": {
+      "description": "Modal description shown when the storage limit is reached",
+      "message": "Ви використали всі 50 ГБ сховища. Видаліть старі відео або сцени, щоб продовжити запис."
+   },
+   "storageLimitReachedTitle": {
+      "description": "Modal message shown when the storage limit is reached",
+      "message": "Досягнуто межі сховища"
+   },
+   "streamEndedWarningToast": {
+      "description": "Toast shown when screen share track ends mid-recording. Recording continues; removes false urgency about data loss.",
+      "message": "Демонстрацію екрана зупинено. Ваш запис збережено. Зупиніть, коли будете готові."
+   },
+   "streamErrorModalDescription": {
+      "description": "Опис модального вікна помилки потоку",
+      "message": "Схоже, що виникла помилка при запуску запису. Перезапустіть свій браузер і спробуйте ще раз. Якщо проблема не зникає, будь ласка, зв'яжіться з нами за адресою support@screenity.io."
+   },
+   "streamErrorModalTitle": {
+      "description": "Заголовок модального вікна помилки потоку",
+      "message": "Помилка при запуску запису"
+   },
+   "supportSettingsOption": {
+      "description": "Label for the support option in the popup",
+      "message": "Підтримка"
+   },
+   "systemAudioLabel": {
+      "description": "Мітка системного аудіо/вкладка",
+      "message": "Включити системний звук"
+   },
+   "tabRecordingDisabledToast": {
+      "description": "Toast message shown when tab recording is disabled on a page",
+      "message": "Запис вкладки вимкнено на цій сторінці. Перемкнено на запис екрана."
+   },
+   "tabRecordingDisabledTooltip": {
+      "description": "Tooltip shown when tab recording is disabled on a page",
+      "message": "Запис вкладки вимкнено на цій сторінці"
+   },
+   "tabType": {
+      "description": "Tab area recording type label on popup",
+      "message": "Область вкладки"
+   },
+   "textToolTooltip": {
+      "description": "Text tool tooltip",
+      "message": "Текстовий інструмент"
+   },
+   "thickStrokeTooltip": {
+      "description": "Thick stroke tooltip",
+      "message": "Товста обводка"
+   },
+   "thinStrokeTooltip": {
+      "description": "Thin stroke tooltip",
+      "message": "Тонка обводка"
+   },
+   "toastAudioCaptureDegraded": {
+      "description": "Toast shown when the audio recorder is stopped early because the audio buffer limit was reached",
+      "message": "Transcription capture paused due to memory pressure. Video upload continues."
+   },
+   "toastNetworkOffline": {
+      "description": "Toast shown when the browser goes offline during a cloud recording upload",
+      "message": "Network offline. Upload paused. Screen chunks are saved locally."
+   },
+   "toastRecoveredSession": {
+      "description": "Toast shown when a crashed recording session is auto-recovered on startup",
+      "message": "Recovered unsaved recording from the previous session."
+   },
+   "toastStorageCritical": {
+      "description": "Toast shown when available storage drops below the critical threshold during recording; reassures that captured data is preserved",
+      "message": "Мало місця на диску. Зберігаємо запис. Все, що було записано, у безпеці."
+   },
+   "toastStorageLow": {
+      "description": "Toast shown when available storage drops below the warning threshold during recording",
+      "message": "Storage is running low. Upload reliability may degrade for long recordings."
+   },
+   "toggleBlurToolTooltip": {
+      "description": "Toggle blur tools tooltip",
+      "message": "Перемкнути інструмент розмиття"
+   },
+   "toggleCursorOptionsTooltip": {
+      "description": "Toggle cursor options tooltip",
+      "message": "Перемкнути параметри курсора"
+   },
+   "toggleDrawingToolsTooltip": {
+      "description": "Toggle drawing tools tooltip",
+      "message": "Перемкнути малювальні інструменти"
+   },
+   "toggleFillTooltip": {
+      "description": "Toggle fill tooltip",
+      "message": "Перемкнути заливку"
+   },
+   "togglePictureinPictureModeTooltip": {
+      "description": "Toggle picture-in-picture mode tooltip",
+      "message": "Перемкнути режим picture-in-picture"
+   },
+   "toolbarHoverOnly": {
+      "description": "Only show toolbar on hover button",
+      "message": "Приховати панель інструментів при неактивності"
+   },
+   "topLabel": {
+      "description": "Top label for properties",
+      "message": "Зверху"
+   },
+   "troubleShootButtonDescription": {
+      "description": "Мітка усунення неполадок",
+      "message": "Відновіть ваше відео та вирішіть інші проблеми"
+   },
+   "troubleshootButtonTitle": {
+      "description": "Кнопка усунення неполадок",
+      "message": "Отримайте допомогу з вашим записом"
+   },
+   "troubleshootModalButton": {
+      "description": "Кнопка модального вікна усунення неполадок",
+      "message": "Завантажити"
+   },
+   "troubleshootModalDescription": {
+      "description": "Опис модального вікна усунення неполадок",
+      "message": "Після завантаження надішліть файл на адресу support@screenity.io з будь-якою відповідною інформацією. Ми використовуватимемо ці дані для вирішення будь-яких проблем, які у вас виникли з розширенням, і можливо, відновлення вашого відео."
+   },
+   "troubleshootModalTitle": {
+      "description": "Заголовок модального вікна усунення неполадок",
+      "message": "Завантажте системну інформацію та дані відео для відправки на усунення неполадок"
+   },
+   "understoodButton": {
+      "description": "Кнопка 'Зрозуміло'",
+      "message": "Зрозуміло"
+   },
+   "undoLabel": {
+      "description": "Undo label",
+      "message": "Скасувати"
+   },
+   "undoTooltip": {
+      "description": "Undo tooltip",
+      "message": "Скасувати"
+   },
+   "unlockMoreFeatures": {
+      "description": "Button to unlock more features in the editor",
+      "message": "Відкрити більше функцій"
+   },
+   "updateAnnouncementButton": {
+      "description": "Кнопка оголошення про оновлення для існуючих користувачів",
+      "message": "Почати"
+   },
+   "updateAnnouncementDescription": {
+      "description": "Опис оголошення про оновлення для існуючих користувачів",
+      "message": "Ми представляємо новий вигляд та багато цікавих функцій, але не хвилюйтеся, це все ще та сама безкоштовна, конфіденційна та відкрита розширення, яке ви знаєте і любите."
+   },
+   "updateAnnouncementLearnMore": {
+      "description": "Посилання 'Дізнатися більше' для оголошення про оновлення для існуючих користувачів",
+      "message": "Дізнайтеся більше про оновлення."
+   },
+   "updateAnnouncementTitle": {
+      "description": "Заголовок оголошення про оновлення для існуючих користувачів",
+      "message": "Ласкаво просимо до нового Screenity!"
+   },
+   "updateChromeLabelDescription": {
+      "description": "Update Chrome label description",
+      "message": "Оновлення для отримання доступу до більше функцій"
+   },
+   "updateChromeLabelTitle": {
+      "description": "Update Chrome label",
+      "message": "Необхідне оновлення Chrome"
+   },
+   "upgradeToProButton": {
+      "description": "Button to upgrade to Pro",
+      "message": "Підписатися на Pro"
+   },
+   "videoProcessingLabelDescription": {
+      "description": "Video processing description in editor",
+      "message": "Оновлення для швидшого редагування"
+   },
+   "videoProcessingLabelTitle": {
+      "description": "Video processing label in editor",
+      "message": "Відео обробляється..."
+   },
+   "videoTrackEndedToast": {
+      "description": "Toast shown when the video track ends mid-recording (e.g. monitor disconnected, screen share revoked)",
+      "message": "Демонстрацію екрана зупинено. Зберігаємо запис. Все, що було записано, у безпеці."
+   },
+   "videosTab": {
+      "description": "Videos tab label on popup",
+      "message": "Ваші відео"
+   },
+   "webcodecsFailedOffToast": {
+      "description": "WebCodecs failure auto-disable toast",
+      "message": "Fast MP4 помилка — вимк"
+   },
+   "webcodecsToggleLabel": {
+      "description": "WebCodecs recorder toggle label",
+      "message": "Fast MP4"
+   },
+   "welcomeBackPopupTitle": {
+      "description": "Заголовок для вікна привітання для користувачів, які повернулися",
+      "message": "З поверненням до Screenity"
+   },
+   "welcomeBackProCTA": {
+      "description": "Кнопка заклику до дії для функції хмарного зберігання у вікні привітання",
+      "message": "Дізнатися більше про Screenity Pro"
+   },
+   "welcomeBackProDescription": {
+      "description": "Опис функції хмарного зберігання у вікні привітання",
+      "message": "Screenity Pro — це нова додаткова платформа для збереження відео в хмарі, спільного доступу за посиланням та розблокування розширених інструментів редагування, коли і якщо вони вам потрібні."
+   },
+   "welcomeBackProTitle": {
+      "description": "Заголовок для функції хмарного зберігання у вікні привітання",
+      "message": "✨ Нове: Виведіть свої записи на новий рівень"
+   },
+   "welcomePopupCTA": {
+      "description": "Call to action button for the welcome popup shown to new users",
+      "message": "Користуйтесь безкоштовно — без реєстрації!"
+   },
+   "welcomePopupCloudCTA": {
+      "description": "Call to action button for the cloud storage feature in the welcome popup",
+      "message": "🔓 Відкрити додаткові функції"
+   },
+   "welcomePopupCloudFeature1": {
+      "description": "Feature 1 for the cloud storage in the welcome popup",
+      "message": "Хмарне сховище, діліться відео через посилання"
+   },
+   "welcomePopupCloudFeature2": {
+      "description": "Feature 2 for the cloud storage in the welcome popup",
+      "message": "Об’єднуйте кілька кліпів в одну історію"
+   },
+   "welcomePopupCloudFeature3": {
+      "description": "Feature 3 for the cloud storage in the welcome popup",
+      "message": "Розумне масштабування при кліку (або додайте своє!)"
+   },
+   "welcomePopupCloudFeature4": {
+      "description": "Feature 4 for the cloud storage in the welcome popup",
+      "message": "Шаблони, субтитри, макети..."
+   },
+   "welcomePopupCloudFeature5": {
+      "description": "Feature 5 for the cloud storage in the welcome popup",
+      "message": "Користувацькі фони та макети"
+   },
+   "welcomePopupCloudTitle": {
+      "description": "Title for the cloud storage feature in the welcome popup",
+      "message": "Хочете зробити більше зі своїми відео?"
+   },
+   "welcomePopupDescriptionBottom": {
+      "description": "Description for the welcome popup shown to new users",
+      "message": "Просто натисніть «Запис»."
+   },
+   "welcomePopupDescriptionTop": {
+      "description": "Description for the welcome popup shown to new users",
+      "message": "Без реклами. Без стеження. Без обмежень."
+   },
+   "welcomePopupSupport": {
+      "description": "Message for supporting the indie maker in the welcome popup",
+      "message": "+ Підтримайте розробку від інді-розробниці!"
+   },
+   "welcomePopupTitle": {
+      "description": "Title for the welcome popup shown to new users",
+      "message": "Ласкаво просимо до Screenity"
+   },
+   "welcomeProButton": {
+      "description": "Button to sign in to Screenity Pro",
+      "message": "Увійти, щоб відкрити платні функції"
+   },
+   "welcomeProDescription": {
+      "description": "Description for the welcome Pro popup",
+      "message": "Увійдіть, щоб зберігати відео в хмарі, ділитися посиланням і редагувати з розширеними функціями."
+   },
+   "welcomeProSupport": {
+      "description": "Message for supporting the indie maker in the welcome Pro popup",
+      "message": "Підтримайте розробку від інді-розробниці"
+   },
+   "welcomeProTitle": {
+      "description": "Title for the welcome Pro popup",
+      "message": "Хочете зробити більше зі своїми записами?"
+   },
+   "welcomeToProActionModal": {
+      "description": "Кнопка дії у вікні привітання Pro",
+      "message": "Зрозуміло"
+   },
+   "welcomeToProDescriptionModal": {
+      "description": "Опис вікна привітання у Pro",
+      "message": "Усе готово для початку запису! Ось кілька речей, про які варто пам’ятати:\n\n- Під час запису бульбашка з камерою може зникати — це нормально. Вона записується окремо у фоновому режимі, тож пізніше ви зможете розмістити її як завгодно.\n- Збільшення створюються автоматично лише при кліках у вкладках Chrome — це обмеження браузера. Ви завжди можете додати збільшення вручну після запису.\n- Для швидких записів зі миттєвим завантаженням спробуйте Режим «Миттєво». Просто пам’ятайте, що можливості редагування обмежені: без фону, макетів або розширених налаштувань."
+   },
+   "welcomeToProTitleModal": {
+      "description": "Заголовок вікна привітання у Pro",
+      "message": "Ласкаво просимо до Screenity Pro"
+   },
+   "widthLabel": {
+      "description": "Width label for properties",
+      "message": "Ширина"
+   },
+   "zoomToPointPopup": {
+      "description": "Zoom to point popup",
+      "message": "Збільшити до курсору"
+   }
+}

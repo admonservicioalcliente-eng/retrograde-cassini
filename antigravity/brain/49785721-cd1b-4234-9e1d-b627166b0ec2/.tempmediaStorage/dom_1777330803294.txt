@@ -1,0 +1,15 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+FinApp
+Pro
+Accede a tu análisis financiero
+[0] (500,361)<label >ID Empresa />
+[1] (500,433)<input id='company-id' placeholder='Ej: DEMO' />
+[2] (500,536)<label >Contraseña />
+[3] (500,609)<input id='password' placeholder='••••••••' />
+[4] (500,735)<button class='btn-primary'>Ingresar />
+Usa "DEMO" y "1234" para acceder rápido, las credenciales se auto-registrarán.
+
+</current_dom>
