@@ -126,7 +126,16 @@ document.getElementById('entry-form').addEventListener('submit', async (e) => {
     };
 
     try {
+        // 1. Guardar localmente (IndexedDB)
         await saveFinancialRecord(record);
+        
+        // 2. Enviar a la base de datos en la nube (Aiven) mediante la Netlify Function
+        if (typeof enviarDatos === 'function') {
+            await enviarDatos(record);
+        } else {
+            console.warn("La función enviarDatos no está definida. Solo se guardó localmente.");
+        }
+
         showToast('Registro guardado exitosamente');
     } catch (err) {
         showToast(err, 'error');
