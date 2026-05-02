@@ -131,7 +131,20 @@ document.getElementById('entry-form').addEventListener('submit', async (e) => {
         
         // 2. Enviar a la base de datos en la nube (Aiven) mediante la Netlify Function
         if (typeof enviarDatos === 'function') {
-            await enviarDatos(record);
+            const aivenRecord = {
+                empresa_id: currentCompany,
+                clave_empresa: "NA", // O la contraseña si se requiere
+                anio: year,
+                mes: month,
+                ventas_netas: record.ventas_netas,
+                costo_ventas: record.costo_ventas,
+                gastos_administracion: record.gastos_administracion,
+                depreciacion: record.depreciacion_amortizacion,
+                ingresos_financieros: record.ingresos_financieros,
+                gastos_financieros: record.gastos_financieros,
+                impuesto_renta: record.impuestos
+            };
+            await enviarDatos(aivenRecord);
         } else {
             console.warn("La función enviarDatos no está definida. Solo se guardó localmente.");
         }
