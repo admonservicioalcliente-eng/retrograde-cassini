@@ -131,7 +131,20 @@ document.getElementById('entry-form').addEventListener('submit', async (e) => {
         
         // 2. Enviar a la base de datos en la nube (Aiven) mediante la Netlify Function
         if (typeof enviarDatos === 'function') {
-            await enviarDatos(record);
+            const mappedForAiven = {
+                empresa_id: currentCompany,
+                clave_empresa: "default",
+                anio: record.year,
+                mes: record.month,
+                ventas_netas: record.ventas_netas,
+                costo_ventas: record.costo_ventas,
+                gastos_administracion: record.gastos_administracion,
+                depreciacion: record.depreciacion_amortizacion,
+                ingresos_financieros: record.ingresos_financieros,
+                gastos_financieros: record.gastos_financieros,
+                impuesto_renta: record.impuestos
+            };
+            await enviarDatos(mappedForAiven);
         } else {
             console.warn("La función enviarDatos no está definida. Solo se guardó localmente.");
         }
@@ -149,7 +162,33 @@ document.getElementById('margins-year').addEventListener('change', () => loadMar
 
 const loadDashboard = async () => {
     const year = parseInt(document.getElementById('dash-year').value || currentYear);
-    const records = await getRecordsByYear(currentCompany, year);
+    
+    // FETCH FROM AIVEN
+    let records = [];
+    try {
+        const response = await fetch(`/.netlify/functions/obtener-financiero?empresa_id=${currentCompany}&anio=${year}`);
+        if(response.ok) {
+            const aivenData = await response.json();
+            // Map Aiven schema back to frontend schema
+            records = aivenData.map(dbRow => ({
+                company_id: dbRow.empresa_id,
+                year: dbRow.anio,
+                month: dbRow.mes,
+                ventas_netas: dbRow.ventas_netas,
+                costo_ventas: dbRow.costo_ventas,
+                gastos_administracion: dbRow.gastos_administracion,
+                depreciacion_amortizacion: dbRow.depreciacion,
+                ingresos_financieros: dbRow.ingresos_financieros,
+                gastos_financieros: dbRow.gastos_financieros,
+                impuestos: dbRow.impuesto_renta
+            }));
+        } else {
+            console.warn("No se pudo obtener datos de Aiven, leyendo local...");
+            records = await getRecordsByYear(currentCompany, year);
+        }
+    } catch(e) {
+        records = await getRecordsByYear(currentCompany, year);
+    }
     
     let tIngresos = 0, tBruta = 0, tEbitda = 0, tNeta = 0;
     
@@ -255,7 +294,30 @@ const updateCharts = (data) => {
 // Annual Statement
 const loadAnnualStatement = async () => {
     const year = parseInt(document.getElementById('table-year').value || currentYear);
-    const records = await getRecordsByYear(currentCompany, year);
+    
+    let records = [];
+    try {
+        const response = await fetch(`/.netlify/functions/obtener-financiero?empresa_id=${currentCompany}&anio=${year}`);
+        if(response.ok) {
+            const aivenData = await response.json();
+            records = aivenData.map(dbRow => ({
+                company_id: dbRow.empresa_id,
+                year: dbRow.anio,
+                month: dbRow.mes,
+                ventas_netas: dbRow.ventas_netas,
+                costo_ventas: dbRow.costo_ventas,
+                gastos_administracion: dbRow.gastos_administracion,
+                depreciacion_amortizacion: dbRow.depreciacion,
+                ingresos_financieros: dbRow.ingresos_financieros,
+                gastos_financieros: dbRow.gastos_financieros,
+                impuestos: dbRow.impuesto_renta
+            }));
+        } else {
+            records = await getRecordsByYear(currentCompany, year);
+        }
+    } catch(e) {
+        records = await getRecordsByYear(currentCompany, year);
+    }
     
     const fields = [
         { key: 'ventas_netas', label: '1. Ventas Netas' },
@@ -303,7 +365,30 @@ const loadAnnualStatement = async () => {
 // Margins Statement
 const loadMarginsStatement = async () => {
     const year = parseInt(document.getElementById('margins-year').value || currentYear);
-    const records = await getRecordsByYear(currentCompany, year);
+    
+    let records = [];
+    try {
+        const response = await fetch(`/.netlify/functions/obtener-financiero?empresa_id=${currentCompany}&anio=${year}`);
+        if(response.ok) {
+            const aivenData = await response.json();
+            records = aivenData.map(dbRow => ({
+                company_id: dbRow.empresa_id,
+                year: dbRow.anio,
+                month: dbRow.mes,
+                ventas_netas: dbRow.ventas_netas,
+                costo_ventas: dbRow.costo_ventas,
+                gastos_administracion: dbRow.gastos_administracion,
+                depreciacion_amortizacion: dbRow.depreciacion,
+                ingresos_financieros: dbRow.ingresos_financieros,
+                gastos_financieros: dbRow.gastos_financieros,
+                impuestos: dbRow.impuesto_renta
+            }));
+        } else {
+            records = await getRecordsByYear(currentCompany, year);
+        }
+    } catch(e) {
+        records = await getRecordsByYear(currentCompany, year);
+    }
     
     const fields = [
         { key: 'costo_ventas', label: 'Costo de Ventas (%)', inverse: true },
