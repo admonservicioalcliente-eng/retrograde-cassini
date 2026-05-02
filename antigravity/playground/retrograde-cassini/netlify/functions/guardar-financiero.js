@@ -40,7 +40,7 @@ exports.handler = async (event, context) => {
     console.error(err);
     return {
       statusCode: 500,
-      body: JSON.stringify({ error: "Error al guardar en la base de datos" }),
+      body: JSON.stringify({ error: err.message, details: "Error en guardar-financiero" }),
     };
   } finally {
     await client.end();

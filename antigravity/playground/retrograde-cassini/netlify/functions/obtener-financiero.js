@@ -35,7 +35,7 @@ exports.handler = async (event, context) => {
     console.error(err);
     return {
       statusCode: 500,
-      body: JSON.stringify({ error: "Error al leer en la base de datos de Aiven" }),
+      body: JSON.stringify({ error: err.message, details: "Error en obtener-financiero" }),
     };
   } finally {
     await client.end();
