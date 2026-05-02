@@ -1,4 +1,12 @@
 [build]
+  # Carpeta donde están las funciones
   functions = "netlify/functions"
-  publish = ".next"
-  command = "npm run build"
+  
+  # Carpeta que se publicará en la web (el directorio actual donde está index.html)
+  publish = "."
+  
+  # Comando para instalar las dependencias de las funciones (la librería 'pg' para Aiven)
+  command = "npm install pg"
+
+[functions]
+  node_bundler = "esbuild"
