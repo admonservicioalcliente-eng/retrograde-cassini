@@ -12,7 +12,11 @@ exports.handler = async (event, context) => {
   }
 
   if (event.httpMethod !== "POST") {
-    return { statusCode: 405, headers: CORS_HEADERS, body: "Método no permitido" };
+    return { 
+      statusCode: 405, 
+      headers: { ...CORS_HEADERS, "Content-Type": "application/json" }, 
+      body: JSON.stringify({ error: "Método no permitido", receivedMethod: event.httpMethod }) 
+    };
   }
 
   const client = new Client({
