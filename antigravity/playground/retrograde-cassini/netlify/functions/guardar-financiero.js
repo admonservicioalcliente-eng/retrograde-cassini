@@ -1,9 +1,18 @@
 const { Client } = require('pg');
 
+const CORS_HEADERS = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Headers": "Content-Type",
+  "Access-Control-Allow-Methods": "POST, OPTIONS"
+};
+
 exports.handler = async (event, context) => {
-  // Solo permitir peticiones POST
+  if (event.httpMethod === "OPTIONS") {
+    return { statusCode: 200, headers: CORS_HEADERS, body: "" };
+  }
+
   if (event.httpMethod !== "POST") {
-    return { statusCode: 405, body: "Método no permitido" };
+    return { statusCode: 405, headers: CORS_HEADERS, body: "Método no permitido" };
   }
 
   const client = new Client({
@@ -34,12 +43,14 @@ exports.handler = async (event, context) => {
     
     return {
       statusCode: 200,
+      headers: CORS_HEADERS,
       body: JSON.stringify({ message: "Éxito", id: res.rows[0].id }),
     };
   } catch (err) {
     console.error(err);
     return {
       statusCode: 500,
+      headers: CORS_HEADERS,
       body: JSON.stringify({ error: err.message, details: "Error en guardar-financiero" }),
     };
   } finally {

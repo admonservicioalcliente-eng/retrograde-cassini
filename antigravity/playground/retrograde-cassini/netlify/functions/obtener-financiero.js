@@ -1,8 +1,18 @@
 const { Client } = require('pg');
 
+const CORS_HEADERS = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Headers": "Content-Type",
+  "Access-Control-Allow-Methods": "GET, OPTIONS"
+};
+
 exports.handler = async (event, context) => {
+  if (event.httpMethod === "OPTIONS") {
+    return { statusCode: 200, headers: CORS_HEADERS, body: "" };
+  }
+
   if (event.httpMethod !== "GET") {
-    return { statusCode: 405, body: "Método no permitido" };
+    return { statusCode: 405, headers: CORS_HEADERS, body: "Método no permitido" };
   }
 
   const { empresa_id, anio } = event.queryStringParameters;
@@ -28,13 +38,14 @@ exports.handler = async (event, context) => {
     
     return {
       statusCode: 200,
-      headers: { "Content-Type": "application/json" },
+      headers: { ...CORS_HEADERS, "Content-Type": "application/json" },
       body: JSON.stringify(res.rows),
     };
   } catch (err) {
     console.error(err);
     return {
       statusCode: 500,
+      headers: CORS_HEADERS,
       body: JSON.stringify({ error: err.message, details: "Error en obtener-financiero" }),
     };
   } finally {
