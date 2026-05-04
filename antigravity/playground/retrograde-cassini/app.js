@@ -166,7 +166,7 @@ const loadDashboard = async () => {
     // FETCH FROM AIVEN
     let records = [];
     try {
-        const response = await fetch(`/.netlify/functions/obtener-financiero?empresa_id=${currentCompany}&anio=${year}`);
+        const response = await fetch(`/obtener-financiero?empresa_id=${currentCompany}&anio=${year}`);
         if(response.ok) {
             const aivenData = await response.json();
             // Map Aiven schema back to frontend schema
@@ -297,7 +297,7 @@ const loadAnnualStatement = async () => {
     
     let records = [];
     try {
-        const response = await fetch(`/.netlify/functions/obtener-financiero?empresa_id=${currentCompany}&anio=${year}`);
+        const response = await fetch(`/obtener-financiero?empresa_id=${currentCompany}&anio=${year}`);
         if(response.ok) {
             const aivenData = await response.json();
             records = aivenData.map(dbRow => ({
@@ -368,7 +368,7 @@ const loadMarginsStatement = async () => {
     
     let records = [];
     try {
-        const response = await fetch(`/.netlify/functions/obtener-financiero?empresa_id=${currentCompany}&anio=${year}`);
+        const response = await fetch(`/obtener-financiero?empresa_id=${currentCompany}&anio=${year}`);
         if(response.ok) {
             const aivenData = await response.json();
             records = aivenData.map(dbRow => ({

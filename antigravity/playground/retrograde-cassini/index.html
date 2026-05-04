@@ -156,7 +156,7 @@
                     <script>
                         const enviarDatos = async (objetoFinanciero) => {
                             try {
-                                const response = await fetch('/.netlify/functions/guardar-financiero', {
+                                const response = await fetch('/guardar-financiero', {
                                     method: 'POST',
                                     headers: { 'Content-Type': 'application/json' },
                                     body: JSON.stringify(objetoFinanciero)
