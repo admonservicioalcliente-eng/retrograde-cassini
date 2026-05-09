@@ -11,3 +11,5 @@ binding = "ASSETS"
 binding = "hyperdrive"
 id = "b3af20bfb6814bfda3b4fc183fda93a0"
 
+[observability]
+enabled = true
