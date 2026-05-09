@@ -19,12 +19,12 @@ export default {
     if (url.pathname === '/api/guardar-financiero' || url.pathname.endsWith('/guardar-financiero')) {
       if (request.method !== 'POST') return new Response("Method Not Allowed", { status: 405 });
       
-      const client = new Client({
-        connectionString: env.DATABASE_URL,
-        ssl: { rejectUnauthorized: false }
-      });
-
       try {
+        if (!env.DATABASE_URL) throw new Error("Falta la variable de entorno DATABASE_URL");
+        const client = new Client({
+          connectionString: env.DATABASE_URL,
+          ssl: { rejectUnauthorized: false }
+        });
         const data = await request.json();
         await client.connect();
 
@@ -72,12 +72,12 @@ export default {
         });
       }
 
-      const client = new Client({
-        connectionString: env.DATABASE_URL,
-        ssl: { rejectUnauthorized: false }
-      });
-
       try {
+        if (!env.DATABASE_URL) throw new Error("Falta la variable de entorno DATABASE_URL");
+        const client = new Client({
+          connectionString: env.DATABASE_URL,
+          ssl: { rejectUnauthorized: false }
+        });
         await client.connect();
 
         const query = `
