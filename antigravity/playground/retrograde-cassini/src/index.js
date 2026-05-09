@@ -52,7 +52,7 @@ export default {
 
       } catch (err) {
         console.error(err);
-        return new Response(JSON.stringify({ error: err.message, details: "Cloudflare Worker Error" }), {
+        return new Response(JSON.stringify({ error: err.message, details: "Cloudflare Worker Error", env_hyperdrive_exists: !!env.HYPERDRIVE }), {
           status: 500,
           headers: { ...CORS_HEADERS, "Content-Type": "application/json" }
         });
@@ -93,7 +93,7 @@ export default {
         });
       } catch (err) {
         console.error(err);
-        return new Response(JSON.stringify({ error: err.message, details: "Cloudflare Worker Error" }), {
+        return new Response(JSON.stringify({ error: err.message, details: "Cloudflare Worker Error", env_hyperdrive_exists: !!env.HYPERDRIVE }), {
           status: 500, headers: { ...CORS_HEADERS, "Content-Type": "application/json" }
         });
       }
