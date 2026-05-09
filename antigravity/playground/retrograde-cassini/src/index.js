@@ -22,8 +22,7 @@ export default {
       try {
         if (!env.DATABASE_URL) throw new Error("Falta la variable de entorno DATABASE_URL");
         const client = new Client({
-          connectionString: env.DATABASE_URL,
-          ssl: { rejectUnauthorized: false }
+          connectionString: env.DATABASE_URL
         });
         const data = await request.json();
         await client.connect();
@@ -75,8 +74,7 @@ export default {
       try {
         if (!env.DATABASE_URL) throw new Error("Falta la variable de entorno DATABASE_URL");
         const client = new Client({
-          connectionString: env.DATABASE_URL,
-          ssl: { rejectUnauthorized: false }
+          connectionString: env.DATABASE_URL
         });
         await client.connect();
 
