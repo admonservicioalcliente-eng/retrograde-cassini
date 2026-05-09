@@ -4,7 +4,7 @@ compatibility_date = "2026-05-01"
 compatibility_flags = [ "nodejs_compat" ]
 
 [assets]
-directory = "."
+directory = "./public"
 binding = "ASSETS"
 
 [[hyperdrive]]
@@ -13,5 +13,3 @@ id = "b3af20bfb6814bfda3b4fc183fda93a0"
 
 [observability]
 enabled = true
-
-pages_build_output_dir = "."
