@@ -2,6 +2,11 @@ name = "retrograde-cassini"
 main = "src/index.js"
 compatibility_date = "2024-11-01"
 compatibility_flags = [ "nodejs_compat" ]
+node_compat = true
 
 [assets]
 directory = "public"
+
+[[hyperdrive]]
+binding = "HYPERDRIVE"
+id = "b3af20bfb6814bfda3b4fc183fda93a0"

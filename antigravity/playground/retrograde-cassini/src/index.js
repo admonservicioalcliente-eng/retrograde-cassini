@@ -20,9 +20,10 @@ export default {
       if (request.method !== 'POST') return new Response("Method Not Allowed", { status: 405 });
       
       try {
-        if (!env.DATABASE_URL) throw new Error("Falta la variable de entorno DATABASE_URL");
+        const connectionString = env.HYPERDRIVE?.connectionString || env.DATABASE_URL;
+        if (!connectionString) throw new Error("Falta el túnel HYPERDRIVE o DATABASE_URL");
         const client = new Client({
-          connectionString: env.DATABASE_URL
+          connectionString
         });
         const data = await request.json();
         await client.connect();
@@ -72,9 +73,10 @@ export default {
       }
 
       try {
-        if (!env.DATABASE_URL) throw new Error("Falta la variable de entorno DATABASE_URL");
+        const connectionString = env.HYPERDRIVE?.connectionString || env.DATABASE_URL;
+        if (!connectionString) throw new Error("Falta el túnel HYPERDRIVE o DATABASE_URL");
         const client = new Client({
-          connectionString: env.DATABASE_URL
+          connectionString
         });
         await client.connect();
 
