@@ -1,0 +1,1 @@
+(()=>{const e=chrome.runtime.getURL("assets/sounds/beep.mp3");let t=null;const c=()=>{const c=(t||(t=new Audio(e),t.volume=.5),t);try{c.currentTime=0}catch{}const n=c.play();n?.catch&&n.catch(()=>{})};chrome.runtime.onMessage.addListener((e,t,n)=>"play-beep-offscreen"===e?.type&&(c(),n&&n({ok:!0}),!0))})();

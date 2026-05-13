@@ -1,0 +1,32 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (500,728)<div  />
+	[1] (887,63)<button class='group flex w-max shrink-0 items-center font-medium select-none border-0 focus:outline-none focus:ring-kumo-focus/50 focus-visible:ring-2 focus-visible:ring-kumo-brand cursor-pointer disabled:cursor-not-allowed disabled:text-kumo-subtle text-kumo-default hover:bg-kumo-tint shadow-none bg-inherit h-9 gap-1.5 rounded-lg px-3 text-base' id='base-ui-:r4:'>English />
+	[2] (961,63)<a class='group w-max shrink-0 font-medium select-none border-0 shadow-xs focus:outline-none focus:ring-kumo-focus/50 focus-visible:ring-2 focus-visible:ring-kumo-brand cursor-pointer disabled:cursor-not-allowed disabled:text-kumo-subtle bg-kumo-base !text-kumo-default ring not-disabled:hover:bg-kumo-tint disabled:bg-kumo-base/50 disabled:!text-kumo-default/70 ring-kumo-hairline data-[state=open]:bg-kumo-base h-9 gap-1.5 rounded-lg px-3 text-base flex items-center no-underline!' href='/sign-up' />
+		[3] (961,63)<span >Sign up />
+	Log in to Cloudflare
+	[4] (412,410)<button aria-label='Continue with Google' class='group shrink-0 font-medium select-none border-0 shadow-xs focus:outline-none focus:ring-kumo-focus/50 focus-visible:ring-2 focus-visible:ring-kumo-brand cursor-pointer disabled:cursor-not-allowed disabled:text-kumo-subtle bg-kumo-base !text-kumo-default ring not-disabled:hover:bg-kumo-tint disabled:bg-kumo-base/50 disabled:!text-kumo-default/70 ring-kumo-hairline data-[state=open]:bg-kumo-base h-10 gap-2 rounded-lg px-4 text-base w-full flex items-center justify-center' />
+		[5] (421,410)<span >Google />
+	[6] (500,410)<button aria-label='Continue with Apple' class='group shrink-0 font-medium select-none border-0 shadow-xs focus:outline-none focus:ring-kumo-focus/50 focus-visible:ring-2 focus-visible:ring-kumo-brand cursor-pointer disabled:cursor-not-allowed disabled:text-kumo-subtle bg-kumo-base !text-kumo-default ring not-disabled:hover:bg-kumo-tint disabled:bg-kumo-base/50 disabled:!text-kumo-default/70 ring-kumo-hairline data-[state=open]:bg-kumo-base h-10 gap-2 rounded-lg px-4 text-base w-full flex items-center justify-center' />
+		[7] (508,410)<span >Apple />
+	[8] (588,410)<button aria-label='Continue with GitHub' class='group shrink-0 font-medium select-none border-0 shadow-xs focus:outline-none focus:ring-kumo-focus/50 focus-visible:ring-2 focus-visible:ring-kumo-brand cursor-pointer disabled:cursor-not-allowed disabled:text-kumo-subtle bg-kumo-base !text-kumo-default ring not-disabled:hover:bg-kumo-tint disabled:bg-kumo-base/50 disabled:!text-kumo-default/70 ring-kumo-hairline data-[state=open]:bg-kumo-base h-10 gap-2 rounded-lg px-4 text-base w-full flex items-center justify-center hover:bg-secondary-hover' />
+		[9] (596,410)<span >GitHub />
+	[10] (500,489)<button class='group shrink-0 font-medium select-none border-0 shadow-xs focus:outline-none focus:ring-kumo-focus/50 focus-visible:ring-2 focus-visible:ring-kumo-brand cursor-pointer disabled:cursor-not-allowed disabled:text-kumo-subtle bg-kumo-base !text-kumo-default ring not-disabled:hover:bg-kumo-tint disabled:bg-kumo-base/50 disabled:!text-kumo-default/70 ring-kumo-hairline data-[state=open]:bg-kumo-base h-10 gap-2 rounded-lg px-4 text-base w-full flex items-center justify-center transition-all duration-200' />
+		[11] (510,489)<span >Continue with SSO />
+	or
+	[12] (384,616)<label class='m-0 text-base font-medium text-kumo-default'>Email />
+	[13] (599,616)<a class='text-sm no-underline text-kumo-subtle hover:text-kumo-default' href='/forgot-email' />
+		[14] (599,615)<span >Forgot email? />
+	[15] (500,679)<input class='border-0 bg-kumo-control text-kumo-default ring ring-kumo-line outline-none focus:outline-none kumo-input-placeholder disabled:text-kumo-disabled h-10 gap-2 rounded-lg px-4 text-base focus:ring-kumo-focus/50 focus:ring-[1.5px]' id='email' />
+	[16] (395,754)<label class='m-0 text-base font-medium text-kumo-default'>Password />
+	[17] (590,754)<a class='text-sm no-underline text-kumo-subtle hover:text-kumo-default' href='/forgot-password' />
+		[18] (590,753)<span >Forgot password? />
+	[19] (500,817)<input class='border-0 bg-kumo-control text-kumo-default ring ring-kumo-line outline-none focus:outline-none kumo-input-placeholder disabled:text-kumo-disabled h-10 gap-2 rounded-lg px-4 text-base focus:ring-kumo-focus/50 focus:ring-[1.5px] w-full pr-11' id='password' />
+	[20] (614,814)<button aria-label='Show' class='absolute flex items-center h-9 p-3 bg-transparent right-0 top-0 rounded-r-lg text-kumo-subtle hover:text-kumo-default focus:text-kumo-default' />
+	[21] (500,894)<label class='c_ah c_b c_ay'>Let us know you are human />
+		Let us know you are human
+	Log in
+
+</current_dom>

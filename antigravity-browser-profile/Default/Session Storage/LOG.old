@@ -1,3 +1,9 @@
-2026/04/19-11:54:11.794 2288 Reusing MANIFEST C:\Users\SUPERUSUARIO\.gemini\antigravity-browser-profile\Default\Session Storage/MANIFEST-000001
-2026/04/19-11:54:11.799 2288 Recovering log #36
-2026/04/19-11:54:11.903 2288 Reusing old log C:\Users\SUPERUSUARIO\.gemini\antigravity-browser-profile\Default\Session Storage/000036.log 
+2026/04/27-17:59:20.733 3d4c Reusing MANIFEST C:\Users\SUPERUSUARIO\.gemini\antigravity-browser-profile\Default\Session Storage/MANIFEST-000001
+2026/04/27-17:59:21.311 3d4c Recovering log #36
+2026/04/27-17:59:22.648 3d4c Reusing old log C:\Users\SUPERUSUARIO\.gemini\antigravity-browser-profile\Default\Session Storage/000036.log 
+2026/04/27-19:43:49.591 3d4c Compacting 1@0 + 1@1 files
+2026/04/27-19:43:50.634 3d4c Generated table #39@0: 342 keys, 7098 bytes
+2026/04/27-19:43:50.635 3d4c Compacted 1@0 + 1@1 files => 7098 bytes
+2026/04/27-19:43:51.101 3d4c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/27-19:43:51.136 3d4c Delete type=2 #34
+2026/04/27-19:43:51.136 3d4c Delete type=2 #37

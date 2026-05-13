@@ -1,9 +1,9 @@
-2026/04/27-17:59:20.733 3d4c Reusing MANIFEST C:\Users\SUPERUSUARIO\.gemini\antigravity-browser-profile\Default\Session Storage/MANIFEST-000001
-2026/04/27-17:59:21.311 3d4c Recovering log #36
-2026/04/27-17:59:22.648 3d4c Reusing old log C:\Users\SUPERUSUARIO\.gemini\antigravity-browser-profile\Default\Session Storage/000036.log 
-2026/04/27-19:43:49.591 3d4c Compacting 1@0 + 1@1 files
-2026/04/27-19:43:50.634 3d4c Generated table #39@0: 342 keys, 7098 bytes
-2026/04/27-19:43:50.635 3d4c Compacted 1@0 + 1@1 files => 7098 bytes
-2026/04/27-19:43:51.101 3d4c compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/04/27-19:43:51.136 3d4c Delete type=2 #34
-2026/04/27-19:43:51.136 3d4c Delete type=2 #37
+2026/05/13-16:40:51.245 2cf8 Reusing MANIFEST C:\Users\SUPERUSUARIO\.gemini\antigravity-browser-profile\Default\Session Storage/MANIFEST-000001
+2026/05/13-16:40:51.449 2cf8 Recovering log #36
+2026/05/13-16:40:51.550 2cf8 Reusing old log C:\Users\SUPERUSUARIO\.gemini\antigravity-browser-profile\Default\Session Storage/000036.log 
+2026/05/13-16:44:33.309 2cf8 Level-0 table #42: started
+2026/05/13-16:44:33.351 2cf8 Level-0 table #42: 26987 bytes OK
+2026/05/13-16:44:33.402 2cf8 Delete type=0 #36
+2026/05/13-16:46:19.564 2cf8 Level-0 table #44: started
+2026/05/13-16:46:19.771 2cf8 Level-0 table #44: 804399 bytes OK
+2026/05/13-16:46:19.870 2cf8 Delete type=0 #41
