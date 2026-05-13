@@ -20,7 +20,7 @@ export default {
       if (request.method !== 'POST') return new Response("Method Not Allowed", { status: 405 });
       
       try {
-        const connectionString = env.HYPERDRIVE?.connectionString || env.DATABASE_URL;
+        const connectionString = env.hyperdrive?.connectionString || env.DATABASE_URL;
         if (!connectionString) throw new Error("Falta el túnel HYPERDRIVE o DATABASE_URL");
         const client = new Client({
           connectionString
@@ -52,7 +52,7 @@ export default {
 
       } catch (err) {
         console.error(err);
-        return new Response(JSON.stringify({ error: err.message, details: "Cloudflare Worker Error", env_hyperdrive_exists: !!env.HYPERDRIVE }), {
+        return new Response(JSON.stringify({ error: err.message, details: "Cloudflare Worker Error", env_hyperdrive_exists: !!env.hyperdrive }), {
           status: 500,
           headers: { ...CORS_HEADERS, "Content-Type": "application/json" }
         });
@@ -73,7 +73,7 @@ export default {
       }
 
       try {
-        const connectionString = env.HYPERDRIVE?.connectionString || env.DATABASE_URL;
+        const connectionString = env.hyperdrive?.connectionString || env.DATABASE_URL;
         if (!connectionString) throw new Error("Falta el túnel HYPERDRIVE o DATABASE_URL");
         const client = new Client({
           connectionString
@@ -93,7 +93,7 @@ export default {
         });
       } catch (err) {
         console.error(err);
-        return new Response(JSON.stringify({ error: err.message, details: "Cloudflare Worker Error", env_hyperdrive_exists: !!env.HYPERDRIVE }), {
+        return new Response(JSON.stringify({ error: err.message, details: "Cloudflare Worker Error", env_hyperdrive_exists: !!env.hyperdrive }), {
           status: 500, headers: { ...CORS_HEADERS, "Content-Type": "application/json" }
         });
       }
