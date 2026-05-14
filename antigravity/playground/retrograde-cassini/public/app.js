@@ -511,3 +511,19 @@ document.getElementById('table-year').value = currentYear;
 document.getElementById('margins-year').value = currentYear;
 // Make chart text color globally white for dark theme
 Chart.defaults.color = '#94a3b8';
+
+const enviarDatos = async (objetoFinanciero) => {
+    // La URL debe ser la de tu Cloudflare Worker o Netlify Function
+    const response = await fetch('/guardar-financiero', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(objetoFinanciero)
+    });
+
+    if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(errorText || 'Error en el servidor');
+    }
+
+    return await response.json();
+};
