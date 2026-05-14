@@ -1,4 +1,4 @@
-import { Client } from 'pg';
+import { Client } from '@cloudflare/pg-worker';
 
 const CORS_HEADERS = {
   "Access-Control-Allow-Origin": "*",
@@ -33,6 +33,14 @@ export default {
           (empresa_id, clave_empresa, anio, mes, ventas_netas, costo_ventas, gastos_administracion, depreciacion, ingresos_financieros, gastos_financieros, impuesto_renta)
           VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
           ON CONFLICT (empresa_id, anio, mes)
+          DO UPDATE SET 
+            ventas_netas = EXCLUDED.ventas_netas,
+            costo_ventas = EXCLUDED.costo_ventas,
+            gastos_administracion = EXCLUDED.gastos_administracion,
+            depreciacion = EXCLUDED.depreciacion,
+            ingresos_financieros = EXCLUDED.ingresos_financieros,
+            gastos_financieros = EXCLUDED.gastos_financieros,
+            impuesto_renta = EXCLUDED.impuesto_renta
           RETURNING id;
         `;
         const values = [
