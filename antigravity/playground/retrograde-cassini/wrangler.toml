@@ -10,6 +10,7 @@ binding = "ASSETS"
 [[hyperdrive]]
 binding = "hyperdrive"
 id = "0c6bb55e73da4211a3cd631e536d8f71"
+localConnectionString = "postgres://avnadmin:<redacted>@pg-control1965-admonservicioalcliente-1965.b.aivencloud.com:24731/defaultdb?sslmode=require"
 
 [observability]
 enabled = true
