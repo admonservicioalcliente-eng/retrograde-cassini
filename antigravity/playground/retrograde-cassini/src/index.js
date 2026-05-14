@@ -18,7 +18,7 @@ export default {
     // Route: /api/guardar-financiero
     if (url.pathname === '/api/guardar-financiero' || url.pathname.endsWith('/guardar-financiero')) {
       if (request.method !== 'POST') return new Response("Method Not Allowed", { status: 405 });
-      
+
       try {
         const connectionString = env.hyperdrive?.connectionString || env.DATABASE_URL;
         if (!connectionString) throw new Error("Falta el túnel HYPERDRIVE o DATABASE_URL");
@@ -32,17 +32,18 @@ export default {
           INSERT INTO registros_financieros 
           (empresa_id, clave_empresa, anio, mes, ventas_netas, costo_ventas, gastos_administracion, depreciacion, ingresos_financieros, gastos_financieros, impuesto_renta)
           VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+          ON CONFLICT (empresa_id, anio, mes)
           RETURNING id;
         `;
         const values = [
-          data.empresa_id, data.clave_empresa, data.anio, data.mes, 
-          data.ventas_netas, data.costo_ventas, data.gastos_administracion, 
-          data.depreciacion, data.ingresos_financieros, data.gastos_financieros, 
+          data.empresa_id, data.clave_empresa, data.anio, data.mes,
+          data.ventas_netas, data.costo_ventas, data.gastos_administracion,
+          data.depreciacion, data.ingresos_financieros, data.gastos_financieros,
           data.impuesto_renta
         ];
 
         const res = await client.query(query, values);
-        
+
         // Use ctx.waitUntil to close client after returning response
         ctx.waitUntil(client.end());
 
