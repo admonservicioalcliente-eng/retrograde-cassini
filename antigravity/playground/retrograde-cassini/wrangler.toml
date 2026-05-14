@@ -9,7 +9,7 @@ binding = "ASSETS"
 
 [[hyperdrive]]
 binding = "hyperdrive"
-id = "b3af20bfb6814bfda3b4fc183fda93a0"
+id = "0c6bb55e73da4211a3cd631e536d8f71"
 
 [observability]
 enabled = true
