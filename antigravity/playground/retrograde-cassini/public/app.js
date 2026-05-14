@@ -5,7 +5,7 @@ let marginsChartInstance = null;
 let marginsEvolutionChartInstance = null;
 const currentYear = new Date().getFullYear();
 
-// Utils
+// Utils    y
 const showToast = (message, type = 'success') => {
     const toast = document.getElementById('toast');
     toast.textContent = message;
@@ -45,10 +45,10 @@ const switchView = (viewId) => {
 const switchSection = (sectionId) => {
     document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
     document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
-    
+
     document.getElementById(sectionId).classList.add('active');
     document.querySelector(`.nav-btn[data-target="${sectionId}"]`).classList.add('active');
-    
+
     if (sectionId === 'dashboard-home') loadDashboard();
     if (sectionId === 'annual-statement') loadAnnualStatement();
     if (sectionId === 'margins-statement') loadMarginsStatement();
@@ -70,7 +70,7 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
         const user = await loginUser(id, pwd);
         currentCompany = user.id;
         document.getElementById('current-company').textContent = `🏠 ${currentCompany}`;
-        
+
         switchView('dashboard-view');
         switchSection('dashboard-home');
         showToast(`Bienvenido ${currentCompany}`);
@@ -94,24 +94,24 @@ document.getElementById('entry-month').addEventListener('change', async (e) => {
 });
 
 const loadEntryData = async (year, month) => {
-    if(!currentCompany) return;
+    if (!currentCompany) return;
     try {
         const record = await getRecordMeta(currentCompany, parseInt(year), parseInt(month));
         const fields = ['ventas_netas', 'costo_ventas', 'gastos_administracion', 'depreciacion_amortizacion', 'ingresos_financieros', 'gastos_financieros', 'impuestos'];
-        
+
         if (record) {
             fields.forEach(f => document.getElementById(f.replace('_', '-')).value = record[f]);
         } else {
             fields.forEach(f => document.getElementById(f.replace('_', '-')).value = '');
         }
-    } catch (err) {}
+    } catch (err) { }
 };
 
 document.getElementById('entry-form').addEventListener('submit', async (e) => {
     e.preventDefault();
     const year = parseInt(document.getElementById('entry-year').value);
     const month = parseInt(document.getElementById('entry-month').value);
-    
+
     const record = {
         company_id: currentCompany,
         year,
@@ -128,7 +128,7 @@ document.getElementById('entry-form').addEventListener('submit', async (e) => {
     try {
         // 1. Guardar localmente (IndexedDB)
         await saveFinancialRecord(record);
-        
+
         // 2. Enviar a la base de datos en la nube (Aiven) mediante la Netlify Function
         if (typeof enviarDatos === 'function') {
             const mappedForAiven = {
@@ -162,12 +162,12 @@ document.getElementById('margins-year').addEventListener('change', () => loadMar
 
 const loadDashboard = async () => {
     const year = parseInt(document.getElementById('dash-year').value || currentYear);
-    
+
     // FETCH FROM AIVEN
     let records = [];
     try {
         const response = await fetch(`/obtener-financiero?empresa_id=${currentCompany}&anio=${year}`);
-        if(response.ok) {
+        if (response.ok) {
             const aivenData = await response.json();
             // Map Aiven schema back to frontend schema
             records = aivenData.map(dbRow => ({
@@ -186,12 +186,12 @@ const loadDashboard = async () => {
             console.warn("No se pudo obtener datos de Aiven, leyendo local...");
             records = await getRecordsByYear(currentCompany, year);
         }
-    } catch(e) {
+    } catch (e) {
         records = await getRecordsByYear(currentCompany, year);
     }
-    
+
     let tIngresos = 0, tBruta = 0, tEbitda = 0, tNeta = 0;
-    
+
     const monthlyData = Array(12).fill(null).map(() => ({ ventas: 0, neta: 0, ebitda: 0, ebit: 0 }));
 
     records.forEach(rec => {
@@ -200,7 +200,7 @@ const loadDashboard = async () => {
         tBruta += metrics.utilidadBruta;
         tEbitda += metrics.ebitda;
         tNeta += metrics.utilidadNeta;
-        
+
         const m = rec.month - 1;
         monthlyData[m] = {
             ventas: metrics.ventas,
@@ -222,11 +222,11 @@ const loadDashboard = async () => {
 
 const updateCharts = (data) => {
     const labels = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
-    
+
     // Chart 1: Evolución
     const ctx1 = document.getElementById('monthlyChart').getContext('2d');
-    if(monthlyChartInstance) monthlyChartInstance.destroy();
-    
+    if (monthlyChartInstance) monthlyChartInstance.destroy();
+
     monthlyChartInstance = new Chart(ctx1, {
         type: 'bar',
         data: {
@@ -261,8 +261,8 @@ const updateCharts = (data) => {
 
     // Chart 2: Margins
     const ctx2 = document.getElementById('marginsChart').getContext('2d');
-    if(marginsChartInstance) marginsChartInstance.destroy();
-    
+    if (marginsChartInstance) marginsChartInstance.destroy();
+
     marginsChartInstance = new Chart(ctx2, {
         type: 'line',
         data: {
@@ -294,11 +294,11 @@ const updateCharts = (data) => {
 // Annual Statement
 const loadAnnualStatement = async () => {
     const year = parseInt(document.getElementById('table-year').value || currentYear);
-    
+
     let records = [];
     try {
         const response = await fetch(`/obtener-financiero?empresa_id=${currentCompany}&anio=${year}`);
-        if(response.ok) {
+        if (response.ok) {
             const aivenData = await response.json();
             records = aivenData.map(dbRow => ({
                 company_id: dbRow.empresa_id,
@@ -315,10 +315,10 @@ const loadAnnualStatement = async () => {
         } else {
             records = await getRecordsByYear(currentCompany, year);
         }
-    } catch(e) {
+    } catch (e) {
         records = await getRecordsByYear(currentCompany, year);
     }
-    
+
     const fields = [
         { key: 'ventas_netas', label: '1. Ventas Netas' },
         { key: 'costo_ventas', label: '2. Costo de Ventas' },
@@ -342,20 +342,20 @@ const loadAnnualStatement = async () => {
     });
 
     let html = '';
-    
+
     fields.forEach(field => {
         let rowClass = field.highlight ? 'row-total' : (field.bold ? 'row-header' : '');
         html += `<tr class="${rowClass}"><td>${field.label}</td>`;
-        
+
         let rowTotal = 0;
-        
+
         for (let m = 1; m <= 12; m++) {
             const mRecord = mData[m] || {};
             const val = mRecord[field.key] || 0;
             rowTotal += val;
             html += `<td>${val !== 0 ? formatCurrency(val) : '-'}</td>`;
         }
-        
+
         html += `<td class="highlight">${formatCurrency(rowTotal)}</td></tr>`;
     });
 
@@ -365,11 +365,11 @@ const loadAnnualStatement = async () => {
 // Margins Statement
 const loadMarginsStatement = async () => {
     const year = parseInt(document.getElementById('margins-year').value || currentYear);
-    
+
     let records = [];
     try {
         const response = await fetch(`/obtener-financiero?empresa_id=${currentCompany}&anio=${year}`);
-        if(response.ok) {
+        if (response.ok) {
             const aivenData = await response.json();
             records = aivenData.map(dbRow => ({
                 company_id: dbRow.empresa_id,
@@ -386,10 +386,10 @@ const loadMarginsStatement = async () => {
         } else {
             records = await getRecordsByYear(currentCompany, year);
         }
-    } catch(e) {
+    } catch (e) {
         records = await getRecordsByYear(currentCompany, year);
     }
-    
+
     const fields = [
         { key: 'costo_ventas', label: 'Costo de Ventas (%)', inverse: true },
         { key: 'utilidadBruta', label: 'Margen Bruto (%)', derived: true, bold: true },
@@ -412,16 +412,16 @@ const loadMarginsStatement = async () => {
     });
 
     let html = '';
-    
+
     const chartData = { labels: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'], bruto: [], ebitda: [], ebit: [], neto: [] };
 
     fields.forEach(field => {
         let rowClass = field.highlight ? 'row-total' : (field.bold ? 'row-header' : '');
         html += `<tr class="${rowClass}"><td>${field.label}</td>`;
-        
+
         let sumMargin = 0;
         let count = 0;
-        
+
         for (let m = 1; m <= 12; m++) {
             const mRecord = mData[m];
             if (mRecord && mRecord.ventas > 0) {
@@ -429,7 +429,7 @@ const loadMarginsStatement = async () => {
                 const percent = (val / mRecord.ventas) * 100;
                 sumMargin += percent;
                 count++;
-                
+
                 // Color Logic
                 let colorClass = '';
                 if (!field.inverse && percent < 0) colorClass = 'text-danger';
@@ -450,7 +450,7 @@ const loadMarginsStatement = async () => {
                 if (field.key === 'utilidadNeta') chartData.neto.push(null);
             }
         }
-        
+
         const avgMargin = count > 0 ? (sumMargin / count).toFixed(1) : 0;
         let avgColorClass = '';
         if (!field.inverse && avgMargin < 0) avgColorClass = 'text-danger';
@@ -461,8 +461,8 @@ const loadMarginsStatement = async () => {
 
     // Update Margins Evolution Chart
     const ctx = document.getElementById('marginsEvolutionChart').getContext('2d');
-    if(marginsEvolutionChartInstance) marginsEvolutionChartInstance.destroy();
-    
+    if (marginsEvolutionChartInstance) marginsEvolutionChartInstance.destroy();
+
     marginsEvolutionChartInstance = new Chart(ctx, {
         type: 'line',
         data: {
@@ -487,7 +487,7 @@ document.getElementById('export-margins-btn').addEventListener('click', () => {
     const table = document.getElementById('margins-table');
     let csvContent = "";
     const rows = table.querySelectorAll('tr');
-    
+
     rows.forEach((row) => {
         const cols = row.querySelectorAll('td, th');
         const rowData = Array.from(cols).map(c => `"${c.innerText}"`).join(",");
