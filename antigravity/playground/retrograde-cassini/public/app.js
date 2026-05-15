@@ -530,3 +530,4 @@ const enviarDatos = async (objetoFinanciero) => {
     return await response.json();
 };
 */
+
