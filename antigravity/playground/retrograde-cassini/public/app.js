@@ -131,7 +131,7 @@ document.getElementById('entry-form').addEventListener('submit', async (e) => {
         await saveFinancialRecord(record);
 
         // 2. Enviar a la base de datos en la nube (Aiven) mediante la Netlify Function
-        if (typeof enviarDatos === 'function') {
+        if (typeof enviarDatoss === 'function') {
             const mappedForAiven = {
                 empresa_id: currentCompany,
                 clave_empresa: "default",
@@ -145,9 +145,9 @@ document.getElementById('entry-form').addEventListener('submit', async (e) => {
                 gastos_financieros: record.gastos_financieros,
                 impuesto_renta: record.impuestos
             };
-            await enviarDatos(mappedForAiven);
+            await enviarDatoss(mappedForAiven);
         } else {
-            console.warn("La función enviarDatos no está definida. Solo se guardó localmente.");
+            console.warn("La función enviarDatoss no está definida. Solo se guardó localmente.");
         }
 
         showToast('Registro guardado exitosamente');
