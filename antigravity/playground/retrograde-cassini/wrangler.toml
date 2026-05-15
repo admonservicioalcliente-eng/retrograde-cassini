@@ -7,6 +7,9 @@ compatibility_flags = [ "nodejs_compat" ]
 directory = "./public"
 binding = "ASSETS"
 
+[site]
+bucket = "./public"
+
 [[hyperdrive]]
 binding = "hyperdrive"
 id = "0c6bb55e73da4211a3cd631e536d8f71"
