@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
+
 <body>
     <!-- Notificación -->
     <div id="toast" class="toast">Mensaje</div>
@@ -15,7 +17,7 @@
     <!-- Pantalla de Login -->
     <div id="login-view" class="view active">
         <div class="login-card">
-            <h1>FinApp <span>Pro</span></h1>
+            <h1>FinApp <span>Proo</span></h1>
             <p>Accede a tu análisis financiero</p>
             <form id="login-form">
                 <div class="input-group">
@@ -35,7 +37,7 @@
     <!-- Pantalla Principal -->
     <div id="dashboard-view" class="view">
         <aside class="sidebar">
-            <div class="logo">FinApp <span>Pro</span></div>
+            <div class="logo">FinApp <span>Proo</span></div>
             <nav>
                 <button class="nav-btn active" data-target="dashboard-home">Dashboard</button>
                 <button class="nav-btn" data-target="data-entry">Ingreso de Datos</button>
@@ -58,7 +60,7 @@
                         <input type="number" id="dash-year" value="2024" min="2000" max="2100">
                     </div>
                 </header>
-                
+
                 <div class="kpi-grid">
                     <div class="kpi-card">
                         <h3>Ingresos Totales</h3>
@@ -161,7 +163,7 @@
                                     headers: { 'Content-Type': 'application/json' },
                                     body: JSON.stringify(objetoFinanciero)
                                 });
-                                
+
                                 const resultado = await response.json();
                                 alert("Datos guardados con ID: " + resultado.id);
                             } catch (error) {
@@ -187,7 +189,18 @@
                         <thead>
                             <tr>
                                 <th>Concepto</th>
-                                <th>Ene</th><th>Feb</th><th>Mar</th><th>Abr</th><th>May</th><th>Jun</th><th>Jul</th><th>Ago</th><th>Sep</th><th>Oct</th><th>Nov</th><th>Dic</th>
+                                <th>Ene</th>
+                                <th>Feb</th>
+                                <th>Mar</th>
+                                <th>Abr</th>
+                                <th>May</th>
+                                <th>Jun</th>
+                                <th>Jul</th>
+                                <th>Ago</th>
+                                <th>Sep</th>
+                                <th>Oct</th>
+                                <th>Nov</th>
+                                <th>Dic</th>
                                 <th class="highlight">Total</th>
                             </tr>
                         </thead>
@@ -221,7 +234,18 @@
                         <thead>
                             <tr>
                                 <th>Concepto (%)</th>
-                                <th>Ene</th><th>Feb</th><th>Mar</th><th>Abr</th><th>May</th><th>Jun</th><th>Jul</th><th>Ago</th><th>Sep</th><th>Oct</th><th>Nov</th><th>Dic</th>
+                                <th>Ene</th>
+                                <th>Feb</th>
+                                <th>Mar</th>
+                                <th>Abr</th>
+                                <th>May</th>
+                                <th>Jun</th>
+                                <th>Jul</th>
+                                <th>Ago</th>
+                                <th>Sep</th>
+                                <th>Oct</th>
+                                <th>Nov</th>
+                                <th>Dic</th>
                                 <th class="highlight">Promedio</th>
                             </tr>
                         </thead>
@@ -236,5 +260,7 @@
 
     <script src="db.js"></script>
     <script src="app.js"></script>
+
 </body>
+
 </html>
