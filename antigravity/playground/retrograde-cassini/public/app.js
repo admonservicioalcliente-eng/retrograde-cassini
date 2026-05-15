@@ -1,3 +1,4 @@
+console.log("Archivo app.js cargado correctamente");
 // app.js - UI and Business Logic
 let currentCompany = null;
 let monthlyChartInstance = null;
