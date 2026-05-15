@@ -511,6 +511,7 @@ document.getElementById('table-year').value = currentYear;
 document.getElementById('margins-year').value = currentYear;
 // Make chart text color globally white for dark theme
 Chart.defaults.color = '#94a3b8';
+
 /*
 const enviarDatos = async (objetoFinanciero) => {
     // La URL debe ser la de tu Cloudflare Worker o Netlify Function
@@ -526,4 +527,5 @@ const enviarDatos = async (objetoFinanciero) => {
     }
 
     return await response.json();
-};*/
+};
+*/
