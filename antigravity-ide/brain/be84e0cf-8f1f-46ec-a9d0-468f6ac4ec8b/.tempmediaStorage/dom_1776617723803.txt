@@ -1,0 +1,34 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (758,49)<a aria-label='Gmail ' class='gb_0' href='https://mail.google.com/mail/&ogbl'>Gmail />
+[1] (817,49)<a aria-label='Buscar imágenes ' class='gb_0' href='https://www.google.com/imghp?hl=es&ogbl'>Imágenes />
+[2] (878,49)<a aria-label='Search Labs' class='gb_C' href='https://labs.google.com/search?source=hp' role='button' />
+[3] (925,49)<a aria-label='Aplicaciones de Google' class='gb_C' href='https://www.google.com.co/intl/es/about/products' role='button' />
+[4] (971,49)<a aria-label='Cuenta de Google: PoliComputo TIC  
+(admonservicioalcliente@gmail.com)' class='gb_C gb_1a' href='https://accounts.google.com/SignOutOptions?hl=es&continue=https://www.google.com/&ec=futura_exp_og_si_72776762_e' role='button' />
+[5] (192,352)<button aria-label='Subir archivos o imágenes' class='UbbAWe' />
+	[6] (192,352)<span  />
+[7] (431,352)<textarea aria-label='Buscar' class='gLFyf' id='APjFqb' role='combobox' title='Buscar' />
+[8] (665,352)<div aria-label='Búsqueda por voz' class='XDyW0e' role='button' />
+[9] (704,352)<div aria-label='Búsqueda por imagen' class='nDcEnd' role='button' />
+[10] (777,352)<button class='plR5qb Y5MKCd' role='link' />
+	[11] (777,352)<div  />
+		[12] (748,352)<span  />
+		[13] (787,352)<span >Modo IA />
+[14] (423,478)<input aria-label='Buscar con Google' class='gNO89b' role='button' />
+[15] (580,478)<input aria-label='Voy a tener suerte' class='RNmpXc' />
+Google disponible en:
+[16] (563,607)<a href='https://www.google.com/setprefs?sig=0_T7j4QhnJmAWX354XyKGd-fE7pQg%3D&hl=es-419&source=homepage&sa=X&ved=0ahUKEwi0q-fVsPqTAxV8SjABHdotFtAQ2ZgBCCs'>Español (Latinoamérica) />
+Colombia
+[17] (130,960)<a class='pHiOh' href='https://about.google/?utm_source=google-CO&utm_medium=referral&utm_campaign=hp-footer&fg=1'>Sobre Google />
+[18] (232,960)<a class='pHiOh' href='https://www.google.com/intl/es_co/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1'>Publicidad />
+[19] (321,960)<a class='pHiOh' href='https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1'>Negocios />
+Cómo funciona la Búsqueda
+[20] (664,960)<a class='pHiOh' href='https://policies.google.com/privacy?hl=es-CO&fg=1'>Privacidad />
+[21] (762,960)<a class='pHiOh' href='https://policies.google.com/terms?hl=es-CO&fg=1'>Condiciones />
+[22] (870,960)<div class='CcNe6e' role='button' />
+	[23] (870,960)<div >Configuración />
+
+</current_dom>

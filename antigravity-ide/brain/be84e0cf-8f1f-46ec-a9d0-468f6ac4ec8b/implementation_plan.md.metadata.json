@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "A technical implementation plan for a web app that tracks and analyzes financial data (Estado de Resultados) with company login, SQLite database storage, and charts.",
+  "updatedAt": "2026-04-19T16:35:45.427040400Z",
+  "requestFeedback": true
+}

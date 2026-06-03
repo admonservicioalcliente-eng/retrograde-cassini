@@ -1,0 +1,15 @@
+{
+  "id": "70368405-4737-4eea-a738-fe238cd51f26",
+  "name": "ecliptic-schrodinger",
+  "projectResources": {
+    "resources": [
+      {
+        "gitFolder": {
+          "folderUri": "file:///c%3A/Users/SUPERUSUARIO/.gemini/antigravity/playground/ecliptic-schrodinger",
+          "defaultBranch": "main",
+          "allowWrite": true
+        }
+      }
+    ]
+  }
+}

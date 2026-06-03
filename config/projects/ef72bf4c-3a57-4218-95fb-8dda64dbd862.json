@@ -1,0 +1,15 @@
+{
+  "id": "ef72bf4c-3a57-4218-95fb-8dda64dbd862",
+  "name": "retrograde-cassini",
+  "projectResources": {
+    "resources": [
+      {
+        "gitFolder": {
+          "folderUri": "file:///c%3A/Users/SUPERUSUARIO/.gemini/antigravity/playground/retrograde-cassini",
+          "defaultBranch": "main",
+          "allowWrite": true
+        }
+      }
+    ]
+  }
+}

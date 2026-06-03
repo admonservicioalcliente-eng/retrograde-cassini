@@ -1,0 +1,29 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+FinApp
+Pro
+[0] (125,233)<button class='nav-btn'>Dashboard />
+[1] (125,337)<button class='nav-btn active'>Ingreso de Datos />
+[2] (125,440)<button class='nav-btn'>Estado Annual />
+🏠 DEMO
+[3] (125,907)<button class='btn-secondary' id='logout-btn'>Salir />
+[4] (626,500)<main class='main-content' scrollable='true' />
+	[5] (468,38)<label >1. Ventas Netas />
+	[6] (468,104)<input id='ventas-netas' />
+	[7] (769,38)<label >2. Costo de Ventas />
+	[8] (769,104)<input id='costo-ventas' />
+	[9] (468,226)<label >3. Gastos de Administración />
+	[10] (468,292)<input id='gastos-admin' />
+	[11] (769,226)<label >4. Depreciación y Amortización />
+	[12] (769,292)<input id='depreciacion' />
+	[13] (468,413)<label >6. Ingresos Financieros />
+	[14] (468,479)<input id='ingresos-fin' />
+	[15] (769,413)<label >6. Gastos Financieros />
+	[16] (769,479)<input id='gastos-fin' />
+	[17] (468,601)<label >7. Impuestos sobre la renta />
+	[18] (468,667)<input id='impuestos' />
+	[19] (618,823)<button class='btn-primary mt-2'>Guardar Registro />
+
+</current_dom>

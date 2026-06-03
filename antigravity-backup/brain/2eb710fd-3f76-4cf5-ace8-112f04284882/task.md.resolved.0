@@ -1,0 +1,13 @@
+# SEO and Social Media Analysis
+
+- [ ] Analyze Website SEO <!-- id: 0 -->
+    - [ ] Fetch homepage content <!-- id: 1 -->
+    - [ ] Analyze Meta Tags (Title, Description) <!-- id: 2 -->
+    - [ ] Analyze Heading Structure (H1, H2, etc.) <!-- id: 3 -->
+    - [ ] Check for Alt tags on images <!-- id: 4 -->
+    - [ ] Check for mobile responsiveness (viewport) <!-- id: 5 -->
+    - [ ] Check load speed indicators (qualitative) <!-- id: 6 -->
+- [ ] Analyze Social Media Metrics <!-- id: 7 -->
+    - [ ] Identify social media links <!-- id: 8 -->
+    - [ ] Gather metrics (Followers, Engagement, Frequency) for each platform <!-- id: 9 -->
+- [ ] Generate Report <!-- id: 10 -->

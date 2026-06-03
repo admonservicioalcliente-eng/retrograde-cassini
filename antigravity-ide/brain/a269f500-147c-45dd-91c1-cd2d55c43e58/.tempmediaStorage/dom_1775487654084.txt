@@ -1,0 +1,29 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (173,56)<a class='brand' href='/' />
+	[1] (173,56)<img  />
+[2] (294,77)<a href='/about.html'>Nosotros />
+[3] (370,77)<a href='/services.html'>Servicios />
+[4] (446,77)<a href='/contact.html'>Contacto />
+Contacto
+Escríbenos a
+[5] (356,355)<a href='mailto:coordinadora.comercial@airecomed.com'>coordinadora.comercial@airecomed.com />
+o llámanos al
++57 311 335 8076
+.
+Formulario rápido
+Rellena el formulario y nos pondremos en contacto contigo lo antes posible.
+[6] (342,636)<label class='form-field'>Nombre />
+	Nombre
+	[7] (342,659)<input id='nombre' placeholder='Tu nombre' />
+[8] (658,636)<label class='form-field'>Correo />
+	Correo
+	[9] (658,659)<input id='email' placeholder='tu@correo.com' />
+[10] (500,775)<label class='form-field'>Teléfono (opcional) />
+	Teléfono (opcional)
+	[11] (500,797)<input id='telefono' placeholder='+57 3xx xxx xxxx' />
+Mensaje
+
+</current_dom>

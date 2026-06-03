@@ -1,0 +1,12 @@
+# Task: Test FinApp Pro Login and Dashboard
+
+## Checklist
+- [x] Open http://localhost:3000
+- [ ] Enter credentials ('DEMO', '1234')
+- [ ] Click 'Ingresar'
+- [ ] Verify Dashboard loading
+- [ ] Check for charts and KPIs
+
+## Progress
+- Successfully opened the login page.
+- Current Page ID: 6BFE2BCE295291CFC1170703AB124348
