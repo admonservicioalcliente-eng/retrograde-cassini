@@ -1,0 +1,19 @@
+
+ ⛅️ wrangler 4.97.0
+───────────────────
+
+Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+
+X [ERROR] A request to the Cloudflare API (/accounts/ec1c1b0ff5c8aee67af95a2beba6f161/workers/services/retrograde-cassini) failed.
+
+  Authentication error [code: 10000]
+
+
+Getting User settings...
+
+X [ERROR] Failed to automatically retrieve account IDs for the logged in user.
+
+  You may have incorrect permissions on your API token, or your authentication may have expired. Try running `wrangler login` to re-authenticate. You can also skip this account check by adding an `account_id` in your Wrangler configuration file, or by setting the value of CLOUDFLARE_ACCOUNT_ID
+
+
+🪵  Logs were written to "C:\Users\SUPERUSUARIO\AppData\Roaming\xdg.config\.wrangler\logs\wrangler-2026-06-03_22-35-38_579.log"

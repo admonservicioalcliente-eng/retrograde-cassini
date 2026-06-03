@@ -1,4 +1,4 @@
-import { Client } from '@cloudflare/pg-worker';
+import { Client } from 'pg';
 
 const CORS_HEADERS = {
   "Access-Control-Allow-Origin": "*",
@@ -109,6 +109,6 @@ export default {
     }
 
     // If no route matches, return 404
-    return new Response("Not found", { status: 404, headers: CORS_HEADERS });
+    return env.ASSETS.fetch(request);
   }
 };

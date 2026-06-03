@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary":  "Plan to fix Cloudflare deployment using Workers Static Assets to serve both the Aiven-connected backend and the static frontend in a single project.",
+  "updatedAt":  "2026-06-03T22:15:41.298144600Z",
+  "requestFeedback":  true
+}

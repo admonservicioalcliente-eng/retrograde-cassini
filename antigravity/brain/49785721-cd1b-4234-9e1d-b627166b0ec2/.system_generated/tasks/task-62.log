@@ -1,0 +1,26 @@
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----      13/05/2026  4:56 p.�m.                .github                                                              
+d-----      30/04/2026  6:13 p.�m.                .netlify                                                             
+d-----      30/04/2026  6:00 p.�m.                .next                                                                
+d-----       8/05/2026  6:29 p.�m.                .wrangler                                                            
+d-----       2/05/2026  4:35 p.�m.                netlify                                                              
+d-----      14/05/2026  6:48 p.�m.                node_modules                                                         
+d-----      14/05/2026  8:52 p.�m.                pages                                                                
+d-----       8/05/2026  6:23 p.�m.                public                                                               
+d-----       8/05/2026  6:24 p.�m.                src                                                                  
+-a----      25/04/2026  3:44 p.�m.            213 .env                                                                 
+-a----      30/04/2026  6:12 p.�m.            202 .gitignore                                                           
+-a----      14/05/2026  1:52 p.�m.           1398 check-db.js                                                          
+-a----      30/04/2026  6:13 p.�m.            922 deno.lock                                                            
+-a----       2/05/2026  2:49 p.�m.            349 netlify.toml                                                         
+-a----       8/05/2026  6:10 p.�m.          37250 package-lock.json                                                    
+-a----       8/05/2026  6:09 p.�m.            498 package.json                                                         
+-a----      15/05/2026  5:08 p.�m.            387 wrangler.toml                                                        
+
+

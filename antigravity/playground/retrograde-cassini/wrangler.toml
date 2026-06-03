@@ -11,3 +11,7 @@ localConnectionString = "postgres://avnadmin:<redacted>@pg-control1965-admonserv
 [observability]
 enabled = true
 
+
+[assets]
+directory = "public"
+binding = "ASSETS"

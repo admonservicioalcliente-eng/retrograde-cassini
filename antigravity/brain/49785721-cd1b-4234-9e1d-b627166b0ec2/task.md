@@ -1,0 +1,5 @@
+- `[x]` Clean up `package.json` dependencies
+- `[x]` Configure Workers Static Assets in `wrangler.toml`
+- `[x]` Update Backend (`src/index.js`) for static assets fallback
+- `[x]` Run `npx wrangler deploy`
+- `[x]` Verify deployment and create walkthrough

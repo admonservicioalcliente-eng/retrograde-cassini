@@ -1,0 +1,40 @@
+
+ ⛅️ wrangler 4.97.0
+───────────────────
+▲ [WARNING] The local configuration being used (generated from your local configuration file) differs from the remote configuration of your Worker set via the Cloudflare Dashboard:
+
+   {
+     hyperdrive: [
+       {
+  +      localConnectionString: "postgres://avnadmin:<redacted>@pg-control1965-admonservicioalcliente-1965.b.aivencloud.com:24731/defaultdb?sslmode=require"
+       }
+     ]
+     observability: {
+  -    enabled: false
+  +    enabled: true
+     }
+   }
+  
+  
+  Deploying the Worker will override the remote configuration with your local one.
+
+
+? Would you like to continue?
+🤖 Using fallback value in non-interactive context: yes
+
+X [ERROR] Build failed with 1 error:
+
+  X [ERROR] Could not resolve "@cloudflare/pg-worker"
+  
+      src/index.js:1:23:
+        1 │ import { Client } from '@cloudflare/pg-worker';
+          ╵                        ~~~~~~~~~~~~~~~~~~~~~~~
+  
+    To fix this, you can add an entry to "alias" in your Wrangler configuration.
+    For more guidance see: https://developers.cloudflare.com/workers/wrangler/configuration/#bundling-issues
+    
+  
+  
+
+
+🪵  Logs were written to "C:\Users\SUPERUSUARIO\AppData\Roaming\xdg.config\.wrangler\logs\wrangler-2026-06-03_22-45-09_371.log"
