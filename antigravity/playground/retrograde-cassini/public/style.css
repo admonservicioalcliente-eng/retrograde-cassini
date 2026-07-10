@@ -1,4 +1,4 @@
-:root {
+﻿:root {
     --primary: #6366f1;
     --primary-hover: #4f46e5;
     --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
@@ -258,11 +258,13 @@ header h2 {
     border-radius: 8px;
     border: 1px solid var(--border-color);
 }
+.year-selector label { font-size: 1.25rem; font-weight: 600; }
 .year-selector input {
     background: transparent;
     border: none;
     color: var(--text-main);
-    width: 60px;
+    width: 80px;
+      font-size: 1.25rem;
     outline: none;
     font-weight: 600;
 }
@@ -415,3 +417,4 @@ tr:hover td {
 .text-success {
     color: var(--highlight) !important;
 }
+

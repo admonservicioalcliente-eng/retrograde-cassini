@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -18,7 +18,7 @@
     <!-- Pantalla de Login -->
     <div id="login-view" class="view active">
         <div class="login-card">
-            <div class="login-logo"><img src="/policomputo_logo.png" alt="POLICOMPUTO" style="height:48px; margin-bottom:10px;"></div><h1>FinAPP <span>ZAS</span></h1>
+            <div class="login-logo" style="text-align: center;"><img src="/policomputo_logo.png" alt="POLICOMPUTO" style="height:64px; display:block; margin:0 auto 10px auto;"></div><h1 style="text-align: center;">FINAPPZAS</h1>
             <p>Accede a tu análisis financiero</p>
             <form id="login-form">
                 <div class="input-group">
@@ -40,12 +40,13 @@
     <!-- Pantalla Principal -->
     <div id="dashboard-view" class="view">
         <aside class="sidebar">
-            <div class="logo"><img src="/policomputo_logo.png" alt="POLICOMPUTO" style="height:32px; margin-right:8px; vertical-align:middle; border-radius:4px;">FinAPP <span>ZAS</span></div>
+            <div class="logo" style="text-align: center; margin-bottom: 15px;"><img src="/policomputo_logo.png" alt="POLICOMPUTO" style="height:48px; display:block; margin:0 auto 5px auto; border-radius:4px;">FINAPPZAS</div>
             <nav>
                 <button class="nav-btn active" data-target="dashboard-home">Dashboard</button>
                 <button class="nav-btn" data-target="data-entry">Ingreso de Datos</button>
-                <button class="nav-btn" data-target="annual-statement">Estado Annual</button>
+                <button class="nav-btn" data-target="annual-statement">Estado Anual</button>
                 <button class="nav-btn" data-target="margins-statement">Márgenes %</button>
+                <button class="nav-btn" data-target="upload-file">Cargar Archivo plano</button>
             </nav>
             <div class="sidebar-footer">
                 <span id="current-company"></span>
@@ -128,11 +129,11 @@
 
                         <div class="form-grid">
                             <div class="input-group">
-                                <label>1. Ventas Netas</label>
+                                <label>1. Ingresos Netos</label>
                                 <input type="number" id="ventas-netas" step="0.01" required>
                             </div>
                             <div class="input-group">
-                                <label>2. Costo de Ventas</label>
+                                <label>2. Costo en Ingresos</label>
                                 <input type="number" id="costo-ventas" step="0.01" required>
                             </div>
                             <div class="input-group">
@@ -274,6 +275,16 @@
                     </table>
                 </div>
             </section>
+                    <!-- Cargar Archivo plano -->
+            <section id="upload-file" class="section">
+                <header>
+                    <h2>Cargar Archivo Plano</h2>
+                </header>
+                <div style="background: var(--bg-card); padding: 2rem; border-radius: 12px; border: 1px solid var(--border-color); text-align: center;">
+                    <p style="margin-bottom: 1rem; color: var(--text-muted);">Sube tu archivo plano (.csv, .txt) aquí para procesar los datos.</p>
+                    <input type="file" id="file-upload" accept=".csv,.txt" style="display: block; margin: 0 auto;">
+                </div>
+            </section>
         </main>
     </div>
 
@@ -281,6 +292,7 @@
     <script src="app.js" defer></script>
 </body>
 </html>
+
 
 
 
