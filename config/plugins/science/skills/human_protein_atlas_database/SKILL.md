@@ -19,9 +19,10 @@ types.
 
 1.  **`uv`**: Read the `uv` skill and follow its Setup instructions to ensure
     `uv` is installed and on PATH.
-2.  **User Notification**: If LICENSE_NOTIFICATION.txt does not already exist in
-    this skill directory then (1) prominently notify the user to check the terms
-    at https://www.proteinatlas.org/about/licence, then (2) create the file
+2.  **User Notification**: If .licenses/human_protein_atlas_database_LICENSE.txt
+    does not already exist in the workspace root directory then (1) prominently
+    notify the user to check the terms at
+    https://www.proteinatlas.org/about/licence, then (2) create the file
     recording the notification text and timestamp.
 
 ## When to Use
@@ -160,6 +161,14 @@ uv run scripts/hpa_cli.py search-hpa \
     automatically enforce fair use and implement retry logic.
 -   **Notification**: If this skill is used, ensure this is mentioned in the
     output.
+
+## API Versioning
+
+The HPA website at `www.proteinatlas.org` always serves the **latest** data
+release. Older archived versions can be accessed via `vNN.proteinatlas.org`
+(e.g., `v24.proteinatlas.org`), while the current version's subdomain redirects
+to `www.proteinatlas.org`. This skill's scripts query the latest version by
+default.
 
 ## Common Errors
 

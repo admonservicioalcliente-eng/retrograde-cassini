@@ -100,3 +100,17 @@ const saveFinancialRecord = async (record) => {
         request.onerror = () => reject('Error guardando registro');
     });
 };
+
+const deleteFinancialRecord = async (companyId, year, month) => {
+    const db = await initDB();
+    const id = `${companyId}-${year}-${month}`;
+    return new Promise((resolve, reject) => {
+        const transaction = db.transaction(['financial_records'], 'readwrite');
+        const store = transaction.objectStore('financial_records');
+        const request = store.delete(id);
+
+        request.onsuccess = () => resolve();
+        request.onerror = () => reject('Error borrando registro');
+    });
+};
+

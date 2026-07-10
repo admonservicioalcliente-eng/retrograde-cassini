@@ -1,37 +1,34 @@
-# Despliegue en Cloudflare con Base de Datos Aiven
+# Plan de Implementación de Cloudflare Turnstile (Verificación Anti-Robot)
 
-El objetivo es solucionar el error de publicación en Cloudflare y configurar correctamente el proyecto para que sirva tanto la página web (frontend) como la API (backend) conectada a la base de datos de Aiven PostgreSQL mediante Hyperdrive.
+Este documento describe cómo integraremos la verificación "Soy humano" (Cloudflare Turnstile) en el inicio de sesión de tu aplicación para añadir seguridad contra accesos automatizados, cumpliendo con tu solicitud de realizar un respaldo previo del archivo `index.html`.
 
-## Problema Actual
-El error `Could not detect a directory containing static files` ocurre porque el archivo `package.json` contiene dependencias de Next.js (`next`, `react`). Esto confunde a la herramienta de despliegue de Cloudflare (`wrangler`), haciéndole creer que es un proyecto de Next.js e intentando buscar la carpeta de salida estática de Next.js en lugar de usar tus archivos vanilla en la carpeta `public`. 
+## Pasos de Implementación
 
-Además, necesitamos que el código backend (que se conecta a Aiven) y el frontend vivan bajo el mismo dominio para evitar problemas de conexión y simplificar la publicación.
+### 1. Respaldo de Seguridad
+- Se creará una copia de seguridad `index.html.backup` del archivo principal antes de realizar cualquier modificación.
 
-## Cambios Propuestos
+### 2. Frontend (`public/index.html`)
+- Se añadirá el script oficial de Cloudflare Turnstile en el `<head>` del documento: `<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>`.
+- Se insertará el widget o cajita interactiva de verificación dentro del formulario de inicio de sesión (`#login-form`), justo encima del botón de "Ingresar".
+- Utilizaremos inicialmente la **Testing Site Key** pública de Cloudflare (`1x00000000000000000000AA`) para poder programar y probar sin que genere errores.
 
-### 1. Limpieza de `package.json`
-- Eliminaremos las referencias a `next`, `react` y `react-dom` ya que el proyecto utiliza HTML, CSS y JS puro en la carpeta `public`. Esto evitará que Cloudflare se confunda al publicar.
+### 3. Lógica del Cliente (`public/app.js`)
+- Se modificará el evento de envío del formulario de inicio de sesión.
+- Antes de verificar la contraseña local, se interceptará el código (token) secreto generado por Turnstile.
+- Se enviará este token al servidor (Worker de Cloudflare) para que valide criptográficamente si eres humano.
+- Si la verificación falla o no completaste el desafío, se detendrá el inicio de sesión con un mensaje de error.
 
-### 2. Configurar "Workers Static Assets" en `wrangler.toml`
-- Cloudflare introdujo recientemente una forma moderna de servir archivos estáticos directamente desde un Worker. Añadiremos la siguiente configuración al archivo `wrangler.toml`:
-  ```toml
-  [assets]
-  directory = "public"
-  binding = "ASSETS"
-  ```
-  Esto le dirá a Cloudflare que suba todos los archivos de la carpeta `public` (tu HTML, CSS y JS).
+### 4. Backend (`src/index.js`)
+- Se creará una nueva ruta segura: `/api/verify-turnstile`.
+- Esta ruta recibirá el token desde el navegador y hará una petición a los servidores centrales de Cloudflare (`https://challenges.cloudflare.com/turnstile/v0/siteverify`).
+- Se validará el token usando una **Testing Secret Key**.
+- Si el resultado es exitoso (`success: true`), se le dará permiso al Frontend para continuar con el login habitual.
 
-### 3. Actualizar el Backend (`src/index.js`)
-- Actualizaremos el archivo `src/index.js` para que sirva los archivos estáticos si la ruta solicitada no es de la API.
-  Agregaremos esta línea al final del archivo para que los archivos estáticos carguen correctamente:
-  ```javascript
-  return env.ASSETS.fetch(request);
-  ```
+> [!IMPORTANT]
+> **Requisito para Producción:** Yo dejaré todo el código programado y conectado utilizando las llaves de prueba de Cloudflare (que siempre simulan un paso exitoso para los desarrolladores). Una vez que termine y lo probemos, tú **deberás generar tu Site Key y Secret Key reales** desde tu panel de control de Cloudflare Turnstile y reemplazar las llaves de prueba en el código HTML y en las variables de entorno de tu Worker.
 
-## Plan de Verificación
-1. Ejecutar el comando de publicación `npx wrangler deploy`.
-2. Verificar que Cloudflare publica exitosamente la aplicación.
-3. Ingresar a la URL que nos dé Cloudflare y probar guardar un registro para confirmar que se está guardando en la base de datos de Aiven en la nube.
+## Plan de Pruebas
+1. Intentar iniciar sesión sin llenar el captcha (debería bloquear el acceso).
+2. Intentar iniciar sesión llenando el captcha con éxito (el sistema debe permitir el login).
 
-> [!NOTE]
-> Con este plan conservarás la base de datos de AIVEN que ya está configurada a través del túnel seguro de Hyperdrive, pero corregiremos la arquitectura para que tu frontend y backend funcionen perfectamente en producción.
+**¿Estás de acuerdo con este enfoque? Si es así, aprueba este plan para que empiece a programarlo.**

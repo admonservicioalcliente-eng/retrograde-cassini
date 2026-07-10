@@ -1,0 +1,59 @@
+(node:7820) Warning: SECURITY WARNING: The SSL modes 'prefer', 'require', and 'verify-ca' are treated as aliases for 'verify-full'.
+In the next major version (pg-connection-string v3.0.0 and pg v9.0.0), these modes will adopt standard libpq semantics, which have weaker security guarantees.
+
+To prepare for this change:
+- If you want the current behavior, explicitly use 'sslmode=verify-full'
+- If you want libpq compatibility now, use 'uselibpqcompat=true&sslmode=require'
+
+See https://www.postgresql.org/docs/current/libpq-ssl.html for libpq SSL mode definitions.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7820) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+--- REPORTE ---
+TOTAL REGISTROS: 3
+DATOS: [
+  {
+    id: 1,
+    empresa_id: 'DEMO',
+    clave_empresa: 'default',
+    anio: 2024,
+    mes: 1,
+    ventas_netas: '1000.00',
+    costo_ventas: '500.00',
+    gastos_administracion: '100.00',
+    depreciacion: '50.00',
+    ingresos_financieros: '0.00',
+    gastos_financieros: '0.00',
+    impuesto_renta: '0.00',
+    fecha_creacion: 2026-06-05T01:44:30.163Z
+  },
+  {
+    id: 2,
+    empresa_id: 'demo',
+    clave_empresa: 'default',
+    anio: 2026,
+    mes: 1,
+    ventas_netas: '18500000.00',
+    costo_ventas: '9800000.00',
+    gastos_administracion: '5860000.00',
+    depreciacion: '2570000.00',
+    ingresos_financieros: '450000.00',
+    gastos_financieros: '1200000.00',
+    impuesto_renta: '20000.00',
+    fecha_creacion: 2026-06-05T01:48:02.627Z
+  },
+  {
+    id: 4,
+    empresa_id: 'demo',
+    clave_empresa: 'default',
+    anio: 2026,
+    mes: 3,
+    ventas_netas: '25000000.00',
+    costo_ventas: '16000000.00',
+    gastos_administracion: '560000.00',
+    depreciacion: '1250000.00',
+    ingresos_financieros: '56000.00',
+    gastos_financieros: '20000.00',
+    impuesto_renta: '2500.00',
+    fecha_creacion: 2026-06-05T02:06:20.901Z
+  }
+]

@@ -21,10 +21,8 @@ It parses the JSON response and outputs structured results.
 # /// script
 # requires-python = ">=3.10"
 # dependencies = [
-#   "science-skills-common",
+#   "polite-http",
 # ]
-# [tool.uv.sources]
-# science-skills-common = { path = "../../science_skills_common" }
 # ///
 
 import argparse

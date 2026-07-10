@@ -2,7 +2,7 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 const { Client } = require('pg');
 
 const client = new Client({
-  connectionString: 'postgres://avnadmin:AVNS_LLpgxsYIuGlTxU-WuL-@pg-control1965-admonservicioalcliente-1965.b.aivencloud.com:24731/defaultdb?sslmode=require'
+  connectionString: 'postgres://avnadmin:AVNS_LLpgxsYIuGlTxU-WuL-@pg-control1965-admonservicioalcliente-1965.b.aivencloud.com:24731/defaultdb?sslmode=require',
   rejectUnauthorized: false
 });
 

@@ -1,5 +1,10 @@
 {
   "userSettings": {
+    "globalPermissionGrants": {
+      "allow": [
+        "command(Get-ChildItem)"
+      ]
+    },
     "themeMode": "THEME_MODE_DARK"
   }
 }

@@ -1,0 +1,19 @@
+
+                          <button type="submit" class="btn-primary mt-2">Guardar Registro</button>
+                      </form>
+                      <script>
+>                         const enviarDatoss = async (objetoFinanciero) => {
+                              try {
+                                  const response = await fetch('/guardar-financiero', {
+                                      method: 'POST',
+                                      headers: { 'Content-Type': 'application/json' },
+                                      body: JSON.stringify(objetoFinanciero)
+                                  });
+  
+                                  const resultado = await response.json();
+                                  alert("Datos guardados con ID: " + resultado.id);
+                              } catch (error) {
+                                  console.error("Error al enviar:", error);
+                              }
+
+

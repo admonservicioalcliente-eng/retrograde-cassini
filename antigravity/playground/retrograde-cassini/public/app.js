@@ -531,3 +531,30 @@ const enviarDatos = async (objetoFinanciero) => {
 };
 */
 
+
+document.getElementById('btn-borrar-mes').addEventListener('click', async () => {
+    const year = parseInt(document.getElementById('entry-year').value);
+    const month = parseInt(document.getElementById('entry-month').value);
+    
+    if(!confirm('¿Estás seguro de que quieres borrar todos los datos del mes ' + month + ' del año ' + year + '?')) return;
+    
+    try {
+        // 1. Borrar localmente
+        await deleteFinancialRecord(currentCompany, year, month);
+        
+        // 2. Borrar en la nube
+        if(typeof borrarDatoss === 'function') {
+            await borrarDatoss({ empresa_id: currentCompany, anio: year, mes: month });
+        }
+        
+        document.getElementById('entry-form').reset();
+        document.getElementById('entry-year').value = currentYear;
+        document.getElementById('entry-month').value = 1;
+        alert('Mes borrado exitosamente.');
+    } catch(e) {
+        console.error(e);
+        alert('Error al borrar: ' + e.message);
+    }
+});
+
+

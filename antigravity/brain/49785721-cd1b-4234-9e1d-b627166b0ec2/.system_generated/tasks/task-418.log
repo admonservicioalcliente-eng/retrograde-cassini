@@ -1,0 +1,12 @@
+[eval]:8
+  const tables = await client.query(SELECT table_name FROM information_schema.tables WHERE table_schema='public');
+                                    ^^^^^^
+Expected ',', got 'ident'
+
+SyntaxError: missing ) after argument list
+    at makeContextifyScript (node:internal/vm:194:14)
+    at compileScript (node:internal/process/execution:420:10)
+    at evalTypeScript (node:internal/process/execution:292:22)
+    at node:internal/main/eval_string:71:3
+
+Node.js v25.9.0

@@ -1,0 +1,14 @@
+
+                              <div class="input-group">
+                                  <label>7. Impuestos sobre la renta</label>
+                                  <input type="number" id="impuestos" step="0.01" required>
+                              </div>
+                          </div>
+>                         <button type="submit" class="btn-primary mt-2">Guardar Registro</button>
+                      </form>
+                      <script>
+                          const enviarDatoss = async (objetoFinanciero) => {
+                              try {
+                                  const response = await fetch('/guardar-financiero', {
+
+

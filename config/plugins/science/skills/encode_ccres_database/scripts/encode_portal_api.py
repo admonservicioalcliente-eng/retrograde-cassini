@@ -17,16 +17,14 @@
 # /// script
 # requires-python = ">=3.10"
 # dependencies = [
-#   "science-skills-common",
+#   "polite-http",
 # ]
-# [tool.uv.sources]
-# science-skills-common = { path = "../../science_skills_common" }
 # ///
 
 import argparse
 import json
 
-from science_skills.science_skills_common import http_client
+from polite_http import http_client
 
 BASE_URL = "https://www.encodeproject.org"
 _CLIENT = http_client.HttpClient(BASE_URL, qps=10)

@@ -17,10 +17,8 @@
 # /// script
 # requires-python = ">=3.10"
 # dependencies = [
-#   "science-skills-common",
+#   "polite-http",
 # ]
-# [tool.uv.sources]
-# science-skills-common = { path = "../../science_skills_common" }
 # ///
 
 
@@ -28,7 +26,7 @@ import argparse
 import os
 import sys
 
-from science_skills.science_skills_common import http_client
+from polite_http import http_client
 
 CLIENT = http_client.HttpClient("https://files-beta.rcsb.org", qps=5.0)
 

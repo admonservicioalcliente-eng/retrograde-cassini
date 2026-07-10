@@ -20,10 +20,8 @@ Follows HPA Terms of Use by fetching sequentially and handling requests.
 # /// script
 # requires-python = ">=3.10"
 # dependencies = [
-#   "science-skills-common",
+#   "polite-http",
 # ]
-# [tool.uv.sources]
-# science-skills-common = { path = "../../science_skills_common" }
 # ///
 
 import argparse
@@ -32,11 +30,10 @@ import sys
 import urllib.parse
 import xml.etree.ElementTree as ET
 
-from science_skills.science_skills_common import http_client
+from polite_http import http_client
 
-BASE_URL_SEARCH = 'https://www.proteinatlas.org/api/search_download.php'
-BASE_URL_XML = 'https://v25.proteinatlas.org'
-CLIENT = http_client.HttpClient(BASE_URL_SEARCH, qps=2.0)
+BASE_URL = 'https://www.proteinatlas.org/'
+CLIENT = http_client.HttpClient(BASE_URL, qps=2.0)
 
 
 def _fetch_json(params):
@@ -44,7 +41,8 @@ def _fetch_json(params):
   params['format'] = 'json'
   params['compress'] = 'no'
   query_string = urllib.parse.urlencode(params)
-  full_url = f'{BASE_URL_SEARCH}?{query_string}'
+  base_api_url = urllib.parse.urljoin(BASE_URL, 'api/search_download.php')
+  full_url = f'{base_api_url}?{query_string}'
   content = CLIENT.fetch_bytes(full_url)
   if not content:
     return []
@@ -53,7 +51,7 @@ def _fetch_json(params):
 
 def _fetch_xml(ensembl_id):
   """Fetches and parses the XML entry for a given Ensembl ID."""
-  full_url = f'{BASE_URL_XML}/{ensembl_id}.xml'
+  full_url = urllib.parse.urljoin(BASE_URL, f'{ensembl_id}.xml')
   content = CLIENT.fetch_bytes(full_url)
   return ET.fromstring(content)
 

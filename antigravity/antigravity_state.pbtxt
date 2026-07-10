@@ -13,3 +13,4 @@ agent_onboarding_completed:  AGENT_ONBOARDING_STATE_COMPLETED
 last_selected_agent_model:  MODEL_PLACEHOLDER_M36
 migrate_convos_into_projects:  MIGRATION_STATUS_COMPLETED
 installation_uuid:  "fbc832c8-a592-40bb-8574-85465d0373ae"
+migrate_retroactive_projects:  RETROACTIVE_MIGRATION_STATUS_COMPLETED_UNNECESSARY

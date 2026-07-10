@@ -1,0 +1,8 @@
+Invoke-RestMethod : {"error":"there is no unique or exclusion constraint matching the ON CONFLICT 
+specification","details":"Cloudflare Worker Error","env_hyperdrive_exists":true}
+En l�nea: 15 Car�cter: 1
++ Invoke-RestMethod -Uri "https://retrograde-cassini.admonservicioalcli ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], WebExc 
+   eption
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand

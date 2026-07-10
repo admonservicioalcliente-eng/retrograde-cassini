@@ -1,5 +1,6 @@
-- `[x]` Clean up `package.json` dependencies
-- `[x]` Configure Workers Static Assets in `wrangler.toml`
-- `[x]` Update Backend (`src/index.js`) for static assets fallback
-- `[x]` Run `npx wrangler deploy`
-- `[x]` Verify deployment and create walkthrough
+- `[x]` Respaldo de `index.html` a `index.html.backup` (Completado)
+- `[x]` Añadir script de Turnstile y widget HTML en `public/index.html`
+- `[x]` Añadir validación del token Turnstile antes de iniciar sesión en `public/app.js`
+- `[x]` Crear ruta `/api/verify-turnstile` en el Worker (`src/index.js`)
+- `[x]` Desplegar cambios a Cloudflare (`npx wrangler deploy`)
+- `[x]` Documentar paso a paso de cómo configurar llaves reales

@@ -1,0 +1,29 @@
+
+          impuestos: parseFloat(document.getElementById('impuestos').value) || 0
+      };
+  
+      try {
+          // 1. Guardar localmente (IndexedDB)
+>         await saveFinancialRecord(record);
+  
+          // 2. Enviar a la base de datos en la nube (Aiven) mediante la Netlify Function
+          if (typeof enviarDatoss === 'function') {
+              const mappedForAiven = {
+                  empresa_id: currentCompany,
+                  clave_empresa: "default",
+                  anio: record.year,
+                  mes: record.month,
+                  ventas_netas: record.ventas_netas,
+                  costo_ventas: record.costo_ventas,
+                  gastos_administracion: record.gastos_administracion,
+                  depreciacion: record.depreciacion_amortizacion,
+                  ingresos_financieros: record.ingresos_financieros,
+                  gastos_financieros: record.gastos_financieros,
+                  impuesto_renta: record.impuestos
+              };
+              await enviarDatoss(mappedForAiven);
+          } else {
+              console.warn("La funci�n enviarDatoss no estǭ definida. Solo se guard� localmente.");
+          }
+
+

@@ -21,11 +21,9 @@ required --output flag. Optionally saves raw JSON via -j/--json.
 # /// script
 # requires-python = ">=3.10"
 # dependencies = [
-#   "science-skills-common",
+#   "polite-http",
 #   "python-dotenv",
 # ]
-# [tool.uv.sources]
-# science-skills-common = { path = "../../science_skills_common" }
 # ///
 
 import argparse
@@ -33,11 +31,10 @@ import json
 import os
 import sys
 import time
-import urllib.error
 import urllib.parse
 
 import dotenv
-from science_skills.science_skills_common import http_client
+from polite_http import http_client
 
 ALLOWED_DATABASES = [
     "uniprotkb",
@@ -192,7 +189,6 @@ def _run_blast(query_input, json_file, databases, tty):
       time.sleep(30)
 
     except (
-        urllib.error.URLError,
         http_client.HttpError,
         TimeoutError,
         RuntimeError,
@@ -213,7 +209,6 @@ def _run_blast(query_input, json_file, databases, tty):
   try:
     res = CLIENT.fetch_json(f"{BASE_URL}/result/{job_id}/json", timeout=60)
   except (
-      urllib.error.URLError,
       http_client.HttpError,
       TimeoutError,
       RuntimeError,

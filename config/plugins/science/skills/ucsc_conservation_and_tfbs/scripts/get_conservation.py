@@ -17,10 +17,8 @@
 # /// script
 # requires-python = ">=3.10"
 # dependencies = [
-#   "science-skills-common",
+#   "polite-http",
 # ]
-# [tool.uv.sources]
-# science-skills-common = { path = "../../science_skills_common" }
 # ///
 
 import argparse
@@ -28,7 +26,7 @@ import json
 import re
 import sys
 from typing import Any
-from science_skills.science_skills_common import http_client
+from polite_http import http_client
 
 UCSC_API_URL = "https://api.genome.ucsc.edu/getData/track"
 CLIENT = http_client.HttpClient("https://api.genome.ucsc.edu/", qps=0.05)

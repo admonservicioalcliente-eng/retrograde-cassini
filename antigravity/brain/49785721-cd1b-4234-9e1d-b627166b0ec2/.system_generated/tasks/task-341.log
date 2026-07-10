@@ -1,0 +1,27 @@
+
+ ⛅️ wrangler 4.100.0
+────────────────────
+🌀 Building list of assets...
+✨ Read 6 files from the assets directory C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini\public
+🌀 Starting asset upload...
+🌀 Found 4 new or modified static assets to upload. Proceeding with upload...
++ /db.js
++ /app.js
++ /index.html.backup
++ /index.html
+Uploaded 1 of 4 assets
+Uploaded 3 of 4 assets
+Uploaded 4 of 4 assets
+✨ Success! Uploaded 4 files (2 already uploaded) (3.20 sec)
+
+Total Upload: 191.23 KiB / gzip: 39.09 KiB
+Worker Startup Time: 22 ms
+Your Worker has access to the following bindings:
+Binding                                                Resource               
+env.hyperdrive (0c6bb55e73da4211a3cd631e536d8f71)      Hyperdrive Config      
+env.ASSETS                                             Assets                 
+
+Uploaded retrograde-cassini (8.14 sec)
+Deployed retrograde-cassini triggers (1.60 sec)
+  https://retrograde-cassini.admonservicioalcliente.workers.dev
+Current Version ID: 18826395-4abf-4b54-b357-ab1e73b22252
