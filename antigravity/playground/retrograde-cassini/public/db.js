@@ -1,4 +1,4 @@
-// db.js - IndexedDB Logic
+﻿// db.js - IndexedDB Logic
 const DB_NAME = 'FinAppDB';
 const DB_VERSION = 1;
 
@@ -34,29 +34,22 @@ const initDB = () => {
 };
 
 const loginUser = async (companyId, password) => {
-    const db = await initDB();
-    return new Promise((resolve, reject) => {
-        const transaction = db.transaction(['companies'], 'readwrite');
-        const store = transaction.objectStore('companies');
-        const request = store.get(companyId);
-
-        request.onsuccess = (event) => {
-            const user = event.target.result;
-            if (user) {
-                if (user.password === password) {
-                    resolve(user);
-                } else {
-                    reject('Contraseña incorrecta');
-                }
-            } else {
-                // Auto-register feature for easy MVP testing
-                const newUser = { id: companyId, password: password };
-                store.add(newUser);
-                resolve(newUser);
-            }
-        };
-        request.onerror = () => reject('Error en la base de datos');
+    const response = await fetch('/api/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ empresa_id: companyId, password: password })
     });
+    
+    if (!response.ok) {
+        throw new Error('Error de conexión con el servidor');
+    }
+    
+    const data = await response.json();
+    if (!data.success) {
+        throw new Error(data.error || 'Error de autenticación');
+    }
+    
+    return data.user;
 };
 
 const getRecordsByYear = async (companyId, year) => {
@@ -113,4 +106,3 @@ const deleteFinancialRecord = async (companyId, year, month) => {
         request.onerror = () => reject('Error borrando registro');
     });
 };
-

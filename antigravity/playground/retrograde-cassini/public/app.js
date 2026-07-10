@@ -1,4 +1,4 @@
-console.log("Archivo app.js cargado correctamente");
+﻿console.log("Archivo app.js cargado correctamente");
 // app.js - UI and Business Logic
 let currentCompany = null;
 let monthlyChartInstance = null;
@@ -48,7 +48,8 @@ const switchSection = (sectionId) => {
     document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
 
     document.getElementById(sectionId).classList.add('active');
-    document.querySelector(`.nav-btn[data-target="${sectionId}"]`).classList.add('active');
+    const activeNavBtn = document.querySelector(`.nav-btn[data-target="${sectionId}"]`);
+    if (activeNavBtn) activeNavBtn.classList.add('active');
 
     if (sectionId === 'dashboard-home') loadDashboard();
     if (sectionId === 'annual-statement') loadAnnualStatement();
@@ -68,12 +69,20 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
     const pwd = document.getElementById('password').value;
 
     try {
+        
         const user = await loginUser(id, pwd);
         currentCompany = user.id;
-        document.getElementById('current-company').textContent = `🏠 ${currentCompany}`;
+        document.getElementById('current-company').textContent = `🏦 ${currentCompany}`;
 
         switchView('dashboard-view');
-        switchSection('dashboard-home');
+        
+        if (currentCompany === 'SUPERUSUARIO') {
+            switchSection('admin-view');
+            loadAdminData();
+        } else {
+            switchSection('dashboard-home');
+        }
+
         showToast(`Bienvenido ${currentCompany}`);
     } catch (err) {
         showToast(err, 'error');
@@ -321,8 +330,8 @@ const loadAnnualStatement = async () => {
     }
 
     const fields = [
-        { key: 'ventas_netas', label: '1. Ventas Netas' },
-        { key: 'costo_ventas', label: '2. Costo de Ventas' },
+        { key: 'ventas_netas', label: '1. Ingresos Netos' },
+        { key: 'costo_ventas', label: '2. Costo en Ingresos' },
         { key: 'utilidadBruta', label: 'Utilidad Bruta', derived: true, bold: true },
         { key: 'gastos_administracion', label: '3. Gastos de Adm.' },
         { key: 'ebitda', label: 'EBITDA', derived: true, bold: true },
@@ -352,7 +361,7 @@ const loadAnnualStatement = async () => {
 
         for (let m = 1; m <= 12; m++) {
             const mRecord = mData[m] || {};
-            const val = mRecord[field.key] || 0;
+            const val = parseFloat(mRecord[field.key]) || 0;
             rowTotal += val;
             html += `<td>${val !== 0 ? formatCurrency(val) : '-'}</td>`;
         }
@@ -426,7 +435,7 @@ const loadMarginsStatement = async () => {
         for (let m = 1; m <= 12; m++) {
             const mRecord = mData[m];
             if (mRecord && mRecord.ventas > 0) {
-                const val = mRecord[field.key] || 0;
+                const val = parseFloat(mRecord[field.key]) || 0;
                 const percent = (val / mRecord.ventas) * 100;
                 sumMargin += percent;
                 count++;
@@ -536,7 +545,7 @@ document.getElementById('btn-borrar-mes').addEventListener('click', async () => 
     const year = parseInt(document.getElementById('entry-year').value);
     const month = parseInt(document.getElementById('entry-month').value);
     
-    if(!confirm('�Est�s seguro de que quieres borrar todos los datos del mes ' + month + ' del a�o ' + year + '?')) return;
+    if(!confirm('�Est�s seguro de que quieres borrar todos los datos del mes ' + month + ' del a�o ' + year + '?')) return;
     
     try {
         // 1. Borrar localmente
@@ -558,3 +567,219 @@ document.getElementById('btn-borrar-mes').addEventListener('click', async () => 
 });
 
 
+
+
+
+// --- Lógica de Carga de Archivo Plano ---
+const downloadTemplateBtn = document.getElementById('download-template-btn');
+const fileUploadInput = document.getElementById('file-upload');
+const processFileBtn = document.getElementById('process-file-btn');
+
+if (downloadTemplateBtn) {
+    downloadTemplateBtn.addEventListener('click', () => {
+        const headers = ["Anio", "Mes", "Ingresos_Netos", "Costo_en_Ingresos", "Gastos_Administracion", "Depreciacion_Amortizacion", "Ingresos_Financieros", "Gastos_Financieros", "Impuestos"];
+        const csvContent = "data:text/csv;charset=utf-8," + headers.join(",") + "\n2024,1,10000,4000,1000,500,200,100,500";
+        const encodedUri = encodeURI(csvContent);
+        const link = document.createElement("a");
+        link.setAttribute("href", encodedUri);
+        link.setAttribute("download", "plantilla_financiera.csv");
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    });
+}
+
+if (fileUploadInput) {
+    fileUploadInput.addEventListener('change', (e) => {
+        if (e.target.files.length > 0) {
+            processFileBtn.style.display = 'block';
+        } else {
+            processFileBtn.style.display = 'none';
+        }
+    });
+}
+
+if (processFileBtn) {
+    processFileBtn.addEventListener('click', () => {
+        const file = fileUploadInput.files[0];
+        if (!file) return;
+
+        if (typeof Papa === 'undefined') {
+            showToast("La librería para procesar CSV no está cargada.", "error");
+            return;
+        }
+
+        processFileBtn.disabled = true;
+        processFileBtn.textContent = 'Procesando...';
+
+        Papa.parse(file, {
+            header: true,
+            skipEmptyLines: true,
+            complete: async function(results) {
+                const data = results.data;
+                let successCount = 0;
+                let errorCount = 0;
+
+                for (const row of data) {
+                    try {
+                        const anio = parseInt(row["Anio"]);
+                        const mes = parseInt(row["Mes"]);
+                        if (!anio || !mes || isNaN(anio) || isNaN(mes)) continue;
+
+                        const mappedForAiven = {
+                            empresa_id: currentCompany,
+                            clave_empresa: "default",
+                            anio: anio,
+                            mes: mes,
+                            ventas_netas: parseFloat(row["Ingresos_Netos"]) || 0,
+                            costo_ventas: parseFloat(row["Costo_en_Ingresos"]) || 0,
+                            gastos_administracion: parseFloat(row["Gastos_Administracion"]) || 0,
+                            depreciacion: parseFloat(row["Depreciacion_Amortizacion"]) || 0,
+                            ingresos_financieros: parseFloat(row["Ingresos_Financieros"]) || 0,
+                            gastos_financieros: parseFloat(row["Gastos_Financieros"]) || 0,
+                            impuesto_renta: parseFloat(row["Impuestos"]) || 0
+                        };
+
+                        if (typeof enviarDatoss === 'function') {
+                            await enviarDatoss(mappedForAiven);
+                        }
+
+                        const recordForLocal = {
+                            id: currentCompany + "-" + anio + "-" + mes,
+                            companyId: currentCompany,
+                            year: anio,
+                            month: mes,
+                            ventas_netas: mappedForAiven.ventas_netas,
+                            costo_ventas: mappedForAiven.costo_ventas,
+                            gastos_administracion: mappedForAiven.gastos_administracion,
+                            depreciacion_amortizacion: mappedForAiven.depreciacion,
+                            ingresos_financieros: mappedForAiven.ingresos_financieros,
+                            gastos_financieros: mappedForAiven.gastos_financieros,
+                            impuestos: mappedForAiven.impuesto_renta,
+                            timestamp: Date.now()
+                        };
+                        
+                        if (typeof saveFinancialRecord === 'function') {
+                            await saveFinancialRecord(recordForLocal);
+                        }
+                        
+                        successCount++;
+                    } catch(err) {
+                        console.error("Error en fila CSV:", row, err);
+                        errorCount++;
+                    }
+                }
+
+                showToast("Proceso completado. Guardados: " + successCount + ", Errores: " + errorCount);
+                processFileBtn.disabled = false;
+                processFileBtn.textContent = 'Procesar Archivo CSV';
+                fileUploadInput.value = '';
+                processFileBtn.style.display = 'none';
+                
+                if (typeof loadAnnualStatement === 'function') {
+                    loadAnnualStatement();
+                }
+            }
+        });
+    });
+}
+
+
+
+
+// --- Admin Logic ---
+const loadAdminData = async () => {
+    try {
+        const response = await fetch('/api/get-empresas');
+        if (!response.ok) throw new Error('Error al obtener empresas');
+        const data = await response.json();
+        
+        const tbody = document.getElementById('admin-empresas-tbody');
+        if (!tbody) return;
+        
+        tbody.innerHTML = '';
+        data.forEach(emp => {
+            const tr = document.createElement('tr');
+            
+            const tdId = document.createElement('td');
+            tdId.textContent = emp.empresa_id;
+            
+            const tdStatus = document.createElement('td');
+            tdStatus.textContent = emp.is_authorized ? '✅ Autorizado' : '⏳ Pendiente';
+            
+            const tdAction = document.createElement('td');
+            if (!emp.is_authorized) {
+                const btn = document.createElement('button');
+                btn.className = 'btn-primary';
+                btn.style.padding = '0.5rem 1rem';
+                btn.style.fontSize = '0.8rem';
+                btn.textContent = 'Aprobar';
+                btn.onclick = () => approveEmpresa(emp.empresa_id);
+                tdAction.appendChild(btn);
+            } else {
+                const btn = document.createElement('button');
+                btn.className = 'btn-secondary';
+                btn.style.padding = '0.5rem 1rem';
+                btn.style.fontSize = '0.8rem';
+                btn.textContent = 'Revocar';
+                btn.onclick = () => revokeEmpresa(emp.empresa_id);
+                tdAction.appendChild(btn);
+            }
+            
+            tr.appendChild(tdId);
+            tr.appendChild(tdStatus);
+            tr.appendChild(tdAction);
+            tbody.appendChild(tr);
+        });
+    } catch(err) {
+        showToast(err.message, 'error');
+    }
+};
+
+const approveEmpresa = async (empresa_id) => {
+    try {
+        const response = await fetch('/api/approve-empresa', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ empresa_id, is_authorized: true })
+        });
+        if (!response.ok) throw new Error('Error al aprobar');
+        showToast(`${empresa_id} ha sido autorizado`);
+        loadAdminData();
+    } catch(err) {
+        showToast(err.message, 'error');
+    }
+};
+
+const revokeEmpresa = async (empresa_id) => {
+    try {
+        const response = await fetch('/api/approve-empresa', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ empresa_id, is_authorized: false })
+        });
+        if (!response.ok) throw new Error('Error al revocar');
+        showToast(`Se ha revocado el acceso a ${empresa_id}`);
+        loadAdminData();
+    } catch(err) {
+        showToast(err.message, 'error');
+    }
+};
+
+
+
+const rechazarEmpresa = async (empresa_id) => {
+    if (!confirm(`¿Estás seguro de RECHAZAR y eliminar a ${empresa_id}? Esta acción no se puede deshacer.`)) return;
+    try {
+        const response = await fetch('/api/delete-empresa', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ empresa_id })
+        });
+        if (!response.ok) throw new Error('Error al rechazar');
+        showToast(`${empresa_id} ha sido rechazado y eliminado`);
+        loadAdminData();
+    } catch(err) {
+        showToast(err.message, 'error');
+    }
+};

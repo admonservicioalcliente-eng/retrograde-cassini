@@ -418,3 +418,12 @@ tr:hover td {
     color: var(--highlight) !important;
 }
 
+
+
+th:last-child, td:last-child {
+    position: sticky;
+    right: 0;
+    background: rgba(15, 23, 42, 0.95);
+    z-index: 2;
+    border-left: 1px solid var(--border-color);
+}

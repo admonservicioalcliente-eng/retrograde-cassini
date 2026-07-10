@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 </head>
 
 <body>
@@ -281,17 +282,46 @@
                     <h2>Cargar Archivo Plano</h2>
                 </header>
                 <div style="background: var(--bg-card); padding: 2rem; border-radius: 12px; border: 1px solid var(--border-color); text-align: center;">
-                    <p style="margin-bottom: 1rem; color: var(--text-muted);">Sube tu archivo plano (.csv, .txt) aquí para procesar los datos.</p>
-                    <input type="file" id="file-upload" accept=".csv,.txt" style="display: block; margin: 0 auto;">
+                    <p style="margin-bottom: 1rem; color: var(--text-muted);">Descarga la plantilla, llénala y súbela aquí para procesar los datos masivamente.</p>
+                    <button id="download-template-btn" class="btn-secondary" style="margin-bottom: 1.5rem; max-width: 250px; margin-left: auto; margin-right: auto; display: block;">Descargar Plantilla CSV</button>
+                    <input type="file" id="file-upload" accept=".csv" style="display: block; margin: 0 auto; color: white; padding: 10px;">
+                    <button id="process-file-btn" class="btn-primary" style="margin-top: 1.5rem; max-width: 250px; margin-left: auto; margin-right: auto; display: none;">Procesar Archivo CSV</button>
                 </div>
             </section>
-        </main>
+        
+        <!-- Admin View -->
+        <section id="admin-view" class="section">
+            <header>
+                <h2>Panel de Administración (SUPERUSUARIO)</h2>
+            </header>
+            <div style="background: var(--bg-card); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-color); overflow-x: auto;">
+                <h3>Cuentas Pendientes de Aprobación</h3>
+                <table class="data-table" style="margin-top: 1rem;">
+                    <thead>
+                        <tr>
+                            <th>Empresa ID</th>
+                            <th>Clave</th>
+                            <th>Estado</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="admin-empresas-tbody">
+                        <tr><td colspan="4" style="text-align: center;">Cargando...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
     </div>
 
     <script src="db.js"></script>
     <script src="app.js" defer></script>
 </body>
 </html>
+
+
+
 
 
 

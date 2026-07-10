@@ -1,0 +1,6 @@
+{
+  "summary":  "Plan de arquitectura para implementar la autorización de usuarios mediante backend (Postgres) administrado por el SUPERUSUARIO.",
+  "updatedAt":  "2026-07-10T16:09:39.574425100Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
