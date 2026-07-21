@@ -34,6 +34,10 @@ const initDB = () => {
 };
 
 const loginUser = async (companyId, password) => {
+    // Si la empresa es DEMO, permitir acceso inmediato de pruebas sin requerir autorización
+    if (companyId.toUpperCase() === 'DEMO') {
+        return { id: 'DEMO' };
+    }
     const response = await fetch('/api/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
