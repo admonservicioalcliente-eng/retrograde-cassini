@@ -43,6 +43,35 @@ const setupAuthTable = async (client) => {
     `);
 };
 
+const setupFinanceTable = async (client) => {
+    await client.query(`
+        CREATE TABLE IF NOT EXISTS registros_financieros (
+            id SERIAL PRIMARY KEY,
+            empresa_id VARCHAR(100) NOT NULL,
+            clave_empresa VARCHAR(100) NOT NULL,
+            anio INTEGER NOT NULL,
+            mes INTEGER NOT NULL,
+            ventas_netas NUMERIC(15,2),
+            costo_ventas NUMERIC(15,2),
+            gastos_administracion NUMERIC(15,2),
+            depreciacion NUMERIC(15,2),
+            ingresos_financieros NUMERIC(15,2),
+            gastos_financieros NUMERIC(15,2),
+            impuesto_renta NUMERIC(15,2),
+            impuesto_provision NUMERIC(15,2),
+            fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            UNIQUE (empresa_id, anio, mes)
+        );
+    `);
+    await client.query(`
+        ALTER TABLE registros_financieros
+        ADD COLUMN IF NOT EXISTS impuesto_provision NUMERIC(15,2);
+    `);
+    await client.query(`
+        CREATE UNIQUE INDEX IF NOT EXISTS registros_financieros_empresa_anio_mes_idx ON registros_financieros (empresa_id, anio, mes);
+    `);
+};
+
 export default {
   async fetch(request, env, ctx) {
     // Handle CORS preflight
@@ -116,11 +145,12 @@ export default {
         });
         const data = await request.json();
         await client.connect();
+        await setupFinanceTable(client);
 
         const query = `
           INSERT INTO registros_financieros 
-          (empresa_id, clave_empresa, anio, mes, ventas_netas, costo_ventas, gastos_administracion, depreciacion, ingresos_financieros, gastos_financieros, impuesto_renta)
-          VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+          (empresa_id, clave_empresa, anio, mes, ventas_netas, costo_ventas, gastos_administracion, depreciacion, ingresos_financieros, gastos_financieros, impuesto_renta, impuesto_provision)
+          VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)
           ON CONFLICT (empresa_id, anio, mes)
           DO UPDATE SET 
             ventas_netas = EXCLUDED.ventas_netas,
@@ -129,14 +159,15 @@ export default {
             depreciacion = EXCLUDED.depreciacion,
             ingresos_financieros = EXCLUDED.ingresos_financieros,
             gastos_financieros = EXCLUDED.gastos_financieros,
-            impuesto_renta = EXCLUDED.impuesto_renta
+            impuesto_renta = EXCLUDED.impuesto_renta,
+            impuesto_provision = EXCLUDED.impuesto_provision
           RETURNING id;
         `;
         const values = [
           data.empresa_id, data.clave_empresa, data.anio, data.mes,
           data.ventas_netas, data.costo_ventas, data.gastos_administracion,
           data.depreciacion, data.ingresos_financieros, data.gastos_financieros,
-          data.impuesto_renta
+          data.impuesto_renta, data.impuesto_provision
         ];
 
         const res = await client.query(query, values);

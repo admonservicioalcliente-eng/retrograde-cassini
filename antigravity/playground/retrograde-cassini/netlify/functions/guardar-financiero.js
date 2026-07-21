@@ -31,8 +31,18 @@ exports.handler = async (event, context) => {
     // Query para insertar los campos que definiste
     const query = `
       INSERT INTO registros_financieros 
-      (empresa_id, clave_empresa, anio, mes, ventas_netas, costo_ventas, gastos_administracion, depreciacion, ingresos_financieros, gastos_financieros, impuesto_renta)
-      VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+      (empresa_id, clave_empresa, anio, mes, ventas_netas, costo_ventas, gastos_administracion, depreciacion, ingresos_financieros, gastos_financieros, impuesto_renta, impuesto_provision)
+      VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)
+      ON CONFLICT (empresa_id, anio, mes)
+      DO UPDATE SET 
+        ventas_netas = EXCLUDED.ventas_netas,
+        costo_ventas = EXCLUDED.costo_ventas,
+        gastos_administracion = EXCLUDED.gastos_administracion,
+        depreciacion = EXCLUDED.depreciacion,
+        ingresos_financieros = EXCLUDED.ingresos_financieros,
+        gastos_financieros = EXCLUDED.gastos_financieros,
+        impuesto_renta = EXCLUDED.impuesto_renta,
+        impuesto_provision = EXCLUDED.impuesto_provision
       RETURNING id;
     `;
 
@@ -40,7 +50,7 @@ exports.handler = async (event, context) => {
       data.empresa_id, data.clave_empresa, data.anio, data.mes, 
       data.ventas_netas, data.costo_ventas, data.gastos_administracion, 
       data.depreciacion, data.ingresos_financieros, data.gastos_financieros, 
-      data.impuesto_renta
+      data.impuesto_renta, data.impuesto_provision
     ];
 
     const res = await client.query(query, values);

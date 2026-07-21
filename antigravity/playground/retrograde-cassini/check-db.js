@@ -31,8 +31,17 @@ async function main() {
       ingresos_financieros NUMERIC(15,2),
       gastos_financieros NUMERIC(15,2),
       impuesto_renta NUMERIC(15,2),
-      fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      impuesto_provision NUMERIC(15,2),
+      fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+      UNIQUE (empresa_id, anio, mes)
     )
+  `);
+  await client.query(`
+    ALTER TABLE registros_financieros
+    ADD COLUMN IF NOT EXISTS impuesto_provision NUMERIC(15,2);
+  `);
+  await client.query(`
+    CREATE UNIQUE INDEX IF NOT EXISTS registros_financieros_empresa_anio_mes_idx ON registros_financieros (empresa_id, anio, mes);
   `);
   console.log('✅ Tabla registros_financieros creada/verificada!');
 

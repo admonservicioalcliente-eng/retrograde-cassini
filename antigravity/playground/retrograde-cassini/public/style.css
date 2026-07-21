@@ -249,6 +249,19 @@ header {
 header h2 {
     font-size: 2rem;
 }
+.dashboard-header {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(180px, 1fr));
+    gap: 1rem;
+    align-items: end;
+    margin-bottom: 1.5rem;
+}
+.dashboard-tei {
+    margin: 0.5rem 0 0;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--highlight);
+}
 .year-selector {
     display: flex;
     align-items: center;

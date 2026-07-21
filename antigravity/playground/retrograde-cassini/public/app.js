@@ -31,15 +31,31 @@ const calcDerivedMetrics = (rec) => {
     const depAmor = parseFloat(rec.depreciacion_amortizacion) || 0;
     const ingFin = parseFloat(rec.ingresos_financieros) || 0;
     const gasFin = parseFloat(rec.gastos_financieros) || 0;
-    const impuestos = parseFloat(rec.impuestos) || 0;
+    const impuestoProvisionRaw = parseFloat(rec.impuesto_provision);
+    const impuestoRenta = parseFloat(rec.impuesto_renta) || 0;
+    const impuestoProvision = Number.isFinite(impuestoProvisionRaw)
+        ? impuestoProvisionRaw
+        : (impuestoRenta ? impuestoRenta / 12 : 0);
 
     const utilidadBruta = ventas - costo;
     const ebitda = utilidadBruta - gastosAdmin;
     const ebit = ebitda - depAmor;
     const uai = ebit + ingFin - gasFin; // Utilidad Antes de Impuestos
-    const utilidadNeta = uai - impuestos;
+    const utilidadNeta = uai - impuestoProvision;
+    const tei = uai !== 0 ? impuestoRenta / uai : null;
 
-    return { utilidadBruta, ebitda, ebit, uai, utilidadNeta, ventas };
+    return {
+        utilidadBruta,
+        ebitda,
+        ebit,
+        uai,
+        utilidadNeta,
+        ventas,
+        impuestoProvision,
+        impuesto_provision: impuestoProvision,
+        impuestoRenta,
+        tei
+    };
 };
 
 // Navigation
@@ -114,20 +130,42 @@ const loadEntryData = async (year, month) => {
     if (!currentCompany) return;
     try {
         const record = await getRecordMeta(currentCompany, parseInt(year), parseInt(month));
-        const fields = ['ventas_netas', 'costo_ventas', 'gastos_administracion', 'depreciacion_amortizacion', 'ingresos_financieros', 'gastos_financieros', 'impuestos'];
 
         if (record) {
-            fields.forEach(f => document.getElementById(f.replace('_', '-')).value = record[f]);
+            document.getElementById('ventas-netas').value = record.ventas_netas || '';
+            document.getElementById('costo-ventas').value = record.costo_ventas || '';
+            document.getElementById('gastos-admin').value = record.gastos_administracion || '';
+            document.getElementById('depreciacion').value = record.depreciacion_amortizacion || '';
+            document.getElementById('ingresos-fin').value = record.ingresos_financieros || '';
+            document.getElementById('gastos-fin').value = record.gastos_financieros || '';
+            document.getElementById('impuesto-renta-anual').value = record.impuesto_renta != null ? record.impuesto_renta : '';
+            document.getElementById('impuesto-provision').value = record.impuesto_provision != null ? record.impuesto_provision : (record.impuesto_renta ? (parseFloat(record.impuesto_renta) / 12).toFixed(2) : '');
         } else {
-            fields.forEach(f => document.getElementById(f.replace('_', '-')).value = '');
+            document.getElementById('ventas-netas').value = '';
+            document.getElementById('costo-ventas').value = '';
+            document.getElementById('gastos-admin').value = '';
+            document.getElementById('depreciacion').value = '';
+            document.getElementById('ingresos-fin').value = '';
+            document.getElementById('gastos-fin').value = '';
+            document.getElementById('impuesto-renta-anual').value = '';
+            document.getElementById('impuesto-provision').value = '';
         }
-    } catch (err) { }
+    } catch (err) {
+        console.error('Error cargando datos del mes:', err);
+    }
 };
 
 document.getElementById('entry-form').addEventListener('submit', async (e) => {
     e.preventDefault();
     const year = parseInt(document.getElementById('entry-year').value);
     const month = parseInt(document.getElementById('entry-month').value);
+
+    const impuestoRentaAnualValue = parseFloat(document.getElementById('impuesto-renta-anual').value);
+    const impuestoRentaAnual = Number.isFinite(impuestoRentaAnualValue) ? impuestoRentaAnualValue : 0;
+    let impuestoProvision = parseFloat(document.getElementById('impuesto-provision').value);
+    if (!Number.isFinite(impuestoProvision)) {
+        impuestoProvision = impuestoRentaAnual ? impuestoRentaAnual / 12 : 0;
+    }
 
     const record = {
         company_id: currentCompany,
@@ -139,7 +177,8 @@ document.getElementById('entry-form').addEventListener('submit', async (e) => {
         depreciacion_amortizacion: parseFloat(document.getElementById('depreciacion').value) || 0,
         ingresos_financieros: parseFloat(document.getElementById('ingresos-fin').value) || 0,
         gastos_financieros: parseFloat(document.getElementById('gastos-fin').value) || 0,
-        impuestos: parseFloat(document.getElementById('impuestos').value) || 0
+        impuesto_renta: impuestoRentaAnual,
+        impuesto_provision: impuestoProvision
     };
 
     try {
@@ -159,7 +198,8 @@ document.getElementById('entry-form').addEventListener('submit', async (e) => {
                 depreciacion: record.depreciacion_amortizacion,
                 ingresos_financieros: record.ingresos_financieros,
                 gastos_financieros: record.gastos_financieros,
-                impuesto_renta: record.impuestos
+                impuesto_renta: record.impuesto_renta,
+                impuesto_provision: record.impuesto_provision
             };
             await enviarDatoss(mappedForAiven);
         } else {
@@ -197,7 +237,8 @@ const loadDashboard = async () => {
                 depreciacion_amortizacion: dbRow.depreciacion,
                 ingresos_financieros: dbRow.ingresos_financieros,
                 gastos_financieros: dbRow.gastos_financieros,
-                impuestos: dbRow.impuesto_renta
+                impuesto_renta: dbRow.impuesto_renta,
+                impuesto_provision: dbRow.impuesto_provision
             }));
         } else {
             console.warn("No se pudo obtener datos de Aiven, leyendo local...");
@@ -208,6 +249,8 @@ const loadDashboard = async () => {
     }
 
     let tIngresos = 0, tBruta = 0, tEbitda = 0, tNeta = 0;
+    let totalUAI = 0;
+    let annualTax = null;
 
     const monthlyData = Array(12).fill(null).map(() => ({ ventas: 0, neta: 0, ebitda: 0, ebit: 0 }));
 
@@ -217,6 +260,13 @@ const loadDashboard = async () => {
         tBruta += metrics.utilidadBruta;
         tEbitda += metrics.ebitda;
         tNeta += metrics.utilidadNeta;
+        totalUAI += metrics.uai;
+
+        if (metrics.impuestoRenta != null) {
+            if (annualTax === null || (annualTax === 0 && metrics.impuestoRenta !== 0)) {
+                annualTax = metrics.impuestoRenta;
+            }
+        }
 
         const m = rec.month - 1;
         monthlyData[m] = {
@@ -226,6 +276,10 @@ const loadDashboard = async () => {
             ebit: metrics.ebit
         };
     });
+
+    const teiValue = totalUAI !== 0 && annualTax !== null ? annualTax / totalUAI : null;
+    document.getElementById('dash-impuesto-renta').value = annualTax !== null ? annualTax.toFixed(2) : '';
+    document.getElementById('dashboard-tei').textContent = teiValue !== null ? `${(teiValue * 100).toFixed(1)} %` : '-';
 
     // Update KPIs
     document.getElementById('kpi-ingresos').textContent = formatCurrency(tIngresos);
@@ -327,7 +381,8 @@ const loadAnnualStatement = async () => {
                 depreciacion_amortizacion: dbRow.depreciacion,
                 ingresos_financieros: dbRow.ingresos_financieros,
                 gastos_financieros: dbRow.gastos_financieros,
-                impuestos: dbRow.impuesto_renta
+                impuesto_renta: dbRow.impuesto_renta,
+                impuesto_provision: dbRow.impuesto_provision
             }));
         } else {
             records = await getRecordsByYear(currentCompany, year);
@@ -347,7 +402,7 @@ const loadAnnualStatement = async () => {
         { key: 'ingresos_financieros', label: '5. Ing. Financieros' },
         { key: 'gastos_financieros', label: '6. Gastos Financieros' },
         { key: 'uai', label: 'Utilidad Antes de Impuestos', derived: true, bold: true },
-        { key: 'impuestos', label: '7. Impuestos' },
+        { key: 'impuesto_provision', label: '8. Impuesto (Provisión)' },
         { key: 'utilidadNeta', label: 'UTILIDAD NETA', derived: true, highlight: true }
     ];
 
@@ -398,7 +453,8 @@ const loadMarginsStatement = async () => {
                 depreciacion_amortizacion: dbRow.depreciacion,
                 ingresos_financieros: dbRow.ingresos_financieros,
                 gastos_financieros: dbRow.gastos_financieros,
-                impuestos: dbRow.impuesto_renta
+                impuesto_renta: dbRow.impuesto_renta,
+                impuesto_provision: dbRow.impuesto_provision
             }));
         } else {
             records = await getRecordsByYear(currentCompany, year);
@@ -417,7 +473,7 @@ const loadMarginsStatement = async () => {
         { key: 'ingresos_financieros', label: 'Ing. Financieros (%)' },
         { key: 'gastos_financieros', label: 'Gastos Financieros (%)', inverse: true },
         { key: 'uai', label: 'Margen UAI (%)', derived: true, bold: true },
-        { key: 'impuestos', label: 'Impuestos (%)', inverse: true },
+        { key: 'impuesto_provision', label: 'Impuesto (Provisión) (%)', inverse: true },
         { key: 'utilidadNeta', label: 'Margen Neto (%)', derived: true, highlight: true }
     ];
 
@@ -584,8 +640,8 @@ const processFileBtn = document.getElementById('process-file-btn');
 
 if (downloadTemplateBtn) {
     downloadTemplateBtn.addEventListener('click', () => {
-        const headers = ["Anio", "Mes", "Ingresos_Netos", "Costo_en_Ingresos", "Gastos_Administracion", "Depreciacion_Amortizacion", "Ingresos_Financieros", "Gastos_Financieros", "Impuestos"];
-        const csvContent = "data:text/csv;charset=utf-8," + headers.join(",") + "\n2024,1,10000,4000,1000,500,200,100,500";
+        const headers = ["Anio", "Mes", "Ingresos_Netos", "Costo_en_Ingresos", "Gastos_Administracion", "Depreciacion_Amortizacion", "Ingresos_Financieros", "Gastos_Financieros", "Impuesto_Renta_Anual", "Impuesto_Provision"];
+        const csvContent = "data:text/csv;charset=utf-8," + headers.join(",") + "\n2024,1,10000,4000,1000,500,200,100,1200,100";
         const encodedUri = encodeURI(csvContent);
         const link = document.createElement("a");
         link.setAttribute("href", encodedUri);
@@ -644,7 +700,8 @@ if (processFileBtn) {
                             depreciacion: parseFloat(row["Depreciacion_Amortizacion"]) || 0,
                             ingresos_financieros: parseFloat(row["Ingresos_Financieros"]) || 0,
                             gastos_financieros: parseFloat(row["Gastos_Financieros"]) || 0,
-                            impuesto_renta: parseFloat(row["Impuestos"]) || 0
+                            impuesto_renta: parseFloat(row["Impuesto_Renta_Anual"]) || 0,
+                            impuesto_provision: parseFloat(row["Impuesto_Provision"]) || 0
                         };
 
                         if (typeof enviarDatoss === 'function') {
@@ -653,7 +710,7 @@ if (processFileBtn) {
 
                         const recordForLocal = {
                             id: currentCompany + "-" + anio + "-" + mes,
-                            companyId: currentCompany,
+                            company_id: currentCompany,
                             year: anio,
                             month: mes,
                             ventas_netas: mappedForAiven.ventas_netas,
@@ -662,7 +719,8 @@ if (processFileBtn) {
                             depreciacion_amortizacion: mappedForAiven.depreciacion,
                             ingresos_financieros: mappedForAiven.ingresos_financieros,
                             gastos_financieros: mappedForAiven.gastos_financieros,
-                            impuestos: mappedForAiven.impuesto_renta,
+                            impuesto_renta: mappedForAiven.impuesto_renta,
+                            impuesto_provision: mappedForAiven.impuesto_provision,
                             timestamp: Date.now()
                         };
                         
