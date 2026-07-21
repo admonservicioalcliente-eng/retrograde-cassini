@@ -13,13 +13,33 @@ const setupAuthTable = async (client) => {
             empresa_id VARCHAR(50) PRIMARY KEY,
             password_hash VARCHAR(255) NOT NULL,
             is_authorized BOOLEAN DEFAULT false,
+            status VARCHAR(20) DEFAULT 'pending',
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         );
     `);
     await client.query(`
-        INSERT INTO empresas_auth (empresa_id, password_hash, is_authorized) 
-        VALUES ('SUPERUSUARIO', 'super123', true) 
-        ON CONFLICT DO NOTHING;
+        ALTER TABLE empresas_auth
+        ADD COLUMN IF NOT EXISTS status VARCHAR(20) DEFAULT 'pending';
+    `);
+    await client.query(`
+        UPDATE empresas_auth
+        SET status = CASE
+            WHEN empresa_id = 'SUPERUSUARIO' THEN 'approved'
+            WHEN is_authorized = true THEN 'approved'
+            WHEN status IS NULL OR status = '' THEN 'pending'
+            ELSE status
+        END
+        WHERE status IS NULL OR status = '' OR (empresa_id = 'SUPERUSUARIO' AND status != 'approved');
+    `);
+    await client.query(`
+        UPDATE empresas_auth
+        SET is_authorized = CASE WHEN status = 'approved' THEN true ELSE false END
+        WHERE status IS NOT NULL;
+    `);
+    await client.query(`
+        INSERT INTO empresas_auth (empresa_id, password_hash, is_authorized, status) 
+        VALUES ('SUPERUSUARIO', 'super123', true, 'approved') 
+        ON CONFLICT (empresa_id) DO NOTHING;
     `);
 };
 
@@ -192,17 +212,22 @@ export default {
 
         if (!user) {
             await client.query(
-              "INSERT INTO empresas_auth (empresa_id, password_hash, is_authorized) VALUES ($1, $2, false)",
+              "INSERT INTO empresas_auth (empresa_id, password_hash, is_authorized, status) VALUES ($1, $2, false, 'pending')",
               [data.empresa_id, data.password]
             );
             ctx.waitUntil(client.end());
             return new Response(JSON.stringify({ success: false, error: "Tu cuenta ha sido registrada y está pendiente de autorización por el administrador." }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
         } else {
+            const userStatus = user.status || (user.is_authorized ? 'approved' : 'pending');
             if (user.password_hash !== data.password) {
                 ctx.waitUntil(client.end());
                 return new Response(JSON.stringify({ success: false, error: "Contraseña incorrecta." }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
             }
-            if (!user.is_authorized && user.empresa_id !== 'SUPERUSUARIO') {
+            if (userStatus === 'rejected') {
+                ctx.waitUntil(client.end());
+                return new Response(JSON.stringify({ success: false, error: "Tu cuenta ha sido rechazada por el administrador." }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
+            }
+            if (userStatus !== 'approved' && user.empresa_id !== 'SUPERUSUARIO') {
                 ctx.waitUntil(client.end());
                 return new Response(JSON.stringify({ success: false, error: "Tu cuenta está pendiente de autorización por el administrador." }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
             }
@@ -219,7 +244,8 @@ export default {
             const connectionString = env.hyperdrive?.connectionString || env.DATABASE_URL;
             const client = new Client({ connectionString });
             await client.connect();
-            const res = await client.query("SELECT empresa_id, password_hash, is_authorized, created_at FROM empresas_auth WHERE empresa_id != 'SUPERUSUARIO' ORDER BY created_at DESC");
+            await setupAuthTable(client);
+            const res = await client.query("SELECT empresa_id, password_hash, is_authorized, status, created_at FROM empresas_auth WHERE empresa_id != 'SUPERUSUARIO' AND COALESCE(status, 'pending') != 'rejected' ORDER BY created_at DESC");
             ctx.waitUntil(client.end());
             return new Response(JSON.stringify(res.rows), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
         } catch(err) {
@@ -233,7 +259,9 @@ export default {
             const connectionString = env.hyperdrive?.connectionString || env.DATABASE_URL;
             const client = new Client({ connectionString });
             await client.connect();
-            await client.query("UPDATE empresas_auth SET is_authorized = $1 WHERE empresa_id = $2", [data.is_authorized, data.empresa_id]);
+            await setupAuthTable(client);
+            const newStatus = data.is_authorized ? 'approved' : 'pending';
+            await client.query("UPDATE empresas_auth SET is_authorized = $1, status = $2 WHERE empresa_id = $3", [data.is_authorized, newStatus, data.empresa_id]);
             ctx.waitUntil(client.end());
             return new Response(JSON.stringify({ success: true }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
         } catch(err) {
@@ -242,12 +270,32 @@ export default {
     }
 
     
+    if (url.pathname === '/api/update-password' || url.pathname.endsWith('/update-password')) {
+        if (request.method !== 'POST') return new Response("Method Not Allowed", { status: 405, headers: CORS_HEADERS });
+        try {
+            const data = await request.json();
+            const connectionString = env.hyperdrive?.connectionString || env.DATABASE_URL;
+            const client = new Client({ connectionString });
+            await client.connect();
+            await setupAuthTable(client);
+            const res = await client.query("UPDATE empresas_auth SET password_hash = $1 WHERE empresa_id = $2", [data.password, data.empresa_id]);
+            ctx.waitUntil(client.end());
+            if (res.rowCount === 0) {
+                return new Response(JSON.stringify({ success: false, error: 'No se encontró la empresa.' }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
+            }
+            return new Response(JSON.stringify({ success: true }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
+        } catch(err) {
+            return new Response(JSON.stringify({ error: err.message }), { status: 500, headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
+        }
+    }
+
     if (url.pathname === '/api/delete-empresa' || url.pathname.endsWith('/delete-empresa')) {
         try {
             const data = await request.json();
             const connectionString = env.hyperdrive?.connectionString || env.DATABASE_URL;
             const client = new Client({ connectionString });
             await client.connect();
+            await setupAuthTable(client);
             await client.query("DELETE FROM empresas_auth WHERE empresa_id = $1", [data.empresa_id]);
             ctx.waitUntil(client.end());
             return new Response(JSON.stringify({ success: true }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });

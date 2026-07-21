@@ -294,21 +294,40 @@
             <header>
                 <h2>Panel de Administración (SUPERUSUARIO)</h2>
             </header>
-            <div style="background: var(--bg-card); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-color); overflow-x: auto;">
-                <h3>Cuentas Pendientes de Aprobación</h3>
-                <table class="data-table" style="margin-top: 1rem;">
-                    <thead>
-                        <tr>
-                            <th>Empresa ID</th>
-                            <th>Clave</th>
-                            <th>Estado</th>
-                            <th>Acciones</th>
-                        </tr>
-                    </thead>
-                    <tbody id="admin-empresas-tbody">
-                        <tr><td colspan="4" style="text-align: center;">Cargando...</td></tr>
-                    </tbody>
-                </table>
+            <div style="display: grid; gap: 1.5rem;">
+                <div style="background: var(--bg-card); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-color); overflow-x: auto;">
+                    <h3>Cuentas Pendientes de Aprobación</h3>
+                    <table class="data-table" style="margin-top: 1rem;">
+                        <thead>
+                            <tr>
+                                <th>Empresa ID</th>
+                                <th>Clave</th>
+                                <th>Estado</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="admin-pendientes-tbody">
+                            <tr><td colspan="4" style="text-align: center;">Cargando...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div style="background: var(--bg-card); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-color); overflow-x: auto;">
+                    <h3>Empresas Autorizadas</h3>
+                    <table class="data-table" style="margin-top: 1rem;">
+                        <thead>
+                            <tr>
+                                <th>Empresa ID</th>
+                                <th>Clave</th>
+                                <th>Estado</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="admin-aprobadas-tbody">
+                            <tr><td colspan="4" style="text-align: center;">Cargando...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </section>
 

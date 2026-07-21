@@ -10,7 +10,12 @@ const currentYear = new Date().getFullYear();
 const showToast = (message, type = 'success') => {
     const toast = document.getElementById('toast');
     toast.textContent = message;
-    toast.style.backgroundColor = type === 'error' ? 'var(--danger)' : 'var(--primary)';
+    const colors = {
+        success: 'var(--primary)',
+        error: 'var(--danger)',
+        info: '#2563eb'
+    };
+    toast.style.backgroundColor = colors[type] || colors.success;
     toast.classList.add('show');
     setTimeout(() => toast.classList.remove('show'), 3000);
 };
@@ -85,7 +90,9 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
 
         showToast(`Bienvenido ${currentCompany}`);
     } catch (err) {
-        showToast(err, 'error');
+        const message = err && err.message ? err.message : err;
+        const isInfoMessage = message === 'Tu cuenta ha sido registrada y está pendiente de autorización por el administrador.' || message === 'Tu cuenta está pendiente de autorización por el administrador.' || message === 'Tu cuenta ha sido rechazada por el administrador.';
+        showToast(message, isInfoMessage ? 'info' : 'error');
     }
 });
 
@@ -688,49 +695,84 @@ if (processFileBtn) {
 
 
 // --- Admin Logic ---
+const renderAdminTable = (tbodyId, empresas, emptyMessage) => {
+    const tbody = document.getElementById(tbodyId);
+    if (!tbody) return;
+
+    tbody.innerHTML = '';
+    if (!Array.isArray(empresas) || empresas.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="4" style="text-align: center;">${emptyMessage}</td></tr>`;
+        return;
+    }
+
+    empresas.forEach(emp => {
+        const tr = document.createElement('tr');
+        const status = emp.status || (emp.is_authorized ? 'approved' : 'pending');
+        const isApproved = status === 'approved';
+
+        const tdId = document.createElement('td');
+        tdId.textContent = emp.empresa_id;
+
+        const tdPassword = document.createElement('td');
+        tdPassword.textContent = emp.password_hash || '—';
+
+        const tdStatus = document.createElement('td');
+        tdStatus.textContent = isApproved ? '✅ Autorizado' : '⏳ Pendiente';
+
+        const tdAction = document.createElement('td');
+        const actionBtn = document.createElement('button');
+        actionBtn.className = isApproved ? 'btn-secondary' : 'btn-primary';
+        actionBtn.style.padding = '0.5rem 1rem';
+        actionBtn.style.fontSize = '0.8rem';
+        actionBtn.textContent = isApproved ? 'Revocar' : 'Aprobar';
+        actionBtn.onclick = () => isApproved ? revokeEmpresa(emp.empresa_id) : approveEmpresa(emp.empresa_id);
+        tdAction.appendChild(actionBtn);
+
+        if (isApproved) {
+            const resetBtn = document.createElement('button');
+            resetBtn.className = 'btn-secondary';
+            resetBtn.style.padding = '0.5rem 1rem';
+            resetBtn.style.fontSize = '0.8rem';
+            resetBtn.style.marginLeft = '0.5rem';
+            resetBtn.textContent = 'Cambiar clave';
+            resetBtn.onclick = () => resetEmpresaPassword(emp.empresa_id);
+            tdAction.appendChild(resetBtn);
+        }
+
+        const rejectBtn = document.createElement('button');
+        rejectBtn.className = 'btn-danger';
+        rejectBtn.style.padding = '0.5rem 1rem';
+        rejectBtn.style.fontSize = '0.8rem';
+        rejectBtn.style.marginLeft = '0.5rem';
+        rejectBtn.textContent = 'Rechazar';
+        rejectBtn.onclick = () => rechazarEmpresa(emp.empresa_id);
+        tdAction.appendChild(rejectBtn);
+
+        tr.appendChild(tdId);
+        tr.appendChild(tdPassword);
+        tr.appendChild(tdStatus);
+        tr.appendChild(tdAction);
+        tbody.appendChild(tr);
+    });
+};
+
 const loadAdminData = async () => {
     try {
         const response = await fetch('/api/get-empresas');
         if (!response.ok) throw new Error('Error al obtener empresas');
         const data = await response.json();
-        
-        const tbody = document.getElementById('admin-empresas-tbody');
-        if (!tbody) return;
-        
-        tbody.innerHTML = '';
-        data.forEach(emp => {
-            const tr = document.createElement('tr');
-            
-            const tdId = document.createElement('td');
-            tdId.textContent = emp.empresa_id;
-            
-            const tdStatus = document.createElement('td');
-            tdStatus.textContent = emp.is_authorized ? '✅ Autorizado' : '⏳ Pendiente';
-            
-            const tdAction = document.createElement('td');
-            if (!emp.is_authorized) {
-                const btn = document.createElement('button');
-                btn.className = 'btn-primary';
-                btn.style.padding = '0.5rem 1rem';
-                btn.style.fontSize = '0.8rem';
-                btn.textContent = 'Aprobar';
-                btn.onclick = () => approveEmpresa(emp.empresa_id);
-                tdAction.appendChild(btn);
-            } else {
-                const btn = document.createElement('button');
-                btn.className = 'btn-secondary';
-                btn.style.padding = '0.5rem 1rem';
-                btn.style.fontSize = '0.8rem';
-                btn.textContent = 'Revocar';
-                btn.onclick = () => revokeEmpresa(emp.empresa_id);
-                tdAction.appendChild(btn);
-            }
-            
-            tr.appendChild(tdId);
-            tr.appendChild(tdStatus);
-            tr.appendChild(tdAction);
-            tbody.appendChild(tr);
+        const empresas = Array.isArray(data) ? data : [];
+        const pendingEmpresas = empresas.filter(emp => {
+            const status = emp.status || (emp.is_authorized ? 'approved' : 'pending');
+            return status !== 'approved' && status !== 'rejected';
         });
+        const approvedEmpresas = empresas.filter(emp => {
+            const status = emp.status || (emp.is_authorized ? 'approved' : 'pending');
+            return status === 'approved';
+        });
+
+        renderAdminTable('admin-pendientes-tbody', pendingEmpresas, 'No hay cuentas pendientes');
+        renderAdminTable('admin-aprobadas-tbody', approvedEmpresas, 'No hay empresas aprobadas');
     } catch(err) {
         showToast(err.message, 'error');
     }
@@ -766,6 +808,30 @@ const revokeEmpresa = async (empresa_id) => {
     }
 };
 
+const resetEmpresaPassword = async (empresa_id) => {
+    const newPassword = prompt(`Ingrese la nueva contraseña para ${empresa_id}:`);
+    if (newPassword === null) return;
+    if (!newPassword.trim()) {
+        showToast('La contraseña no puede estar vacía.', 'error');
+        return;
+    }
+
+    try {
+        const response = await fetch('/api/update-password', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ empresa_id, password: newPassword.trim() })
+        });
+        if (!response.ok) {
+            const data = await response.json();
+            throw new Error(data.error || 'Error al actualizar la contraseña');
+        }
+        showToast(`Contraseña actualizada para ${empresa_id}`);
+        loadAdminData();
+    } catch(err) {
+        showToast(err.message, 'error');
+    }
+};
 
 
 const rechazarEmpresa = async (empresa_id) => {
