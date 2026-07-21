@@ -214,7 +214,9 @@ document.getElementById('entry-form').addEventListener('submit', async (e) => {
 
 // Dashboard
 document.getElementById('dash-year').addEventListener('change', () => loadDashboard());
-document.getElementById('dash-impuesto-renta').addEventListener('change', async () => {
+const dashImpuestoElem = document.getElementById('dash-impuesto-renta');
+if (dashImpuestoElem) {
+    dashImpuestoElem.addEventListener('change', async () => {
     const year = parseInt(document.getElementById('dash-year').value || currentYear);
     const newTax = parseFloat(document.getElementById('dash-impuesto-renta').value) || 0;
     
@@ -224,7 +226,8 @@ document.getElementById('dash-impuesto-renta').addEventListener('change', async 
     
     // Reload dashboard to recalculate TEI
     loadDashboard();
-});
+    });
+}
 document.getElementById('table-year').addEventListener('change', () => loadAnnualStatement());
 document.getElementById('margins-year').addEventListener('change', () => loadMarginsStatement());
 
