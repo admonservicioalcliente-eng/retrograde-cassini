@@ -1,0 +1,597 @@
+From https://github.com/admonservicioalcliente-eng/retrograde-cassini
+ * branch            main       -> FETCH_HEAD
+Updating files:   6% (71/1027)Updating files:   7% (72/1027)Updating files:   8% (83/1027)Updating files:   9% (93/1027)Updating files:  10% (103/1027)Updating files:  11% (113/1027)Updating files:  12% (124/1027)Updating files:  13% (134/1027)Updating files:  14% (144/1027)Updating files:  14% (150/1027)Updating files:  15% (155/1027)Updating files:  16% (165/1027)Updating files:  17% (175/1027)Updating files:  18% (185/1027)Updating files:  19% (196/1027)Updating files:  20% (206/1027)Updating files:  21% (216/1027)Updating files:  22% (226/1027)Updating files:  23% (237/1027)Updating files:  24% (247/1027)Updating files:  25% (257/1027)Updating files:  26% (268/1027)Updating files:  27% (278/1027)Updating files:  28% (288/1027)Updating files:  29% (298/1027)Updating files:  29% (303/1027)Updating files:  30% (309/1027)Updating files:  31% (319/1027)Updating files:  32% (329/1027)Updating files:  33% (339/1027)Updating files:  34% (350/1027)Updating files:  35% (360/1027)Updating files:  36% (370/1027)Updating files:  37% (380/1027)Updating files:  38% (391/1027)Updating files:  39% (401/1027)Updating files:  40% (411/1027)Updating files:  41% (422/1027)Updating files:  42% (432/1027)Updating files:  42% (435/1027)Updating files:  43% (442/1027)Updating files:  44% (452/1027)Updating files:  45% (463/1027)Updating files:  46% (473/1027)Updating files:  47% (483/1027)Updating files:  48% (493/1027)Updating files:  49% (504/1027)Updating files:  50% (514/1027)Updating files:  51% (524/1027)Updating files:  52% (535/1027)Updating files:  52% (541/1027)Updating files:  53% (545/1027)Updating files:  54% (555/1027)Updating files:  55% (565/1027)Updating files:  56% (576/1027)Updating files:  57% (586/1027)Updating files:  58% (596/1027)Updating files:  59% (606/1027)Updating files:  60% (617/1027)Updating files:  61% (627/1027)Updating files:  62% (637/1027)Updating files:  63% (648/1027)Updating files:  64% (658/1027)Updating files:  65% (668/1027)Updating files:  66% (678/1027)Updating files:  67% (689/1027)Updating files:  68% (699/1027)Updating files:  68% (700/1027)Updating files:  69% (709/1027)Updating files:  70% (719/1027)Updating files:  71% (730/1027)Updating files:  72% (740/1027)Updating files:  73% (750/1027)Updating files:  74% (760/1027)Updating files:  75% (771/1027)Updating files:  76% (781/1027)Updating files:  77% (791/1027)Updating files:  78% (802/1027)Updating files:  79% (812/1027)Updating files:  80% (822/1027)Updating files:  81% (832/1027)Updating files:  82% (843/1027)Updating files:  83% (853/1027)Updating files:  84% (863/1027)Updating files:  85% (873/1027)Updating files:  86% (884/1027)Updating files:  87% (894/1027)Updating files:  88% (904/1027)Updating files:  89% (915/1027)Updating files:  90% (925/1027)Updating files:  91% (935/1027)Updating files:  92% (945/1027)Updating files:  93% (956/1027)Updating files:  94% (966/1027)Updating files:  95% (976/1027)Updating files:  95% (982/1027)Updating files:  96% (986/1027)Updating files:  97% (997/1027)Updating files:  98% (1007/1027)Updating files:  99% (1017/1027)Updating files: 100% (1027/1027)Updating files: 100% (1027/1027), done.
+Updating 18b532f..0d42738
+Fast-forward
+ .github/workflows/deploy-cloudflare.yml            |    29 +
+ Estrategia_FINAPPZAS.doc                           |    52 +
+ antigravity/agyhub_summaries_proto.pb              |   Bin 15156 -> 15870 bytes
+ .../16ded55c-5335-4237-ae3f-645d6de859a0.pbtxt     |     2 +-
+ .../21f0d858-e55a-4f13-b3c3-4bf47217bb20.pbtxt     |     2 +-
+ .../2939ba50-c53f-4394-95ed-c758b6344876.pbtxt     |     2 +-
+ .../49785721-cd1b-4234-9e1d-b627166b0ec2.pbtxt     |     2 +-
+ .../49dd0db0-182d-4ea7-9a71-ddf7701a94bd.pbtxt     |     2 +-
+ .../86fc7a33-2c20-4b2a-a2f2-722dc2355ec3.pbtxt     |     1 +
+ .../a269f500-147c-45dd-91c1-cd2d55c43e58.pbtxt     |     2 +-
+ antigravity/antigravity_state.pbtxt                |     4 +-
+ antigravity/bin/webm_encoder.exe                   |   Bin 19209216 -> 13738496 bytes
+ .../.system_generated/logs/transcript.jsonl        |   300 +
+ .../.system_generated/logs/transcript_full.jsonl   |   300 +
+ .../018fe6ff-d008-4eae-a899-f055befbbc33.json      |     1 +
+ .../03b01083-3b3a-42fc-8990-c5dff0908a5a.json      |     1 +
+ .../109fc6d5-33dc-4ab7-b342-17aec46e51de.json      |     1 +
+ .../1d0670c6-cfee-41f3-b045-2b8da1131603.json      |     1 +
+ .../2957a466-ca4d-4df7-8ad9-fb0e99d60469.json      |     1 +
+ .../561dc8e4-1290-4cac-a1cb-ade183a24099.json      |     1 +
+ .../5d54a066-0040-467e-b3ea-d553ea8030f9.json      |     1 +
+ .../67577ab4-35d7-4461-af00-ed4544f1c285.json      |     1 +
+ .../8af37e70-9a2c-415f-9c31-f44db8eafd30.json      |     1 +
+ .../9114fd48-f7ad-4b24-ab1f-c776926c0eb1.json      |     1 +
+ .../bfbba1fd-02cd-4aaa-b886-3617de5ed551.json      |     1 +
+ .../c91375df-0195-40e3-9b04-c3d812994471.json      |     1 +
+ .../.system_generated/messages/cursor.json         |     1 +
+ .../fa579a12-91b9-4080-8332-8afb2d025115.json      |     1 +
+ .../.system_generated/messages/read.json           |     1 +
+ .../.system_generated/tasks/task-114.log           |    24 +
+ .../.system_generated/tasks/task-132.log           |    22 +
+ .../.system_generated/tasks/task-152.log           |    24 +
+ .../.system_generated/tasks/task-176.log           |    22 +
+ .../.system_generated/tasks/task-236.log           |    26 +
+ .../.system_generated/tasks/task-260.log           |    22 +
+ .../.system_generated/tasks/task-293.log           |    24 +
+ .../.system_generated/tasks/task-309.log           |    22 +
+ .../.system_generated/tasks/task-317.log           |    24 +
+ .../.system_generated/tasks/task-45.log            | 10355 +++++
+ .../.system_generated/tasks/task-48.log            |     5 +
+ .../.system_generated/tasks/task-90.log            |    32 +
+ .../implementation_plan.md                         |    36 +
+ .../implementation_plan.md.metadata.json           |     6 +
+ .../16ded55c-5335-4237-ae3f-645d6de859a0/task.md   |    15 +
+ .../task.md.metadata.json                          |     4 +
+ .../walkthrough.md                                 |    28 +
+ .../walkthrough.md.metadata.json                   |     5 +
+ .../.system_generated/logs/transcript.jsonl        |   487 +
+ .../.system_generated/logs/transcript_full.jsonl   |    59 +
+ .../06bf1f8f-5d16-4fc8-a901-ac267f08c5f1.json      |     1 +
+ .../1e1dd8a4-2928-4897-8a04-4665a78c9ca2.json      |     1 +
+ .../223d5663-32e5-4641-8c09-415b3210d026.json      |     1 +
+ .../2ad23ca2-90e7-448b-ad71-44c84e5103e0.json      |     1 +
+ .../2b7679fa-d62d-4b19-b492-968d83df700b.json      |     1 +
+ .../5160b8db-1056-42cb-9039-10e68ba8770d.json      |     1 +
+ .../62b56956-fc88-46dc-883b-94327a531216.json      |     1 +
+ .../6a2c019f-9c36-490a-bead-2221508e65ed.json      |     1 +
+ .../721aac12-bb98-48a8-9b53-18798ed6cce2.json      |     1 +
+ .../7a0217dc-ff00-4488-83dc-2e5d8a63302c.json      |     1 +
+ .../83b387dd-9079-42d5-add7-5d8e1c40b688.json      |     1 +
+ .../8a16ef02-56cb-4e59-813c-699bf28400ff.json      |     1 +
+ .../8d40b56a-e482-4f4c-8be3-f6bfe26efe34.json      |     1 +
+ .../a0c62c52-c237-462a-ab89-6c31239ed58e.json      |     1 +
+ .../a10e0375-7ed1-465c-b8b9-1b124aca3e99.json      |     1 +
+ .../a5bc8cfe-0dd0-41de-990c-d048eaf5d443.json      |     1 +
+ .../a9b852f2-22be-416b-bb7f-07be76348d5f.json      |     1 +
+ .../af783d1a-7702-448e-8d12-2787574f6eb6.json      |     1 +
+ .../c0151720-69b9-4908-bbd2-1207961541f4.json      |     1 +
+ .../c85312d5-8aea-4a39-bc4b-03a35709b0ce.json      |     1 +
+ .../cae1d51e-ff4e-433b-81d8-4d005a6b284d.json      |     1 +
+ .../cedda186-46d3-484a-8b8e-c283ded40574.json      |     1 +
+ .../cfd5a9bf-0eb5-44fc-a395-81feca547b67.json      |     1 +
+ .../.system_generated/messages/cursor.json         |     2 +-
+ .../d257f6f3-bac2-4318-9f2e-420dd8a55cc0.json      |     1 +
+ .../d7f4c328-b476-42e1-b0f4-7fd63ad568ab.json      |     1 +
+ .../db6894ba-cac3-40a0-868b-3d5a7329d995.json      |     1 +
+ .../deba66fc-90a7-4796-a772-b9c7724666c9.json      |     1 +
+ .../e63ee3be-8840-4882-ae13-2c0a34983d59.json      |     1 +
+ .../ec68107b-d479-4d5d-9314-6dff036a26ea.json      |     1 +
+ .../ee6b1860-2e5c-4c03-9c00-9cb70a28a308.json      |     1 +
+ .../fb52d9a4-8957-4ec7-9169-d5f56a71e65f.json      |     1 +
+ .../.system_generated/messages/read.json           |     2 +-
+ .../.system_generated/tasks/task-132.log           |    19 +
+ .../.system_generated/tasks/task-152.log           |    40 +
+ .../.system_generated/tasks/task-167.log           |    44 +
+ .../.system_generated/tasks/task-184.log           |    29 +
+ .../.system_generated/tasks/task-193.log           |    19 +
+ .../.system_generated/tasks/task-209.log           |    13 +
+ .../.system_generated/tasks/task-220.log           |     8 +
+ .../.system_generated/tasks/task-230.log           |    12 +
+ .../.system_generated/tasks/task-253.log           |     1 +
+ .../.system_generated/tasks/task-277.log           |    14 +
+ .../.system_generated/tasks/task-320.log           |    26 +
+ .../.system_generated/tasks/task-341.log           |    27 +
+ .../.system_generated/tasks/task-365.log           |    22 +
+ .../.system_generated/tasks/task-395.log           |    22 +
+ .../.system_generated/tasks/task-405.log           |    59 +
+ .../.system_generated/tasks/task-418.log           |    12 +
+ .../.system_generated/tasks/task-431.log           |    47 +
+ .../.system_generated/tasks/task-488.log           |    26 +
+ .../.system_generated/tasks/task-519.log           |     1 +
+ .../.system_generated/tasks/task-523.log           |    22 +
+ .../.system_generated/tasks/task-54.log            |     5 +
+ .../.system_generated/tasks/task-551.log           |    38 +
+ .../.system_generated/tasks/task-564.log           |    22 +
+ .../.system_generated/tasks/task-62.log            |    26 +
+ .../implementation_plan.md                         |    34 +
+ .../implementation_plan.md.metadata.json           |     6 +
+ .../policomputo_logo_1781623136923.png             |   Bin 0 -> 85657 bytes
+ .../7a1455b7-b81b-4569-8995-1efdf8d8d46d.json      |     1 +
+ .../0313c839-8a2a-4bae-af4a-862937eba96e.json      |     1 +
+ .../.system_generated/messages/cursor.json         |     1 +
+ .../.system_generated/messages/cursor.json         |     1 +
+ .../e51d39f8-3a68-4627-9722-7be5a588af21.json      |     1 +
+ .../58e8d8fa-f886-4436-970c-a50addbacfe8.json      |     1 +
+ .../.system_generated/messages/cursor.json         |     1 +
+ .../7e6617f9-052c-4264-9091-920533820e9b.json      |     1 +
+ .../.system_generated/messages/cursor.json         |     1 +
+ .../.system_generated/messages/cursor.json         |     1 +
+ .../e3e157c2-f476-47b3-940b-0cb0e9ac9ef1.json      |     1 +
+ .../744cf7e9-f69b-42cc-8a76-1a9da8785d5d.json      |     1 +
+ .../.system_generated/messages/cursor.json         |     1 +
+ .../eb56f3a8-3453-45c9-842d-d7665782837c.json      |     1 +
+ .../49785721-cd1b-4234-9e1d-b627166b0ec2/task.md   |     6 +
+ .../task.md.metadata.json                          |     5 +
+ .../walkthrough.md                                 |    52 +
+ .../walkthrough.md.metadata.json                   |     5 +
+ .../.system_generated/logs/transcript.jsonl        |    77 +
+ .../.system_generated/logs/transcript_full.jsonl   |    77 +
+ .../4b317fa8-bf7e-42e0-8f48-f6a45efca4ff.json      |     1 +
+ .../642b24b0-997b-4f2d-8d4a-ae193d1453d0.json      |     1 +
+ .../71e3d941-234d-4b4c-a4f2-d43f262c2522.json      |     1 +
+ .../87aa6b37-1ffd-462a-9968-6816417f6f8f.json      |     1 +
+ .../.system_generated/messages/cursor.json         |     1 +
+ .../e2c39c2e-adf2-4992-b704-0aaa0842728f.json      |     1 +
+ .../f28bd40b-9f43-4809-8301-f8db346299cd.json      |     1 +
+ .../f49d7e28-088e-47e7-a13b-a1fbb4422c64.json      |     1 +
+ .../.system_generated/messages/read.json           |     1 +
+ .../.system_generated/tasks/task-37.log            |     2 +
+ .../.system_generated/tasks/task-41.log            |    18 +
+ .../.system_generated/tasks/task-43.log            |  1001 +
+ .../.system_generated/tasks/task-62.log            |    11 +
+ .../.system_generated/tasks/task-64.log            |     1 +
+ .../.system_generated/tasks/task-67.log            |    24 +
+ .../.system_generated/tasks/task-73.log            |    19 +
+ .../16ded55c-5335-4237-ae3f-645d6de859a0.pb        |   Bin 113496 -> 2099547 bytes
+ .../49785721-cd1b-4234-9e1d-b627166b0ec2.pb        |   Bin 596864 -> 3410288 bytes
+ .../86fc7a33-2c20-4b2a-a2f2-722dc2355ec3.db        |   Bin 0 -> 872448 bytes
+ .../retrograde-cassini/Estrategia_FINAPPZAS.doc    |    52 +
+ .../playground/retrograde-cassini/check-db.js      |    13 +-
+ .../netlify/functions/guardar-financiero.js        |    16 +-
+ .../playground/retrograde-cassini/package.json     |    14 +-
+ .../playground/retrograde-cassini/patch_app.js     |   109 +
+ .../playground/retrograde-cassini/patch_db.js      |    56 +
+ .../playground/retrograde-cassini/patch_html.js    |    34 +
+ .../playground/retrograde-cassini/patch_worker.js  |    90 +
+ .../playground/retrograde-cassini/public/app.js    |   443 +-
+ .../playground/retrograde-cassini/public/db.js     |    52 +-
+ .../retrograde-cassini/public/index.html           |   132 +-
+ .../retrograde-cassini/public/index.html.backup    |   281 +
+ .../retrograde-cassini/public/policomputo_logo.png |   Bin 0 -> 17511 bytes
+ .../playground/retrograde-cassini/public/style.css |    35 +-
+ .../playground/retrograde-cassini/src/index.js     |   244 +-
+ .../playground/retrograde-cassini/wrangler.toml    |     4 +
+ antigravity/playground/retrograde-cassini_repo     |     1 +
+ antigravity/skills/agents-sdk/SKILL.md             |   221 +
+ .../skills/agents-sdk/references/browse-the-web.md |    63 +
+ .../skills/agents-sdk/references/callable.md       |    92 +
+ .../skills/agents-sdk/references/client-sdk.md     |   110 +
+ .../skills/agents-sdk/references/codemode.md       |   110 +
+ .../skills/agents-sdk/references/configuration.md  |    72 +
+ .../agents-sdk/references/durable-execution.md     |    51 +
+ antigravity/skills/agents-sdk/references/email.md  |   146 +
+ .../agents-sdk/references/human-in-the-loop.md     |    67 +
+ antigravity/skills/agents-sdk/references/mcp.md    |   188 +
+ .../skills/agents-sdk/references/observability.md  |    44 +
+ .../skills/agents-sdk/references/queue-retries.md  |    79 +
+ .../skills/agents-sdk/references/routing.md        |    75 +
+ .../references/server-driven-messages.md           |    63 +
+ .../agents-sdk/references/state-scheduling.md      |   171 +
+ .../skills/agents-sdk/references/streaming-chat.md |   198 +
+ antigravity/skills/agents-sdk/references/think.md  |   112 +
+ antigravity/skills/agents-sdk/references/voice.md  |    68 +
+ .../skills/agents-sdk/references/webhooks-push.md  |    86 +
+ .../skills/agents-sdk/references/workflows.md      |   132 +
+ .../skills/cloudflare-email-service/SKILL.md       |   103 +
+ .../references/cli-and-mcp.md                      |   125 +
+ .../references/deliverability.md                   |   285 +
+ .../references/rest-api.md                         |   184 +
+ .../cloudflare-email-service/references/routing.md |   199 +
+ .../cloudflare-email-service/references/sending.md |   252 +
+ antigravity/skills/cloudflare/SKILL.md             |   245 +
+ .../cloudflare/references/agents-sdk/README.md     |    89 +
+ .../skills/cloudflare/references/agents-sdk/api.md |   190 +
+ .../references/agents-sdk/configuration.md         |   182 +
+ .../cloudflare/references/agents-sdk/gotchas.md    |   158 +
+ .../cloudflare/references/agents-sdk/patterns.md   |   192 +
+ .../cloudflare/references/ai-gateway/README.md     |   175 +
+ .../references/ai-gateway/configuration.md         |   111 +
+ .../references/ai-gateway/dynamic-routing.md       |    82 +
+ .../cloudflare/references/ai-gateway/features.md   |    96 +
+ .../references/ai-gateway/sdk-integration.md       |   114 +
+ .../references/ai-gateway/troubleshooting.md       |    88 +
+ .../cloudflare/references/ai-search/README.md      |   138 +
+ .../skills/cloudflare/references/ai-search/api.md  |    87 +
+ .../references/ai-search/configuration.md          |    88 +
+ .../cloudflare/references/ai-search/gotchas.md     |    81 +
+ .../cloudflare/references/ai-search/patterns.md    |    85 +
+ .../references/analytics-engine/README.md          |    94 +
+ .../cloudflare/references/analytics-engine/api.md  |   112 +
+ .../references/analytics-engine/configuration.md   |   112 +
+ .../references/analytics-engine/gotchas.md         |    85 +
+ .../references/analytics-engine/patterns.md        |    83 +
+ .../cloudflare/references/api-shield/README.md     |    44 +
+ .../skills/cloudflare/references/api-shield/api.md |   141 +
+ .../references/api-shield/configuration.md         |   192 +
+ .../cloudflare/references/api-shield/gotchas.md    |   125 +
+ .../cloudflare/references/api-shield/patterns.md   |   180 +
+ .../skills/cloudflare/references/api/README.md     |    66 +
+ .../skills/cloudflare/references/api/api.md        |   204 +
+ .../cloudflare/references/api/configuration.md     |   160 +
+ .../skills/cloudflare/references/api/gotchas.md    |   225 +
+ .../skills/cloudflare/references/api/patterns.md   |   204 +
+ .../references/argo-smart-routing/README.md        |    90 +
+ .../references/argo-smart-routing/api.md           |   240 +
+ .../references/argo-smart-routing/configuration.md |   197 +
+ .../references/argo-smart-routing/gotchas.md       |   111 +
+ .../references/argo-smart-routing/patterns.md      |   104 +
+ .../cloudflare/references/artifacts/README.md      |    79 +
+ .../skills/cloudflare/references/artifacts/api.md  |   128 +
+ .../references/artifacts/configuration.md          |    92 +
+ .../cloudflare/references/bindings/README.md       |   122 +
+ .../skills/cloudflare/references/bindings/api.md   |   203 +
+ .../references/bindings/configuration.md           |   188 +
+ .../cloudflare/references/bindings/gotchas.md      |   208 +
+ .../cloudflare/references/bindings/patterns.md     |   200 +
+ .../cloudflare/references/bot-management/README.md |    94 +
+ .../cloudflare/references/bot-management/api.md    |   169 +
+ .../references/bot-management/configuration.md     |   163 +
+ .../references/bot-management/gotchas.md           |   114 +
+ .../references/bot-management/patterns.md          |   182 +
+ .../references/browser-rendering/README.md         |    78 +
+ .../cloudflare/references/browser-rendering/api.md |   108 +
+ .../references/browser-rendering/configuration.md  |    78 +
+ .../references/browser-rendering/gotchas.md        |    88 +
+ .../references/browser-rendering/patterns.md       |    91 +
+ .../skills/cloudflare/references/c3/README.md      |   111 +
+ antigravity/skills/cloudflare/references/c3/api.md |    71 +
+ .../cloudflare/references/c3/configuration.md      |    81 +
+ .../skills/cloudflare/references/c3/gotchas.md     |    92 +
+ .../skills/cloudflare/references/c3/patterns.md    |    82 +
+ .../cloudflare/references/cache-reserve/README.md  |   147 +
+ .../cloudflare/references/cache-reserve/api.md     |   194 +
+ .../references/cache-reserve/configuration.md      |   169 +
+ .../cloudflare/references/cache-reserve/gotchas.md |   132 +
+ .../references/cache-reserve/patterns.md           |   197 +
+ .../cloudflare/references/containers/README.md     |    85 +
+ .../skills/cloudflare/references/containers/api.md |   187 +
+ .../references/containers/configuration.md         |   188 +
+ .../cloudflare/references/containers/gotchas.md    |   178 +
+ .../cloudflare/references/containers/patterns.md   |   202 +
+ .../cloudflare/references/cron-triggers/README.md  |    99 +
+ .../cloudflare/references/cron-triggers/api.md     |   196 +
+ .../references/cron-triggers/configuration.md      |   180 +
+ .../cloudflare/references/cron-triggers/gotchas.md |   199 +
+ .../references/cron-triggers/patterns.md           |   190 +
+ .../skills/cloudflare/references/d1/README.md      |   133 +
+ antigravity/skills/cloudflare/references/d1/api.md |   196 +
+ .../cloudflare/references/d1/configuration.md      |   191 +
+ .../skills/cloudflare/references/d1/gotchas.md     |    98 +
+ .../skills/cloudflare/references/d1/patterns.md    |   189 +
+ .../skills/cloudflare/references/ddos/README.md    |    41 +
+ .../skills/cloudflare/references/ddos/api.md       |   164 +
+ .../cloudflare/references/ddos/configuration.md    |    93 +
+ .../skills/cloudflare/references/ddos/gotchas.md   |   107 +
+ .../skills/cloudflare/references/ddos/patterns.md  |   174 +
+ .../cloudflare/references/do-storage/README.md     |    75 +
+ .../skills/cloudflare/references/do-storage/api.md |   102 +
+ .../references/do-storage/configuration.md         |   112 +
+ .../cloudflare/references/do-storage/gotchas.md    |   150 +
+ .../cloudflare/references/do-storage/patterns.md   |   194 +
+ .../cloudflare/references/do-storage/testing.md    |   183 +
+ .../references/durable-objects/README.md           |   185 +
+ .../cloudflare/references/durable-objects/api.md   |   187 +
+ .../references/durable-objects/configuration.md    |   160 +
+ .../references/durable-objects/gotchas.md          |   197 +
+ .../references/durable-objects/patterns.md         |   201 +
+ .../cloudflare/references/email-routing/README.md  |    89 +
+ .../cloudflare/references/email-routing/api.md     |   195 +
+ .../references/email-routing/configuration.md      |   186 +
+ .../cloudflare/references/email-routing/gotchas.md |   196 +
+ .../references/email-routing/patterns.md           |   229 +
+ .../cloudflare/references/email-workers/README.md  |   151 +
+ .../cloudflare/references/email-workers/api.md     |   237 +
+ .../references/email-workers/configuration.md      |   112 +
+ .../cloudflare/references/email-workers/gotchas.md |   125 +
+ .../references/email-workers/patterns.md           |   102 +
+ .../cloudflare/references/flagship/README.md       |    56 +
+ .../skills/cloudflare/references/flagship/api.md   |   332 +
+ .../references/flagship/configuration.md           |   202 +
+ .../cloudflare/references/flagship/gotchas.md      |   160 +
+ .../cloudflare/references/flagship/patterns.md     |   424 +
+ .../cloudflare/references/graphql-api/README.md    |   147 +
+ .../cloudflare/references/graphql-api/api.md       |   175 +
+ .../references/graphql-api/configuration.md        |   118 +
+ .../cloudflare/references/graphql-api/gotchas.md   |   110 +
+ .../cloudflare/references/graphql-api/patterns.md  |   225 +
+ .../cloudflare/references/hyperdrive/README.md     |    82 +
+ .../skills/cloudflare/references/hyperdrive/api.md |   143 +
+ .../references/hyperdrive/configuration.md         |   159 +
+ .../cloudflare/references/hyperdrive/gotchas.md    |    77 +
+ .../cloudflare/references/hyperdrive/patterns.md   |   190 +
+ .../skills/cloudflare/references/images/README.md  |    61 +
+ .../skills/cloudflare/references/images/api.md     |    96 +
+ .../cloudflare/references/images/configuration.md  |   211 +
+ .../skills/cloudflare/references/images/gotchas.md |    99 +
+ .../cloudflare/references/images/patterns.md       |   115 +
+ .../skills/cloudflare/references/kv/README.md      |    89 +
+ antigravity/skills/cloudflare/references/kv/api.md |   160 +
+ .../cloudflare/references/kv/configuration.md      |   144 +
+ .../skills/cloudflare/references/kv/gotchas.md     |   131 +
+ .../skills/cloudflare/references/kv/patterns.md    |   196 +
+ .../cloudflare/references/miniflare/README.md      |   105 +
+ .../skills/cloudflare/references/miniflare/api.md  |   187 +
+ .../references/miniflare/configuration.md          |   173 +
+ .../cloudflare/references/miniflare/gotchas.md     |   160 +
+ .../cloudflare/references/miniflare/patterns.md    |   181 +
+ .../references/network-interconnect/README.md      |    99 +
+ .../references/network-interconnect/api.md         |   199 +
+ .../network-interconnect/configuration.md          |   114 +
+ .../references/network-interconnect/gotchas.md     |   165 +
+ .../references/network-interconnect/patterns.md    |   166 +
+ .../cloudflare/references/observability/README.md  |    88 +
+ .../cloudflare/references/observability/api.md     |   164 +
+ .../references/observability/configuration.md      |   169 +
+ .../cloudflare/references/observability/gotchas.md |   115 +
+ .../references/observability/patterns.md           |   105 +
+ .../references/pages-functions/README.md           |    98 +
+ .../cloudflare/references/pages-functions/api.md   |   143 +
+ .../references/pages-functions/configuration.md    |   122 +
+ .../references/pages-functions/gotchas.md          |    94 +
+ .../references/pages-functions/patterns.md         |   137 +
+ .../skills/cloudflare/references/pages/README.md   |    88 +
+ .../skills/cloudflare/references/pages/api.md      |   204 +
+ .../cloudflare/references/pages/configuration.md   |   201 +
+ .../skills/cloudflare/references/pages/gotchas.md  |   203 +
+ .../skills/cloudflare/references/pages/patterns.md |   204 +
+ .../cloudflare/references/pipelines/README.md      |   105 +
+ .../skills/cloudflare/references/pipelines/api.md  |   208 +
+ .../references/pipelines/configuration.md          |    98 +
+ .../cloudflare/references/pipelines/gotchas.md     |    80 +
+ .../cloudflare/references/pipelines/patterns.md    |    87 +
+ .../skills/cloudflare/references/pulumi/README.md  |   100 +
+ .../skills/cloudflare/references/pulumi/api.md     |   200 +
+ .../cloudflare/references/pulumi/configuration.md  |   198 +
+ .../skills/cloudflare/references/pulumi/gotchas.md |   181 +
+ .../cloudflare/references/pulumi/patterns.md       |   191 +
+ .../skills/cloudflare/references/queues/README.md  |    96 +
+ .../skills/cloudflare/references/queues/api.md     |   206 +
+ .../cloudflare/references/queues/configuration.md  |   144 +
+ .../skills/cloudflare/references/queues/gotchas.md |   206 +
+ .../cloudflare/references/queues/patterns.md       |   220 +
+ .../references/r2-data-catalog/README.md           |   149 +
+ .../cloudflare/references/r2-data-catalog/api.md   |   199 +
+ .../references/r2-data-catalog/configuration.md    |   198 +
+ .../references/r2-data-catalog/gotchas.md          |   170 +
+ .../references/r2-data-catalog/patterns.md         |   191 +
+ .../skills/cloudflare/references/r2-sql/README.md  |   128 +
+ .../cloudflare/references/r2-sql/SKILL.md.backup   |   512 +
+ .../skills/cloudflare/references/r2-sql/api.md     |   158 +
+ .../cloudflare/references/r2-sql/configuration.md  |   147 +
+ .../skills/cloudflare/references/r2-sql/gotchas.md |   212 +
+ .../cloudflare/references/r2-sql/patterns.md       |   222 +
+ .../skills/cloudflare/references/r2/README.md      |    95 +
+ antigravity/skills/cloudflare/references/r2/api.md |   200 +
+ .../cloudflare/references/r2/configuration.md      |   165 +
+ .../skills/cloudflare/references/r2/gotchas.md     |   190 +
+ .../skills/cloudflare/references/r2/patterns.md    |   193 +
+ .../cloudflare/references/realtime-sfu/README.md   |    65 +
+ .../cloudflare/references/realtime-sfu/api.md      |   158 +
+ .../references/realtime-sfu/configuration.md       |   137 +
+ .../cloudflare/references/realtime-sfu/gotchas.md  |   133 +
+ .../cloudflare/references/realtime-sfu/patterns.md |   174 +
+ .../cloudflare/references/realtimekit/README.md    |   113 +
+ .../cloudflare/references/realtimekit/api.md       |   212 +
+ .../references/realtimekit/configuration.md        |   203 +
+ .../cloudflare/references/realtimekit/gotchas.md   |   169 +
+ .../cloudflare/references/realtimekit/patterns.md  |   223 +
+ .../skills/cloudflare/references/sandbox/README.md |    96 +
+ .../skills/cloudflare/references/sandbox/api.md    |   198 +
+ .../cloudflare/references/sandbox/configuration.md |   143 +
+ .../cloudflare/references/sandbox/gotchas.md       |   194 +
+ .../cloudflare/references/sandbox/patterns.md      |   201 +
+ .../cloudflare/references/secrets-store/README.md  |    74 +
+ .../cloudflare/references/secrets-store/api.md     |   200 +
+ .../references/secrets-store/configuration.md      |   185 +
+ .../cloudflare/references/secrets-store/gotchas.md |    97 +
+ .../references/secrets-store/patterns.md           |   207 +
+ .../references/smart-placement/README.md           |   138 +
+ .../cloudflare/references/smart-placement/api.md   |   183 +
+ .../references/smart-placement/configuration.md    |   196 +
+ .../references/smart-placement/gotchas.md          |   174 +
+ .../references/smart-placement/patterns.md         |   183 +
+ .../cloudflare/references/snippets/README.md       |    68 +
+ .../skills/cloudflare/references/snippets/api.md   |   198 +
+ .../references/snippets/configuration.md           |   227 +
+ .../cloudflare/references/snippets/gotchas.md      |    86 +
+ .../cloudflare/references/snippets/patterns.md     |   135 +
+ .../cloudflare/references/spectrum/README.md       |    52 +
+ .../skills/cloudflare/references/spectrum/api.md   |   181 +
+ .../references/spectrum/configuration.md           |   194 +
+ .../cloudflare/references/spectrum/gotchas.md      |   145 +
+ .../cloudflare/references/spectrum/patterns.md     |   196 +
+ .../cloudflare/references/static-assets/README.md  |    65 +
+ .../cloudflare/references/static-assets/api.md     |   199 +
+ .../references/static-assets/configuration.md      |   186 +
+ .../cloudflare/references/static-assets/gotchas.md |   162 +
+ .../references/static-assets/patterns.md           |   189 +
+ .../skills/cloudflare/references/stream/README.md  |   114 +
+ .../cloudflare/references/stream/api-live.md       |   195 +
+ .../skills/cloudflare/references/stream/api.md     |   199 +
+ .../cloudflare/references/stream/configuration.md  |   141 +
+ .../skills/cloudflare/references/stream/gotchas.md |   130 +
+ .../cloudflare/references/stream/patterns.md       |   184 +
+ .../cloudflare/references/tail-workers/README.md   |    89 +
+ .../cloudflare/references/tail-workers/api.md      |   200 +
+ .../references/tail-workers/configuration.md       |   176 +
+ .../cloudflare/references/tail-workers/gotchas.md  |   192 +
+ .../cloudflare/references/tail-workers/patterns.md |   180 +
+ .../cloudflare/references/terraform/README.md      |   102 +
+ .../skills/cloudflare/references/terraform/api.md  |   178 +
+ .../references/terraform/configuration.md          |   197 +
+ .../cloudflare/references/terraform/gotchas.md     |   150 +
+ .../cloudflare/references/terraform/patterns.md    |   174 +
+ .../skills/cloudflare/references/tunnel/README.md  |   129 +
+ .../skills/cloudflare/references/tunnel/api.md     |   193 +
+ .../cloudflare/references/tunnel/configuration.md  |   157 +
+ .../skills/cloudflare/references/tunnel/gotchas.md |   147 +
+ .../cloudflare/references/tunnel/networking.md     |   168 +
+ .../cloudflare/references/tunnel/patterns.md       |   192 +
+ .../skills/cloudflare/references/turn/README.md    |    82 +
+ .../skills/cloudflare/references/turn/api.md       |   239 +
+ .../cloudflare/references/turn/configuration.md    |   179 +
+ .../skills/cloudflare/references/turn/gotchas.md   |   231 +
+ .../skills/cloudflare/references/turn/patterns.md  |   213 +
+ .../cloudflare/references/turnstile/README.md      |    99 +
+ .../skills/cloudflare/references/turnstile/api.md  |   240 +
+ .../references/turnstile/configuration.md          |   222 +
+ .../cloudflare/references/turnstile/gotchas.md     |   218 +
+ .../cloudflare/references/turnstile/patterns.md    |   193 +
+ .../cloudflare/references/vectorize/README.md      |   133 +
+ .../skills/cloudflare/references/vectorize/api.md  |    88 +
+ .../references/vectorize/configuration.md          |    88 +
+ .../cloudflare/references/vectorize/gotchas.md     |    76 +
+ .../cloudflare/references/vectorize/patterns.md    |    90 +
+ .../skills/cloudflare/references/waf/README.md     |   113 +
+ .../skills/cloudflare/references/waf/api.md        |   202 +
+ .../cloudflare/references/waf/configuration.md     |   203 +
+ .../skills/cloudflare/references/waf/gotchas.md    |   204 +
+ .../skills/cloudflare/references/waf/patterns.md   |   197 +
+ .../cloudflare/references/web-analytics/README.md  |   141 +
+ .../references/web-analytics/configuration.md      |    76 +
+ .../cloudflare/references/web-analytics/gotchas.md |    82 +
+ .../references/web-analytics/integration.md        |    60 +
+ .../references/web-analytics/patterns.md           |    91 +
+ .../skills/cloudflare/references/workerd/README.md |    78 +
+ .../skills/cloudflare/references/workerd/api.md    |   185 +
+ .../cloudflare/references/workerd/configuration.md |   183 +
+ .../cloudflare/references/workerd/gotchas.md       |   139 +
+ .../cloudflare/references/workerd/patterns.md      |   192 +
+ .../cloudflare/references/workers-ai/README.md     |   197 +
+ .../skills/cloudflare/references/workers-ai/api.md |   112 +
+ .../references/workers-ai/configuration.md         |    97 +
+ .../cloudflare/references/workers-ai/gotchas.md    |   114 +
+ .../cloudflare/references/workers-ai/patterns.md   |   120 +
+ .../references/workers-for-platforms/README.md     |    89 +
+ .../references/workers-for-platforms/api.md        |   196 +
+ .../workers-for-platforms/configuration.md         |   167 +
+ .../references/workers-for-platforms/gotchas.md    |   134 +
+ .../references/workers-for-platforms/patterns.md   |   188 +
+ .../references/workers-playground/README.md        |   127 +
+ .../references/workers-playground/api.md           |   101 +
+ .../references/workers-playground/configuration.md |   163 +
+ .../references/workers-playground/gotchas.md       |    88 +
+ .../references/workers-playground/patterns.md      |   132 +
+ .../cloudflare/references/workers-vpc/README.md    |   127 +
+ .../cloudflare/references/workers-vpc/api.md       |   202 +
+ .../references/workers-vpc/configuration.md        |   147 +
+ .../cloudflare/references/workers-vpc/gotchas.md   |   167 +
+ .../cloudflare/references/workers-vpc/patterns.md  |   209 +
+ .../skills/cloudflare/references/workers/README.md |   108 +
+ .../skills/cloudflare/references/workers/api.md    |   195 +
+ .../cloudflare/references/workers/configuration.md |   185 +
+ .../cloudflare/references/workers/frameworks.md    |   197 +
+ .../cloudflare/references/workers/gotchas.md       |   137 +
+ .../cloudflare/references/workers/patterns.md      |   198 +
+ .../cloudflare/references/workflows/README.md      |    77 +
+ .../skills/cloudflare/references/workflows/api.md  |   218 +
+ .../references/workflows/configuration.md          |   152 +
+ .../cloudflare/references/workflows/gotchas.md     |    90 +
+ .../cloudflare/references/workflows/patterns.md    |   175 +
+ .../cloudflare/references/wrangler/README.md       |   135 +
+ .../skills/cloudflare/references/wrangler/api.md   |   188 +
+ .../references/wrangler/configuration.md           |   197 +
+ .../cloudflare/references/wrangler/gotchas.md      |   197 +
+ .../cloudflare/references/wrangler/patterns.md     |   209 +
+ .../references/zaraz/IMPLEMENTATION_SUMMARY.md     |   121 +
+ .../skills/cloudflare/references/zaraz/README.md   |   111 +
+ .../skills/cloudflare/references/zaraz/api.md      |   112 +
+ .../cloudflare/references/zaraz/configuration.md   |    90 +
+ .../skills/cloudflare/references/zaraz/gotchas.md  |    81 +
+ .../skills/cloudflare/references/zaraz/patterns.md |    74 +
+ antigravity/skills/durable-objects/SKILL.md        |   186 +
+ .../skills/durable-objects/references/rules.md     |   295 +
+ .../skills/durable-objects/references/testing.md   |   264 +
+ .../skills/durable-objects/references/workers.md   |   346 +
+ antigravity/skills/sandbox-sdk/SKILL.md            |   177 +
+ .../skills/sandbox-sdk/references/api-quick-ref.md |   113 +
+ .../skills/sandbox-sdk/references/examples.md      |    49 +
+ antigravity/skills/web-perf/SKILL.md               |   201 +
+ antigravity/skills/workers-best-practices/SKILL.md |   127 +
+ .../workers-best-practices/references/review.md    |   174 +
+ .../workers-best-practices/references/rules.md     |   463 +
+ antigravity/skills/wrangler/SKILL.md               |   922 +
+ config/config.json                                 |     5 +
+ config/plugins/science/CONTRIBUTING.md             |    17 +
+ config/plugins/science/README.md                   |    75 +-
+ config/plugins/science/SKILL_LICENSES.md           |    44 +
+ config/plugins/science/installed_version.json      |     2 +-
+ config/plugins/science/plugin.json                 |     2 +-
+ .../alphafold_database_fetch_and_analyze/SKILL.md  |     9 +-
+ .../references/citation.bib                        |    58 +
+ .../scripts/fetch_structure.py                     |     6 +-
+ .../alphagenome_single_variant_analysis/SKILL.md   |    37 +-
+ .../references/citation.bib                        |    12 +
+ .../science/skills/chembl_database/SKILL.md        |     7 +-
+ .../skills/chembl_database/references/citation.bib |    30 +
+ .../skills/chembl_database/scripts/chembl_api.py   |     6 +-
+ .../skills/clinical_trials_database/SKILL.md       |     8 +-
+ .../references/citation.bib                        |    11 +
+ .../scripts/clinical_trials_api.py                 |     6 +-
+ .../science/skills/clinvar_database/SKILL.md       |    59 +-
+ .../clinvar_database/references/citation.bib       |    23 +
+ .../skills/clinvar_database/scripts/clinvar_api.py |     6 +-
+ config/plugins/science/skills/credentials/SKILL.md |    95 +
+ .../plugins/science/skills/dbsnp_database/SKILL.md |    39 +-
+ .../skills/dbsnp_database/references/citation.bib  |    12 +
+ .../skills/dbsnp_database/scripts/dbsnp_cli.py     |     6 +-
+ .../plugins/science/skills/embl_ebi_ols/SKILL.md   |     8 +-
+ .../skills/embl_ebi_ols/references/citation.bib    |    24 +
+ .../skills/embl_ebi_ols/scripts/get_individual.py  |    16 +-
+ .../skills/embl_ebi_ols/scripts/get_ontology.py    |    12 +-
+ .../skills/embl_ebi_ols/scripts/get_property.py    |    20 +-
+ .../skills/embl_ebi_ols/scripts/get_stats.py       |     4 +-
+ .../skills/embl_ebi_ols/scripts/get_term.py        |    20 +-
+ .../skills/embl_ebi_ols/scripts/ols_utils.py       |     6 +-
+ .../skills/embl_ebi_ols/scripts/search_ols.py      |     4 +-
+ .../skills/embl_ebi_ols/scripts/suggest_ols.py     |     4 +-
+ .../science/skills/encode_ccres_database/SKILL.md  |     7 +-
+ .../encode_ccres_database/references/citation.bib  |    40 +
+ .../scripts/encode_portal_api.py                   |     6 +-
+ .../encode_ccres_database/scripts/screen_api.py    |     6 +-
+ .../science/skills/ensembl_database/SKILL.md       |     6 +-
+ .../ensembl_database/references/citation.bib       |    15 +
+ .../skills/ensembl_database/scripts/ensembl_api.py |     6 +-
+ .../skills/foldseek_structural_search/SKILL.md     |     6 +-
+ .../references/citation.bib                        |    11 +
+ .../foldseek_structural_search/scripts/search.py   |     6 +-
+ .../science/skills/gnomad_database/SKILL.md        |     8 +-
+ .../skills/gnomad_database/references/citation.bib |    14 +
+ .../gnomad_database/scripts/get_gene_constraint.py |     6 +-
+ .../scripts/get_variant_frequency.py               |     6 +-
+ .../gnomad_database/scripts/search_variants.py     |     6 +-
+ .../plugins/science/skills/gtex_database/SKILL.md  |     6 +-
+ .../skills/gtex_database/references/citation.bib   |    14 +
+ .../skills/gtex_database/scripts/gtex_cli.py       |     6 +-
+ .../skills/human_protein_atlas_database/SKILL.md   |    15 +-
+ .../references/citation.bib                        |    14 +
+ .../scripts/hpa_cli.py                             |    16 +-
+ .../science/skills/interpro_database/SKILL.md      |     6 +-
+ .../interpro_database/references/citation.bib      |    21 +
+ .../interpro_database/scripts/interpro_client.py   |     6 +-
+ .../science/skills/jaspar_database/SKILL.md        |     9 +-
+ .../skills/jaspar_database/references/citation.bib |    15 +
+ .../skills/jaspar_database/scripts/jaspar_api.py   |     6 +-
+ .../skills/literature_search_arxiv/SKILL.md        |    11 +-
+ .../references/citation.bib                        |    18 +
+ .../scripts/download_paper.py                      |    11 +-
+ .../scripts/download_paper_source.py               |    11 +-
+ .../scripts/search_arxiv.py                        |     6 +-
+ .../skills/literature_search_biorxiv/SKILL.md      |     6 +-
+ .../references/cita

@@ -1,0 +1,26 @@
+From https://github.com/admonservicioalcliente-eng/retrograde-cassini
+   18b532f..0d42738  main       -> origin/main
+commit 0d427387a9de27b2c11458776456ddf412aa41d3
+Author: policomputo <admonservicioalcliente@gmail.com>
+Date:   Tue Jul 21 15:45:46 2026 -0500
+
+    Trigger Cloudflare deployment for dashboard editable tax field
+
+commit cacfc50bfaa517a613b7cf50ed8b96a264193db2
+Author: policomputo <admonservicioalcliente@gmail.com>
+Date:   Tue Jul 21 15:45:28 2026 -0500
+
+    Make impuesto_renta editable in dashboard, organize header layout, and fix TEI display
+    
+    - Remove readonly attribute from dash-impuesto-renta field
+    - Reorganize dashboard header with new header-controls div for better layout
+    - Add event listener to save annual tax to localStorage when edited
+    - Update TEI to use editable value from dashboard
+    - Change TEI display to input field with readonly styling
+    - Fix CSS grid layout for header controls (3 columns)
+
+commit 977013176bade847c69249ece09adeb1bd0649ae
+Author: policomputo <admonservicioalcliente@gmail.com>
+Date:   Tue Jul 21 15:35:03 2026 -0500
+
+    Trigger Cloudflare deployment with new API token
