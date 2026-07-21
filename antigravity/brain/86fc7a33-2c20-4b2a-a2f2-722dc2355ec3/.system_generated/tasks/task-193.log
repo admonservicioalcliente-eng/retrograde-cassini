@@ -1,0 +1,7 @@
+From https://github.com/admonservicioalcliente-eng/retrograde-cassini
+   0d42738..222e46d  main       -> origin/main
+222e46d fix: corregir evento listener que bloqueaba el login
+06a3c1c claves
+6622a62 github otraves
+c865939 impuesto de renta
+0d42738 Trigger Cloudflare deployment for dashboard editable tax field
