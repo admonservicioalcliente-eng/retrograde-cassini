@@ -1,0 +1,4 @@
+  File "<string>", line 7
+    html = re.sub(r'<div class=" cf-turnstile\.*?</div>',
+                 ^
+SyntaxError: '(' was never closed
