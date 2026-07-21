@@ -112,17 +112,17 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
     }
 });
 
-document.getElementById('logout-btn').addEventListener('click', () => {
+(document.getElementById('logout-btn') || {addEventListener: ()=>{}}).addEventListener('click', () => {
     currentCompany = null;
     document.getElementById('login-form').reset();
     switchView('login-view');
 });
 
 // Data Entry
-document.getElementById('entry-year').addEventListener('change', async (e) => {
+(document.getElementById('entry-year') || {addEventListener: ()=>{}}).addEventListener('change', async (e) => {
     loadEntryData(e.target.value, document.getElementById('entry-month').value);
 });
-document.getElementById('entry-month').addEventListener('change', async (e) => {
+(document.getElementById('entry-month') || {addEventListener: ()=>{}}).addEventListener('change', async (e) => {
     loadEntryData(document.getElementById('entry-year').value, e.target.value);
 });
 
@@ -155,7 +155,7 @@ const loadEntryData = async (year, month) => {
     }
 };
 
-document.getElementById('entry-form').addEventListener('submit', async (e) => {
+(document.getElementById('entry-form') || {addEventListener: ()=>{}}).addEventListener('submit', async (e) => {
     e.preventDefault();
     const year = parseInt(document.getElementById('entry-year').value);
     const month = parseInt(document.getElementById('entry-month').value);
@@ -213,7 +213,7 @@ document.getElementById('entry-form').addEventListener('submit', async (e) => {
 });
 
 // Dashboard
-document.getElementById('dash-year').addEventListener('change', () => loadDashboard());
+(document.getElementById('dash-year') || {addEventListener: ()=>{}}).addEventListener('change', () => loadDashboard());
 const dashImpuestoElem = document.getElementById('dash-impuesto-renta');
 if (dashImpuestoElem) {
     dashImpuestoElem.addEventListener('change', async () => {
@@ -228,8 +228,8 @@ if (dashImpuestoElem) {
     loadDashboard();
     });
 }
-document.getElementById('table-year').addEventListener('change', () => loadAnnualStatement());
-document.getElementById('margins-year').addEventListener('change', () => loadMarginsStatement());
+(document.getElementById('table-year') || {addEventListener: ()=>{}}).addEventListener('change', () => loadAnnualStatement());
+(document.getElementById('margins-year') || {addEventListener: ()=>{}}).addEventListener('change', () => loadMarginsStatement());
 
 const loadDashboard = async () => {
     const year = parseInt(document.getElementById('dash-year').value || currentYear);
@@ -576,7 +576,7 @@ const loadMarginsStatement = async () => {
 };
 
 // CSV Export
-document.getElementById('export-margins-btn').addEventListener('click', () => {
+(document.getElementById('export-margins-btn') || {addEventListener: ()=>{}}).addEventListener('click', () => {
     const table = document.getElementById('margins-table');
     let csvContent = "";
     const rows = table.querySelectorAll('tr');
@@ -624,7 +624,7 @@ const enviarDatos = async (objetoFinanciero) => {
 */
 
 
-document.getElementById('btn-borrar-mes').addEventListener('click', async () => {
+(document.getElementById('btn-borrar-mes') || {addEventListener: ()=>{}}).addEventListener('click', async () => {
     const year = parseInt(document.getElementById('entry-year').value);
     const month = parseInt(document.getElementById('entry-month').value);
     
