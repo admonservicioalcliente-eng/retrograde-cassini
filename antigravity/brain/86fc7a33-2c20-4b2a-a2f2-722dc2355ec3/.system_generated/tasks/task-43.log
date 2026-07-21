@@ -1,0 +1,1001 @@
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:16 p.�m.                .github                                                              
+d-----     21/07/2026  12:18 p.�m.                antigravity                                                          
+d-----     21/07/2026  12:16 p.�m.                antigravity-backup                                                   
+d-----     21/07/2026  12:18 p.�m.                antigravity-browser-profile                                          
+d-----     21/07/2026  12:18 p.�m.                antigravity-ide                                                      
+d-----     21/07/2026  12:18 p.�m.                config                                                               
+-a----     21/07/2026  12:16 p.�m.             34 .gitignore                                                           
+-a----     21/07/2026  12:16 p.�m.              0 GEMINI.md                                                            
+-a----     21/07/2026  12:16 p.�m.            640 SECURITY.md                                                          
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\.github
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:16 p.�m.                workflows                                                            
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\.github\workflows
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:16 p.�m.           1293 static.yml                                                           
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                annotations                                                          
+d-----     21/07/2026  12:18 p.�m.                bin                                                                  
+d-----     21/07/2026  12:18 p.�m.                brain                                                                
+d-----     21/07/2026  12:18 p.�m.                browser_recordings                                                   
+d-----     21/07/2026  12:18 p.�m.                conversations                                                        
+d-----     21/07/2026  12:18 p.�m.                implicit                                                             
+d-----     21/07/2026  12:18 p.�m.                knowledge                                                            
+d-----     21/07/2026  12:18 p.�m.                mcp                                                                  
+d-----     21/07/2026  12:18 p.�m.                playground                                                           
+d-----     21/07/2026  12:18 p.�m.                prompting                                                            
+-a----     21/07/2026  12:18 p.�m.          15156 agyhub_summaries_proto.pb                                            
+-a----     21/07/2026  12:18 p.�m.            563 antigravity_state.pbtxt                                              
+-a----     21/07/2026  12:18 p.�m.           1291 browserAllowlist.txt                                                 
+-a----     21/07/2026  12:18 p.�m.              0 browserOnboardingStatus.txt                                          
+-a----     21/07/2026  12:18 p.�m.             36 installation_id                                                      
+-a----     21/07/2026  12:18 p.�m.             11 user_settings.pb                                                     
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity\annotations
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:18 p.�m.             57 16ded55c-5335-4237-ae3f-645d6de859a0.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             56 21f0d858-e55a-4f13-b3c3-4bf47217bb20.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             73 2939ba50-c53f-4394-95ed-c758b6344876.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             13 2eb710fd-3f76-4cf5-ace8-112f04284882.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             57 49785721-cd1b-4234-9e1d-b627166b0ec2.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             56 49dd0db0-182d-4ea7-9a71-ddf7701a94bd.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             72 6e16370a-c16e-4949-ab24-c26e08740333.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             71 8bbb3e2f-c045-413c-a186-66d8d4abd729.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             72 8dcbd8e3-4fa2-462b-8efe-3164a7777ce0.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             56 a269f500-147c-45dd-91c1-cd2d55c43e58.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             57 afbf60a4-3564-4001-9498-c73dd83a99cc.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             70 be84e0cf-8f1f-46ec-a9d0-468f6ac4ec8b.pbtxt                           
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity\bin
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:18 p.�m.            117 agentapi.bat                                                         
+-a----     21/07/2026  12:18 p.�m.       19209216 webm_encoder.exe                                                     
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity\brain
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                1cb5fcf2-5c28-48b9-af3c-48ab572f0dfe                                 
+d-----     21/07/2026  12:18 p.�m.                21f0d858-e55a-4f13-b3c3-4bf47217bb20                                 
+d-----     21/07/2026  12:18 p.�m.                2939ba50-c53f-4394-95ed-c758b6344876                                 
+d-----     21/07/2026  12:18 p.�m.                2eb710fd-3f76-4cf5-ace8-112f04284882                                 
+d-----     21/07/2026  12:18 p.�m.                49785721-cd1b-4234-9e1d-b627166b0ec2                                 
+d-----     21/07/2026  12:18 p.�m.                49dd0db0-182d-4ea7-9a71-ddf7701a94bd                                 
+d-----     21/07/2026  12:18 p.�m.                6da923c3-ae38-4d01-b8a5-90b482102441                                 
+d-----     21/07/2026  12:18 p.�m.                8dcbd8e3-4fa2-462b-8efe-3164a7777ce0                                 
+d-----     21/07/2026  12:18 p.�m.                a269f500-147c-45dd-91c1-cd2d55c43e58                                 
+d-----     21/07/2026  12:18 p.�m.                be84e0cf-8f1f-46ec-a9d0-468f6ac4ec8b                                 
+
+
+    Directorio: 
+    C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity\browser_recordings
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                2939ba50-c53f-4394-95ed-c758b6344876                                 
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity\conversations
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:18 p.�m.         113496 16ded55c-5335-4237-ae3f-645d6de859a0.pb                              
+-a----     21/07/2026  12:18 p.�m.         264012 1cb5fcf2-5c28-48b9-af3c-48ab572f0dfe.pb                              
+-a----     21/07/2026  12:18 p.�m.          98848 21f0d858-e55a-4f13-b3c3-4bf47217bb20.pb                              
+-a----     21/07/2026  12:18 p.�m.        3769522 2939ba50-c53f-4394-95ed-c758b6344876.pb                              
+-a----     21/07/2026  12:18 p.�m.         999317 2eb710fd-3f76-4cf5-ace8-112f04284882.pb                              
+-a----     21/07/2026  12:18 p.�m.         596864 49785721-cd1b-4234-9e1d-b627166b0ec2.pb                              
+-a----     21/07/2026  12:18 p.�m.         421085 49dd0db0-182d-4ea7-9a71-ddf7701a94bd.pb                              
+-a----     21/07/2026  12:18 p.�m.         223130 6da923c3-ae38-4d01-b8a5-90b482102441.pb                              
+-a----     21/07/2026  12:18 p.�m.         553795 6e16370a-c16e-4949-ab24-c26e08740333.pb                              
+-a----     21/07/2026  12:18 p.�m.            629 8dcbd8e3-4fa2-462b-8efe-3164a7777ce0.pb                              
+-a----     21/07/2026  12:18 p.�m.         466987 a269f500-147c-45dd-91c1-cd2d55c43e58.pb                              
+-a----     21/07/2026  12:18 p.�m.        3266920 be84e0cf-8f1f-46ec-a9d0-468f6ac4ec8b.pb                              
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity\implicit
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:18 p.�m.           2869 157fb5ac-4f20-449a-99f5-bfe300ddc000.pb                              
+-a----     21/07/2026  12:18 p.�m.          93716 2aaa8d6b-ff29-49f7-bd51-c5da04f32372.pb                              
+-a----     21/07/2026  12:18 p.�m.          85070 42d9196d-13ff-4ec2-bdde-1a0640c6d4fc.pb                              
+-a----     21/07/2026  12:18 p.�m.            266 5960c6de-cc6b-4fc2-9149-bb865b2362ae.pb                              
+-a----     21/07/2026  12:18 p.�m.           1081 670fe775-75ee-4cdd-a41e-68f72a7a8010.pb                              
+-a----     21/07/2026  12:18 p.�m.            326 7d4941e3-cfc3-4ece-b21a-5aa6263da825.pb                              
+-a----     21/07/2026  12:18 p.�m.            321 846b022b-5b53-4d1c-860c-dacc9961ec40.pb                              
+-a----     21/07/2026  12:18 p.�m.            279 887250a3-9cfe-4764-8776-94e61568e975.pb                              
+-a----     21/07/2026  12:18 p.�m.            336 8ab4c22f-faa1-40bd-9f27-63803604390f.pb                              
+-a----     21/07/2026  12:18 p.�m.            332 aa793d5c-3b2e-4be3-92d1-60ae85d19292.pb                              
+-a----     21/07/2026  12:18 p.�m.         808049 b7135900-d132-4be2-a15b-8db6fe3d3402.pb                              
+-a----     21/07/2026  12:18 p.�m.            328 bc5cc42a-114c-4750-8b9c-675abe601e3d.pb                              
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity\knowledge
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:18 p.�m.              0 knowledge.lock                                                       
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity\mcp
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                chrome_devtools                                                      
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity\playground
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                retrograde-cassini                                                   
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity\prompting
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                browser                                                              
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-backup
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:16 p.�m.                annotations                                                          
+d-----     21/07/2026  12:16 p.�m.                brain                                                                
+d-----     21/07/2026  12:16 p.�m.                browser_recordings                                                   
+d-----     21/07/2026  12:16 p.�m.                conversations                                                        
+d-----     21/07/2026  12:16 p.�m.                implicit                                                             
+d-----     21/07/2026  12:16 p.�m.                knowledge                                                            
+d-----     21/07/2026  12:16 p.�m.                playground                                                           
+d-----     21/07/2026  12:16 p.�m.                prompting                                                            
+-a----     21/07/2026  12:16 p.�m.           1291 browserAllowlist.txt                                                 
+-a----     21/07/2026  12:16 p.�m.              0 browserOnboardingStatus.txt                                          
+-a----     21/07/2026  12:16 p.�m.             36 installation_id                                                      
+-a----     21/07/2026  12:16 p.�m.              0 mcp_config.json                                                      
+-a----     21/07/2026  12:16 p.�m.             11 user_settings.pb                                                     
+
+
+    Directorio: 
+    C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-backup\annotations
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:16 p.�m.             57 16ded55c-5335-4237-ae3f-645d6de859a0.pbtxt                           
+-a----     21/07/2026  12:16 p.�m.             56 21f0d858-e55a-4f13-b3c3-4bf47217bb20.pbtxt                           
+-a----     21/07/2026  12:16 p.�m.             73 2939ba50-c53f-4394-95ed-c758b6344876.pbtxt                           
+-a----     21/07/2026  12:16 p.�m.             13 2eb710fd-3f76-4cf5-ace8-112f04284882.pbtxt                           
+-a----     21/07/2026  12:16 p.�m.             72 6e16370a-c16e-4949-ab24-c26e08740333.pbtxt                           
+-a----     21/07/2026  12:16 p.�m.             71 8bbb3e2f-c045-413c-a186-66d8d4abd729.pbtxt                           
+-a----     21/07/2026  12:16 p.�m.             72 8dcbd8e3-4fa2-462b-8efe-3164a7777ce0.pbtxt                           
+-a----     21/07/2026  12:16 p.�m.             56 a269f500-147c-45dd-91c1-cd2d55c43e58.pbtxt                           
+-a----     21/07/2026  12:16 p.�m.             57 afbf60a4-3564-4001-9498-c73dd83a99cc.pbtxt                           
+-a----     21/07/2026  12:16 p.�m.             70 be84e0cf-8f1f-46ec-a9d0-468f6ac4ec8b.pbtxt                           
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-backup\brain
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:16 p.�m.                21f0d858-e55a-4f13-b3c3-4bf47217bb20                                 
+d-----     21/07/2026  12:16 p.�m.                2939ba50-c53f-4394-95ed-c758b6344876                                 
+d-----     21/07/2026  12:16 p.�m.                2eb710fd-3f76-4cf5-ace8-112f04284882                                 
+d-----     21/07/2026  12:16 p.�m.                49785721-cd1b-4234-9e1d-b627166b0ec2                                 
+d-----     21/07/2026  12:16 p.�m.                6da923c3-ae38-4d01-b8a5-90b482102441                                 
+d-----     21/07/2026  12:16 p.�m.                8dcbd8e3-4fa2-462b-8efe-3164a7777ce0                                 
+d-----     21/07/2026  12:16 p.�m.                a269f500-147c-45dd-91c1-cd2d55c43e58                                 
+d-----     21/07/2026  12:16 p.�m.                be84e0cf-8f1f-46ec-a9d0-468f6ac4ec8b                                 
+
+
+    Directorio: 
+    C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-backup\browser_recordings
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:16 p.�m.                2939ba50-c53f-4394-95ed-c758b6344876                                 
+
+
+    Directorio: 
+    C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-backup\conversations
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:16 p.�m.         113457 16ded55c-5335-4237-ae3f-645d6de859a0.pb                              
+-a----     21/07/2026  12:16 p.�m.          98809 21f0d858-e55a-4f13-b3c3-4bf47217bb20.pb                              
+-a----     21/07/2026  12:16 p.�m.        3769483 2939ba50-c53f-4394-95ed-c758b6344876.pb                              
+-a----     21/07/2026  12:16 p.�m.         999296 2eb710fd-3f76-4cf5-ace8-112f04284882.pb                              
+-a----     21/07/2026  12:16 p.�m.         432216 49785721-cd1b-4234-9e1d-b627166b0ec2.pb                              
+-a----     21/07/2026  12:16 p.�m.         223109 6da923c3-ae38-4d01-b8a5-90b482102441.pb                              
+-a----     21/07/2026  12:16 p.�m.         553756 6e16370a-c16e-4949-ab24-c26e08740333.pb                              
+-a----     21/07/2026  12:16 p.�m.            590 8dcbd8e3-4fa2-462b-8efe-3164a7777ce0.pb                              
+-a----     21/07/2026  12:16 p.�m.         466948 a269f500-147c-45dd-91c1-cd2d55c43e58.pb                              
+-a----     21/07/2026  12:16 p.�m.        3266881 be84e0cf-8f1f-46ec-a9d0-468f6ac4ec8b.pb                              
+
+
+    Directorio: 
+    C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-backup\implicit
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:16 p.�m.           2869 157fb5ac-4f20-449a-99f5-bfe300ddc000.pb                              
+-a----     21/07/2026  12:16 p.�m.          93716 2aaa8d6b-ff29-49f7-bd51-c5da04f32372.pb                              
+-a----     21/07/2026  12:16 p.�m.          85070 42d9196d-13ff-4ec2-bdde-1a0640c6d4fc.pb                              
+-a----     21/07/2026  12:16 p.�m.            266 5960c6de-cc6b-4fc2-9149-bb865b2362ae.pb                              
+-a----     21/07/2026  12:16 p.�m.           1081 670fe775-75ee-4cdd-a41e-68f72a7a8010.pb                              
+-a----     21/07/2026  12:16 p.�m.            326 7d4941e3-cfc3-4ece-b21a-5aa6263da825.pb                              
+-a----     21/07/2026  12:16 p.�m.            321 846b022b-5b53-4d1c-860c-dacc9961ec40.pb                              
+-a----     21/07/2026  12:16 p.�m.            279 887250a3-9cfe-4764-8776-94e61568e975.pb                              
+-a----     21/07/2026  12:16 p.�m.            336 8ab4c22f-faa1-40bd-9f27-63803604390f.pb                              
+-a----     21/07/2026  12:16 p.�m.            332 aa793d5c-3b2e-4be3-92d1-60ae85d19292.pb                              
+-a----     21/07/2026  12:16 p.�m.         808049 b7135900-d132-4be2-a15b-8db6fe3d3402.pb                              
+-a----     21/07/2026  12:16 p.�m.            328 bc5cc42a-114c-4750-8b9c-675abe601e3d.pb                              
+
+
+    Directorio: 
+    C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-backup\knowledge
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:16 p.�m.              0 knowledge.lock                                                       
+
+
+    Directorio: 
+    C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-backup\playground
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:16 p.�m.                retrograde-cassini                                                   
+
+
+    Directorio: 
+    C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-backup\prompting
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:16 p.�m.                browser                                                              
+
+
+    Directorio: 
+    C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profile
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:16 p.�m.                ActorSafetyLists                                                     
+d-----     21/07/2026  12:16 p.�m.                AmountExtractionHeuristicRegexes                                     
+d-----     21/07/2026  12:16 p.�m.                BrowserMetrics                                                       
+d-----     21/07/2026  12:16 p.�m.                CaptchaProviders                                                     
+d-----     21/07/2026  12:16 p.�m.                CertificateRevocation                                                
+d-----     21/07/2026  12:18 p.�m.                component_crx_cache                                                  
+d-----     21/07/2026  12:16 p.�m.                Crashpad                                                             
+d-----     21/07/2026  12:16 p.�m.                Crowd Deny                                                           
+d-----     21/07/2026  12:18 p.�m.                Default                                                              
+d-----     21/07/2026  12:18 p.�m.                extensions_crx_cache                                                 
+d-----     21/07/2026  12:18 p.�m.                FileTypePolicies                                                     
+d-----     21/07/2026  12:18 p.�m.                FirstPartySetsPreloaded                                              
+d-----     21/07/2026  12:18 p.�m.                GraphiteDawnCache                                                    
+d-----     21/07/2026  12:18 p.�m.                GrShaderCache                                                        
+d-----     21/07/2026  12:18 p.�m.                hyphen-data                                                          
+d-----     21/07/2026  12:18 p.�m.                MediaFoundationWidevineCdm                                           
+d-----     21/07/2026  12:18 p.�m.                MEIPreload                                                           
+d-----     21/07/2026  12:18 p.�m.                OptimizationHints                                                    
+d-----     21/07/2026  12:18 p.�m.                optimization_guide_model_store                                       
+d-----     21/07/2026  12:18 p.�m.                OriginTrials                                                         
+d-----     21/07/2026  12:18 p.�m.                PKIMetadata                                                          
+d-----     21/07/2026  12:18 p.�m.                Safe Browsing                                                        
+d-----     21/07/2026  12:18 p.�m.                SafetyTips                                                           
+d-----     21/07/2026  12:18 p.�m.                segmentation_platform                                                
+d-----     21/07/2026  12:18 p.�m.                ShaderCache                                                          
+d-----     21/07/2026  12:18 p.�m.                SSLErrorAssistant                                                    
+d-----     21/07/2026  12:18 p.�m.                Subresource Filter                                                   
+d-----     21/07/2026  12:18 p.�m.                TrustTokenKeyCommitments                                             
+d-----     21/07/2026  12:18 p.�m.                WasmTtsEngine                                                        
+d-----     21/07/2026  12:18 p.�m.                ZxcvbnData                                                           
+-a----     21/07/2026  12:16 p.�m.        4194304 BrowserMetrics-spare.pma                                             
+-a----     21/07/2026  12:18 p.�m.         785066 es-ES-3-0.bdic                                                       
+-a----     21/07/2026  12:18 p.�m.          69632 first_party_sets.db                                                  
+-a----     21/07/2026  12:18 p.�m.              0 first_party_sets.db-journal                                          
+-a----     21/07/2026  12:18 p.�m.            106 Last Browser                                                         
+-a----     21/07/2026  12:18 p.�m.             14 Last Version                                                         
+-a----     21/07/2026  12:18 p.�m.         154217 Local State                                                          
+-a----     21/07/2026  12:18 p.�m.             85 Variations                                                           
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\ActorSafetyLists
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:16 p.�m.                8.6294.2057                                                          
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\AmountExtractionHeuristicRegexes
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:16 p.�m.                4                                                                    
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\BrowserMetrics
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:16 p.�m.        4194304 BrowserMetrics-6A04EFE0-490.pma                                      
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\CaptchaProviders
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:16 p.�m.                8.5419.4434                                                          
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\CertificateRevocation
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:16 p.�m.                10473                                                                
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\component_crx_cache
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:18 p.�m.          11361 261bea60d22ebca3a95ce335c03ec751a0b58b2b7bdbd6ea51dfa54381b07775     
+-a----     21/07/2026  12:18 p.�m.         182498 28220021657e0efee09be4578f0f12ef0860488d7b2b9abb826e576448189bc5     
+-a----     21/07/2026  12:18 p.�m.           2934 2be74d0afadd4c9b2ee33695e1f81fc5ce5dc3016cd8a13cfa0e1f0b571834ea     
+-a----     21/07/2026  12:18 p.�m.       23024981 2e66b5257bd1ca50f2b6502406115dcca4b5cccad74e978fcf4247d96bfd5dda     
+-a----     21/07/2026  12:18 p.�m.         497710 368d56941fb3d5ef234354008c6fa9477fd4745dd207b66d8f42e241edccbf3c     
+-a----     21/07/2026  12:18 p.�m.           5407 3eb16d6c28b502ac4cfee8f4a148df05f4d93229fa36a71db8b08d06329ff18a     
+-a----     21/07/2026  12:18 p.�m.         878447 545666a4efd056351597bb386aea1368105ededc976ed5650d8682daab9f37ff     
+-a----     21/07/2026  12:18 p.�m.          12491 7b05c14dba04ed522210b733f004cb0e74d7679a653b19bd029f9bc0e6b19903     
+-a----     21/07/2026  12:18 p.�m.         392565 997725e77291803f76d82c727bb903b40dfb705828eb33f492a8d8e4c563d30b     
+-a----     21/07/2026  12:18 p.�m.         215943 9a7387a838316acc98870f65de004424854001ff304467ccafb7fc054cd442a5     
+-a----     21/07/2026  12:18 p.�m.         188589 9bec6c2c0185d3305ac8495047a1aa01e725d58f8f18d219742a2988f07cd93a     
+-a----     21/07/2026  12:18 p.�m.           4817 abd93867c038d4d17c101ace2226d7e21303d984d7097271392bae6be478495b     
+-a----     21/07/2026  12:18 p.�m.           4596 ae216724654f3e52d3c502328caf83f773e66cc5818c38850165864005a35169     
+-a----     21/07/2026  12:18 p.�m.        1076431 bfa03e1b60a886e83a9d6ac59d4dd2b38648e569e03e25d65a7f0c63a1af5166     
+-a----     21/07/2026  12:18 p.�m.        1114805 c52c62a7c50daf7d3f73ec16977cd4b0ea401710807d5dbe3850941dd1b73a70     
+-a----     21/07/2026  12:18 p.�m.         739846 f8929f38e4311c5717f1a0d4a0bc4fb0277329557a1a5aecb93317808669ba4f     
+-a----     21/07/2026  12:18 p.�m.          14634 fd8fd38c229ab33755ff429ccc9919eba21b566551cbfb17d8e11e35e941ee0e     
+-a----     21/07/2026  12:18 p.�m.           1956 metadata.json                                                        
+
+
+    Directorio: 
+    C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profile\Crashpad
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:16 p.�m.              0 metadata                                                             
+-a----     21/07/2026  12:16 p.�m.             40 settings.dat                                                         
+
+
+    Directorio: 
+    C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profile\Crowd Deny
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:16 p.�m.                2026.4.16.60                                                         
+
+
+    Directorio: 
+    C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profile\Default
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:16 p.�m.                Accounts                                                             
+d-----     21/07/2026  12:16 p.�m.                AutofillAiModelCache                                                 
+d-----     21/07/2026  12:16 p.�m.                AutofillStrikeDatabase                                               
+d-----     21/07/2026  12:16 p.�m.                BudgetDatabase                                                       
+d-----     21/07/2026  12:16 p.�m.                Cache                                                                
+d-----     21/07/2026  12:18 p.�m.                chrome_cart_db                                                       
+d-----     21/07/2026  12:16 p.�m.                ClientCertificates                                                   
+d-----     21/07/2026  12:16 p.�m.                Code Cache                                                           
+d-----     21/07/2026  12:18 p.�m.                commerce_subscription_db                                             
+d-----     21/07/2026  12:17 p.�m.                DawnGraphiteCache                                                    
+d-----     21/07/2026  12:17 p.�m.                DawnWebGPUCache                                                      
+d-----     21/07/2026  12:18 p.�m.                discounts_db                                                         
+d-----     21/07/2026  12:18 p.�m.                discount_infos_db                                                    
+d-----     21/07/2026  12:17 p.�m.                Download Service                                                     
+d-----     21/07/2026  12:17 p.�m.                Extension Rules                                                      
+d-----     21/07/2026  12:17 p.�m.                Extension Scripts                                                    
+d-----     21/07/2026  12:17 p.�m.                Extension State                                                      
+d-----     21/07/2026  12:18 p.�m.                Extensions                                                           
+d-----     21/07/2026  12:18 p.�m.                Feature Engagement Tracker                                           
+d-----     21/07/2026  12:18 p.�m.                File System                                                          
+d-----     21/07/2026  12:18 p.�m.                GCM Store                                                            
+d-----     21/07/2026  12:18 p.�m.                GPUCache                                                             
+d-----     21/07/2026  12:18 p.�m.                JumpListIconsMostVisited                                             
+d-----     21/07/2026  12:18 p.�m.                JumpListIconsRecentClosed                                            
+d-----     21/07/2026  12:18 p.�m.                Local Extension Settings                                             
+d-----     21/07/2026  12:18 p.�m.                Local Storage                                                        
+d-----     21/07/2026  12:18 p.�m.                Managed Extension Settings                                           
+d-----     21/07/2026  12:18 p.�m.                Network                                                              
+d-----     21/07/2026  12:18 p.�m.                optimization_guide_hint_cache_store                                  
+d-----     21/07/2026  12:18 p.�m.                parcel_tracking_db                                                   
+d-----     21/07/2026  12:18 p.�m.                PersistentOriginTrials                                               
+d-----     21/07/2026  12:18 p.�m.                Platform Notifications                                               
+d-----     21/07/2026  12:18 p.�m.                Safe Browsing Network                                                
+d-----     21/07/2026  12:18 p.�m.                Segmentation Platform                                                
+d-----     21/07/2026  12:18 p.�m.                Service Worker                                                       
+d-----     21/07/2026  12:18 p.�m.                Session Storage                                                      
+d-----     21/07/2026  12:18 p.�m.                Sessions                                                             
+d-----     21/07/2026  12:18 p.�m.                Shared Dictionary                                                    
+d-----     21/07/2026  12:18 p.�m.                shared_proto_db                                                      
+d-----     21/07/2026  12:18 p.�m.                Site Characteristics Database                                        
+d-----     21/07/2026  12:18 p.�m.                Storage                                                              
+d-----     21/07/2026  12:18 p.�m.                Sync Data                                                            
+d-----     21/07/2026  12:18 p.�m.                Sync Extension Settings                                              
+d-----     21/07/2026  12:18 p.�m.                VideoDecodeStats                                                     
+d-----     21/07/2026  12:18 p.�m.                Web Applications                                                     
+d-----     21/07/2026  12:18 p.�m.                WebStorage                                                           
+-a----     21/07/2026  12:16 p.�m.          77824 Account Web Data                                                     
+-a----     21/07/2026  12:16 p.�m.              0 Account Web Data-journal                                             
+-a----     21/07/2026  12:16 p.�m.         491520 Affiliation Database                                                 
+-a----     21/07/2026  12:16 p.�m.              0 Affiliation Database-journal                                         
+-a----     21/07/2026  12:16 p.�m.              6 BookmarkMergedSurfaceOrdering                                        
+-a----     21/07/2026  12:16 p.�m.          28672 BrowsingTopicsSiteData                                               
+-a----     21/07/2026  12:16 p.�m.              0 BrowsingTopicsSiteData-journal                                       
+-a----     21/07/2026  12:16 p.�m.            414 BrowsingTopicsState                                                  
+-a----     21/07/2026  12:17 p.�m.          36864 DIPS                                                                 
+-a----     21/07/2026  12:18 p.�m.         124928 Favicons                                                             
+-a----     21/07/2026  12:18 p.�m.              0 Favicons-journal                                                     
+-a----     21/07/2026  12:18 p.�m.           2056 Google Profile Picture.png                                           
+-a----     21/07/2026  12:18 p.�m.          16384 heavy_ad_intervention_opt_out.db                                     
+-a----     21/07/2026  12:18 p.�m.              0 heavy_ad_intervention_opt_out.db-journal                             
+-a----     21/07/2026  12:18 p.�m.         360448 History                                                              
+-a----     21/07/2026  12:18 p.�m.              0 History-journal                                                      
+-a----     21/07/2026  12:18 p.�m.         126976 InterestGroups                                                       
+-a----     21/07/2026  12:18 p.�m.              0 LOCK                                                                 
+-a----     21/07/2026  12:18 p.�m.              0 LOG                                                                  
+-a----     21/07/2026  12:18 p.�m.              0 LOG.old                                                              
+-a----     21/07/2026  12:18 p.�m.          40960 Login Data                                                           
+-a----     21/07/2026  12:18 p.�m.         458752 Login Data For Account                                               
+-a----     21/07/2026  12:18 p.�m.              0 Login Data For Account-journal                                       
+-a----     21/07/2026  12:18 p.�m.              0 Login Data-journal                                                   
+-a----     21/07/2026  12:18 p.�m.          24576 MediaDeviceSalts                                                     
+-a----     21/07/2026  12:18 p.�m.              0 MediaDeviceSalts-journal                                             
+-a----     21/07/2026  12:18 p.�m.         102400 Network Action Predictor                                             
+-a----     21/07/2026  12:18 p.�m.              0 Network Action Predictor-journal                                     
+-a----     21/07/2026  12:18 p.�m.             93 passkey_enclave_state                                                
+-a----     21/07/2026  12:18 p.�m.          58460 Preferences                                                          
+-a----     21/07/2026  12:18 p.�m.             33 PreferredApps                                                        
+-a----     21/07/2026  12:18 p.�m.          20480 PrivateAggregation                                                   
+-a----     21/07/2026  12:18 p.�m.              0 PrivateAggregation-journal                                           
+-a----     21/07/2026  12:18 p.�m.            180 README                                                               
+-a----     21/07/2026  12:18 p.�m.          70149 Secure Preferences                                                   
+-a----     21/07/2026  12:18 p.�m.          20480 ServerCertificate                                                    
+-a----     21/07/2026  12:18 p.�m.              0 ServerCertificate-journal                                            
+-a----     21/07/2026  12:18 p.�m.           4096 SharedStorage                                                        
+-a----     21/07/2026  12:18 p.�m.          20480 Shortcuts                                                            
+-a----     21/07/2026  12:18 p.�m.              0 Shortcuts-journal                                                    
+-a----     21/07/2026  12:18 p.�m.          20480 Top Sites                                                            
+-a----     21/07/2026  12:18 p.�m.              0 Top Sites-journal                                                    
+-a----     21/07/2026  12:18 p.�m.            174 trusted_vault.pb                                                     
+-a----     21/07/2026  12:18 p.�m.         229376 Web Data                                                             
+-a----     21/07/2026  12:18 p.�m.              0 Web Data-journal                                                     
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\extensions_crx_cache
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:18 p.�m.        8525940 220a0a72d9a59dff654e758f25f4a0dbf586edf29ee92ac086836c8493c6344c     
+-a----     21/07/2026  12:18 p.�m.         150709 3256621f3c706ccdf5802b36fb5c35251d354aed0d31ac9fc8eb7d7239312e55     
+-a----     21/07/2026  12:18 p.�m.        2273929 a44c412282888db985a0f8f7ddd5a86a8a3d096d7348b1541da645fee8301442     
+-a----     21/07/2026  12:18 p.�m.       84057522 afab420dabcdfbd2417b3ec71cd531ea3137fab67e72508427a2aaa9c01756f7     
+-a----     21/07/2026  12:18 p.�m.       22639018 cc8b28fb1553e6bd4a274410cd8702fb02bb9aa1a7b56403b164beafe9774f9c     
+-a----     21/07/2026  12:18 p.�m.        3752706 d05b9e76ae0cf280e588a9a48b41c55a68ea1fad2660f05ea24af0e6125010f1     
+-a----     21/07/2026  12:18 p.�m.         507784 e399e253d969a2777228f1678fea7a13078d346d3e134444c9001d65f8ac90f9     
+-a----     21/07/2026  12:18 p.�m.            796 metadata.json                                                        
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\FileTypePolicies
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                145.0.7584.0                                                         
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\FirstPartySetsPreloaded
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                2025.7.24.0                                                          
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\GraphiteDawnCache
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:18 p.�m.           8192 data_0                                                               
+-a----     21/07/2026  12:18 p.�m.         270336 data_1                                                               
+-a----     21/07/2026  12:18 p.�m.           8192 data_2                                                               
+-a----     21/07/2026  12:18 p.�m.           8192 data_3                                                               
+-a----     21/07/2026  12:18 p.�m.         262512 index                                                                
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\GrShaderCache
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:18 p.�m.          45056 data_0                                                               
+-a----     21/07/2026  12:18 p.�m.         532480 data_1                                                               
+-a----     21/07/2026  12:18 p.�m.        1056768 data_2                                                               
+-a----     21/07/2026  12:18 p.�m.        8396800 data_3                                                               
+-a----     21/07/2026  12:18 p.�m.          18860 f_000042                                                             
+-a----     21/07/2026  12:18 p.�m.          28956 f_000043                                                             
+-a----     21/07/2026  12:18 p.�m.          17756 f_000044                                                             
+-a----     21/07/2026  12:18 p.�m.          18528 f_000045                                                             
+-a----     21/07/2026  12:18 p.�m.          17192 f_000046                                                             
+-a----     21/07/2026  12:18 p.�m.          19088 f_000047                                                             
+-a----     21/07/2026  12:18 p.�m.          20160 f_000048                                                             
+-a----     21/07/2026  12:18 p.�m.          16828 f_000049                                                             
+-a----     21/07/2026  12:18 p.�m.          19088 f_00004a                                                             
+-a----     21/07/2026  12:18 p.�m.          16572 f_00004b                                                             
+-a----     21/07/2026  12:18 p.�m.          19532 f_00004c                                                             
+-a----     21/07/2026  12:18 p.�m.          17292 f_00004d                                                             
+-a----     21/07/2026  12:18 p.�m.          17904 f_00004e                                                             
+-a----     21/07/2026  12:18 p.�m.          24796 f_00004f                                                             
+-a----     21/07/2026  12:18 p.�m.          18076 f_000050                                                             
+-a----     21/07/2026  12:18 p.�m.          16472 f_000051                                                             
+-a----     21/07/2026  12:18 p.�m.          18568 f_000052                                                             
+-a----     21/07/2026  12:18 p.�m.          18200 f_000053                                                             
+-a----     21/07/2026  12:18 p.�m.          18676 f_000054                                                             
+-a----     21/07/2026  12:18 p.�m.          19124 f_000055                                                             
+-a----     21/07/2026  12:18 p.�m.          28956 f_000056                                                             
+-a----     21/07/2026  12:18 p.�m.          28956 f_000057                                                             
+-a----     21/07/2026  12:18 p.�m.          18568 f_000058                                                             
+-a----     21/07/2026  12:18 p.�m.          17064 f_000059                                                             
+-a----     21/07/2026  12:18 p.�m.          17052 f_00005a                                                             
+-a----     21/07/2026  12:18 p.�m.          17756 f_00005b                                                             
+-a----     21/07/2026  12:18 p.�m.          18528 f_00005c                                                             
+-a----     21/07/2026  12:18 p.�m.          17292 f_00005d                                                             
+-a----     21/07/2026  12:18 p.�m.          20160 f_00005e                                                             
+-a----     21/07/2026  12:18 p.�m.          16828 f_00005f                                                             
+-a----     21/07/2026  12:18 p.�m.          16472 f_000060                                                             
+-a----     21/07/2026  12:18 p.�m.          16820 f_000061                                                             
+-a----     21/07/2026  12:18 p.�m.          20932 f_000062                                                             
+-a----     21/07/2026  12:18 p.�m.          19096 f_000063                                                             
+-a----     21/07/2026  12:18 p.�m.          16828 f_000064                                                             
+-a----     21/07/2026  12:18 p.�m.          19856 f_000065                                                             
+-a----     21/07/2026  12:18 p.�m.          18028 f_000066                                                             
+-a----     21/07/2026  12:18 p.�m.          20160 f_000067                                                             
+-a----     21/07/2026  12:18 p.�m.          17592 f_000068                                                             
+-a----     21/07/2026  12:18 p.�m.          17972 f_000069                                                             
+-a----     21/07/2026  12:18 p.�m.          19648 f_00006a                                                             
+-a----     21/07/2026  12:18 p.�m.          18844 f_00006b                                                             
+-a----     21/07/2026  12:18 p.�m.          17368 f_00006c                                                             
+-a----     21/07/2026  12:18 p.�m.          17880 f_00006d                                                             
+-a----     21/07/2026  12:18 p.�m.          18924 f_00006e                                                             
+-a----     21/07/2026  12:18 p.�m.          17448 f_00006f                                                             
+-a----     21/07/2026  12:18 p.�m.          18812 f_000070                                                             
+-a----     21/07/2026  12:18 p.�m.          18108 f_000071                                                             
+-a----     21/07/2026  12:18 p.�m.          18000 f_000072                                                             
+-a----     21/07/2026  12:18 p.�m.          16508 f_000073                                                             
+-a----     21/07/2026  12:18 p.�m.          18860 f_000074                                                             
+-a----     21/07/2026  12:18 p.�m.          20980 f_000075                                                             
+-a----     21/07/2026  12:18 p.�m.          28956 f_000076                                                             
+-a----     21/07/2026  12:18 p.�m.          17356 f_000077                                                             
+-a----     21/07/2026  12:18 p.�m.          16804 f_000078                                                             
+-a----     21/07/2026  12:18 p.�m.          18568 f_000079                                                             
+-a----     21/07/2026  12:18 p.�m.         262512 index                                                                
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\hyphen-data
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                120.0.6050.0                                                         
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\MediaFoundationWidevineCdm
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                x64                                                                  
+
+
+    Directorio: 
+    C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profile\MEIPreload
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                1.1.0.3                                                              
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\OptimizationHints
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                657                                                                  
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\optimization_guide_model_store
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                13                                                                   
+d-----     21/07/2026  12:18 p.�m.                15                                                                   
+d-----     21/07/2026  12:18 p.�m.                2                                                                    
+d-----     21/07/2026  12:18 p.�m.                20                                                                   
+d-----     21/07/2026  12:18 p.�m.                25                                                                   
+d-----     21/07/2026  12:18 p.�m.                26                                                                   
+d-----     21/07/2026  12:18 p.�m.                43                                                                   
+d-----     21/07/2026  12:18 p.�m.                45                                                                   
+d-----     21/07/2026  12:18 p.�m.                9                                                                    
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\OriginTrials
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                1.0.0.19                                                             
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\PKIMetadata
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                1639                                                                 
+
+
+    Directorio: 
+    C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profile\Safe 
+    Browsing
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:18 p.�m.            106 ChromeExtMalware.store                                               
+-a----     21/07/2026  12:18 p.�m.        1904608 ChromeExtMalware.store.32_13408998869427387                          
+-a----     21/07/2026  12:18 p.�m.            106 UrlBilling.store                                                     
+-a----     21/07/2026  12:18 p.�m.          50272 UrlBilling.store.4_13409006650391304                                 
+-a----     21/07/2026  12:18 p.�m.          50276 UrlBilling.store.4_13409008460344541                                 
+-a----     21/07/2026  12:18 p.�m.            133 UrlCsdAllowlist.store                                                
+-a----     21/07/2026  12:18 p.�m.            896 UrlCsdAllowlist.store.32_13408998869494912                           
+-a----     21/07/2026  12:18 p.�m.           3984 UrlCsdAllowlist.store.4_13408998869494419                            
+-a----     21/07/2026  12:18 p.�m.            105 UrlCsdDownloadAllowlist.store                                        
+-a----     21/07/2026  12:18 p.�m.          37312 UrlCsdDownloadAllowlist.store.32_13408998869465236                   
+-a----     21/07/2026  12:18 p.�m.            106 UrlHighConfidenceAllowlist.store                                     
+-a----     21/07/2026  12:18 p.�m.         317088 UrlHighConfidenceAllowlist.store.32_13408998868916144                
+-a----     21/07/2026  12:18 p.�m.            106 UrlMalBin.store                                                      
+-a----     21/07/2026  12:18 p.�m.          56216 UrlMalBin.store.4_13409006650387417                                  
+-a----     21/07/2026  12:18 p.�m.          56200 UrlMalBin.store.4_13409008460340112                                  
+-a----     21/07/2026  12:18 p.�m.            106 UrlMalware.store                                                     
+-a----     21/07/2026  12:18 p.�m.          60732 UrlMalware.store.4_13409006650375039                                 
+-a----     21/07/2026  12:18 p.�m.          60756 UrlMalware.store.4_13409008460329129                                 
+-a----     21/07/2026  12:18 p.�m.            107 UrlSoceng.store                                                      
+-a----     21/07/2026  12:18 p.�m.       17901520 UrlSoceng.store.4_13409006649626855                                  
+-a----     21/07/2026  12:18 p.�m.       17902688 UrlSoceng.store.4_13409008459748468                                  
+-a----     21/07/2026  12:18 p.�m.            106 UrlSubresourceFilter.store                                           
+-a----     21/07/2026  12:18 p.�m.         227996 UrlSubresourceFilter.store.4_13408998869508446                       
+-a----     21/07/2026  12:18 p.�m.            105 UrlSuspiciousSite.store                                              
+-a----     21/07/2026  12:18 p.�m.           7996 UrlSuspiciousSite.store.4_13408998869338307                          
+-a----     21/07/2026  12:18 p.�m.            106 UrlUws.store                                                         
+-a----     21/07/2026  12:18 p.�m.         115380 UrlUws.store.4_13409006650380390                                     
+-a----     21/07/2026  12:18 p.�m.         115472 UrlUws.store.4_13409008460333579                                     
+
+
+    Directorio: 
+    C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profile\SafetyTips
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                3091                                                                 
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\segmentation_platform
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:18 p.�m.          81920 ukm_db                                                               
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\ShaderCache
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:18 p.�m.          45056 data_0                                                               
+-a----     21/07/2026  12:18 p.�m.         270336 data_1                                                               
+-a----     21/07/2026  12:18 p.�m.        1056768 data_2                                                               
+-a----     21/07/2026  12:18 p.�m.           8192 data_3                                                               
+-a----     21/07/2026  12:18 p.�m.         262512 index                                                                
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\SSLErrorAssistant
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                7                                                                    
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\Subresource Filter
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                Indexed Rules                                                        
+d-----     21/07/2026  12:18 p.�m.                Unindexed Rules                                                      
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\TrustTokenKeyCommitments
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                2026.3.23.1                                                          
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profil
+    e\WasmTtsEngine
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                20260415.1                                                           
+
+
+    Directorio: 
+    C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-browser-profile\ZxcvbnData
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                3                                                                    
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-ide
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                annotations                                                          
+d-----     21/07/2026  12:18 p.�m.                brain                                                                
+d-----     21/07/2026  12:18 p.�m.                browser_recordings                                                   
+d-----     21/07/2026  12:18 p.�m.                conversations                                                        
+d-----     21/07/2026  12:18 p.�m.                implicit                                                             
+d-----     21/07/2026  12:18 p.�m.                knowledge                                                            
+d-----     21/07/2026  12:18 p.�m.                playground                                                           
+d-----     21/07/2026  12:18 p.�m.                prompting                                                            
+-a----     21/07/2026  12:18 p.�m.           8894 agyhub_summaries_proto.pb                                            
+-a----     21/07/2026  12:18 p.�m.            497 antigravity_state.pbtxt                                              
+-a----     21/07/2026  12:18 p.�m.           1291 browserAllowlist.txt                                                 
+-a----     21/07/2026  12:18 p.�m.              0 browserOnboardingStatus.txt                                          
+-a----     21/07/2026  12:18 p.�m.             36 installation_id                                                      
+-a----     21/07/2026  12:18 p.�m.              0 mcp_config.json                                                      
+-a----     21/07/2026  12:18 p.�m.             11 user_settings.pb                                                     
+
+
+    Directorio: 
+    C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-ide\annotations
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:18 p.�m.             57 16ded55c-5335-4237-ae3f-645d6de859a0.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             56 21f0d858-e55a-4f13-b3c3-4bf47217bb20.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             73 2939ba50-c53f-4394-95ed-c758b6344876.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             13 2eb710fd-3f76-4cf5-ace8-112f04284882.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             72 6e16370a-c16e-4949-ab24-c26e08740333.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             71 8bbb3e2f-c045-413c-a186-66d8d4abd729.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             72 8dcbd8e3-4fa2-462b-8efe-3164a7777ce0.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             56 a269f500-147c-45dd-91c1-cd2d55c43e58.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             57 afbf60a4-3564-4001-9498-c73dd83a99cc.pbtxt                           
+-a----     21/07/2026  12:18 p.�m.             70 be84e0cf-8f1f-46ec-a9d0-468f6ac4ec8b.pbtxt                           
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-ide\brain
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                21f0d858-e55a-4f13-b3c3-4bf47217bb20                                 
+d-----     21/07/2026  12:18 p.�m.                2939ba50-c53f-4394-95ed-c758b6344876                                 
+d-----     21/07/2026  12:18 p.�m.                2eb710fd-3f76-4cf5-ace8-112f04284882                                 
+d-----     21/07/2026  12:18 p.�m.                49785721-cd1b-4234-9e1d-b627166b0ec2                                 
+d-----     21/07/2026  12:18 p.�m.                6da923c3-ae38-4d01-b8a5-90b482102441                                 
+d-----     21/07/2026  12:18 p.�m.                8dcbd8e3-4fa2-462b-8efe-3164a7777ce0                                 
+d-----     21/07/2026  12:18 p.�m.                a269f500-147c-45dd-91c1-cd2d55c43e58                                 
+d-----     21/07/2026  12:18 p.�m.                be84e0cf-8f1f-46ec-a9d0-468f6ac4ec8b                                 
+
+
+    Directorio: 
+    C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-ide\browser_recordings
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                2939ba50-c53f-4394-95ed-c758b6344876                                 
+
+
+    Directorio: 
+    C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-ide\conversations
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:18 p.�m.         113496 16ded55c-5335-4237-ae3f-645d6de859a0.pb                              
+-a----     21/07/2026  12:18 p.�m.          98848 21f0d858-e55a-4f13-b3c3-4bf47217bb20.pb                              
+-a----     21/07/2026  12:18 p.�m.        3769522 2939ba50-c53f-4394-95ed-c758b6344876.pb                              
+-a----     21/07/2026  12:18 p.�m.         999317 2eb710fd-3f76-4cf5-ace8-112f04284882.pb                              
+-a----     21/07/2026  12:18 p.�m.         432255 49785721-cd1b-4234-9e1d-b627166b0ec2.pb                              
+-a----     21/07/2026  12:18 p.�m.         223130 6da923c3-ae38-4d01-b8a5-90b482102441.pb                              
+-a----     21/07/2026  12:18 p.�m.         553795 6e16370a-c16e-4949-ab24-c26e08740333.pb                              
+-a----     21/07/2026  12:18 p.�m.            629 8dcbd8e3-4fa2-462b-8efe-3164a7777ce0.pb                              
+-a----     21/07/2026  12:18 p.�m.         466987 a269f500-147c-45dd-91c1-cd2d55c43e58.pb                              
+-a----     21/07/2026  12:18 p.�m.        3266920 be84e0cf-8f1f-46ec-a9d0-468f6ac4ec8b.pb                              
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-ide\implicit
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:18 p.�m.           2869 157fb5ac-4f20-449a-99f5-bfe300ddc000.pb                              
+-a----     21/07/2026  12:18 p.�m.          93716 2aaa8d6b-ff29-49f7-bd51-c5da04f32372.pb                              
+-a----     21/07/2026  12:18 p.�m.          85070 42d9196d-13ff-4ec2-bdde-1a0640c6d4fc.pb                              
+-a----     21/07/2026  12:18 p.�m.            266 5960c6de-cc6b-4fc2-9149-bb865b2362ae.pb                              
+-a----     21/07/2026  12:18 p.�m.           1081 670fe775-75ee-4cdd-a41e-68f72a7a8010.pb                              
+-a----     21/07/2026  12:18 p.�m.            326 7d4941e3-cfc3-4ece-b21a-5aa6263da825.pb                              
+-a----     21/07/2026  12:18 p.�m.            321 846b022b-5b53-4d1c-860c-dacc9961ec40.pb                              
+-a----     21/07/2026  12:18 p.�m.            279 887250a3-9cfe-4764-8776-94e61568e975.pb                              
+-a----     21/07/2026  12:18 p.�m.            336 8ab4c22f-faa1-40bd-9f27-63803604390f.pb                              
+-a----     21/07/2026  12:18 p.�m.            332 aa793d5c-3b2e-4be3-92d1-60ae85d19292.pb                              
+-a----     21/07/2026  12:18 p.�m.         808049 b7135900-d132-4be2-a15b-8db6fe3d3402.pb                              
+-a----     21/07/2026  12:18 p.�m.            328 bc5cc42a-114c-4750-8b9c-675abe601e3d.pb                              
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-ide\knowledge
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:18 p.�m.              0 knowledge.lock                                                       
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-ide\playground
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                retrograde-cassini                                                   
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\antigravity-ide\prompting
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                browser                                                              
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\config
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                plugins                                                              
+d-----     21/07/2026  12:19 p.�m.                projects                                                             
+-a----     21/07/2026  12:18 p.�m.              0 .migrated                                                            
+-a----     21/07/2026  12:18 p.�m.             66 config.json                                                          
+-a----     21/07/2026  12:18 p.�m.              0 mcp_config.json                                                      
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\config\plugins
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     21/07/2026  12:18 p.�m.                chrome-devtools-plugin                                               
+d-----     21/07/2026  12:18 p.�m.                google-antigravity-sdk                                               
+d-----     21/07/2026  12:18 p.�m.                modern-web-guidance-plugin                                           
+d-----     21/07/2026  12:18 p.�m.                science                                                              
+
+
+    Directorio: C:\Users\SUPERUSUARIO\.gemini\antigravity\playground\retrograde-cassini_repo\config\projects
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     21/07/2026  12:19 p.�m.            375 70368405-4737-4eea-a738-fe238cd51f26.json                            
+-a----     21/07/2026  12:19 p.�m.            371 ef72bf4c-3a57-4218-95fb-8dda64dbd862.json                            
+
+

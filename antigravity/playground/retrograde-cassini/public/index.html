@@ -62,17 +62,19 @@
                     <div>
                         <h2>Resumen Financiero</h2>
                     </div>
-                    <div class="year-selector">
-                        <label for="dash-year">Año:</label>
-                        <input type="number" id="dash-year" value="2024" min="2000" max="2100">
-                    </div>
-                    <div class="year-selector">
-                        <label for="dash-impuesto-renta">Impuesto de Renta Año</label>
-                        <input type="number" id="dash-impuesto-renta" value="0" step="0.01" readonly>
-                    </div>
-                    <div class="year-selector">
-                        <label>TEI</label>
-                        <p id="dashboard-tei" class="dashboard-tei">-</p>
+                    <div class="header-controls">
+                        <div class="year-selector">
+                            <label for="dash-year">Año:</label>
+                            <input type="number" id="dash-year" value="2024" min="2000" max="2100">
+                        </div>
+                        <div class="year-selector">
+                            <label for="dash-impuesto-renta">Impuesto de Renta Año:</label>
+                            <input type="number" id="dash-impuesto-renta" value="0" step="0.01">
+                        </div>
+                        <div class="year-selector">
+                            <label for="dashboard-tei">TEI (%):</label>
+                            <input type="text" id="dashboard-tei" value="-" readonly style="background-color: #f3f4f6; cursor: not-allowed;">
+                        </div>
                     </div>
                 </header>
 

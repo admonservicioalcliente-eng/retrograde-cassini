@@ -1,0 +1,24 @@
+file:///C:/Users/SUPERUSUARIO/AppData/Local/npm-cache/_npx/aab42732f01924e5/node_modules/serve/build/main.js:246
+    throw new Error(
+    ^
+
+Error: Failed to serve: Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+    at listenInCluster (node:net:2065:12)
+    at Server.listen (node:net:2170:7)
+    at file:///C:/Users/SUPERUSUARIO/AppData/Local/npm-cache/_npx/aab42732f01924e5/node_modules/serve/build/main.js:259:14
+    at new Promise (<anonymous>)
+    at startServer (file:///C:/Users/SUPERUSUARIO/AppData/Local/npm-cache/_npx/aab42732f01924e5/node_modules/serve/build/main.js:257:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async file:///C:/Users/SUPERUSUARIO/AppData/Local/npm-cache/_npx/aab42732f01924e5/node_modules/serve/build/main.js:549:40
+    at Server.<anonymous> (file:///C:/Users/SUPERUSUARIO/AppData/Local/npm-cache/_npx/aab42732f01924e5/node_modules/serve/build/main.js:246:11)
+    at Server.emit (node:events:509:20)
+    at emitErrorNT (node:net:2044:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+Node.js v25.9.0
+npm notice
+npm notice New minor version of npm available! 11.12.1 -> 11.18.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.18.0
+npm notice To update run: npm install -g npm@11.18.0
+npm notice

@@ -1,0 +1,19 @@
+ INFO  Accepting connections at http://localhost:8081
+ HTTP  21/7/2026 1:15:11 p. m. ::1 GET /
+ HTTP  21/7/2026 1:15:11 p. m. ::1 Returned 200 in 6241 ms
+ HTTP  21/7/2026 1:15:17 p. m. ::1 GET /style.css
+ HTTP  21/7/2026 1:15:17 p. m. ::1 Returned 200 in 21 ms
+ HTTP  21/7/2026 1:15:18 p. m. ::1 GET /db.js
+ HTTP  21/7/2026 1:15:18 p. m. ::1 Returned 200 in 21 ms
+ HTTP  21/7/2026 1:15:18 p. m. ::1 GET /app.js
+ HTTP  21/7/2026 1:15:18 p. m. ::1 Returned 200 in 15 ms
+ HTTP  21/7/2026 1:15:19 p. m. ::1 GET /favicon.ico
+ HTTP  21/7/2026 1:15:19 p. m. ::1 Returned 404 in 4 ms
+ HTTP  21/7/2026 1:15:32 p. m. ::1 GET /obtener-financiero?empresa_id=CLIENTENUEVO&anio=2026
+ HTTP  21/7/2026 1:15:32 p. m. ::1 Returned 404 in 7 ms
+ HTTP  21/7/2026 1:15:55 p. m. ::1 GET /obtener-financiero?empresa_id=CLIENTENUEVO&anio=2026
+ HTTP  21/7/2026 1:15:55 p. m. ::1 Returned 404 in 3 ms
+ HTTP  21/7/2026 1:15:57 p. m. ::1 GET /obtener-financiero?empresa_id=CLIENTENUEVO&anio=2026
+ HTTP  21/7/2026 1:15:57 p. m. ::1 Returned 404 in 2 ms
+ HTTP  21/7/2026 1:16:01 p. m. ::1 GET /obtener-financiero?empresa_id=CLIENTENUEVO&anio=2026
+ HTTP  21/7/2026 1:16:01 p. m. ::1 Returned 404 in 3 ms

@@ -1,0 +1,11 @@
+En l�nea: 1 Car�cter: 123
++ ... ade-cassini_repo\antigravity\playground\retrograde-cassini && npm ins ...
++                                                                ~~
+El token '&&' no es un separador de instrucciones v�lido en esta versi�n.
+En l�nea: 1 Car�cter: 138
++ ... o\antigravity\playground\retrograde-cassini && npm install && npm run ...
++                                                                ~~
+El token '&&' no es un separador de instrucciones v�lido en esta versi�n.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : InvalidEndOfLine
+ 

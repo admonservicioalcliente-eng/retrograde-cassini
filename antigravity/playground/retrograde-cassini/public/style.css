@@ -251,10 +251,16 @@ header h2 {
 }
 .dashboard-header {
     display: grid;
-    grid-template-columns: repeat(4, minmax(180px, 1fr));
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: start;
+    margin-bottom: 1.5rem;
+}
+.header-controls {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     align-items: end;
-    margin-bottom: 1.5rem;
 }
 .dashboard-tei {
     margin: 0.5rem 0 0;

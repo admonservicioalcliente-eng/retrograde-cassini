@@ -214,6 +214,17 @@ document.getElementById('entry-form').addEventListener('submit', async (e) => {
 
 // Dashboard
 document.getElementById('dash-year').addEventListener('change', () => loadDashboard());
+document.getElementById('dash-impuesto-renta').addEventListener('change', async () => {
+    const year = parseInt(document.getElementById('dash-year').value || currentYear);
+    const newTax = parseFloat(document.getElementById('dash-impuesto-renta').value) || 0;
+    
+    // Save to localStorage
+    const key = `impuesto_renta_${currentCompany}_${year}`;
+    localStorage.setItem(key, newTax);
+    
+    // Reload dashboard to recalculate TEI
+    loadDashboard();
+});
 document.getElementById('table-year').addEventListener('change', () => loadAnnualStatement());
 document.getElementById('margins-year').addEventListener('change', () => loadMarginsStatement());
 
@@ -277,9 +288,15 @@ const loadDashboard = async () => {
         };
     });
 
-    const teiValue = totalUAI !== 0 && annualTax !== null ? annualTax / totalUAI : null;
-    document.getElementById('dash-impuesto-renta').value = annualTax !== null ? annualTax.toFixed(2) : '';
-    document.getElementById('dashboard-tei').textContent = teiValue !== null ? `${(teiValue * 100).toFixed(1)} %` : '-';
+    // Check for saved annual tax value in localStorage
+    const year = parseInt(document.getElementById('dash-year').value || currentYear);
+    const storageKey = `impuesto_renta_${currentCompany}_${year}`;
+    const storedTax = localStorage.getItem(storageKey);
+    const finalAnnualTax = storedTax !== null ? parseFloat(storedTax) : annualTax;
+
+    const teiValue = totalUAI !== 0 && finalAnnualTax !== null ? finalAnnualTax / totalUAI : null;
+    document.getElementById('dash-impuesto-renta').value = finalAnnualTax !== null ? finalAnnualTax.toFixed(2) : '';
+    document.getElementById('dashboard-tei').value = teiValue !== null ? `${(teiValue * 100).toFixed(1)} %` : '-';
 
     // Update KPIs
     document.getElementById('kpi-ingresos').textContent = formatCurrency(tIngresos);
