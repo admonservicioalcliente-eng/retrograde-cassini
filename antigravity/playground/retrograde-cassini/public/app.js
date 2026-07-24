@@ -1,4 +1,4 @@
-ï»¿console.log("Archivo app.js cargado correctamente");
+console.log("Archivo app.js cargado correctamente");
 // app.js - UI and Business Logic
 let currentCompany = null;
 let monthlyChartInstance = null;
@@ -96,14 +96,14 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
     }
 
     if (!turnstileToken) {
-        showToast('Por favor, completa el captcha de seguridad antes de iniciar sesiÃ³n.', 'error');
+        showToast('Por favor, completa el captcha de seguridad antes de iniciar sesión.', 'error');
         return;
     }
 
     try {
         const user = await loginUser(id, pwd, turnstileToken);
         currentCompany = user.id;
-        document.getElementById('current-company').textContent = `ðŸ¦ ${currentCompany}`;
+        document.getElementById('current-company').textContent = `?? ${currentCompany}`;
 
         switchView('dashboard-view');
         
@@ -117,7 +117,7 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
         showToast(`Bienvenido ${currentCompany}`);
     } catch (err) {
         const message = err && err.message ? err.message : err;
-        const isInfoMessage = message === 'Tu cuenta ha sido registrada y estÃ¡ pendiente de autorizaciÃ³n por el administrador.' || message === 'Tu cuenta estÃ¡ pendiente de autorizaciÃ³n por el administrador.' || message === 'Tu cuenta ha sido rechazada por el administrador.';
+        const isInfoMessage = message === 'Tu cuenta ha sido registrada y está pendiente de autorización por el administrador.' || message === 'Tu cuenta está pendiente de autorización por el administrador.' || message === 'Tu cuenta ha sido rechazada por el administrador.';
         showToast(message, isInfoMessage ? 'info' : 'error');
         
         // Reset Turnstile on error
@@ -126,8 +126,6 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
         }
     }
 });
->>>>>>>
-<replace_in_file>
 
 (document.getElementById('logout-btn') || {addEventListener: ()=>{}}).addEventListener('click', () => {
     currentCompany = null;
@@ -220,7 +218,7 @@ const loadEntryData = async (year, month) => {
             };
             await enviarDatoss(mappedForAiven);
         } else {
-            console.warn("La funciÃ³n enviarDatoss no estÃ¡ definida. Solo se guardÃ³ localmente.");
+            console.warn("La función enviarDatoss no está definida. Solo se guardó localmente.");
         }
 
         showToast('Registro guardado exitosamente');
@@ -331,7 +329,7 @@ const loadDashboard = async () => {
 const updateCharts = (data) => {
     const labels = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
 
-    // Chart 1: EvoluciÃ³n
+    // Chart 1: Evolución
     const ctx1 = document.getElementById('monthlyChart').getContext('2d');
     if (monthlyChartInstance) monthlyChartInstance.destroy();
 
@@ -439,7 +437,7 @@ const loadAnnualStatement = async () => {
         { key: 'ingresos_financieros', label: '5. Ing. Financieros' },
         { key: 'gastos_financieros', label: '6. Gastos Financieros' },
         { key: 'uai', label: 'Utilidad Antes de Impuestos', derived: true, bold: true },
-        { key: 'impuesto_provision', label: '8. Impuesto (ProvisiÃ³n)' },
+        { key: 'impuesto_provision', label: '8. Impuesto (Provisión)' },
         { key: 'utilidadNeta', label: 'UTILIDAD NETA', derived: true, highlight: true }
     ];
 
@@ -510,7 +508,7 @@ const loadMarginsStatement = async () => {
         { key: 'ingresos_financieros', label: 'Ing. Financieros (%)' },
         { key: 'gastos_financieros', label: 'Gastos Financieros (%)', inverse: true },
         { key: 'uai', label: 'Margen UAI (%)', derived: true, bold: true },
-        { key: 'impuesto_provision', label: 'Impuesto (ProvisiÃ³n) (%)', inverse: true },
+        { key: 'impuesto_provision', label: 'Impuesto (Provisión) (%)', inverse: true },
         { key: 'utilidadNeta', label: 'Margen Neto (%)', derived: true, highlight: true }
     ];
 
@@ -645,7 +643,7 @@ const enviarDatos = async (objetoFinanciero) => {
     const year = parseInt(document.getElementById('entry-year').value);
     const month = parseInt(document.getElementById('entry-month').value);
     
-    if(!confirm('ï¿½Estï¿½s seguro de que quieres borrar todos los datos del mes ' + month + ' del aï¿½o ' + year + '?')) return;
+    if(!confirm('?Est?s seguro de que quieres borrar todos los datos del mes ' + month + ' del a?o ' + year + '?')) return;
     
     try {
         // 1. Borrar localmente
@@ -670,7 +668,7 @@ const enviarDatos = async (objetoFinanciero) => {
 
 
 
-// --- LÃ³gica de Carga de Archivo Plano ---
+// --- Lógica de Carga de Archivo Plano ---
 const downloadTemplateBtn = document.getElementById('download-template-btn');
 const fileUploadInput = document.getElementById('file-upload');
 const processFileBtn = document.getElementById('process-file-btn');
@@ -705,7 +703,7 @@ if (processFileBtn) {
         if (!file) return;
 
         if (typeof Papa === 'undefined') {
-            showToast("La librerÃ­a para procesar CSV no estÃ¡ cargada.", "error");
+            showToast("La librería para procesar CSV no está cargada.", "error");
             return;
         }
 
@@ -809,10 +807,10 @@ const renderAdminTable = (tbodyId, empresas, emptyMessage) => {
         tdId.textContent = emp.empresa_id;
 
         const tdPassword = document.createElement('td');
-        tdPassword.textContent = emp.password_hash || 'â€”';
+        tdPassword.textContent = emp.password_hash || '—';
 
         const tdStatus = document.createElement('td');
-        tdStatus.textContent = isApproved ? 'âœ… Autorizado' : 'â³ Pendiente';
+        tdStatus.textContent = isApproved ? '? Autorizado' : '? Pendiente';
 
         const tdAction = document.createElement('td');
         const actionBtn = document.createElement('button');
@@ -904,10 +902,10 @@ const revokeEmpresa = async (empresa_id) => {
 };
 
 const resetEmpresaPassword = async (empresa_id) => {
-    const newPassword = prompt(`Ingrese la nueva contraseÃ±a para ${empresa_id}:`);
+    const newPassword = prompt(`Ingrese la nueva contraseña para ${empresa_id}:`);
     if (newPassword === null) return;
     if (!newPassword.trim()) {
-        showToast('La contraseÃ±a no puede estar vacÃ­a.', 'error');
+        showToast('La contraseña no puede estar vacía.', 'error');
         return;
     }
 
@@ -919,9 +917,9 @@ const resetEmpresaPassword = async (empresa_id) => {
         });
         if (!response.ok) {
             const data = await response.json();
-            throw new Error(data.error || 'Error al actualizar la contraseÃ±a');
+            throw new Error(data.error || 'Error al actualizar la contraseña');
         }
-        showToast(`ContraseÃ±a actualizada para ${empresa_id}`);
+        showToast(`Contraseña actualizada para ${empresa_id}`);
         loadAdminData();
     } catch(err) {
         showToast(err.message, 'error');
@@ -930,7 +928,7 @@ const resetEmpresaPassword = async (empresa_id) => {
 
 
 const rechazarEmpresa = async (empresa_id) => {
-    if (!confirm(`Â¿EstÃ¡s seguro de RECHAZAR y eliminar a ${empresa_id}? Esta acciÃ³n no se puede deshacer.`)) return;
+    if (!confirm(`¿Estás seguro de RECHAZAR y eliminar a ${empresa_id}? Esta acción no se puede deshacer.`)) return;
     try {
         const response = await fetch('/api/delete-empresa', {
             method: 'POST',

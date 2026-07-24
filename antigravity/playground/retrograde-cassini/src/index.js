@@ -1,4 +1,4 @@
-ï»¿import { Client } from 'pg';
+import { Client } from 'pg';
 
 const CORS_HEADERS = {
   "Access-Control-Allow-Origin": "*",
@@ -139,15 +139,13 @@ export default {
 
       try {
         const connectionString = env.hyperdrive?.connectionString || env.DATABASE_URL;
-        if (!connectionString) throw new Error("Falta el tÃºnel HYPERDRIVE o DATABASE_URL");
+        if (!connectionString) throw new Error("Falta el túnel HYPERDRIVE o DATABASE_URL");
         const client = new Client({
           connectionString
         });
         const data = await request.json();
         await client.connect();
         await setupFinanceTable(client);
->>>>>>>
-<replace_in_file>
 
         const query = `
           INSERT INTO registros_financieros 
@@ -177,7 +175,7 @@ export default {
         // Use ctx.waitUntil to close client after returning response
         ctx.waitUntil(client.end());
 
-        return new Response(JSON.stringify({ message: "Ã‰xito", id: res.rows[0].id }), {
+        return new Response(JSON.stringify({ message: "Éxito", id: res.rows[0].id }), {
           headers: { ...CORS_HEADERS, "Content-Type": "application/json" }
         });
 
@@ -195,19 +193,17 @@ export default {
       if (request.method !== 'GET') return new Response("Method Not Allowed", { status: 405, headers: CORS_HEADERS });
 
       const empresa_id = url.searchParams.get('empresa_id');
->>>>>>>
-<replace_in_file>
       const anio = url.searchParams.get('anio');
 
       if (!empresa_id || !anio) {
-        return new Response(JSON.stringify({ error: "Faltan parÃ¡metros empresa_id o anio" }), {
+        return new Response(JSON.stringify({ error: "Faltan parámetros empresa_id o anio" }), {
           status: 400, headers: { ...CORS_HEADERS, "Content-Type": "application/json" }
         });
       }
 
       try {
         const connectionString = env.hyperdrive?.connectionString || env.DATABASE_URL;
-        if (!connectionString) throw new Error("Falta el tÃºnel HYPERDRIVE o DATABASE_URL");
+        if (!connectionString) throw new Error("Falta el túnel HYPERDRIVE o DATABASE_URL");
         const client = new Client({
           connectionString
         });
@@ -237,11 +233,11 @@ export default {
       if (request.method !== 'POST') return new Response("Method Not Allowed", { status: 405, headers: CORS_HEADERS });
       try {
         const connectionString = env.hyperdrive?.connectionString || env.DATABASE_URL;
-        if (!connectionString) throw new Error("Falta el tÃºnel HYPERDRIVE o DATABASE_URL");
+        if (!connectionString) throw new Error("Falta el túnel HYPERDRIVE o DATABASE_URL");
 
         const data = await request.json();
 
-        // --- VerificaciÃ³n de Cloudflare Turnstile ---
+        // --- Verificación de Cloudflare Turnstile ---
         const turnstileToken = data.turnstile_token;
         if (!turnstileToken) {
           return new Response(JSON.stringify({ success: false, error: "Por favor, completa el captcha de seguridad." }), {
@@ -262,7 +258,7 @@ export default {
         const cfData = await cfRes.json();
 
         if (!cfData.success) {
-          return new Response(JSON.stringify({ success: false, error: "FallÃ³ la verificaciÃ³n de seguridad. Por favor, intÃ©ntalo de nuevo." }), {
+          return new Response(JSON.stringify({ success: false, error: "Falló la verificación de seguridad. Por favor, inténtalo de nuevo." }), {
             headers: { ...CORS_HEADERS, "Content-Type": "application/json" }
           });
         }
@@ -287,12 +283,12 @@ export default {
             if (isDemo) {
               return new Response(JSON.stringify({ success: true, user: { id: data.empresa_id } }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
             }
-            return new Response(JSON.stringify({ success: false, error: "Tu cuenta ha sido registrada y estÃ¡ pendiente de autorizaciÃ³n por el administrador." }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
+            return new Response(JSON.stringify({ success: false, error: "Tu cuenta ha sido registrada y está pendiente de autorización por el administrador." }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
         } else {
             const userStatus = user.status || (user.is_authorized ? 'approved' : 'pending');
             if (user.password_hash !== data.password) {
                 ctx.waitUntil(client.end());
-                return new Response(JSON.stringify({ success: false, error: "ContraseÃ±a incorrecta." }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
+                return new Response(JSON.stringify({ success: false, error: "Contraseña incorrecta." }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
             }
             if (userStatus === 'rejected') {
                 ctx.waitUntil(client.end());
@@ -300,7 +296,7 @@ export default {
             }
             if (userStatus !== 'approved' && user.empresa_id !== 'SUPERUSUARIO') {
                 ctx.waitUntil(client.end());
-                return new Response(JSON.stringify({ success: false, error: "Tu cuenta estÃ¡ pendiente de autorizaciÃ³n por el administrador." }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
+                return new Response(JSON.stringify({ success: false, error: "Tu cuenta está pendiente de autorización por el administrador." }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
             }
             ctx.waitUntil(client.end());
             return new Response(JSON.stringify({ success: true, user: { id: user.empresa_id } }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
@@ -309,8 +305,6 @@ export default {
         return new Response(JSON.stringify({ error: err.message }), { status: 500, headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
       }
     }
->>>>>>>
-<replace_in_file>
 
     if (url.pathname === '/api/get-empresas' || url.pathname.endsWith('/get-empresas')) {
         try {
@@ -354,7 +348,7 @@ export default {
             const res = await client.query("UPDATE empresas_auth SET password_hash = $1 WHERE empresa_id = $2", [data.password, data.empresa_id]);
             ctx.waitUntil(client.end());
             if (res.rowCount === 0) {
-                return new Response(JSON.stringify({ success: false, error: 'No se encontrÃ³ la empresa.' }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
+                return new Response(JSON.stringify({ success: false, error: 'No se encontró la empresa.' }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
             }
             return new Response(JSON.stringify({ success: true }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
         } catch(err) {
