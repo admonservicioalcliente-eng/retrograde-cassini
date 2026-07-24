@@ -135,7 +135,7 @@ export default {
     }
     // Route: /api/guardar-financiero
     if (url.pathname === '/api/guardar-financiero' || url.pathname.endsWith('/guardar-financiero')) {
-      if (request.method !== 'POST') return new Response("Method Not Allowed", { status: 405 });
+      if (request.method !== 'POST') return new Response("Method Not Allowed", { status: 405, headers: CORS_HEADERS });
 
       try {
         const connectionString = env.hyperdrive?.connectionString || env.DATABASE_URL;
@@ -146,6 +146,8 @@ export default {
         const data = await request.json();
         await client.connect();
         await setupFinanceTable(client);
+>>>>>>>
+<replace_in_file>
 
         const query = `
           INSERT INTO registros_financieros 
@@ -190,9 +192,11 @@ export default {
 
     // Route: /api/obtener-financiero
     if (url.pathname === '/api/obtener-financiero' || url.pathname.endsWith('/obtener-financiero')) {
-      if (request.method !== 'GET') return new Response("Method Not Allowed", { status: 405 });
+      if (request.method !== 'GET') return new Response("Method Not Allowed", { status: 405, headers: CORS_HEADERS });
 
       const empresa_id = url.searchParams.get('empresa_id');
+>>>>>>>
+<replace_in_file>
       const anio = url.searchParams.get('anio');
 
       if (!empresa_id || !anio) {
@@ -230,11 +234,40 @@ export default {
 
     
     if (url.pathname === '/api/login' || url.pathname.endsWith('/login')) {
-      if (request.method !== 'POST') return new Response("Method Not Allowed", { status: 405 });
+      if (request.method !== 'POST') return new Response("Method Not Allowed", { status: 405, headers: CORS_HEADERS });
       try {
         const connectionString = env.hyperdrive?.connectionString || env.DATABASE_URL;
-        const client = new Client({ connectionString });
+        if (!connectionString) throw new Error("Falta el túnel HYPERDRIVE o DATABASE_URL");
+
         const data = await request.json();
+
+        // --- Verificación de Cloudflare Turnstile ---
+        const turnstileToken = data.turnstile_token;
+        if (!turnstileToken) {
+          return new Response(JSON.stringify({ success: false, error: "Por favor, completa el captcha de seguridad." }), {
+            headers: { ...CORS_HEADERS, "Content-Type": "application/json" }
+          });
+        }
+
+        const turnstileSecret = env.TURNSTILE_SECRET || "1x0000000000000000000000000000000AA";
+        const formData = new FormData();
+        formData.append('secret', turnstileSecret);
+        formData.append('response', turnstileToken);
+        formData.append('remoteip', request.headers.get('CF-Connecting-IP') || '');
+
+        const cfRes = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
+          method: 'POST',
+          body: formData
+        });
+        const cfData = await cfRes.json();
+
+        if (!cfData.success) {
+          return new Response(JSON.stringify({ success: false, error: "Falló la verificación de seguridad. Por favor, inténtalo de nuevo." }), {
+            headers: { ...CORS_HEADERS, "Content-Type": "application/json" }
+          });
+        }
+
+        const client = new Client({ connectionString });
         await client.connect();
         await setupAuthTable(client);
 
@@ -242,11 +275,18 @@ export default {
         let user = res.rows[0];
 
         if (!user) {
+            // Auto-approve DEMO accounts for quick access
+            const isDemo = data.empresa_id === 'DEMO';
+            const newStatus = isDemo ? 'approved' : 'pending';
+            const newAuth = isDemo ? true : false;
             await client.query(
-              "INSERT INTO empresas_auth (empresa_id, password_hash, is_authorized, status) VALUES ($1, $2, false, 'pending')",
-              [data.empresa_id, data.password]
+              "INSERT INTO empresas_auth (empresa_id, password_hash, is_authorized, status) VALUES ($1, $2, $3, $4)",
+              [data.empresa_id, data.password, newAuth, newStatus]
             );
             ctx.waitUntil(client.end());
+            if (isDemo) {
+              return new Response(JSON.stringify({ success: true, user: { id: data.empresa_id } }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
+            }
             return new Response(JSON.stringify({ success: false, error: "Tu cuenta ha sido registrada y está pendiente de autorización por el administrador." }), { headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
         } else {
             const userStatus = user.status || (user.is_authorized ? 'approved' : 'pending');
@@ -269,6 +309,8 @@ export default {
         return new Response(JSON.stringify({ error: err.message }), { status: 500, headers: { ...CORS_HEADERS, "Content-Type": "application/json" } });
       }
     }
+>>>>>>>
+<replace_in_file>
 
     if (url.pathname === '/api/get-empresas' || url.pathname.endsWith('/get-empresas')) {
         try {

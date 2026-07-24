@@ -33,22 +33,28 @@ const initDB = () => {
     });
 };
 
-const loginUser = async (companyId, password) => {
-    // Si la empresa es DEMO, permitir acceso inmediato de pruebas sin requerir autorización
-    if (companyId.toUpperCase() === 'DEMO') {
-        return { id: 'DEMO' };
-    }
+const loginUser = async (companyId, password, turnstileToken) => {
     const response = await fetch('/api/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ empresa_id: companyId, password: password })
+        body: JSON.stringify({ 
+            empresa_id: companyId, 
+            password: password,
+            turnstile_token: turnstileToken
+        })
     });
     
-    if (!response.ok) {
-        throw new Error('Error de conexión con el servidor');
+    let data;
+    try {
+        data = await response.json();
+    } catch (e) {
+        throw new Error('Respuesta inválida del servidor');
     }
     
-    const data = await response.json();
+    if (!response.ok) {
+        throw new Error(data.error || data.message || `Error del servidor (${response.status})`);
+    }
+    
     if (!data.success) {
         throw new Error(data.error || 'Error de autenticación');
     }

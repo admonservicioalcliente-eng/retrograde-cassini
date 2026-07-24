@@ -89,9 +89,19 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
     const id = document.getElementById('company-id').value.trim();
     const pwd = document.getElementById('password').value;
 
+    // Get Turnstile token
+    let turnstileToken = null;
+    if (typeof turnstile !== 'undefined') {
+        turnstileToken = turnstile.getResponse();
+    }
+
+    if (!turnstileToken) {
+        showToast('Por favor, completa el captcha de seguridad antes de iniciar sesión.', 'error');
+        return;
+    }
+
     try {
-        
-        const user = await loginUser(id, pwd);
+        const user = await loginUser(id, pwd, turnstileToken);
         currentCompany = user.id;
         document.getElementById('current-company').textContent = `🏦 ${currentCompany}`;
 
@@ -109,8 +119,15 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
         const message = err && err.message ? err.message : err;
         const isInfoMessage = message === 'Tu cuenta ha sido registrada y está pendiente de autorización por el administrador.' || message === 'Tu cuenta está pendiente de autorización por el administrador.' || message === 'Tu cuenta ha sido rechazada por el administrador.';
         showToast(message, isInfoMessage ? 'info' : 'error');
+        
+        // Reset Turnstile on error
+        if (typeof turnstile !== 'undefined') {
+            turnstile.reset();
+        }
     }
 });
+>>>>>>>
+<replace_in_file>
 
 (document.getElementById('logout-btn') || {addEventListener: ()=>{}}).addEventListener('click', () => {
     currentCompany = null;

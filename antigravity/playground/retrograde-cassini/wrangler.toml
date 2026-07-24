@@ -11,7 +11,13 @@ localConnectionString = "postgres://avnadmin:<redacted>@pg-control1965-admonserv
 [observability]
 enabled = true
 
-
 [assets]
 directory = "public"
 binding = "ASSETS"
+
+[vars]
+# Cloudflare Turnstile Secret Key
+# Reemplaza con tu clave secreta real desde https://dash.cloudflare.com/
+TURNSTILE_SECRET = "0x4AAAAAADl8L-tJWBvbV7iNB3EhdMdJwNA"
+>>>>>>>
+<replace_in_file>
