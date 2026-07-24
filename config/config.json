@@ -5,6 +5,7 @@
         "command(Get-ChildItem)"
       ]
     },
+    "remoteControlHostname": "asuspoli-solar-void",
     "themeMode": "THEME_MODE_DARK"
   }
 }
