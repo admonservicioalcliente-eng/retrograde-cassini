@@ -19,5 +19,3 @@ binding = "ASSETS"
 # Cloudflare Turnstile Secret Key
 # Reemplaza con tu clave secreta real desde https://dash.cloudflare.com/
 TURNSTILE_SECRET = "0x4AAAAAADl8L-tJWBvbV7iNB3EhdMdJwNA"
->>>>>>>
-<replace_in_file>
